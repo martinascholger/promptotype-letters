@@ -19,7 +19,7 @@ The app provides:
 ---
 
 ## Data Sources
-Currently, the prototype is based on letters from the **Joseph von Hammer-Purgstall** digital letter edition (coming soon on [http://gams.uni-graz.at/hpe](http://gams.uni-graz.at/hpe). However, the data can be replaced with letters from the **Hugo Schuchardt Archive** [https://gams.uni-graz.at/hsa](https://gams.uni-graz.at/hsa) (available in the `baissac` folder). Simply replace the dataset in the `data/` folder and restart the app.
+Currently, the prototype is based on letters from the **Joseph von Hammer-Purgstall** digital letter edition (coming soon on [http://gams.uni-graz.at/hpe](http://gams.uni-graz.at/hpe). However, the data can be replaced with letters from the **Hugo Schuchardt Archive** [http://schuchardt.uni-graz.at](http://schuchardt.uni-graz.at) (available in the `schuchardt-data` folder). Simply replace the dataset in the `data/` folder and restart the app.
 
 **License:**  
 The letter data and the app is licensed under **[Creative Commons BY-NC 4.0](http://creativecommons.org/licenses/by-nc/4.0/)**.
@@ -81,3 +81,12 @@ The app was developed using **Promptotyping**, following these stages:
 To cite this project in your research, please refer to the [CITATION.cff](https://github.com/martinascholger/promptotype-letters/blob/main/CITATION.cff) file. You can also use GitHub's citation feature by clicking on the "Cite this repository" button on our GitHub page.
 
 
+## References
+
+Hurch, Bernhard (Hrsg.): Hugo Schuchardt Archiv. Graz: Institut für Sprachwissenschaft, Universität Graz. 2022. URL: http://schuchardt.uni-graz.at. 
+
+Höflechner, Walter; Scholger, Martina; Wagner Alexandra (Hrsg.) 2025: Joseph von Hammer-Purgstall. Korrespondenz. Graz. URL: https://gams.uni-graz.at/hpe (forthcoming).
+
+Steiner, Christian / Pollin, Christopher (2024): Promptotyping: AI-Enhanced Rapid Prototyping for Data-Driven Applications. [https://github.com/DigitalHumanitiesCraft/excellence/tree/main/promptotyping](https://github.com/DigitalHumanitiesCraft/excellence/tree/main/promptotyping)
+
+Steiner, Christian, / Pollin, Christopher (2024): Promptotyping (v1.0.0). Zenodo. https://doi.org/10.5281/zenodo.14160876
