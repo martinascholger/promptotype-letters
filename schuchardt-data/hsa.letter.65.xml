@@ -1,0 +1,578 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="de">
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Charles Baissac an Hugo Schuchardt (8-00425)</title>
+        <author ana="marcrelator:aut">
+          <persName ref="https://gams.uni-graz.at/o:hsa.persons#P.1069">
+            <forename>Charles</forename>
+            <surname>Baissac</surname>
+          </persName>
+        </author>
+        <editor ana="marcrelator:edt">
+          <persName>
+            <forename>Elisabeth</forename>
+            <surname>Steiner</surname>
+          </persName>
+        </editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ana="marcrelator:pbl">
+          <orgName corresp="https://sprachwissenschaft.uni-graz.at" ref="http://d-nb.info/gnd/807328-4">Institut für Sprachwissenschaft,
+                  Karl-Franzens-Universität Graz</orgName>
+        </publisher>
+        <authority ana="marcrelator:his">
+          <orgName corresp="https://informationsmodellierung.uni-graz.at" ref="http://d-nb.info/gnd/1137284463">Zentrum für
+                  Informationsmodellierung - Austrian Centre for Digital Humanities,
+                  Karl-Franzens-Universität Graz</orgName>
+        </authority>
+        <distributor ana="marcrelator:rps">
+          <orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches
+                  Asset Management System</orgName>
+        </distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative Commons
+                  BY-NC 4.0</licence>
+        </availability>
+        <date ana="dcterms:issued" when="2022">2022</date>
+        <pubPlace ana="marcrelator:pup">Graz</pubPlace>
+        <idno corresp="http://schuchardt.uni-graz.at/id/letter/65" type="PID">o:hsa.letter.65</idno>
+        <idno source="http://schuchardt.uni-graz.at" type="altIdentifier">8-00425</idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title ref="https://schuchardt.uni-graz.at">Hugo Schuchardt Archiv</title>
+        <respStmt ana="marcrelator:pbl">
+          <resp>Herausgeber</resp>
+          <persName ref="http://d-nb.info/gnd/111679893">
+            <forename>Bernhard</forename>
+            <surname>Hurch</surname>
+            <orgName ref="http://d-nb.info/gnd/36157-4">Karl-Franzens-Universität Graz</orgName>
+          </persName>
+        </respStmt>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>Österreich</country>
+            <region>Steiermark</region>
+            <settlement>Graz</settlement>
+            <institution>Karl-Franzens-Universität Graz</institution>
+            <repository ref="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</repository>
+            <idno type="shelfmark">00425</idno>
+          </msIdentifier>
+          <msContents>
+            <textLang mainLang="fr"/>
+            <msItem>
+              <author ref="https://gams.uni-graz.at/o:hsa.persons#P.1069">
+                <forename>Charles</forename>
+                <surname>Baissac</surname>
+              </author>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <material ref="http://vocab.getty.edu/aat/300014109">Papier</material>
+                  <objectType>Brief</objectType>
+                </support>
+                <extent>
+                  <measure quantity="11" unit="pages">11 Seiten</measure>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace ana="marcrelator:prp" corresp="https://gams.uni-graz.at/o:hsa.places#PL.41" ref="http://sws.geonames.org/934154">Port Louis</origPlace>
+              <origDate ana="dcterms:created" when="1882-12-04">1882-12-04</origDate>
+            </origin>
+            <provenance>
+                     Hugo Schuchardts wissenschaftlicher Nachlass (Bibliothek,
+                     Werkmanuskripte und wissenschaftliche Korrespondenz) kam nach seinem Tod 1927
+                     laut Verfügung in seinem Testament als Geschenk an die UB Graz.
+                  </provenance>
+          </history>
+        </msDesc>
+        <bibl type="print">
+          <author>
+            <persName>
+              <forename>Elisabeth</forename>
+              <surname>Steiner</surname>
+            </persName>
+          </author>
+          <date when="2010">2010</date>
+          <title>'L'approbation d'un juge come vous est de celles dont on a le droit d'être fier':
+               Der Briefwechsel zwischen Schuchardt und Baissac</title>
+          <series>
+            <title>Grazer Linguistische Studien</title>
+          </series>
+          <biblScope unit="volume">74</biblScope>
+          <biblScope from="7" to="62" unit="pages">7-62</biblScope>
+        </bibl>
+        <bibl type="online">
+          <author ana="marcrelator:aut">
+            <persName>
+              <forename>Elisabeth</forename>
+              <surname>Steiner</surname>
+            </persName>
+          </author>
+          <date when="2009">2009</date>
+          <title>Die Korrespondenz zwischen Charles Baissac und Hugo Schuchardt</title>
+          <series>
+            <title>Hugo Schuchardt Archiv</title>
+            <editor>
+              <forename>Bernhard</forename>
+              <surname>Hurch</surname>
+            </editor>
+          </series>
+          <ref target="http://schuchardt.uni-graz.at/id/letters/1069"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Die Datenmodellierung orientiert sich am <ref
+            target="https://www.deutschestextarchiv.de/doku/basisformat/">DTA-Basisformat</ref>,
+               <ref
+            target="https://www.ediarum.org/">ediarum</ref> und der
+               <ref target="https://github.com/TEI-Correspondence-SIG/correspDesc">CorrespDesc-SIG</ref>.</p>
+        <p>Das auf DTABf-Modellierungsschema wurde für die Zwecke des Projektes angepasst und befindet sich unter <ref target="https://gams.uni-graz.at/o:hsa.odd"/>
+        </p>
+      </editorialDecl>
+      <projectDesc>
+        <ab>
+          <ref target="info:fedora/context:hsa" type="context">Hugo Schuchardt Archiv</ref>
+        </ab>
+        <p>Das Hugo Schuchardt Archiv widmet sich der Aufarbeitung des Gesamtwerks und des Nachlasses von Hugo Schuchardt (1842-1927).
+               Die Onlinepräsentation stellt alle Schriften sowie eine umfangreiche Sekundärbibliografie zur Verfügung.
+               Die Bearbeitung des Nachlasses legt besonderes Augenmerk auf die Erschließung der Korrespondenz,
+               die zu großen Teilen bereits ediert vorliegt, und der Werkmanuskripte.</p>
+      </projectDesc>
+      <listPrefixDef>
+        <prefixDef ident="marcrelator" matchPattern="([a-z]+)" replacementPattern="http://id.loc.gov/vocabulary/relators/$1">
+          <p>Rollen-Taxonomie</p>
+        </prefixDef>
+        <prefixDef ident="dcterms" matchPattern="([a-z]+)" replacementPattern="http://purl.org/dc/terms/$1">
+          <p>Datumstaxonomie</p>
+        </prefixDef>
+        <prefixDef ident="skos" matchPattern="([a-z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1">
+          <p>Thesaurustaxonomie</p>
+        </prefixDef>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc ref="https://gams.uni-graz.at/o:hsa.letter.65">
+        <correspAction type="sent">
+          <persName corresp="https://gams.uni-graz.at/o:hsa.persons#P.1069" ref="https://viaf.org/viaf/228232402">
+            <forename>Charles</forename>
+            <surname>Baissac</surname>
+          </persName>
+          <placeName corresp="https://gams.uni-graz.at/o:hsa.places#PL.41" key="#GID.1" ref="http://sws.geonames.org/934154">Port Louis</placeName>
+          <date when="1882-12-04">1882-12-04</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName corresp="https://gams.uni-graz.at/o:hsa.persons#P.109" ref="https://viaf.org/viaf/261931943">
+            <forename>Hugo</forename>
+            <surname>Schuchardt</surname>
+          </persName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords scheme="cirilo:normalizedPlaceNames">
+          <list>
+            <item>
+              <placeName xml:id="GID.1">
+                <country>Mauritius</country>
+                <settlement>Port Louis</settlement>
+                <name ref="http://geonames.org/934154" type="fcode:PPLC">Port Louis</name>
+                <location>
+                  <geo>57.49889,-20.16194</geo>
+                </location>
+              </placeName>
+            </item>
+          </list>
+        </keywords>
+        <keywords ana="correspondence">
+          <list>
+            <item>
+              <ref target="info:fedora/context:hsa.letters.1069" type="context">
+                        Korrespondenz Charles Baissac - Hugo Schuchardt
+                     </ref>
+            </item>
+            <item>
+              <ref target="info:fedora/context:hsa.letters" type="context">Korrespondenz</ref>
+            </item>
+          </list>
+        </keywords>
+        <keywords scheme="https://gams.uni-graz.at/o:hsa.languages">
+          <term ref="https://gams.uni-graz.at/o:hsa.languages#L.346" type="skos:Concept">
+            <term type="skos:prefLabel" xml:lang="de">Französischbasierte Kreolsprache (Mauritius)</term>
+          </term>
+          <term ref="https://gams.uni-graz.at/o:hsa.languages#L.226" type="skos:Concept">
+            <term type="skos:prefLabel" xml:lang="de">Französisch</term>
+          </term>
+          <term ref="https://gams.uni-graz.at/o:hsa.languages#L.348" type="skos:Concept">
+            <term type="skos:prefLabel" xml:lang="de">Französischbasierte Kreolsprache (Réunion)</term>
+          </term>
+          <term ref="https://gams.uni-graz.at/o:hsa.languages#L.102" type="skos:Concept">
+            <term type="skos:prefLabel" xml:lang="de">Französischbasierte Kreolsprache (Trinidad)</term>
+          </term>
+          <term ref="https://gams.uni-graz.at/o:hsa.languages#L.667" type="skos:Concept">
+            <term type="skos:prefLabel" xml:lang="de">Deutsch</term>
+          </term>
+        </keywords>
+        <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation">Wissenschaft</classCode>
+        <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation">Sprachwissenschaft</classCode>
+        <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation">Brief</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr">Französisch</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface>
+      <graphic mimeType="image/jpeg" url="info:fedora/o:hsa.letter.65" xml:id="IMG.1">
+        <desc>
+          <ref
+            target="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</ref>, <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons CC BY-NC https://creativecommons.org/licenses/by-nc/4.0/</ref>
+        </desc>
+      </graphic>
+    </surface>
+    <surface>
+      <graphic mimeType="image/jpeg" url="info:fedora/o:hsa.letter.65" xml:id="IMG.2">
+        <desc>
+          <ref
+            target="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</ref>, <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons CC BY-NC https://creativecommons.org/licenses/by-nc/4.0/</ref>
+        </desc>
+      </graphic>
+    </surface>
+    <surface>
+      <graphic mimeType="image/jpeg" url="info:fedora/o:hsa.letter.65" xml:id="IMG.3">
+        <desc>
+          <ref
+            target="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</ref>, <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons CC BY-NC https://creativecommons.org/licenses/by-nc/4.0/</ref>
+        </desc>
+      </graphic>
+    </surface>
+    <surface>
+      <graphic mimeType="image/jpeg" url="info:fedora/o:hsa.letter.65" xml:id="IMG.4">
+        <desc>
+          <ref
+            target="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</ref>, <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons CC BY-NC https://creativecommons.org/licenses/by-nc/4.0/</ref>
+        </desc>
+      </graphic>
+    </surface>
+    <surface>
+      <graphic mimeType="image/jpeg" url="info:fedora/o:hsa.letter.65" xml:id="IMG.5">
+        <desc>
+          <ref
+            target="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</ref>, <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons CC BY-NC https://creativecommons.org/licenses/by-nc/4.0/</ref>
+        </desc>
+      </graphic>
+    </surface>
+    <surface>
+      <graphic mimeType="image/jpeg" url="info:fedora/o:hsa.letter.65" xml:id="IMG.6">
+        <desc>
+          <ref
+            target="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</ref>, <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons CC BY-NC https://creativecommons.org/licenses/by-nc/4.0/</ref>
+        </desc>
+      </graphic>
+    </surface>
+    <surface>
+      <graphic mimeType="image/jpeg" url="info:fedora/o:hsa.letter.65" xml:id="IMG.7">
+        <desc>
+          <ref
+            target="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</ref>, <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons CC BY-NC https://creativecommons.org/licenses/by-nc/4.0/</ref>
+        </desc>
+      </graphic>
+    </surface>
+    <surface>
+      <graphic mimeType="image/jpeg" url="info:fedora/o:hsa.letter.65" xml:id="IMG.8">
+        <desc>
+          <ref
+            target="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</ref>, <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons CC BY-NC https://creativecommons.org/licenses/by-nc/4.0/</ref>
+        </desc>
+      </graphic>
+    </surface>
+    <surface>
+      <graphic mimeType="image/jpeg" url="info:fedora/o:hsa.letter.65" xml:id="IMG.9">
+        <desc>
+          <ref
+            target="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</ref>, <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons CC BY-NC https://creativecommons.org/licenses/by-nc/4.0/</ref>
+        </desc>
+      </graphic>
+    </surface>
+    <surface>
+      <graphic mimeType="image/jpeg" url="info:fedora/o:hsa.letter.65" xml:id="IMG.10">
+        <desc>
+          <ref
+            target="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</ref>, <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons CC BY-NC https://creativecommons.org/licenses/by-nc/4.0/</ref>
+        </desc>
+      </graphic>
+    </surface>
+    <surface>
+      <graphic mimeType="image/jpeg" url="info:fedora/o:hsa.letter.65" xml:id="IMG.11">
+        <desc>
+          <ref
+            target="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</ref>, <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons CC BY-NC https://creativecommons.org/licenses/by-nc/4.0/</ref>
+        </desc>
+      </graphic>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div subtype="original" type="letter" xml:id="L.65" xml:lang="fr">
+        <pb facs="#IMG.1" n="1"/>
+        <dateline>4 Décembre 1882.</dateline>
+        <opener>Mon cher Monsieur,</opener>
+        <p>Ma chasse au Catéchisme a enfin réussi. J’ai entre les mains l’exemplaire, peut-être unique, après lequel j’ai si longtemps couru; mais il appartient à un très riche collectionneur qui ne s’en l’a dessaisirait pas à prix d’or et qui ne me l’a confié que sous la foi des serments les plus solennels.</p>
+
+        <p>Laissez-moi tout d’abord vous consoler de ne pas joindre cet opuscule à votre collection. C’est – au point de vue philologique s’entend – une pure malpropreté. Cela n’a pas la moindre valeur, et c’est, à n’en pas douter, l’œuvre d’un homme qui n’avait pas six mois de séjour à <placeName
+            ref="https://gams.uni-graz.at/o:hsa.places#PL.5933">Maurice</placeName> quand lui est venue l’idée malencontreuse d’évangéliser nos nègres dans un charabias<note
+            n="1" place="foot" type="editorial"> „Kauderwelsch“.</note> qui n’a de <ref
+            target="https://gams.uni-graz.at/o:hsa.languages#L.346">créole</ref> que le nom. Jugez de mon désappointement. Un texte vieux de cinquante-quatre ans, pensais-je: il y aura <pb
+            facs="#IMG.2" n="2"/> là des trouvailles à faire...</p>
+        <p>Je vous envoie une copie <hi rend="unknown" rendition="#none">fidèle</hi> des premières pages. Vous me direz si vous avez fantaisie de tous les morceau; je redemanderais alors la pièce à son heureux possesseur et j’irais jusqu’au bout.</p>
+        <p>Le catéchisme que je vous ai adressé il y a trois mois a une tout autre valeur. <hi rend="unknown"
+              rendition="#none">1<hi rendition="#sup">st</hi> Demande</hi>, dit celui-ci. <hi rend="unknown" rendition="#none">First</hi>! C’est quelque Irlandais alors!</p>
+        <p>Si prye celuy dieu qui sa char laissa vendre qu’il ait pitié de l’ame; car le corps est en cendre.</p>
+        <p>Les pages 3 et 4 de ma copie reproduisent ligne pour ligne les pages correspondantes de la brochure. Je vous donne aussi la fin de la page 14 et dernière. </p>
+        <p>Tous les quinze jours on m’offre un bobre africain de la seconde ou de la troisième édition, mais la première demeure introuvable.</p>
+        <p>21. Décembre.</p>
+
+        <p>Nous venons, à quelques jours d’intervalle, de recevoir deux paquebots qui me portaient l’un et l’autre une bonne lettre de vous, mon cher Monsieur. La première est datée du 6 Novembre. Je vais commencer par y répondre dans l’ordre même <pb
+            facs="#IMG.3" n="3"/> qu’elle me propose.</p>
+        <p>1° <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">laquime, lacaye</hi>
+          </foreign>, l’<hi rend="unknown"
+            rendition="#none">a</hi>, croyez-vous, appartient à l’article. Peut-être bien; mais j’y vois, pour ma part bien plutôt un changement de la voyelle initiale <hi
+            rend="unknown" rendition="#none">é</hi> en <hi rend="unknown" rendition="#none">a</hi>. Le son <hi
+            rend="unknown" rendition="#none">a</hi> se substitue dans le parler de beaucoup de nos noirs à cet <hi
+            rend="unknown" rendition="#none">é</hi>, et à la voyelle nasale <hi rend="unknown"
+            rendition="#none">an</hi>: Ex. éléphant, <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">zalfan</hi>
+          </foreign>; ensemble, <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">assambe</hi>
+          </foreign>, et bien d’autres. En outre mozambique est <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">mazambique</hi>
+          </foreign>, tandis que pharmacie est <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">laformacie</hi>
+
+          </foreign>. Ces permutations de voyelles présenteraient, je gage, toutes les combinaisons imaginables tant est grande d’homme à homme la différence de prononciation. Mon livre ne les pouvait enregistrer toutes: il y en a de purement individuelles. Et notez que d’un jour à l’autre le même mot prend dans la même bouche une physionomie différente. Je sais un petit noir qui à différentes heures du jour est alternativement pour Madame sa tante <hi
+            rend="unknown" rendition="#none">Léon, Leuon</hi> et Léïon. Il s’y reconnaît; mais nous?</p>
+        <p>2° Çanpec et Sirandane. <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">
+Sirandane</hi>
+          </foreign> seul a bien aujourd’hui en créole la valeur d’énigme. Quant à <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">
+çanpec</hi>
+          </foreign>, je doute qu’on l’employât sans son corrélatif.</p>
+
+        <p>3° Origine du thème verbal. Nous voilà d’accord, elle est multiple; mais en général le verbe créole viendra de l’infinitif du verbe <ref
+            target="https://gams.uni-graz.at/o:hsa.languages#L.226">français</ref>; et ce sera vrai pour tous les verbes en <hi
+            rend="unknown"
+            rendition="#none">er</hi>, type auquel le créole a ramené tout ce qu’il a pu déboucher de verbes au conjugaisons en <hi
+            rend="unknown" rendition="#none">oir</hi> et <hi rend="unknown"
+            rendition="#none">re</hi>. Pour la conjugaison en <hi rend="unknown" rendition="#none">ir</hi>... Je vous lirai avec un réel intérêt.</p>
+        <p>4° Du bourbonnais.</p>
+        <p>Je vous envoie un verbe conjugué d’après le paradigme de notre verbe mauricien. M. Trouette<note n="2"
+            place="foot" type="editorial">
+            <persName
+              ref="https://gams.uni-graz.at/o:hsa.persons#P.2884">Émile Trouette</persName> übersetzte die Geschichte der „Chat botté“ vom <ref
+              target="https://gams.uni-graz.at/o:hsa.languages#L.346">
+mauritischen Kreol</ref> ins <ref
+              target="https://gams.uni-graz.at/o:hsa.languages#L.348">Réunion-Kreol</ref> und war Geheimrat des Gouverneurs auf <placeName ref="https://gams.uni-graz.at/o:hsa.places#PL.5988">Réunion</placeName> (vgl. <bibl>
+              <ref target="https://gams.uni-graz.at/o:hsa.bibliography#BIBL.454">
+Schuchardt 1882: 593</ref>
+            </bibl>) (Brevier/Archiv Nr. 134).</note> au besoin vous commenterait les points obscurs.</p>
+        <p>
+          <hi rend="unknown" rendition="#none">Moin l’a manzé = <foreign xml:lang="cpf">mo té (ou te) manzé</foreign>
+          </hi>. Et vous me demandez à ce sujet, si dans notre patois mauricien il y a trace de l’emploi d’<hi
+            rend="unknown" rendition="#none">
+avoir</hi> comme verbe auxiliaire. – Aucune absolument.</p>
+        <p>
+          <hi rend="unknown" rendition="#none">L</hi> et <hi rend="unknown"
+            rendition="#none">
+y</hi> seraient pour vous des pronoms pléonastiques. Vous <pb facs="#IMG.4"
+            n="4"/>me demandez s’il existe dans le patois mauricien quelque chose qu’on en puisse rapprocher. – Rien, à coup sûr. Mais vous connaissez sans aucun doute l’existence en malgache de l’article personnel <hi
+            rend="unknown"
+            rendition="#none">i</hi> qui se préfixe aux pronoms sujets. (comme aux noms propres). <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">Zaho</hi>
+          </foreign> ou <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">izaho</hi>
+          </foreign>, je, <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">zahay</hi>
+          </foreign> ou <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">
+izahay</hi>
+          </foreign>, nous. L’accusatif des pronoms n’a pas cet <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">i</hi>: <hi rend="unknown" rendition="#none">ahy</hi>
+          </foreign>, moi, me; <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">anay</hi>
+          </foreign>, nous. Le son <hi rend="unknown"
+            rendition="#none">i</hi> était donc, il semblerait, tout indiqué, comme son euphonique destiné à sauver à l’oreille très délicate de nos nègres malgaches l’inharmonie des hiatus dans leur conjugaison du verbe français. Il doit y avoir pour chaque langue une lettre essentiellement euphonique. Ce serait le <hi
+            rend="unknown" rendition="#none">t</hi> pour le Français. M. Diez l’a, je crois, établé en montrant le <hi
+            rend="unknown"
+            rendition="#none">t</hi> flexionnel de ‘aime-t-il, va-t-il’, entrant en composition dans érein<hi
+            rend="unknown" rendition="#none">t</hi>er, ferblan<hi rend="unknown" rendition="#none">t</hi>ier, filou<hi
+            rend="unknown"
+            rendition="#none">t</hi>er. Il se pourrait que y du bourbonnais fût malgache d’origine, et que <hi
+            rend="unknown" rendition="#none">
+l</hi> en revanche provint de français <hi rend="unknown"
+            rendition="#none">
+il</hi>. Notez que le hova (ces gens-là décidément sont à l’ordre du jour) répètent légèrement l’i qui précède g, h, k, ng, nk. Hovidi’ko, que j’achèterai, hova hovidi’k<hi
+            rend="unknown" rendition="#none">i</hi>o; bingo, bancal, bing<hi rend="unknown"
+            rendition="#none">i</hi>o; tafika, armée, tafik<hi rend="unknown"
+            rendition="#none">i</hi>a. En province – c’est toujours la grammaire malgache rédigée parles missionnaires catholiques de <placeName ref="https://gams.uni-graz.at/o:hsa.places#PL.6087">Madagascar</placeName> qui garde la parole – le crément en ena des racines qui finissent par y est souvent en iéna: vonjy, secours, vonjiéna, (ou vonjena) secouru. Mais en voilà bien assez sur un sujet que je suis incapable de traiter en toute connaissance de cause. </p>
+        <p>Je prends maintenant, mon cher Monsieur votre lettre du 11 Novembre qui m’accuse réception du catéchisme rose.</p>
+        <p>p. 2. <hi rend="unknown" rendition="#none">Bondié faire tout qui chose</hi>. Or, je donne p. 22 tout <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">
+quiquiçose</hi>
+          </foreign>. La forme la plus fréquemment entendue est <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">quikçose</hi>
+          </foreign>. Une abréviation, fréquente aussi, donne <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">quiçose</hi>
+          </foreign> et dans <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">quiquiçose</hi>
+          </foreign>, nous avons précisément l’<hi rend="unknown" rendition="#none">i</hi> euphonique. J’ai signalé le fait p. 113. à l’épenthèse. </p>
+        <p>
+          <hi rend="unknown" rendition="#none">T</hi> sonore dans doi<hi rend="unknown"
+            rendition="#none">tt</hi>a (doit), déboute. Ce que vous me dites de l’existence de ce <hi rend="unknown"
+            rendition="#none">t</hi> dans le <ref
+            target="https://gams.uni-graz.at/o:hsa.languages#L.102">créole de la Trinité</ref> me semble comme à vous assez curieux. Quant aux adjectifs, <hi
+            rend="unknown" rendition="#none">courte, plate, drétte</hi>, <pb facs="#IMG.5"
+            n="5"/>je continue à y voir le féminin du mot français, comme dans <hi rend="unknown"
+            rendition="#none">
+longue</hi> pour long, et <hi rend="unknown" rendition="#none">doutése</hi> pour douteux. J’ai signalé p. 183 le sens très curieux du mot.</p>
+        <p>
+          <hi rend="unknown" rendition="#none">Et</hi>. La conjonction existe aujourd’hui dans notre patois, et depuis trop longtemps pour qu’on y puisse voir maintenant un gallicisme; mais les aïeux ont pu, sinon dû, s’en passer.</p>
+        <p>Ciel, son condition meme à cote zanges vivre...</p>
+        <p>L’enfer son condition lavie diables meme...</p>
+
+        <p>Pour plus de sécurité j’ai soumis ma traduction à un homme ayant qualité pour trancher le débat. Ma version est rigoureuse, et vous pouvez vous y fier. Les deux <hi
+            rend="unknown" rendition="#none">son</hi> ont une valeur emphatique, le sens peut s’en passer; ‘<hi
+            rend="unknown" rendition="#none">c’est’</hi> les traduit bien. Comme analyse: dans la seconde phrase <hi
+            rend="unknown" rendition="#none">son</hi> se rapporte grammaticalement à <hi rend="unknown" rendition="#none">lavie</hi>; dans la première il y a syllepse et ellipse, la construction pleine donnerait: ciel, son condition meme lendroit-là (pays-là) à cote, de son surapporte à endroit, lieu, pays, sous-entendu. </p>
+
+        <p>Je crois, comme vous, que le premier catéchisme est d’un ministre protestant et non d’un abbé catholique, quoi qu’on me l’ait dit, mais sans me l’affirmer, et pour cause. Quant au catéchisme de 1828, il est daté du Réduit, et le Réduit est le palais d’été de nos gouverneurs lesquels sont anglicans.<note
+            n="3" place="foot" type="editorial"> Das Landhaus wurde häufig auch zur Unterbringung der Geliebten des jeweiligen Gouverneurs verwendet (vgl. <bibl>
+              <ref target="https://gams.uni-graz.at/o:hsa.bibliography#BIBL.2286">Vaughan 2005</ref>
+            </bibl>: 164).</note>
+        </p>
+        <p>La revue de Linguistique n’arrive pas jusqu’à Maurice, et je n’aurai sans doute pas le plaisir de lire mon Chat botté traduit en bourbonnais.</p>
+        <p>J’écris aux Seychelles à votre intention. Mais m’enverra t-on quelque chose? Doutons-en.</p>
+        <p>Mayotte, Nossibé, S<hi rendition="#sup">te</hi> Marie???<note n="4" place="foot"
+              type="editorial"> Zu <placeName>
+
+Nossibé</placeName> (Insel an der Nordwestküste <placeName
+              ref="https://gams.uni-graz.at/o:hsa.places#PL.6087">
+Madagaskars</placeName>) finden sich einige Materialien im Nachlass unter der Nr. B.11.21.1.6., bei <placeName
+              ref="https://gams.uni-graz.at/o:hsa.places#PL.6086">
+Mayotte</placeName> und <placeName ref="https://gams.uni-graz.at/o:hsa.places#PL.6088">Sainte Marie</placeName> handelt es sich ebenfalls um Inseln in der Nähe von Madagaskar.</note> Mais voilà que la France va sans doute envoyer par là assez de gens pour qui dans le nombre nous trouvions qui nous renseigne.</p>
+        <p>J’ai le malheur de ne pas savoir l’<ref
+            target="https://gams.uni-graz.at/o:hsa.languages#L.667">allemand</ref> et de ne connaître personne qui vous traduise à mon intention. Voilà perdue pour moi votre dissertation sur le négro-portugais de S. Thomé<note
+            n="5" place="foot" type="editorial">
+            <bibl>
+              <ref target="https://gams.uni-graz.at/o:hsa.bibliography#BIBL.529"> Schuchardt, Hugo (1882): Kreolische Studien I. Über das Negerportugiesische von S. Thomé (Westafrika)</ref>
+            </bibl> (Brevier/Archiv Nr. 132).</note>. Et je le regrette bien vivement, mon cher Monsieur.</p>
+        <closer>
+          <salute>A bientôt, j’espère. Faites-moi l’amitié de recourir à mon aussi souvent que je pourrai vous servir en quelque chose, car je suis votre bien respectueusement dévoué</salute>
+          <lb/>
+          <signed>
+            <persName ref="https://gams.uni-graz.at/o:hsa.persons#P.1069">C Baissac</persName>
+          </signed>
+        </closer>
+        <pb facs="#IMG.6" n="6"/>
+        <postscript>
+          <p>J’allais oublier de vous remercier de votre lettre à Monsieur Gaston Pâris<note n="6" place="foot"
+                type="editorial"> Richtig: <persName ref="https://gams.uni-graz.at/o:hsa.persons#P.2350">Paris</persName>. Schuchardt verwandte sich tatsächlich bei Paris für Baissac (vgl. dazu den 
+Brief von Schuchardt an Paris vom 18. Oktober 1882): nach einigen lobenden Worten über Baissacs Arbeit schreibt er deutlich: „[...] je vous prie de faire pour M. Baissac tout ce qui n’est pas en désaccord avec votre conscience.“.</note>. Je le fais ici, et de tout mon cœur. Que cette lettre vous porte aussi mes meilleurs souhaits pour la nouvelle année “Bondié soulaze vous et donne vous tout ça qui vous content!” </p>
+        </postscript>
+      </div>
+      <div corresp="#L.65" subtype="original" type="appendix" xml:lang="cpf">
+        <pb facs="#IMG.7" n="7"/>
+        <p>Catéchisme en <ref target="https://gams.uni-graz.at/o:hsa.languages#L.346">
+Créole</ref>
+          <note n="7" place="foot" type="editorial"> Hier folgt die im Brief angekündigte Abschrift der ersten Seiten des Katechismus als Sprachprobe.</note>
+        </p>
+        <p>1<hi rendition="#sup">st</hi> Demande – Mon cher zanfant vous connez qui vous?</p>
+        <p>R. Oui, moi un criatire de Bon Dieu, pass qui li qui été faire moi, mon le côr et mo nâme.</p>
+        <p>2 D. – Comment vous capable connez qui vous y-en à un nâme dans vous le côr?</p>
+        <p>R. Pass qui mo trouve quique chose dans mon le côr qui capabe pencée et conné sa qui mo y-en a besoin, et quique fois mon l’esprit li contant, quique fois li triste et chagrin; sa qui mo le cor na pas capabe faire sans mon nâme.</p>
+        <p>(2)</p>
+        <p>3 D. – Qui différance qui y-en à entre vous nâme et vous le côr?</p>
+
+        <p>R. Mon le côr nanqui-la viande ensemble disang et le capable mort, mais mon nâme li ein esprit, li toujour vivant qu’à même mon le côr finie mort. <pb
+            facs="#IMG.8" n="8"/>
+        </p>
+        <p>4 D. – Pourquoi qui Bon Dieû été faire vous le côr et vous nâme?</p>
+        <p>R. Pour servie li et connét li bien dans sa monde ici, pour après qui moi vat mort, mon nâme capabe allée avec Bon Dieu et pour qui moi vat toujour bien heureuse dans le Ciéle. </p>
+        <p>5 D. – Comment vous dévrez apprende pour conné Bon Dieû, et pour servie li bien?</p>
+        <p>R. Le Saint Ecritire dans Nouveau Testament, qui y-en à tout la parol de Bon Dieû.</p>
+        <p>6 D. – Qui li montrée vous touts sa écriture qui y-en à parole Bon Dieû dans sa Livre là?</p>
+        <p>R. – Toutes sa Ecritire là, montrée moi qui Bon Dieû, li dans li même; et li va toujour pour nous, pass qui li qui été faire nous son jensse. </p>
+        <p>7 D. – Qui, Bon Dieû dans li même ou bien dans son maniere?</p>
+        <p>R. – Bon Dieu li dans li même ou dans son manière, li ein Esprit, li partout, li na pas y-en a commencement, li na pas y-en a la fin, li bien bon, bien grand, bien sainte, bien charitable, bien jiste et bien fidélle. </p>
+        <p>8 D. – Qui Bon Dieû li pour nous, nous qui son jensse?</p>
+
+        <p>R. – Comme Bon Dieû li bien grand, et li même qui été faire nous et été donné nous la vie, li vat soigné nous ausi et faire nous dibien; jousqu’à appresant li même nous Seigneur, nous Gouverneur et li même vat nous zige à la fin. <pb
+            facs="#IMG.9" n="9"/>
+        </p>
+        <p>(3)</p>
+        <p>9 D. – Qui maniere qui sa Ecritire là dire vous pour servie Bon Dieû?</p>
+        <p>R. Mon dévrée servie Bon Dieû en faisant bien attention touts son commandement et sivrée touts son commandement qui li été donné nous, et na pas faire sa qui li été défendée nous. </p>
+        <p>10 D. – Qui Commandement qui Bon Dieû été donnez nous?</p>
+        <p>R. Li été donné avec Juife ein la Loi qui y-en a dix Commandement dans viée Testament et li en deux dans Nouveau Testament.</p>
+        <p>11 D. – Répétez tout sa dix Commandement de Bon Dieû, qui dans vié Testament; qui été premiere Commandement?</p>
+        <p>R. – Toi na pas va y-en a l’autre Bon Dieû qui moi divant toi.</p>
+        <p>12 D. – Qui deuxième Commandement?</p>
+        <p>R. – Toi na pas va faire auquine zimage taillée, ni auquine samblance de quique chose qui y-en a la haut dans le Ciele, ni la haut la terre, pour toi adoré ly.</p>
+        <p>13 D. – Qui troisième Commandement?</p>
+        <p>R. Toi na pas prendre nom Bon Dieû pour badinage.</p>
+        <p>14 D. – Qui quatrième Commandement?</p>
+        <p>R. – Rappelez toi bien le jour qui Bon Dieû été posé, pour toi adorée li sa jour là.</p>
+        <p>15 D. – Qui cinquième Commandement?</p>
+        <p>R. – Respec ton Papa et ton Mama, pour ton jours capabe long la haut la terre.</p>
+        <p>16 D. – Qui sixième Commandement?</p>
+        <p>R. Toi na pas vat sazinée toi même ni person. <pb facs="#IMG.10" n="10"/>
+        </p>
+        <p>(4)</p>
+        <p>17 D. – Qui septième Commandement?</p>
+        <p>R. Toi na pas vat prendre femme ton cammrade.</p>
+        <p>18 D. – Qui huitième Commandement?</p>
+        <p>R. – Toi na pas vat volore.</p>
+        <p>19 D. – Qui neuvième Commandement?</p>
+        <p>R. – Toi na pas servie témoin pour qui que chose qui na pas té vrai.</p>
+        <p>20 D. – Qui dixième Commandement?</p>
+        <p>R. – Toi na pas vat envie ni jalou pour qui que chose qui pour ton cammarade.</p>
+        <p>21 D. – Qui manière qui plus court pour conné tout-sa dans Nouveau Testament?</p>
+        <p>R. – Y faut qui vous contant le Seigneur vous Bon Dieû, avec tout vous licaire, et vous cammarade comme vous même.</p>
+        <p>22 D. – Comment faut qui vous contant Bon Dieû avec tout vous licaire?</p>
+        <p>R. – Pour contant Bon Dieû avec tout mon licaire, mo dévrez pencée li, mo dévrez conné son bonté avant tout quique chose qui y-en a la haut la terre, et qui moi vat y-en à l’esprit pour faire li contant.</p>
+        <p>23 D. – Comment vous devrez faire voir qui vous content Bon Dieû?</p>
+        <p>R. – Par sa trois chose.</p>
+        <p>Première chose, mo devré faire et rendée sa qui Bon Dieû été demandée moi.</p>
+        <p>Deuxième chose, y faut mo faire avec bon caire sa qui Bon Dieû té dire moi faire.</p>
+        <p>Troisième chose, y faut mo souffrie avec patience toute sa qui capabe arrivée avec moi. <pb facs="#IMG.11" n="11"/>
+        </p>
+        <p>(5)</p>
+        <p>24 D. - ...</p>
+        <p>...</p>
+        <p>(14)</p>
+        <p>73 D. - ...</p>
+        <p>...<note n="8" place="foot" type="editorial"> Baissac deutet hier im Original die Auslassung einiger Seiten an.</note>
+        </p>
+        <p>76 D. – Et qui va faire avec sa qui bon?</p>
+        <p>R. – Le Seigneur Jésus-Christ vat amenée sa qui bon avec li au Ciele, avec zaute le côr et zaute nâme pour resté avec Bon Dieû et avec son sainte Anges, dans toutes sorte de plaisire et bonheur pour toujour, (éternelment.)</p>
+        <p>Fin.</p>
+        <p>Traduit à la créole. – Réduit, le 12 Avril 1828.</p>
+        <p>Imprimerie de Mallac frères, </p>
+        <p>Imprimeurs du Gouvernement.</p>
+      </div>
+    </body>
+  </text>
+</TEI>
+<?xml-model href="https://gams.uni-graz.at/o:hsa.odd/RNG" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://gams.uni-graz.at/o:hsa.odd/RNG" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
