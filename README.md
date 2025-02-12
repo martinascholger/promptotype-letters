@@ -78,6 +78,6 @@ The app was developed using **Promptotyping**, following these stages:
 ---
 
 ## Citation
-To cite this project in your research, please refer to the [CITATION.cff](https://github.com/martinascholger/promptotype-letters/CITATION.cff) file. You can also use GitHub's citation feature by clicking on the "Cite this repository" button on our GitHub page.
+To cite this project in your research, please refer to the [CITATION.cff](https://github.com/martinascholger/promptotype-letters/blob/main/CITATION.cff) file. You can also use GitHub's citation feature by clicking on the "Cite this repository" button on our GitHub page.
 
 
