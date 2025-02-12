@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://gams.uni-graz.at/o:hpe.odd/RNG" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://gams.uni-graz.at/o:hpe.odd/RNG" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_11">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="de">Johannes von Müller an Joseph von Hammer-Purgstall</title>
+            <title type="sub" xml:lang="de">Wien, 21.10.1796</title>
+            <title type="main" xml:lang="en">Johannes von Müller to Joseph von Hammer-Purgstall</title>
+            <title type="sub" xml:lang="en">Wien, 21.10.1796</title>
+            <author ana="marcrelator:aut">
+               <persName ref="https://gams.uni-graz.at/o:hpe.persons#P.543">
+                  <forename>Johannes</forename>
+                  <nameLink>von</nameLink>
+                  <surname>Müller</surname>
+               </persName>
+            </author>
+            <respStmt ana="marcrelator:trc">
+               <resp>Transcription</resp>
+               <persName>
+                  <forename>Johann Georg</forename>
+                  <surname>Müller</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:edt">
+               <resp>Edition</resp>
+               <persName ref="WH">
+                  <forename>Walter</forename>
+                  <surname>Höflechner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:edt">
+               <resp>Edition</resp>
+               <persName>
+                  <forename>Sylvia</forename>
+                  <surname>Kowatsch</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:pfr">
+               <resp>Proofreading</resp>
+               <persName>
+                  <forename>Sylvia</forename>
+                  <surname>Kowatsch</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:trl">
+               <resp>Translation</resp>
+               <persName>
+                  <forename>Sylvia</forename>
+                  <surname>Kowatsch</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mrk">
+               <resp>Textprocessing</resp>
+               <persName ref="AW">
+                  <forename>Alexandra</forename>
+                  <surname>Wagner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mrk">
+               <resp>TEI Encoding</resp>
+               <persName xml:id="SSt">
+                  <forename>Sabrina</forename>
+                  <surname>Strutz</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mrk">
+               <resp>TEI Encoding</resp>
+               <persName>
+                  <forename>Johanna</forename>
+                  <surname>Ofenauer</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mrk">
+               <resp>TEI Encoding</resp>
+               <persName>
+                  <forename>Alexandra</forename>
+                  <surname>Wagner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mdc">
+               <resp>Metadata Management</resp>
+               <persName>
+                  <forename>Elisabeth</forename>
+                  <surname>Steiner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mdc">
+               <resp>Metadata Management</resp>
+               <persName>
+                  <forename>Melanie</forename>
+                  <surname>Frauendorfer</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName ref="https://d-nb.info/gnd/10182836-6"
+                        corresp="https://wissenschaftsgeschichte.uni-graz.at/de/">Zentrum für
+                            Wissenschaftsgeschichte </orgName>
+            </publisher>
+            <authority ana="marcrealator:his">
+               <orgName ref="https://d-nb.info/gnd/1137284463"
+                        corresp="https://digital-humanities.uni-graz.at">Institut für Digitale
+                            Geisteswissenschaften</orgName>
+            </authority>
+            <distributor ana="marcrelator:rps">
+               <orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches
+                            Asset Management System</orgName>
+            </distributor>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc/4.0/">Creative
+                            Commons BY-NC 4.0</licence>
+            </availability>
+            <date when="2025" ana="dcterms:issued">2025</date>
+            <pubPlace ana="marcrelator:pup">Graz</pubPlace>
+            <idno type="PID">o:hpe.letter.11</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://gams.uni-graz.at/context:hpe">Joseph von Hammer-Purgstall.
+                        Korrespondenz</title>
+            <title>Extended and revised version of <ref corresp="#Hoeflechner_2018">Höflechner, Wagner, and Koitz-Arko 2018</ref>
+            </title>
+            <respStmt ana="marcrelator:edt">
+               <resp>Editor</resp>
+               <persName xml:id="MS">
+                  <forename>Martina</forename>
+                  <surname>Scholger</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:edt">
+               <resp>Editor</resp>
+               <persName xml:id="WH">
+                  <forename>Walter</forename>
+                  <surname>Höflechner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:edt">
+               <resp>Editor</resp>
+               <persName xml:id="AW">
+                  <forename>Alexandra</forename>
+                  <surname>Wagner</surname>
+               </persName>
+            </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <bibl xml:id="Hoeflechner_2018">Hammer-Purgstall, Joseph von: Erinnerungen,
+                        Briefe, Materialien. Bd. 2. Hrsg. von Walter Höflechner, Alexandra Wagner
+                        und Gerit Koitz-Arko. Publikationen aus dem Archiv der Universität Graz, Bd.
+                        46, hrsg. von Alois Kernbauer. 2. Version. Graz: Akademische Druck- u.
+                        Verlagsanstalt, 2018. ISBN 978-3-201-02030-5.</bibl>
+            <bibl>JvM SW<idno>Johannes von Müllers sämmtliche Werke, hg von Johann
+                        Georg Müller, 38. Teil; Johannes von Müllers Briefe an Herrn Charles Bonnet
+                        und Studien. Briefe an Freunde 2, Stuttgart–Tübingen 1835</idno>
+            </bibl>
+            <bibl>
+               <ref target="https://books.google.at/books?id=JVNlAAAAcAAJ&amp;printsec=frontcover&amp;hl=de&amp;source=gbs_ge_summary_r&amp;cad=0#v=onepage&amp;q&amp;f=false"/>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Steiermärkisches Landesarchiv</repository>
+                  <collection>Schlossarchiv Hainfeld (SAH)</collection>
+                  <idno>Karton 29 / Heft 584</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="de">Die Joseph von <title>Hammer-Purgstall Korrespondenz</title>
+                        widmet sich der Umsetzung der Korrespondenz des österreichischen
+                        Orientalisten Joseph von Hammer-Purgstall (1774–1856) als digitale Edition.
+                        Die Korrespondenz ist ein eindrucksvolles Zeugnis seines weitreichenden
+                        wissenschaftlichen Dialogs und seiner zentralen Rolle in der Orientalistik.
+                        Sie erstreckt sich über ganz Europa bis in die USA und nach Indien und
+                        stellt eine unersetzliche Quelle für die Geschichte der Orientalistik dar.
+                        Ausgehend von den im Jahr 2018 in <ref target="https://gams.uni-graz.at/archive/objects/o:hpe.band2/methods/sdef:TEI/get">fünf Bänden</ref> sowohl in gedruckter als auch als <ref target="https://gams.uni-graz.at/archive/objects/o:hpe.band2/methods/sdef:TEI/get">PDF-Version</ref> publizierten Briefen entsteht hier eine auf dem
+                        Standard der Text Encoding Initiative basierende digitale Edition, die
+                        kontinuierlich durch neue Briefe erweitert wird.</p>
+            <p xml:lang="en">The Joseph von <title>Hammer-Purgstall Correspondence</title>
+                        is dedicated to implementing the correspondence of Austrian Orientalist
+                        Joseph von Hammer-Purgstall (1774-1856) as a digital edition. The
+                        correspondence is an impressive testament to his far-reaching scholarly
+                        dialogue and his central role in Oriental studies. It extends across Europe
+                        to the USA and India and represents an irreplaceable source for the history
+                        of Oriental studies. Based on the letters published in 2018 in <ref target="https://gams.uni-graz.at/archive/objects/o:hpe.band2/methods/sdef:TEI/get">five volumes</ref> in both printed and <ref target="https://gams.uni-graz.at/archive/objects/o:hpe.band2/methods/sdef:TEI/get">PDF format</ref>, a digital edition based on the Text Encoding
+                        Initiative standard is being created here, which is continuously expanded
+                        with new letters.</p>
+            <ab>
+               <ref target="context:hpe" type="context">Joseph von Hammer-Purgstall.
+                            Korrespondenz</ref>
+               <ref target="context:hpe.letters" type="context">Korrespondenz</ref>
+               <ref target="context:hpe.letters.543" type="context">Korrespondenz Müller, Johannes von - Hammer-Purgstall, Joseph von</ref>
+            </ab>
+         </projectDesc>
+         <listPrefixDef>
+            <prefixDef ident="marcrelator"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="http://id.loc.gov/vocabulary/relators/$1">
+               <p>Taxonomie Rollen MARC</p>
+            </prefixDef>
+            <prefixDef ident="dcterms"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="http://purl.org/dc/terms/$1">
+               <p>DCterms</p>
+            </prefixDef>
+         </listPrefixDef>
+         <tagsDecl>
+            <rendition xml:id="sign">text-align: right</rendition>
+         </tagsDecl>
+         <schemaRef url="https://gams.uni-graz.at/o:hpe.odd"/>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName corresp="https://gams.uni-graz.at/o:hpe.persons#P.543">
+                  <surname>Müller</surname>
+                  <forename>Johannes</forename>
+                  <nameLink>von</nameLink>
+               </persName>
+               <placeName ref="https://sws.geonames.org/2761369">Wien</placeName>
+               <date when="1796-10-21"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName corresp="https://gams.uni-graz.at/o:hpe.persons#P.2000"
+                         ref="https://d-nb.info/gnd/118545426">
+                  <surname>Hammer-Purgstall</surname>
+                  <forename>Joseph</forename>
+                  <nameLink>von</nameLink>
+               </persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2025-02-04+01:00" resp="#SSt">Initial Version</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter" subtype="original" xml:space="preserve" xml:lang="fr"><body><div><p>C’est<note type="comment" place="bottom"><p> 	Dieser Brief ist übernommen aus Johannes von Müller sämmtliche Werke, hg von Johann Georg Müller, 38. Teil; Johannes von Müllers Briefe an Herrn Charles Bonnet und Studien. Briefe an Freunde 2, Stuttgart–Tübingen 1835; dort Nr 147 – <hi rend="italic">https://books.google.at/books?id=JVNlAAAAcAAJ&amp;printsec=frontcover&amp;hl=de&amp;source=gbs_ge_summary_r&amp;cad=0#v=onepage&amp;q&amp;f=false</hi>. </p></note> un bien mauvais tour qu’Eole et Jupiter Pluvius<note type="comment" place="bottom"><p> 	Jupiter wurde zu Sommerende um Regen angefleht.</p></note>me jouent ensemble cette semaine ; je ne sais ce que j’ai fait à ces dieux là; ils mériteraient bien que vous fissiez un poème contre eux, où il vous serait fort aisé de prouver qu’ils ne savent ce qu’ils font, ou bien qu’ils envient bien malhonnêtement à quelques innocents mortels un jour d’amusement qu’ils veulent se donner; c’est une bien vilaine passion que la jalousie, surtout pour des dieux.</p><p>Cependant il m’est venu aussi une autre idée qui les disculperait, mais aux dépenses de qui ? devinez ! De vous-même ! je suis toujours à lire votre charmant poème sur Weidling<note type="comment" place="bottom"><p> 	Es ist unklar, welches Gedicht <persName>Müller</persName> hier anspricht.</p></note>, qui peint ce lieu d’une manière si ravissante. Or il serait possible, que vous eussiez eu quelque crainte secrète, que j’y trouve pourtant par-ci par-là une exagération : vous en avez fait confidence à une des muses, avec lesquelles<note type="comment" place="bottom"><p> 	A: les quelles</p></note> vous vivez sur un pied si familier qu’elles sont toujours à commande<note type="comment" place="bottom"><p> 	Es müsste „<hi rend="italic">aux commandes</hi>“ heißen: steuern, lenken.</p></note>; et cette méchante personne s’est rendue au palais d’Eole, à qui elle a promis je ne sais qu’elle faveur, s’il mettait tout sens dessus dessous, pour qui je ne puisse pas venir vérifier le tout sur les lieux. Il est vrai que vous paraissez souhaiter le contraire ; mais peut-on se fier sur un poète quand l’honneur d’une ligne de son ouvrage est en danger?</p><p>Quoiqu’il en soit (car je m’épuise en conjectures pour expliquer pourquoi le ciel ne favorise pas mes vœux à l’égard de Weidling<note type="comment" place="bottom"><p> 	Weidling am Bach bei Klosterneuburg nahe von Wien, wo sich das Erholungsheim für die Zöglinge der Orientalischen Akademie befand und wo HP vor allem in den Jahren von 1807 bis zu seiner Heirat 1816 viele seiner Arbeiten verfasst hat; der idyllische Ort bedeutete ihm so viel, dass er bereits früh für seine Grabstätte am dortigen Friedhof vorsorgte.</p></note>), certain il est, qu’il se fait un tel vacarme dans l’atmosphère, qu’il y faut bien renoncer pour cette semaine. Non que je sois si lâche de ne pas braver même les flots de votre ruisseau pour revoir mes amis ; non que votre beau poème ne m’ait inspiré le plus vif désir d’y retourner, mais parce que deux années de suite je suis tombé dangereusement malade dans cette saison, que même à présent je ne me porte pas tout à fait bien, et que l’on m’ordonne de ne pas m’exposer à des influences d’un air malsain<note type="comment" place="bottom"><p> 	A: mal-sain</p></note> pour moi. J’ai en ce moment des maux d’estomac, qui, pour avoir été la maladie ordinaire de Virgile, paraissent ne pas appartenir à un historien, et dont par conséquent (n’aimant jamais garder ce qui n’est pas à moi) je tacherai de me défaire ces jours-ci au moyen de quelques médecines. Alors peut-être, si les dieux se ravisent, ou que vous désavouez les intrigues de votre muse auprès d’eux, il sera possible de faire dans le courant de la semaine prochaine, ce qu’à regret je ne puis dans celle-ci. Vous verrez par mon empressement à profiter du beau temps s’il en fait mardi ou vendredi, après dîner qu’il n’a pas tenu à moi de venir plutôt. Alors nous pourrions parcourir le soir les lieux célèbres par votre poésie dans les environs, et peut-être Monsieur le Directeur<note type="comment" place="bottom"><p> 	Abbe <persName>Höck</persName>, der Leiter der Orientalischen Akademie, ein Bruder von HPs „Mutter“ Theresie Theimer.</p></note> ajouterait – il le lendemain à tant d’autres bontés qu’il y a eu pour moi de vous laisser, avec les autres que vous m’avez nommées, m’accompagner jusqu’ à Kloster Neubourg<note type="comment" place="bottom"><p> 	Die Stadt Klosterneuburg, die ihren Namen vom großen Augustiner Chorherrenstift in ihrem Zentrum hat, liegt an der Donau nördlich von Wien.</p></note> pour voir les mesures du donjon d’Albert le valeureux<note type="comment" place="bottom"><p> 	Der Habsburger <persName>Albrecht</persName> V., ab 1282 als <persName>Albrecht</persName> I. Herzog von Österreich und ab 1298 römisch-deutscher König, der sich 1288 in Klosterneuburg eine neue Burg errichten ließ. Das von <persName>Müller</persName> verwendete Epitheton ornans ist in der österreichischen Historiographie nicht gebräuchlich.</p></note>.</p><p>Faites donc, vous qui êtes si connu dans l’Olympe, vous dont le vol poétique s’élève si haut, que vous pouvez dire quelque mot à l’oreille des pouvoirs super-lunaires, faites que le ciel se rende propice la semaine prochaine. Sans quoi il arrivera, que l’année prochaine tandis que vous errerez peut-être déjà dans les ruines de Tschelminar<note type="comment" place="bottom"><p> 	Tschelminar ist die westliche Bezeichnung jener Ruinenstätte, die persisch als Tacht-e-Dschamschid = Thron des Dschamschid, benannt wurde und schließlich als die Ruinen von Persepolis erkannt wurde; (S. <hi rend="italic">Zedler, Wikipedia</hi>).</p></note> ou dans les bosquets plantés sur le tombeau d’<persName>Hafis</persName><note type="comment" place="bottom"><p> 	Das Grab von <persName>Hafis</persName> befindet sich unter einem Säulenoktogon-Pavillon in Schiras, Iran.</p></note>, nous vérifierons votre description de W[eidling] dans votre absence, et, comme les absents ont toujours tort, notre malice ne manquerait pas d’y trouver alors des inexactitudes et des défauts sans nombre ; ce qui pourrait faire tort à la relation que vous publierez un jour de vos voyages dans les pays lointains.</p><p>Mais il est temps de finir, pour extraire encore quelques feuilles de <persName>Suidas</persName><note type="comment" place="bottom"><p> 	Mit diesem Namen bzw. Begriff wird ein nicht fassbarer byzantinischer Lexikograph, angeblich des 10. Jh.s, bezeichnet, der als Verfasser der Suda, der ersten bekannten alphabetisch geordneten Wörter- und Begriffssammlung gilt. Vermutlich handelt es sich eine Phantasiegestalt, deren Name vom Titel des ihr zugeschriebenen Werkes abgeleitet wurde; (<hi rend="italic">Wikipedia</hi>).</p></note>, avant d’aller à la chancellerie. Veuillez présenter mes respects à M. Le Directeur<note type="comment" place="bottom"><p> 	Damit dürfte wohl Probst <persName>Höck</persName> gemeint sein.</p></note> et me conserver dans son souvenir, comme un homme très-reconnaissant de ses bontés.</p><closer><salute>Bien des amitiés à nos amis, l’expression de mes vifs regrets de n’avoir pas encore pu les revoir. Fine valex me que multo diliges.</salute><dateline>Vienne, 21 Oct[obre] [17]96</dateline><signed>J v <persName>Müller</persName></signed></closer><postscript><p>J’ai aussi une réponse de Weimar, et l’idée de <persName>Herder </persName>pour les traductions à imprimer.</p></postscript></div></body></text>
+   <text type="letter" subtype="translation" xml:lang="de" xml:space="preserve">
+             <body>
+                <div>
+                    <p> Das ist ein sehr übler Streich, den Aeolus und Jupiter Pluvius mir gemeinsam in dieser Woche spielen. Ich weiß nicht, was ich diesen Göttern angetan habe; sie würden es nicht verdienen, dass Sie gegen sie ein Gedicht machten, wo es für Sie sehr leicht zu beweisen wäre, dass sie nicht wissen, was sie machen und dass sie einige unschuldige Sterbliche um einen vergnüglichen Tag, den sie sich gönnen wollen, unfairerweise beneiden. Es gibt keine schlimmere Leidenschaft als die Eifersucht, vor allem für Götter.</p><p>Es ist mir jedoch auch eine andere Idee eingefallen, die sie entlasten würde, aber auf wessen Kosten? Raten Sie! Auf Ihre sogar! Ich lese noch immer Ihr charmantes Gedicht über Weidling, die diesen Ort auf so entzückende Art beschreibt. Nun wäre es aber möglich, dass Sie irgendeine geheime Befürchtung hatten, dass ich dort trotzdem hier und da eine Übertreibung finde? Sie haben einer der Musen vertraut, mit denen Sie auf vertrautem Fuß stehen, dass sie immer das Steuer in der Hand haben und diese böse Person hat sich in den Palast von Aeolus begeben, dem er, ich weiß nicht welche Gunst versprochen hat, wenn er alles für denjenigen durcheinanderbringt, für den ich nicht alles an Ort und Stelle überprüfen kann. Es ist wahr, dass Sie das Gegenteil zu wünschen scheinen, aber kann man einem Dichter vertrauen, wenn die Ehre einer Zeile seines Werkes in Gefahr ist? </p><p>Wie dem auch sei (denn ich erschöpfe mich in Vermutungen, um zu erklären, warum der Himmel meine Wünsche in Bezug auf Weidling nicht unterstützt), gewiss ist, dass in der Atmosphäre ein solcher Krach herrscht, dass man darauf in dieser Woche verzichten muss. Nicht, dass ich so kraftlos bin, um selbst den Fluten Ihres Baches nicht zu trotzen, um meine Freunde wiederzusehen; nicht, dass Ihr schönes Gedicht mir den innigsten Wunsch vermittelte, dorthin zurückzukehren, sondern weil ich zwei Jahre hindurch in dieser Jahreszeit gefährlich krank wurde und es mir sogar jetzt nicht vollkommen gut geht und man mir verordnet, mich nicht Einflüssen einer Luft auszusetzen, die ungesund für mich ist. Ich habe in diesem Augenblick Magenschmerzen, die, da sie die gewöhnliche Krankheit von <persName>Vergil</persName> war, nicht zu einem Historiker zu gehören scheinen und von denen ich mich folglich (da ich nicht behalten möchte, was mir nicht gehört), dieser Tage mit Hilfe einiger Medikamente zu entledigen versuche. Also, wenn die Götter vielleicht ihre Meinung ändern oder wenn Sie die Intrigen Ihrer Muse ihnen gegenüber missbilligen, wird es möglich sein, im Laufe der nächsten Woche das zu machen, was ich schweren Herzens in dieser Woche nicht kann. Sie werden durch meine Bereitwilligkeit, das schöne Wetter gegebenenfalls am Dienstag oder Freitag nach dem Abendessen auszunutzen, sehen, dass es nicht an mir lag, eher zu kommen. Also können wir am Abend die Orte in der Umgebung, die durch Ihre Poesie berühmt wurden, durchstreifen und vielleicht würde der Herr Direktor am nächsten Tag, zu den anderen Freundlichkeiten, die er für mich hatte, und mit den anderen, die Sie mir nannten, gestatten, dass Sie mich bis Klosterneuburg begleiten, um die Größe des Bergfrieds von Albert dem Tapferen (Kühnen), zu sehen.</p><p>Veranlassen also Sie, der Sie so bekannt sind im Olymp, Sie, dessen poetischer Flug sich so hoch erhebt, dass Sie irgendetwas ins Ohr der supralunaren Mächte sagen können, veranlassen Sie, dass der Himmel sich in der nächsten Woche günstig zeigt. Andernfalls wird es passieren, dass wir im nächsten Jahr, während Sie vielleicht schon in den Ruinen von Tschelminar oder in den Hainen, die  um das Grab von Hafis gepflanzt sind, herumirren, Ihre Beschreibung von Weidling in Ihrer Abwesenheit überprüfen und, da die Abwesenden immer Unrecht haben, unsere Bosheit nicht versäumen würde, dort also Ungenauigkeiten und zahllose Fehler zu finden, was dem Bericht unrecht zufügen könnte, den Sie eines Tages über Ihre Reisen in ferne Länder veröffentlichen werden.</p><p>Aber es ist Zeit aufzuhören, um noch einige Blätter von <persName>Suidas</persName> zu exzerpieren, bevor ich in die Kanzlei gehe.</p><postscript><p>Meine Empfehlung an den Herrn Direktor, dem ich sehr dankbar für seine Freundlichkeiten bin. Ü$</p></postscript>
+                </div>
+            </body>
+            </text>
+</TEI>

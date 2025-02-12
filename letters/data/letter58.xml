@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://gams.uni-graz.at/o:hpe.odd/RNG" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://gams.uni-graz.at/o:hpe.odd/RNG" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_58">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="de">Elise Theimer an Joseph von Hammer-Purgstall</title>
+            <title type="sub" xml:lang="de">s. l., NaN.07.1799</title>
+            <title type="main" xml:lang="en">Elise Theimer to Joseph von Hammer-Purgstall</title>
+            <title type="sub" xml:lang="en">s. l., NaN.07.1799</title>
+            <author ana="marcrelator:aut">
+               <persName ref="https://gams.uni-graz.at/o:hpe.persons#P.758">
+                  <forename>Elise</forename>
+                  <surname>Theimer</surname>
+               </persName>
+            </author>
+            <respStmt ana="marcrelator:trc">
+               <resp>Transcription</resp>
+               <persName>
+                  <forename>Gerit</forename>
+                  <surname>Koitz-Arko</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:edt">
+               <resp>Edition</resp>
+               <persName ref="WH">
+                  <forename>Walter</forename>
+                  <surname>Höflechner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:edt">
+               <resp>Edition</resp>
+               <persName>
+                  <forename>Gerit</forename>
+                  <surname>Koitz-Arko</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:pfr">
+               <resp>Proofreading</resp>
+               <persName ref="WH">
+                  <forename>Walter</forename>
+                  <surname>Höflechner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mrk">
+               <resp>Textprocessing</resp>
+               <persName ref="AW">
+                  <forename>Alexandra</forename>
+                  <surname>Wagner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mrk">
+               <resp>TEI Encoding</resp>
+               <persName xml:id="SSt">
+                  <forename>Sabrina</forename>
+                  <surname>Strutz</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mrk">
+               <resp>TEI Encoding</resp>
+               <persName>
+                  <forename>Johanna</forename>
+                  <surname>Ofenauer</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mrk">
+               <resp>TEI Encoding</resp>
+               <persName>
+                  <forename>Alexandra</forename>
+                  <surname>Wagner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mdc">
+               <resp>Metadata Management</resp>
+               <persName>
+                  <forename>Elisabeth</forename>
+                  <surname>Steiner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mdc">
+               <resp>Metadata Management</resp>
+               <persName>
+                  <forename>Melanie</forename>
+                  <surname>Frauendorfer</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName ref="https://d-nb.info/gnd/10182836-6"
+                        corresp="https://wissenschaftsgeschichte.uni-graz.at/de/">Zentrum für
+                            Wissenschaftsgeschichte </orgName>
+            </publisher>
+            <authority ana="marcrealator:his">
+               <orgName ref="https://d-nb.info/gnd/1137284463"
+                        corresp="https://digital-humanities.uni-graz.at">Institut für Digitale
+                            Geisteswissenschaften</orgName>
+            </authority>
+            <distributor ana="marcrelator:rps">
+               <orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches
+                            Asset Management System</orgName>
+            </distributor>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc/4.0/">Creative
+                            Commons BY-NC 4.0</licence>
+            </availability>
+            <date when="2025" ana="dcterms:issued">2025</date>
+            <pubPlace ana="marcrelator:pup">Graz</pubPlace>
+            <idno type="PID">o:hpe.letter.58</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://gams.uni-graz.at/context:hpe">Joseph von Hammer-Purgstall.
+                        Korrespondenz</title>
+            <title>Extended and revised version of <ref corresp="#Hoeflechner_2018">Höflechner, Wagner, and Koitz-Arko 2018</ref>
+            </title>
+            <respStmt ana="marcrelator:edt">
+               <resp>Editor</resp>
+               <persName xml:id="MS">
+                  <forename>Martina</forename>
+                  <surname>Scholger</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:edt">
+               <resp>Editor</resp>
+               <persName xml:id="WH">
+                  <forename>Walter</forename>
+                  <surname>Höflechner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:edt">
+               <resp>Editor</resp>
+               <persName xml:id="AW">
+                  <forename>Alexandra</forename>
+                  <surname>Wagner</surname>
+               </persName>
+            </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <bibl xml:id="Hoeflechner_2018">Hammer-Purgstall, Joseph von: Erinnerungen,
+                        Briefe, Materialien. Bd. 2. Hrsg. von Walter Höflechner, Alexandra Wagner
+                        und Gerit Koitz-Arko. Publikationen aus dem Archiv der Universität Graz, Bd.
+                        46, hrsg. von Alois Kernbauer. 2. Version. Graz: Akademische Druck- u.
+                        Verlagsanstalt, 2018. ISBN 978-3-201-02030-5.</bibl>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Steiermärkisches Landesarchiv</repository>
+                  <collection>Schlossarchiv Hainfeld (SAH)</collection>
+                  <idno>Karton 45 / Heft 818</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="de">Die Joseph von <title>Hammer-Purgstall Korrespondenz</title>
+                        widmet sich der Umsetzung der Korrespondenz des österreichischen
+                        Orientalisten Joseph von Hammer-Purgstall (1774–1856) als digitale Edition.
+                        Die Korrespondenz ist ein eindrucksvolles Zeugnis seines weitreichenden
+                        wissenschaftlichen Dialogs und seiner zentralen Rolle in der Orientalistik.
+                        Sie erstreckt sich über ganz Europa bis in die USA und nach Indien und
+                        stellt eine unersetzliche Quelle für die Geschichte der Orientalistik dar.
+                        Ausgehend von den im Jahr 2018 in <ref target="https://gams.uni-graz.at/archive/objects/o:hpe.band2/methods/sdef:TEI/get">fünf Bänden</ref> sowohl in gedruckter als auch als <ref target="https://gams.uni-graz.at/archive/objects/o:hpe.band2/methods/sdef:TEI/get">PDF-Version</ref> publizierten Briefen entsteht hier eine auf dem
+                        Standard der Text Encoding Initiative basierende digitale Edition, die
+                        kontinuierlich durch neue Briefe erweitert wird.</p>
+            <p xml:lang="en">The Joseph von <title>Hammer-Purgstall Correspondence</title>
+                        is dedicated to implementing the correspondence of Austrian Orientalist
+                        Joseph von Hammer-Purgstall (1774-1856) as a digital edition. The
+                        correspondence is an impressive testament to his far-reaching scholarly
+                        dialogue and his central role in Oriental studies. It extends across Europe
+                        to the USA and India and represents an irreplaceable source for the history
+                        of Oriental studies. Based on the letters published in 2018 in <ref target="https://gams.uni-graz.at/archive/objects/o:hpe.band2/methods/sdef:TEI/get">five volumes</ref> in both printed and <ref target="https://gams.uni-graz.at/archive/objects/o:hpe.band2/methods/sdef:TEI/get">PDF format</ref>, a digital edition based on the Text Encoding
+                        Initiative standard is being created here, which is continuously expanded
+                        with new letters.</p>
+            <ab>
+               <ref target="context:hpe" type="context">Joseph von Hammer-Purgstall.
+                            Korrespondenz</ref>
+               <ref target="context:hpe.letters" type="context">Korrespondenz</ref>
+               <ref target="context:hpe.letters.758" type="context">Korrespondenz Theimer, Elise  - Hammer-Purgstall, Joseph von</ref>
+            </ab>
+         </projectDesc>
+         <listPrefixDef>
+            <prefixDef ident="marcrelator"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="http://id.loc.gov/vocabulary/relators/$1">
+               <p>Taxonomie Rollen MARC</p>
+            </prefixDef>
+            <prefixDef ident="dcterms"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="http://purl.org/dc/terms/$1">
+               <p>DCterms</p>
+            </prefixDef>
+         </listPrefixDef>
+         <tagsDecl>
+            <rendition xml:id="sign">text-align: right</rendition>
+         </tagsDecl>
+         <schemaRef url="https://gams.uni-graz.at/o:hpe.odd"/>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName corresp="https://gams.uni-graz.at/o:hpe.persons#P.758">
+                  <surname>Theimer</surname>
+                  <forename>Elise</forename>
+               </persName>
+               <placeName ref="https://sws.geonames.org/unknown">Unbekannt</placeName>
+               <date when="1799-07"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName corresp="https://gams.uni-graz.at/o:hpe.persons#P.2000"
+                         ref="https://d-nb.info/gnd/118545426">
+                  <surname>Hammer-Purgstall</surname>
+                  <forename>Joseph</forename>
+                  <nameLink>von</nameLink>
+               </persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2025-02-04+01:00" resp="#SSt">Initial Version</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter" subtype="original" xml:space="preserve" xml:lang="de"><body><div><opener><dateline>Juli 1799</dateline></opener><p>Nun<note type="comment" place="bottom"><p> 	Dieser Brief wurde wohl von Weidling am Bach bei Klosterneuburg aus geschrieben, wie das aus dem nachfolgenden Brief <persName>Elise</persName>s ddo [1799] VIII 26 geschlossen werden kann, wenn man die Laufzeit für HPs Antwort auf den ersten Brief berücksichtigt.</p></note> bin ich schon zum Anfange des Briefes verlegen, da ich keine passende mit Fräulein Schwester harmonisierende Aufschrift finden kann<note type="comment" place="bottom"><p> 	Es ist dies Elise <persName>Theimer</persName>s erster Brief an HP, da sie beide zuvor ja im selben Haushalt, dem der Eltern <persName>Elise</persName>s, die zugleich HPs Zieheltern waren, gelebt hatten. HP hatte Wien am 29.05.1799 auf der Donau nach Varna und weiter nach Konstantinopel verlassen; am 6. Juli traf er in Büjükdere am Bosporus, der Sommerresidenz des Internuntius, ein; da ihm <persName>Elise</persName> noch im Juli antwortet, muss er sehr bald nach seiner Ankunft an sie geschrieben haben. </p></note>. Schreibe ich Herr Bruder, würde es Ihnen wohl so wenig als mir gefallen. Lieber Bruder, das passt nicht zur Fräuln<note type="comment" place="bottom"><p> 	Umgangssprachlich für „Fräulein“, wobei „Fräuln“ grammatikalisch nicht als Neutrum, sondern als Femininum gehandhabt wird; also „die Fräuln“ und nicht „das Fräul[ein]n“.</p></note>, und von den hochgeehrten, v[er]ehrten u.s.w. bin ich durchaus keine Liebhaberin. Wissen Sie was, nehmen Sie diesen Brief einmal ohne Aufschrift<note type="comment" place="bottom"><p> 	<persName>Elise</persName> verwendet das Wort „Aufschrift“ weiterhin nicht nur für die Anrede, sondern auch für die Adresse eines Briefes.</p></note> und sagen Sie mir künftig, welche Sie wohl am liebsten hätten und bei der solls dann bleiben. Vom Abschied und Beurlauben kein Wort. Nicht von einem Fremden mag ich gerne Abschied nehmen, wie würde es mir bei meinem Bruder gegangen sein, gewiß es war gut, daß ich nicht zu Hause war. Sie reden von Nimmersehn, ich glaube es nicht, weil ich es nicht wünsche. Für das Büchlein danke ich Ihnen, das[s] es aber mit die Strumpfbänder<note type="comment" place="bottom"><p> 	Umgangssprachliche Formulierung, recte: „den Strumpfbändern“.</p></note> in keinem Verhältnis stehe, ist sicher; dann diese, obwohl weit unten dem Wert des Büchleins, waren meine eigne Arbeit, und mein Bruder bezahlte es mit der Arbeit eines Fremden. – Ich hoffte auf ein Produkt Ihres Geistes. Dann<note type="comment" place="bottom"><p> 	„Dann“ steht in jener Zeit häufig auch für „denn“, wie „wann“ für „wenn“.</p></note> der Inhalt, von diesem könnte ich viel sagen; nur fragen will ich aber, warum Sie diesen vor<note type="comment" place="bottom"><p> 	In jener Zeit auch für „für“.</p></note> mich wählten, da Sie doch wußten, das[s] er mir das sein muss, was mir die Beschreibung eines schönen Landes in einem anderen Weltteile wäre, die ich wohl glaubte, weil der Beschreiber ein erprobter Mann ist, wovon ich aber nie persönlich überzeugt werden könnte, teils weil es zu entfernt vor mich ist, teils weil mir die Reisegefährten noch alle nicht so gefielen, dass ich mich Ihnen hätte anvertrauen mögen.</p><p>Sie sehen nun auch noch aus meiner schnellen und ausführlichen Antwort, wie gut es war, dass Sie mir so [Ausriss]ten, dass Sie m[Ausriss] mir wollten. Bleiben Sie ja dabei, aber tun Sie mir den Gefallen, lassen Sie Ihre Buchstaben auch ein bischen deutlicher werden, denn ich bin so unglücklich, die Adresse nicht lesen zu können. Von meinen Eltern<note type="comment" place="bottom"><p> 	A wie weiterhin: Aeltern.</p></note> alles Schöne, Liebe und Gute. Ich bitte Sie, nehmen Sie diese Komplimente ein vor allemal, auch wenn ich sie etwan<note type="comment" place="bottom"><p> 	= etwa irgendwann.</p></note> nicht schriebe. Will mein Bruder mir das Versprechen gewähren, nie, gegen wen es sei, von unserer Korrespondenz zu reden, niemanden meine Briefe zu zeigen, so wird ihn s[eine] Schwester nie eine Antwort [schuldig b]leiben.</p><note type="comment" place="inline">[Das Briefende fehlt auf Grund des großen Ausrisses am unteren Ende des Blattes]</note></div></body></text>
+</TEI>

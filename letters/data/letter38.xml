@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://gams.uni-graz.at/o:hpe.odd/RNG" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://gams.uni-graz.at/o:hpe.odd/RNG" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_38">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="de">Johannes von Müller an Joseph von Hammer-Purgstall</title>
+            <title type="sub" xml:lang="de">Wien, 11.07.1798</title>
+            <title type="main" xml:lang="en">Johannes von Müller to Joseph von Hammer-Purgstall</title>
+            <title type="sub" xml:lang="en">Wien, 11.07.1798</title>
+            <author ana="marcrelator:aut">
+               <persName ref="https://gams.uni-graz.at/o:hpe.persons#P.543">
+                  <forename>Johannes</forename>
+                  <nameLink>von</nameLink>
+                  <surname>Müller</surname>
+               </persName>
+            </author>
+            <respStmt ana="marcrelator:trc">
+               <resp>Transcription</resp>
+               <persName>
+                  <forename>Johann Georg</forename>
+                  <surname>Müller</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:edt">
+               <resp>Edition</resp>
+               <persName ref="WH">
+                  <forename>Walter</forename>
+                  <surname>Höflechner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mrk">
+               <resp>Textprocessing</resp>
+               <persName ref="AW">
+                  <forename>Alexandra</forename>
+                  <surname>Wagner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mrk">
+               <resp>TEI Encoding</resp>
+               <persName xml:id="SSt">
+                  <forename>Sabrina</forename>
+                  <surname>Strutz</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mrk">
+               <resp>TEI Encoding</resp>
+               <persName>
+                  <forename>Johanna</forename>
+                  <surname>Ofenauer</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mrk">
+               <resp>TEI Encoding</resp>
+               <persName>
+                  <forename>Alexandra</forename>
+                  <surname>Wagner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mdc">
+               <resp>Metadata Management</resp>
+               <persName>
+                  <forename>Elisabeth</forename>
+                  <surname>Steiner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mdc">
+               <resp>Metadata Management</resp>
+               <persName>
+                  <forename>Melanie</forename>
+                  <surname>Frauendorfer</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName ref="https://d-nb.info/gnd/10182836-6"
+                        corresp="https://wissenschaftsgeschichte.uni-graz.at/de/">Zentrum für
+                            Wissenschaftsgeschichte </orgName>
+            </publisher>
+            <authority ana="marcrealator:his">
+               <orgName ref="https://d-nb.info/gnd/1137284463"
+                        corresp="https://digital-humanities.uni-graz.at">Institut für Digitale
+                            Geisteswissenschaften</orgName>
+            </authority>
+            <distributor ana="marcrelator:rps">
+               <orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches
+                            Asset Management System</orgName>
+            </distributor>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc/4.0/">Creative
+                            Commons BY-NC 4.0</licence>
+            </availability>
+            <date when="2025" ana="dcterms:issued">2025</date>
+            <pubPlace ana="marcrelator:pup">Graz</pubPlace>
+            <idno type="PID">o:hpe.letter.38</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://gams.uni-graz.at/context:hpe">Joseph von Hammer-Purgstall.
+                        Korrespondenz</title>
+            <title>Extended and revised version of <ref corresp="#Hoeflechner_2018">Höflechner, Wagner, and Koitz-Arko 2018</ref>
+            </title>
+            <respStmt ana="marcrelator:edt">
+               <resp>Editor</resp>
+               <persName xml:id="MS">
+                  <forename>Martina</forename>
+                  <surname>Scholger</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:edt">
+               <resp>Editor</resp>
+               <persName xml:id="WH">
+                  <forename>Walter</forename>
+                  <surname>Höflechner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:edt">
+               <resp>Editor</resp>
+               <persName xml:id="AW">
+                  <forename>Alexandra</forename>
+                  <surname>Wagner</surname>
+               </persName>
+            </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <bibl xml:id="Hoeflechner_2018">Hammer-Purgstall, Joseph von: Erinnerungen,
+                        Briefe, Materialien. Bd. 2. Hrsg. von Walter Höflechner, Alexandra Wagner
+                        und Gerit Koitz-Arko. Publikationen aus dem Archiv der Universität Graz, Bd.
+                        46, hrsg. von Alois Kernbauer. 2. Version. Graz: Akademische Druck- u.
+                        Verlagsanstalt, 2018. ISBN 978-3-201-02030-5.</bibl>
+            <bibl>JvM SW<idno>Johannes von Müllers sämmtliche Werke, hg von Johann
+                        Georg Müller, 38. Teil; Johannes von Müllers Briefe an Herrn Charles Bonnet
+                        und Studien. Briefe an Freunde 2, Stuttgart–Tübingen 1835</idno>
+            </bibl>
+            <bibl>
+               <ref target="https://books.google.at/books?id=JVNlAAAAcAAJ&amp;printsec=frontcover&amp;hl=de&amp;source=gbs_ge_summary_r&amp;cad=0#v=onepage&amp;q&amp;f=false"/>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Steiermärkisches Landesarchiv</repository>
+                  <collection>Schlossarchiv Hainfeld (SAH)</collection>
+                  <idno>Karton 29 / Heft 584</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="de">Die Joseph von <title>Hammer-Purgstall Korrespondenz</title>
+                        widmet sich der Umsetzung der Korrespondenz des österreichischen
+                        Orientalisten Joseph von Hammer-Purgstall (1774–1856) als digitale Edition.
+                        Die Korrespondenz ist ein eindrucksvolles Zeugnis seines weitreichenden
+                        wissenschaftlichen Dialogs und seiner zentralen Rolle in der Orientalistik.
+                        Sie erstreckt sich über ganz Europa bis in die USA und nach Indien und
+                        stellt eine unersetzliche Quelle für die Geschichte der Orientalistik dar.
+                        Ausgehend von den im Jahr 2018 in <ref target="https://gams.uni-graz.at/archive/objects/o:hpe.band2/methods/sdef:TEI/get">fünf Bänden</ref> sowohl in gedruckter als auch als <ref target="https://gams.uni-graz.at/archive/objects/o:hpe.band2/methods/sdef:TEI/get">PDF-Version</ref> publizierten Briefen entsteht hier eine auf dem
+                        Standard der Text Encoding Initiative basierende digitale Edition, die
+                        kontinuierlich durch neue Briefe erweitert wird.</p>
+            <p xml:lang="en">The Joseph von <title>Hammer-Purgstall Correspondence</title>
+                        is dedicated to implementing the correspondence of Austrian Orientalist
+                        Joseph von Hammer-Purgstall (1774-1856) as a digital edition. The
+                        correspondence is an impressive testament to his far-reaching scholarly
+                        dialogue and his central role in Oriental studies. It extends across Europe
+                        to the USA and India and represents an irreplaceable source for the history
+                        of Oriental studies. Based on the letters published in 2018 in <ref target="https://gams.uni-graz.at/archive/objects/o:hpe.band2/methods/sdef:TEI/get">five volumes</ref> in both printed and <ref target="https://gams.uni-graz.at/archive/objects/o:hpe.band2/methods/sdef:TEI/get">PDF format</ref>, a digital edition based on the Text Encoding
+                        Initiative standard is being created here, which is continuously expanded
+                        with new letters.</p>
+            <ab>
+               <ref target="context:hpe" type="context">Joseph von Hammer-Purgstall.
+                            Korrespondenz</ref>
+               <ref target="context:hpe.letters" type="context">Korrespondenz</ref>
+               <ref target="context:hpe.letters.543" type="context">Korrespondenz Müller, Johannes von - Hammer-Purgstall, Joseph von</ref>
+            </ab>
+         </projectDesc>
+         <listPrefixDef>
+            <prefixDef ident="marcrelator"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="http://id.loc.gov/vocabulary/relators/$1">
+               <p>Taxonomie Rollen MARC</p>
+            </prefixDef>
+            <prefixDef ident="dcterms"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="http://purl.org/dc/terms/$1">
+               <p>DCterms</p>
+            </prefixDef>
+         </listPrefixDef>
+         <tagsDecl>
+            <rendition xml:id="sign">text-align: right</rendition>
+         </tagsDecl>
+         <schemaRef url="https://gams.uni-graz.at/o:hpe.odd"/>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName corresp="https://gams.uni-graz.at/o:hpe.persons#P.543">
+                  <surname>Müller</surname>
+                  <forename>Johannes</forename>
+                  <nameLink>von</nameLink>
+               </persName>
+               <placeName ref="https://sws.geonames.org/2761369">Wien</placeName>
+               <date when="1798-07-11"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName corresp="https://gams.uni-graz.at/o:hpe.persons#P.2000"
+                         ref="https://d-nb.info/gnd/118545426">
+                  <surname>Hammer-Purgstall</surname>
+                  <forename>Joseph</forename>
+                  <nameLink>von</nameLink>
+               </persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2025-02-04+01:00" resp="#SSt">Initial Version</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter" subtype="original" xml:space="preserve" xml:lang="fr"><body><div><p>J’ai<note type="comment" place="bottom"><p> 	Dieser Brief ist übernommen aus Johannes von Müller sämmtliche Werke, hg von Johann Georg Müller, 38. Teil; Johannes von Müllers Briefe an Herrn Charles Bonnet und Studien. Briefe an Freunde 2, Stuttgart–Tübingen 1835; dort Nr 157.</p></note> recu avec plaisir, j’ai lu avec enthousiasme vos deux lettres, mon cher ami. (<persName>Chabert</persName><note type="comment" place="bottom"><p> 	HP Lehrer und nachmaliger Freund Thomas <persName>Chabert</persName>.</p></note>, devenu fort heureusement père d’une fille, m’a communiqué la sienne.) Il ne se peut rien ajouter à l’intérêt de leur contenu:<note type="comment" place="bottom"><p> 	<hi rend="italic">„Im J[ahre] 1800 zu Berlin (bei </hi><persName>Sander</persName><hi rend="italic">) bedruckt unter dem Titel: Zeichnungen auf einer Reise von Wien über Triest nach Venedig, und von da zurück durch Tyrol und Salzburg.“</hi>; (Johann Georg Müller).</p></note> les tableaux sont riches et bien peints; les rélexions judicieuses; j’ai été très-content de votre esprit observateur; le style est charmant; en[?] mot, ces lettres prouvent combien vous etes digne d’aller plus loin et dans des pays plus intéressans à divers ègards. Je n’ai qu’un regret: c’est qu’elles ne soyent pas imprimées; c’est parce qu’elles le mériteroient, et aussi parceque je les lirois plus facilement. Depuis quelque tems vous avez si horriblement gâté votre écriture, qu’il faut le travail d’un déchiffrement. Passe pour les lettres; on en est bien recompensé; et l’on y parvient avec quelque patience: mais dans le M[anu]sc[ript]. De Dshemshid il a fallu omettre quelques passages, parceque ni Mr. <persName>de</persName> <persName>Jenisch</persName> ni moi ne pûmes jamais en deviner le sens. Que sera ce, si vous nous écrivez de l’Orient? et que sera ce de vos journaux, si vous y mourriez? et que sera ce toutes fois que vous ferez imprimer quelque chose où il soit question d’objets inconnus à nos typographes? Je vous supplie, mon ami (non pas pour moi; je m’y ferais), mais pour ces raisons-lá, d’y faire quelque peu d’attention.</p><p>Il ne s’est rien passé concernant vos plans.<note type="comment" place="bottom"><p> 	<hi rend="italic">„Den Plan zu einer Reise nach Persien, welcher aber Schwierigkeiten fand, worüber der Verf. Hrn. v. H[</hi><persName>Hammer</persName><hi rend="italic">] zu beruhigen suchte. „Ayez patience,“ schrieb er ihm von Bern 26 Oct. 1797: „Vos talens distingués, votre ardeur de vous perfectionner, vos vertus, vos moeurs aussi aimables qu’irréprochables, ne peuvent que vous valoir un emploi de vos facultés, digne d’elles. Qu’est un an? que sont deux années à votre age? vous ne les perdez pas; vous étudiez sans doute. Traduisez à la bibliothèque quelqu’ouvrage d’un intérèt assez général pour trouver beaucoup de lecteurs; je vous promets un imprimeur et un honoraire honnête. Quand même on vous emploieroit à quelque chose qui parut incompatible avec le projet de Perse, ne vous découragez pas; on parvient à ce qu’on a constamment en vue; il n’y a pas de diffieulté invincible, et je vous y aiderai de mon mieus, tant que je pourrois.</hi>“; (Johann Georg <persName>Müller)</persName>.</p></note> Nous avons recu des détails intéressans sur la Perse. Elle est divisée en trois états. La vraie Perse obéit à un excellent Prince, <persName>Baba Khan</persName> (noveu de <persName>Mehmed</persName>) brave, prudent, bon et aimable; le Chorasan à <persName>Sharock</persName>, petit fils de <persName>Sha Nadir</persName>; le Candahar, Herat, le Caboul, à <persName>Sha Zéman</persName>, petit-fils <persName>d’Ahmed</persName>, chef des Afghans.</p><p>On est encore incertain du dèveloppement de la crise des affaires générales, c. á d. si l’on aura guere un peu plus tôt ou pius tard. En attendant on est dans une position g´née par rapport á l’économie, et ela ne favorise point vos désirs. Il faut vivre au jour la journée. Vous n’avez rien de mieus à faire que de vous rendre tous les jours plus parfait dans votre genre, et capable de plus belles chosea. Ce qui est en nous, est seul à nous. Ce que nous sommes par nous-mêmes, nous le serons en tout état des choses. Le reste est incertain; il faut faire la guerre à l’œil.</p><p>Je n’ai pas les Georgiques de Lille; vous savez que je n’achete pas de traduction. Non pas Sedain, mais faute d’argent; j’en ai à peine pour les originaux.</p><p>Mes remarques sur Dshemshid sont devenues (jointes aux votres) aussi longue que le texte. A présent je lis Latifi: j’y fais aussi des notes, et je tàche de donner au style parci par-lá plus de rapidité et de vie.<note type="comment" place="bottom"><p> 	<hi rend="italic">„Latifi: oder biographische Nachrichten von vorzüglichen türkischen Dichtern; aus dem Türkischen des Monla Abdul Latifi und des A Scheik Hassan Tschelebi. Uebersetzt von Thomas Chabert. Zürich 1800. 8. (Von Müller zum Druck befördert und mit Anmerkungen versehen.)“</hi>; (Johann Georg Müller).</p></note> Puis je travaillerai <persName>Ferdusi</persName> pour <persName>Herder</persName>.</p><p>J’ai achevé l’extrait de <persName>Casiri</persName>. Il y a des grands trésors dans la littérature orientale: si j’ètois vous, je m’y addonerai avec une application prodigieuse, d’en faire part au public; non seulement à cause de l’utilité publique et du nom que cela vous fera, mais encore parce que ceci fera réussir vos projets chéris. </p><p>M. de D. a été tres conten de la lettre, que Vous lui asez ecrite.</p><p>M. de St. Passe huit jour à Weidling, ainsi nous ne nous semain<note type="comment" place="bottom"><p> 	Eng an den Blattrand geschrieben.</p></note> pas communiqués Voas lettres; j’ai envoyè la miene à Ch. Qui sans doute la fera lire au Dir[?]</p><p>Adieu, mon cher ami. Je n’ai ni le tems ni l’esprit assez libre pour une jolie et longue lettre; l’état des affaires publiques m’afflige. Voyez bien ce que vous voez; jouissez de votre agrèable voyage, et revenez plein d’idées et d’un nouveau zéle. Je présente mes respect a Votre [Ausriss] compagnon de voyage; je ne sai si M. de K. se conviendra [Ausriss] m’avoir vu chez fe[?] son père; revillez lui dire très des chos[Ausriss]</p><closer><salute>Je suis à Vous</salute><signed>J. <persName><persName>de Müller</persName></persName></signed><dateline>Vienne ce 11 Juillet [17]98.</dateline></closer></div></body></text>
+</TEI>

@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://gams.uni-graz.at/o:hpe.odd/RNG" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://gams.uni-graz.at/o:hpe.odd/RNG" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_18">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="de">Karl David Ilgen an  NN, Weitergabe an Joseph von Hammer-Purgstall</title>
+            <title type="sub" xml:lang="de">Jena, 14.03.1797</title>
+            <title type="main" xml:lang="en">Karl David Ilgen to  NN, forwarded to Joseph von Hammer-Purgstall</title>
+            <title type="sub" xml:lang="en">Jena, 14.03.1797</title>
+            <author ana="marcrelator:aut">
+               <persName ref="https://gams.uni-graz.at/o:hpe.persons#P.355">
+                  <forename>Karl David</forename>
+                  <surname>Ilgen</surname>
+               </persName>
+            </author>
+            <respStmt ana="marcrelator:edt">
+               <resp>Edition</resp>
+               <persName ref="WH">
+                  <forename>Walter</forename>
+                  <surname>Höflechner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:pfr">
+               <resp>Proofreading</resp>
+               <persName ref="WH">
+                  <forename>Walter</forename>
+                  <surname>Höflechner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mrk">
+               <resp>Textprocessing</resp>
+               <persName ref="AW">
+                  <forename>Alexandra</forename>
+                  <surname>Wagner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mrk">
+               <resp>TEI Encoding</resp>
+               <persName xml:id="SSt">
+                  <forename>Sabrina</forename>
+                  <surname>Strutz</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mrk">
+               <resp>TEI Encoding</resp>
+               <persName>
+                  <forename>Johanna</forename>
+                  <surname>Ofenauer</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mrk">
+               <resp>TEI Encoding</resp>
+               <persName>
+                  <forename>Alexandra</forename>
+                  <surname>Wagner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mdc">
+               <resp>Metadata Management</resp>
+               <persName>
+                  <forename>Elisabeth</forename>
+                  <surname>Steiner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mdc">
+               <resp>Metadata Management</resp>
+               <persName>
+                  <forename>Melanie</forename>
+                  <surname>Frauendorfer</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName ref="https://d-nb.info/gnd/10182836-6"
+                        corresp="https://wissenschaftsgeschichte.uni-graz.at/de/">Zentrum für
+                            Wissenschaftsgeschichte </orgName>
+            </publisher>
+            <authority ana="marcrealator:his">
+               <orgName ref="https://d-nb.info/gnd/1137284463"
+                        corresp="https://digital-humanities.uni-graz.at">Institut für Digitale
+                            Geisteswissenschaften</orgName>
+            </authority>
+            <distributor ana="marcrelator:rps">
+               <orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches
+                            Asset Management System</orgName>
+            </distributor>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc/4.0/">Creative
+                            Commons BY-NC 4.0</licence>
+            </availability>
+            <date when="2025" ana="dcterms:issued">2025</date>
+            <pubPlace ana="marcrelator:pup">Graz</pubPlace>
+            <idno type="PID">o:hpe.letter.18</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://gams.uni-graz.at/context:hpe">Joseph von Hammer-Purgstall.
+                        Korrespondenz</title>
+            <title>Extended and revised version of <ref corresp="#Hoeflechner_2018">Höflechner, Wagner, and Koitz-Arko 2018</ref>
+            </title>
+            <respStmt ana="marcrelator:edt">
+               <resp>Editor</resp>
+               <persName xml:id="MS">
+                  <forename>Martina</forename>
+                  <surname>Scholger</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:edt">
+               <resp>Editor</resp>
+               <persName xml:id="WH">
+                  <forename>Walter</forename>
+                  <surname>Höflechner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:edt">
+               <resp>Editor</resp>
+               <persName xml:id="AW">
+                  <forename>Alexandra</forename>
+                  <surname>Wagner</surname>
+               </persName>
+            </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <bibl xml:id="Hoeflechner_2018">Hammer-Purgstall, Joseph von: Erinnerungen,
+                        Briefe, Materialien. Bd. 2. Hrsg. von Walter Höflechner, Alexandra Wagner
+                        und Gerit Koitz-Arko. Publikationen aus dem Archiv der Universität Graz, Bd.
+                        46, hrsg. von Alois Kernbauer. 2. Version. Graz: Akademische Druck- u.
+                        Verlagsanstalt, 2018. ISBN 978-3-201-02030-5.</bibl>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Steiermärkisches Landesarchiv</repository>
+                  <collection>Schlossarchiv Hainfeld (SAH)</collection>
+                  <idno>Karton 20 / Heft 381</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="de">Die Joseph von <title>Hammer-Purgstall Korrespondenz</title>
+                        widmet sich der Umsetzung der Korrespondenz des österreichischen
+                        Orientalisten Joseph von Hammer-Purgstall (1774–1856) als digitale Edition.
+                        Die Korrespondenz ist ein eindrucksvolles Zeugnis seines weitreichenden
+                        wissenschaftlichen Dialogs und seiner zentralen Rolle in der Orientalistik.
+                        Sie erstreckt sich über ganz Europa bis in die USA und nach Indien und
+                        stellt eine unersetzliche Quelle für die Geschichte der Orientalistik dar.
+                        Ausgehend von den im Jahr 2018 in <ref target="https://gams.uni-graz.at/archive/objects/o:hpe.band2/methods/sdef:TEI/get">fünf Bänden</ref> sowohl in gedruckter als auch als <ref target="https://gams.uni-graz.at/archive/objects/o:hpe.band2/methods/sdef:TEI/get">PDF-Version</ref> publizierten Briefen entsteht hier eine auf dem
+                        Standard der Text Encoding Initiative basierende digitale Edition, die
+                        kontinuierlich durch neue Briefe erweitert wird.</p>
+            <p xml:lang="en">The Joseph von <title>Hammer-Purgstall Correspondence</title>
+                        is dedicated to implementing the correspondence of Austrian Orientalist
+                        Joseph von Hammer-Purgstall (1774-1856) as a digital edition. The
+                        correspondence is an impressive testament to his far-reaching scholarly
+                        dialogue and his central role in Oriental studies. It extends across Europe
+                        to the USA and India and represents an irreplaceable source for the history
+                        of Oriental studies. Based on the letters published in 2018 in <ref target="https://gams.uni-graz.at/archive/objects/o:hpe.band2/methods/sdef:TEI/get">five volumes</ref> in both printed and <ref target="https://gams.uni-graz.at/archive/objects/o:hpe.band2/methods/sdef:TEI/get">PDF format</ref>, a digital edition based on the Text Encoding
+                        Initiative standard is being created here, which is continuously expanded
+                        with new letters.</p>
+            <ab>
+               <ref target="context:hpe" type="context">Joseph von Hammer-Purgstall.
+                            Korrespondenz</ref>
+               <ref target="context:hpe.letters" type="context">Korrespondenz</ref>
+               <ref target="context:hpe.letters.355" type="context">Korrespondenz Ilgen, Karl David  - Hammer-Purgstall, Joseph von</ref>
+            </ab>
+         </projectDesc>
+         <listPrefixDef>
+            <prefixDef ident="marcrelator"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="http://id.loc.gov/vocabulary/relators/$1">
+               <p>Taxonomie Rollen MARC</p>
+            </prefixDef>
+            <prefixDef ident="dcterms"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="http://purl.org/dc/terms/$1">
+               <p>DCterms</p>
+            </prefixDef>
+         </listPrefixDef>
+         <tagsDecl>
+            <rendition xml:id="sign">text-align: right</rendition>
+         </tagsDecl>
+         <schemaRef url="https://gams.uni-graz.at/o:hpe.odd"/>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName corresp="https://gams.uni-graz.at/o:hpe.persons#P.355"
+                         ref="https://d-nb.info/gnd/119100193">
+                  <surname>Ilgen</surname>
+                  <forename>Karl David</forename>
+               </persName>
+               <placeName ref="https://sws.geonames.org/2895044">Jena</placeName>
+               <date when="1797-03-14"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName corresp="https://gams.uni-graz.at/o:hpe.persons#P.unknown">
+                  <surname>NN</surname>
+                  <forename/>
+               </persName>
+            </correspAction>
+            <correspAction type="forwarded">
+               <persName corresp="https://gams.uni-graz.at/o:hpe.persons#P.2000"
+                         ref="https://d-nb.info/gnd/118545426">
+                  <surname>Hammer-Purgstall</surname>
+                  <forename>Joseph</forename>
+                  <nameLink>von</nameLink>
+               </persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2025-02-04+01:00" resp="#SSt">Initial Version</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter" subtype="original" xml:space="preserve" xml:lang="de"><body><div><p>Ein<note type="comment" place="bottom"><p> 	Dieser Brief ist nicht an HP, sondern – vermutlich in Zusammenhang mit HPs Anfrage bezüglich der Pluralbindung in seinem Brief an <persName>Böttiger</persName> ddo 1797 I 10 – an <persName>Böttiger</persName> gerichtet worden, der ihn an HP weitergereicht hat.</p></note> Einbruch in die Hütte meiner Eltern, und diebische Entwendung verschiedener Effekten, wovon ich gleich nach Empfang Ihres lieben Briefes Nachricht bekam, nötigten mich eine Reise dahin zu machen, um zu sehen, wie die Sache stünde. Nach meiner Rückkunft befand ich mich äußerst übel, und war kaum vermögend meine Vorlesungen zu halten; und hätte ich nicht das Ende des halben Jahres vor mir gesehn, ich würde mir die Gewalt nicht angetan haben. Dies die Ursache, Teuerster, warum ich so lange geschwiegen. Ich dachte immer über die Fragen des Herrn <persName>v[on]</persName> <persName>Hammer</persName>, den ich in Gedanken schon so oft umarmt[?], als ich die schönen Früchte[?] seiner Muse im Merkur bewundert, etwas ordentliches zu sagen[?], und sollte auch so eine kleine Abhandlung herauskommen. Leicht sind sie wahrlich nicht. Was Befriedigendes dürfte vielleicht so bald noch nicht gesagt werden können; am allerwenigsten aber von mir. Doch will ich zu jedem Punkte einen Beitrag leisten.</p><p>I.  Den Plural mit angefügtem s, z.B. Aga’s, Sofi‘s ist meines Erachtens nicht aufzunehmen. Er ist angelsächsisch und hat sich im Niedersächsischen Dialekt erhalten; im Obersächsischen hat er etwas unedles und komisches, z.B. die Jungens, die Schlingels, die Mädchens. An seiner Stelle z.B. in einer Komödie kann er gut wirken, aber außer dem darf er […<note type="comment" place="bottom"><p> 	Gemeint ist offensichtlich „nicht“, was aber nicht gelesen werden kann. Es sind zwei Zeichen, die aber keine Deutung zulassen.</p></note>] gebraucht worden. Eben so anstössig, für das Ohr jedoch nur, ist die Endsilbe en, Agaen, Perien.</p><p>II.  Daß die Orientalischen Gentilitia auf er sich sollten eben so gut bilden lassen, als andere, dürfte schwerlich können geläugnet werden. Das ite, oder ide muß eben so gut weichen, als das enser, in Athenienser. Nur wird es schwer sein, die Grenzlinie zu ziehen, wie weit es geschehen kann. Vor der Hand möchte ich dieses als Regel angesehen haben. Alle Namen, die von Städten, Bergen, Inseln, Flüssen u.s.w. herkommen, werden mit er gemacht, z.B. Mekkaer, Medinaer, Botzener[?<note type="comment" place="bottom"><p> 	Überschrieben.</p></note>], Jerusalemer, wie man sagt Jenaer, Naumburger, Leipziger, Dresdener. Wie es aber im Deutschen schwer wird, allenthalben gentilitia zu finden, so wird es auch im Orientalischen schwer bleiben. Z.B. wie soll ich sagen, wenn ich Ihre Schüler mit dem gentilitio nennen will? Vulgo sagt man Weimeraner. Aber der Ort heißt nicht Weimer, sondern Weimar; also müsste es Weimaraner heißen. Hernach die aner sind keine ursprünglichen Deutschen. Wie nun? Weimarer? Das Ohr sträubt sich; und gleichwohl ist es das einzig richtige. Wollte man Weimaren sagen, so dächte man sich ein Volk wie Ungarn, Bulgaren, nicht Bürgern oder Zöglinge einer Stadt. Das Ohr muß endlich nachgeben; und es tut es auch, wenn man nur nicht Weimārer, sondern Weimărer sagt. Was fängt man aber mit den Hallensern an? Diese wollen schlechterdings keine Deutschen werden. Ich weiß nicht, ist die Umwandlung des a schuld in Hällisch, daß man sie zu Haellern schlagen will, oder sonst etwas. Indessen scheinen die Handwerksburschen immer richtig[?] zu verfahren, wenn sie Haller sagen.</p></div></body></text>
+</TEI>

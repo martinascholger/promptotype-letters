@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://gams.uni-graz.at/o:hpe.odd/RNG" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://gams.uni-graz.at/o:hpe.odd/RNG" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_13">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="de">Johannes von Müller an Joseph von Hammer-Purgstall</title>
+            <title type="sub" xml:lang="de">Wien, 22.10.1796</title>
+            <title type="main" xml:lang="en">Johannes von Müller to Joseph von Hammer-Purgstall</title>
+            <title type="sub" xml:lang="en">Wien, 22.10.1796</title>
+            <author ana="marcrelator:aut">
+               <persName ref="https://gams.uni-graz.at/o:hpe.persons#P.543">
+                  <forename>Johannes</forename>
+                  <nameLink>von</nameLink>
+                  <surname>Müller</surname>
+               </persName>
+            </author>
+            <respStmt ana="marcrelator:trc">
+               <resp>Transcription</resp>
+               <persName>
+                  <forename>Johann Georg</forename>
+                  <surname>Müller</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:edt">
+               <resp>Edition</resp>
+               <persName ref="WH">
+                  <forename>Walter</forename>
+                  <surname>Höflechner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:edt">
+               <resp>Edition</resp>
+               <persName>
+                  <forename>Sylvia</forename>
+                  <surname>Kowatsch</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:pfr">
+               <resp>Proofreading</resp>
+               <persName>
+                  <forename>Sylvia</forename>
+                  <surname>Kowatsch</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:trl">
+               <resp>Translation</resp>
+               <persName>
+                  <forename>Sylvia</forename>
+                  <surname>Kowatsch</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mrk">
+               <resp>Textprocessing</resp>
+               <persName ref="AW">
+                  <forename>Alexandra</forename>
+                  <surname>Wagner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mrk">
+               <resp>TEI Encoding</resp>
+               <persName xml:id="SSt">
+                  <forename>Sabrina</forename>
+                  <surname>Strutz</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mrk">
+               <resp>TEI Encoding</resp>
+               <persName>
+                  <forename>Johanna</forename>
+                  <surname>Ofenauer</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mrk">
+               <resp>TEI Encoding</resp>
+               <persName>
+                  <forename>Alexandra</forename>
+                  <surname>Wagner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mdc">
+               <resp>Metadata Management</resp>
+               <persName>
+                  <forename>Elisabeth</forename>
+                  <surname>Steiner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mdc">
+               <resp>Metadata Management</resp>
+               <persName>
+                  <forename>Melanie</forename>
+                  <surname>Frauendorfer</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName ref="https://d-nb.info/gnd/10182836-6"
+                        corresp="https://wissenschaftsgeschichte.uni-graz.at/de/">Zentrum für
+                            Wissenschaftsgeschichte </orgName>
+            </publisher>
+            <authority ana="marcrealator:his">
+               <orgName ref="https://d-nb.info/gnd/1137284463"
+                        corresp="https://digital-humanities.uni-graz.at">Institut für Digitale
+                            Geisteswissenschaften</orgName>
+            </authority>
+            <distributor ana="marcrelator:rps">
+               <orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches
+                            Asset Management System</orgName>
+            </distributor>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc/4.0/">Creative
+                            Commons BY-NC 4.0</licence>
+            </availability>
+            <date when="2025" ana="dcterms:issued">2025</date>
+            <pubPlace ana="marcrelator:pup">Graz</pubPlace>
+            <idno type="PID">o:hpe.letter.13</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://gams.uni-graz.at/context:hpe">Joseph von Hammer-Purgstall.
+                        Korrespondenz</title>
+            <title>Extended and revised version of <ref corresp="#Hoeflechner_2018">Höflechner, Wagner, and Koitz-Arko 2018</ref>
+            </title>
+            <respStmt ana="marcrelator:edt">
+               <resp>Editor</resp>
+               <persName xml:id="MS">
+                  <forename>Martina</forename>
+                  <surname>Scholger</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:edt">
+               <resp>Editor</resp>
+               <persName xml:id="WH">
+                  <forename>Walter</forename>
+                  <surname>Höflechner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:edt">
+               <resp>Editor</resp>
+               <persName xml:id="AW">
+                  <forename>Alexandra</forename>
+                  <surname>Wagner</surname>
+               </persName>
+            </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <bibl xml:id="Hoeflechner_2018">Hammer-Purgstall, Joseph von: Erinnerungen,
+                        Briefe, Materialien. Bd. 2. Hrsg. von Walter Höflechner, Alexandra Wagner
+                        und Gerit Koitz-Arko. Publikationen aus dem Archiv der Universität Graz, Bd.
+                        46, hrsg. von Alois Kernbauer. 2. Version. Graz: Akademische Druck- u.
+                        Verlagsanstalt, 2018. ISBN 978-3-201-02030-5.</bibl>
+            <bibl>JvM SW<idno>Johannes von Müllers sämmtliche Werke, hg von Johann
+                        Georg Müller, 38. Teil; Johannes von Müllers Briefe an Herrn Charles Bonnet
+                        und Studien. Briefe an Freunde 2, Stuttgart–Tübingen 1835</idno>
+            </bibl>
+            <bibl>
+               <ref target="https://books.google.at/books?id=JVNlAAAAcAAJ&amp;printsec=frontcover&amp;hl=de&amp;source=gbs_ge_summary_r&amp;cad=0#v=onepage&amp;q&amp;f=false"/>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Steiermärkisches Landesarchiv</repository>
+                  <collection>Schlossarchiv Hainfeld (SAH)</collection>
+                  <idno>Karton 29 / Heft 584</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="de">Die Joseph von <title>Hammer-Purgstall Korrespondenz</title>
+                        widmet sich der Umsetzung der Korrespondenz des österreichischen
+                        Orientalisten Joseph von Hammer-Purgstall (1774–1856) als digitale Edition.
+                        Die Korrespondenz ist ein eindrucksvolles Zeugnis seines weitreichenden
+                        wissenschaftlichen Dialogs und seiner zentralen Rolle in der Orientalistik.
+                        Sie erstreckt sich über ganz Europa bis in die USA und nach Indien und
+                        stellt eine unersetzliche Quelle für die Geschichte der Orientalistik dar.
+                        Ausgehend von den im Jahr 2018 in <ref target="https://gams.uni-graz.at/archive/objects/o:hpe.band2/methods/sdef:TEI/get">fünf Bänden</ref> sowohl in gedruckter als auch als <ref target="https://gams.uni-graz.at/archive/objects/o:hpe.band2/methods/sdef:TEI/get">PDF-Version</ref> publizierten Briefen entsteht hier eine auf dem
+                        Standard der Text Encoding Initiative basierende digitale Edition, die
+                        kontinuierlich durch neue Briefe erweitert wird.</p>
+            <p xml:lang="en">The Joseph von <title>Hammer-Purgstall Correspondence</title>
+                        is dedicated to implementing the correspondence of Austrian Orientalist
+                        Joseph von Hammer-Purgstall (1774-1856) as a digital edition. The
+                        correspondence is an impressive testament to his far-reaching scholarly
+                        dialogue and his central role in Oriental studies. It extends across Europe
+                        to the USA and India and represents an irreplaceable source for the history
+                        of Oriental studies. Based on the letters published in 2018 in <ref target="https://gams.uni-graz.at/archive/objects/o:hpe.band2/methods/sdef:TEI/get">five volumes</ref> in both printed and <ref target="https://gams.uni-graz.at/archive/objects/o:hpe.band2/methods/sdef:TEI/get">PDF format</ref>, a digital edition based on the Text Encoding
+                        Initiative standard is being created here, which is continuously expanded
+                        with new letters.</p>
+            <ab>
+               <ref target="context:hpe" type="context">Joseph von Hammer-Purgstall.
+                            Korrespondenz</ref>
+               <ref target="context:hpe.letters" type="context">Korrespondenz</ref>
+               <ref target="context:hpe.letters.543" type="context">Korrespondenz Müller, Johannes von - Hammer-Purgstall, Joseph von</ref>
+            </ab>
+         </projectDesc>
+         <listPrefixDef>
+            <prefixDef ident="marcrelator"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="http://id.loc.gov/vocabulary/relators/$1">
+               <p>Taxonomie Rollen MARC</p>
+            </prefixDef>
+            <prefixDef ident="dcterms"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="http://purl.org/dc/terms/$1">
+               <p>DCterms</p>
+            </prefixDef>
+         </listPrefixDef>
+         <tagsDecl>
+            <rendition xml:id="sign">text-align: right</rendition>
+         </tagsDecl>
+         <schemaRef url="https://gams.uni-graz.at/o:hpe.odd"/>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName corresp="https://gams.uni-graz.at/o:hpe.persons#P.543">
+                  <surname>Müller</surname>
+                  <forename>Johannes</forename>
+                  <nameLink>von</nameLink>
+               </persName>
+               <placeName ref="https://sws.geonames.org/2761369">Wien</placeName>
+               <date when="1796-10-22"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName corresp="https://gams.uni-graz.at/o:hpe.persons#P.2000"
+                         ref="https://d-nb.info/gnd/118545426">
+                  <surname>Hammer-Purgstall</surname>
+                  <forename>Joseph</forename>
+                  <nameLink>von</nameLink>
+               </persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2025-02-04+01:00" resp="#SSt">Initial Version</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter" subtype="original" xml:space="preserve" xml:lang="fr"><body><div><p> je Vous renvoie le journal. Puis, je Vous dirai que je suis très content de la 2<hi rend="superscript">de</hi> édition de Votre ode<note type="comment" place="bottom"><p> 	HP hat 1796 zwei wichtige Dichtungen veröffentlicht: die Ode <hi rend="italic">„An die Freunde der Literatur“</hi> und ein Gedicht auf den Tod von Sir William <persName>Jones</persName>. Hier handelt es sich wohl um die <persName>Jenisch</persName> gewidmete Ode, die ein begeisternder Aufruf zur Forcierung orientalistischer Forschung ist; (s. dazu das Kapitel 3.4 „Der Neue Teutsche Merkur HPs Oden und die Folgen“; in: Walter Höflechner u.a.<hi rend="italic">; Joseph von Hammer-Purgstall 1774–1856 Ein Altösterreichisches Gelehrtenleben Eine Annäherung; Graz 2021, Bd 1 </hi>(https://gams.uni-graz.at/context:hp)) .</p></note>, je l’étais de la 1<hi rend="superscript">ère</hi> ; je le suis doublement de la 2<hi rend="superscript">de</hi>, parce qu’elle me paraît encore meilleur[e] parce que je vois que Vous n’avez pas dédaigné de faire attention même à mes notes quoique je n’ai pas lu de la forme la […]talienne. Voici une autre prière que j’ai à Vous faire: Présentez bien mes respects à Monsieur l’Abbé de <persName>Höck</persName><note type="comment" place="bottom"><p> 	Der Direktor der Orientalischen Akademie.</p></note> et voyez, s’il ne Vous serait pas possible, de venir chez moi auj[ourd]’hui au lieu de demain, parce que demain je dois diner chez le Comte Samuel <persName>Téléki</persName><note type="comment" place="bottom"><p> 	Samuel Graf <persName>Teleki von Sek</persName> (1739–1822) war siebenbürgischer Hofkanzler gewesen und wissenschaftlich sehr interessiert, so dass er eine außerordentlich große Bibliothek zustande brachte, die er einer Stadt in Siebenbürgen vermachte, um dem Mangel an Literatur abzuhelfen. <persName>Teleki</persName> war Ehrenmitglied der Göttingischen wissenschaftlichen Societät; (<hi rend="italic">Wurzbach</hi>).</p></note>. Si cette tre<note type="comment" place="bottom"><p> 	Es ist unklar, was gemeint ist.</p></note> […] ou était impossible, il faudrait renvoyer à </p><note type="comment" place="inline">[Rest des Briefes fehlt]</note></div></body></text>
+   <text type="letter" subtype="translation" xml:lang="de" xml:space="preserve">
+             <body>
+                <div>
+                    <p> Zuerst, mon cher ami, schicke ich Ihnen die Zeitung. Danach werde ich Ihnen sagen, dass ich mit der zweiten Ausgabe Ihrer Ode sehr zufrieden bin, ich war es von der ersten und ich bin es noch mehr von der zweiten Ausgabe, weil sie mir noch viel besser vorkommt, weil ich sehe, dass Sie es nicht verschmähten, sogar meine Anmerkungen zu beachten, obwohl ich nicht […] gelesen habe. Ich habe noch eine andere Bitte an Sie. Richten Sie meine Hochachtung dem Herrn Abbé von <persName>Höck</persName> aus und sehen Sie zu, ob es ist nicht möglich ist, heute anstatt morgen zu mir zu kommen, weil ich morgen beim Grafen Samuel <persName>Teleki</persName> zum Abendessen bin. Wenn diese […]  oder unmöglich ist, müsste man zurückschicken zu […] Ü$</p>
+                </div>
+            </body>
+            </text>
+</TEI>

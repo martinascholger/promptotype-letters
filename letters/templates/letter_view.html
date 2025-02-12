@@ -1,0 +1,102 @@
+{% extends "base.html" %}
+
+{% block title %}Briefansicht{% endblock %}
+
+{% block content %}
+<div class="container my-4">
+  <div class="row">
+    <div class="col-md-8">
+      <h4>
+        {{ letter.mainTitleDe }}
+        {% if letter.subTitleDe %}
+          – {{ letter.subTitleDe }}
+        {% endif %}
+      </h4>
+
+      <!-- Tabs Navigation -->
+      <ul class="nav nav-tabs mt-4" id="letterTabs" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="original-tab" data-bs-toggle="tab"
+                  data-bs-target="#originalPane" type="button" role="tab"
+                  aria-controls="originalPane" aria-selected="true">
+            Original
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="translation-tab" data-bs-toggle="tab"
+                  data-bs-target="#translationPane" type="button" role="tab"
+                  aria-controls="translationPane" aria-selected="false"
+                  {% if not letter.translationHtml %}disabled{% endif %}>
+            Übersetzung
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="tei-tab" data-bs-toggle="tab"
+                  data-bs-target="#teiPane" type="button" role="tab"
+                  aria-controls="teiPane" aria-selected="false">
+            TEI-Code
+          </button>
+        </li>
+      </ul>
+
+      <div class="tab-content" id="letterTabsContent" style="margin-top: 1rem;">
+        <div class="tab-pane fade show active" id="originalPane" role="tabpanel">
+          {% if letter.originalHtml %}
+            <div id="original-letter">
+              {{ letter.originalHtml|safe }}
+            </div>
+          {% else %}
+            <p class="text-muted">Kein Originaltext vorhanden.</p>
+          {% endif %}
+        </div>
+
+        <div class="tab-pane fade" id="translationPane" role="tabpanel">
+          {% if letter.translationHtml %}
+            <div id="translation-letter">
+              {{ letter.translationHtml|safe }}
+            </div>
+          {% else %}
+            <p class="text-muted">Keine Übersetzung vorhanden.</p>
+          {% endif %}
+        </div>
+
+        <div class="tab-pane fade" id="teiPane" role="tabpanel">
+          <div class="tei-code-block">
+            <pre style="white-space: pre-wrap;">{{ letter.teiXml }}</pre>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+      <h5>Metadaten</h5>
+      <table class="table table-borderless">
+        <tbody>
+          <tr>
+            <th scope="row">Datum</th>
+            <td>{{ letter.date }}</td>
+          </tr>
+          <tr>
+            <th scope="row">Ort</th>
+            <td>{{ letter.place }}</td>
+          </tr>
+          <tr>
+            <th scope="row">Verlag / Publisher</th>
+            <td>{{ letter.publisher }}</td>
+          </tr>
+          <tr>
+            <th scope="row">Bestand</th>
+            <td>
+              {{ letter.repository }}<br>
+              {{ letter.collection }}<br>
+              {{ letter.idno }}
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <a href="{{ url_for('index') }}" class="btn btn-secondary">&laquo; Zurück</a>
+    </div>
+  </div>
+</div>
+{% endblock %}

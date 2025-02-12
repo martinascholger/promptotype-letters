@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://gams.uni-graz.at/o:hpe.odd/RNG" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://gams.uni-graz.at/o:hpe.odd/RNG" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_12">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="de">Johannes von Müller an Joseph von Hammer-Purgstall</title>
+            <title type="sub" xml:lang="de">Wien, 22.10.1796</title>
+            <title type="main" xml:lang="en">Johannes von Müller to Joseph von Hammer-Purgstall</title>
+            <title type="sub" xml:lang="en">Wien, 22.10.1796</title>
+            <author ana="marcrelator:aut">
+               <persName ref="https://gams.uni-graz.at/o:hpe.persons#P.543">
+                  <forename>Johannes</forename>
+                  <nameLink>von</nameLink>
+                  <surname>Müller</surname>
+               </persName>
+            </author>
+            <respStmt ana="marcrelator:trc">
+               <resp>Transcription</resp>
+               <persName>
+                  <forename>Sylvia</forename>
+                  <surname>Kowatsch</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:edt">
+               <resp>Edition</resp>
+               <persName ref="WH">
+                  <forename>Walter</forename>
+                  <surname>Höflechner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:edt">
+               <resp>Edition</resp>
+               <persName>
+                  <forename>Sylvia</forename>
+                  <surname>Kowatsch</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:pfr">
+               <resp>Proofreading</resp>
+               <persName>
+                  <forename>Sylvia</forename>
+                  <surname>Kowatsch</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:trl">
+               <resp>Translation</resp>
+               <persName>
+                  <forename>Sylvia</forename>
+                  <surname>Kowatsch</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mrk">
+               <resp>Textprocessing</resp>
+               <persName ref="AW">
+                  <forename>Alexandra</forename>
+                  <surname>Wagner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mrk">
+               <resp>TEI Encoding</resp>
+               <persName xml:id="SSt">
+                  <forename>Sabrina</forename>
+                  <surname>Strutz</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mrk">
+               <resp>TEI Encoding</resp>
+               <persName>
+                  <forename>Johanna</forename>
+                  <surname>Ofenauer</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mrk">
+               <resp>TEI Encoding</resp>
+               <persName>
+                  <forename>Alexandra</forename>
+                  <surname>Wagner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mdc">
+               <resp>Metadata Management</resp>
+               <persName>
+                  <forename>Elisabeth</forename>
+                  <surname>Steiner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mdc">
+               <resp>Metadata Management</resp>
+               <persName>
+                  <forename>Melanie</forename>
+                  <surname>Frauendorfer</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName ref="https://d-nb.info/gnd/10182836-6"
+                        corresp="https://wissenschaftsgeschichte.uni-graz.at/de/">Zentrum für
+                            Wissenschaftsgeschichte </orgName>
+            </publisher>
+            <authority ana="marcrealator:his">
+               <orgName ref="https://d-nb.info/gnd/1137284463"
+                        corresp="https://digital-humanities.uni-graz.at">Institut für Digitale
+                            Geisteswissenschaften</orgName>
+            </authority>
+            <distributor ana="marcrelator:rps">
+               <orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches
+                            Asset Management System</orgName>
+            </distributor>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc/4.0/">Creative
+                            Commons BY-NC 4.0</licence>
+            </availability>
+            <date when="2025" ana="dcterms:issued">2025</date>
+            <pubPlace ana="marcrelator:pup">Graz</pubPlace>
+            <idno type="PID">o:hpe.letter.12</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://gams.uni-graz.at/context:hpe">Joseph von Hammer-Purgstall.
+                        Korrespondenz</title>
+            <title>Extended and revised version of <ref corresp="#Hoeflechner_2018">Höflechner, Wagner, and Koitz-Arko 2018</ref>
+            </title>
+            <respStmt ana="marcrelator:edt">
+               <resp>Editor</resp>
+               <persName xml:id="MS">
+                  <forename>Martina</forename>
+                  <surname>Scholger</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:edt">
+               <resp>Editor</resp>
+               <persName xml:id="WH">
+                  <forename>Walter</forename>
+                  <surname>Höflechner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:edt">
+               <resp>Editor</resp>
+               <persName xml:id="AW">
+                  <forename>Alexandra</forename>
+                  <surname>Wagner</surname>
+               </persName>
+            </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <bibl xml:id="Hoeflechner_2018">Hammer-Purgstall, Joseph von: Erinnerungen,
+                        Briefe, Materialien. Bd. 2. Hrsg. von Walter Höflechner, Alexandra Wagner
+                        und Gerit Koitz-Arko. Publikationen aus dem Archiv der Universität Graz, Bd.
+                        46, hrsg. von Alois Kernbauer. 2. Version. Graz: Akademische Druck- u.
+                        Verlagsanstalt, 2018. ISBN 978-3-201-02030-5.</bibl>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Steiermärkisches Landesarchiv</repository>
+                  <collection>Schlossarchiv Hainfeld (SAH)</collection>
+                  <idno>Karton 29 / Heft 584</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="de">Die Joseph von <title>Hammer-Purgstall Korrespondenz</title>
+                        widmet sich der Umsetzung der Korrespondenz des österreichischen
+                        Orientalisten Joseph von Hammer-Purgstall (1774–1856) als digitale Edition.
+                        Die Korrespondenz ist ein eindrucksvolles Zeugnis seines weitreichenden
+                        wissenschaftlichen Dialogs und seiner zentralen Rolle in der Orientalistik.
+                        Sie erstreckt sich über ganz Europa bis in die USA und nach Indien und
+                        stellt eine unersetzliche Quelle für die Geschichte der Orientalistik dar.
+                        Ausgehend von den im Jahr 2018 in <ref target="https://gams.uni-graz.at/archive/objects/o:hpe.band2/methods/sdef:TEI/get">fünf Bänden</ref> sowohl in gedruckter als auch als <ref target="https://gams.uni-graz.at/archive/objects/o:hpe.band2/methods/sdef:TEI/get">PDF-Version</ref> publizierten Briefen entsteht hier eine auf dem
+                        Standard der Text Encoding Initiative basierende digitale Edition, die
+                        kontinuierlich durch neue Briefe erweitert wird.</p>
+            <p xml:lang="en">The Joseph von <title>Hammer-Purgstall Correspondence</title>
+                        is dedicated to implementing the correspondence of Austrian Orientalist
+                        Joseph von Hammer-Purgstall (1774-1856) as a digital edition. The
+                        correspondence is an impressive testament to his far-reaching scholarly
+                        dialogue and his central role in Oriental studies. It extends across Europe
+                        to the USA and India and represents an irreplaceable source for the history
+                        of Oriental studies. Based on the letters published in 2018 in <ref target="https://gams.uni-graz.at/archive/objects/o:hpe.band2/methods/sdef:TEI/get">five volumes</ref> in both printed and <ref target="https://gams.uni-graz.at/archive/objects/o:hpe.band2/methods/sdef:TEI/get">PDF format</ref>, a digital edition based on the Text Encoding
+                        Initiative standard is being created here, which is continuously expanded
+                        with new letters.</p>
+            <ab>
+               <ref target="context:hpe" type="context">Joseph von Hammer-Purgstall.
+                            Korrespondenz</ref>
+               <ref target="context:hpe.letters" type="context">Korrespondenz</ref>
+               <ref target="context:hpe.letters.543" type="context">Korrespondenz Müller, Johannes von - Hammer-Purgstall, Joseph von</ref>
+            </ab>
+         </projectDesc>
+         <listPrefixDef>
+            <prefixDef ident="marcrelator"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="http://id.loc.gov/vocabulary/relators/$1">
+               <p>Taxonomie Rollen MARC</p>
+            </prefixDef>
+            <prefixDef ident="dcterms"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="http://purl.org/dc/terms/$1">
+               <p>DCterms</p>
+            </prefixDef>
+         </listPrefixDef>
+         <tagsDecl>
+            <rendition xml:id="sign">text-align: right</rendition>
+         </tagsDecl>
+         <schemaRef url="https://gams.uni-graz.at/o:hpe.odd"/>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName corresp="https://gams.uni-graz.at/o:hpe.persons#P.543">
+                  <surname>Müller</surname>
+                  <forename>Johannes</forename>
+                  <nameLink>von</nameLink>
+               </persName>
+               <placeName ref="https://sws.geonames.org/2761369">Wien</placeName>
+               <date when="1796-10-22"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName corresp="https://gams.uni-graz.at/o:hpe.persons#P.2000"
+                         ref="https://d-nb.info/gnd/118545426">
+                  <surname>Hammer-Purgstall</surname>
+                  <forename>Joseph</forename>
+                  <nameLink>von</nameLink>
+               </persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2025-02-04+01:00" resp="#SSt">Initial Version</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter" subtype="original" xml:space="preserve" xml:lang="fr"><body><div><p>J’ai<note type="comment" place="bottom"><p> 	Dieser Brief ist übernommen aus Johannes von Müller sämtliche Werke, hg von Johann Georg Müller, 38. Teil; Johannes von Müllers Briefe an Herrn Charles Bonnet und Studien. Briefe an Freunde 2, Stuttgart–Tübingen 1835, dort Nr. 157; <hi rend="italic">https://books.google.at/books?id=JVNlAAAAcAAJ&amp;printsec=frontcover&amp;hl=de&amp;source=gbs_ge_summary_r&amp;cad=0#v=onepage&amp;q&amp;f=false</hi>. – In SAH liegen zu diesem Datum mehrere undatierte Stücke, auf denen sich Bleistift-Vermerke finden, dass sie dort abgelegt worden seien, womit bedeutet wird, dass sie vermutlich zu diesem oder nachfolgenden Briefen gehören. Eine exakte Zuordnung bzw. Datierung, die nur auf der Grundlage einer eingehenden Bearbeitung der Briefstücke möglich sein würde, konnte hier nicht geleistet werden.</p></note> reçu avec plaisir, j’ai lu avec enthousiasme vos deux lettres, mon cher ami. (<persName>Chabert</persName><note type="comment" place="bottom"><p> 	HPs Lehrer und nachmaliger Freund Thomas <persName>Chabert; (BARCH)</persName>.</p></note>, devenu fort heureusement père d’une fille, m’a communiqué la sienne.) Il ne se peut rien ajouter à l’intérêt de leur contenu:<note type="comment" place="bottom"><p> 	Die hier vom Herausgeben der Brief Johann Georg <persName>Müller</persName> gesetzte, sich auf HPs <hi rend="italic">„</hi><hi rend="italic">Zeichnungen auf einer Reise von Wien über Triest nach Venedig, und von da zurück durch Tyrol und Salzburg“ beziehende Fußnote beruht auf einem Irrtum: diese Reise hat HPs Erinnerungen zufolge erst 1798 stattgefunden</hi><hi rend="italic">.</hi> </p></note> Les tableaux sont riches et bien peints; les réflexions judicieuses; j’ai été très-content de votre esprit observateur; le style est charmant; en [un] mot, ces lettres prouvent combien vous êtes digne d’aller plus loin et dans des pays plus intéressants à divers égards. Je n’ai qu’un regret: c’est qu’elles ne soient pas imprimées; c’est parce qu’elles le mériteraient, et aussi parce que je les lirais plus facilement. Depuis quelque temps vous avez si horriblement gâté votre écriture, qu’il faut le travail d’un déchiffrement. Passe pour les lettres; on en est bien récompensé; et l’on y parvient avec quelque patience: mais dans le M[anu]sc[ript] de Dshemshid il a fallu omettre quelques passages, parce que niM. <persName>de</persName> <persName>Jenisch</persName> ni moi ne pûmes jamais en deviner le sens. Que sera ce, si vous nous écrivez de l’Orient? Et que sera ce de vos journaux, si vous y mouriez ? Et que sera ce toutes fois que vous ferez imprimer quelque chose où il soit question d’objets inconnus à nos typographes? Je vous supplie, mon ami (non pas pour moi; je m’y ferais), mais pour ces raisons-là, d’y faire quelque peu d’attention. Il ne s’est rien passé concernant vos plans.<note type="comment" place="bottom"><p> 	Johann Georg <persName>Müller</persName> bezieht dies auf HPs Plan einer Reise nach Persien, wobei er sich wenig überzeugend auf <persName>Müller</persName>s Brief an HP im Oktober 1797 stützt (s. dessen Brief an HP ddo 1797 X 26).</p></note></p><p>Nous avons reçu des détails intéressants sur la Perse. Elle est divisée en trois états. La vraie Perse obéit à un excellent Prince, <persName>Baba Khan</persName> (neveu de <persName>Mehmed</persName>) brave, prudent, bon et aimable; le Chorasan à <persName>Sharock</persName>, petit-fils de <persName>Sha Nadir</persName>; le Candahar, Herat, le Caboul, à <persName>Sha Zéman</persName>, petit-fils <persName>d’Ahmed</persName>, chef des Afghans.</p><p>On est encore incertain du développement de la crise des affaires générales, c[‘est]-à-d[ire] si l’on aura guerre un peu plus tôt ou plus tard. En attendant on est dans une position gênée par rapport à l’économie, et cela ne favorise point vos désirs. Il faut vivre au jour la journée. Vous n’avez rien de mieux à faire que de vous rendre tous les jours plus parfait dans votre genre, et capable de plus belles choses. Ce qui est en nous, est seul à nous. Ce que nous sommes par nous-mêmes, nous le serons en tout état des choses. Le reste est incertain; il faut faire la guerre à l’œil.</p><p>Mes remarques sur Dshemshid<note type="comment" place="bottom"><p> 	<hi rend="italic">Dschemschid, Dschamschid ist eine Figur der iranischen Mythologie – eine herausragende fürstliche Herrschergestalt, auf die das Goldene Zeitalter der Welt des Irans zurückgeführt wird und die bereits in den zoroastrischen Schriften vorkommt. Dschemschids Wissen und Macht beruhen auf dem Besitze eines Kelchs – gleich dem Heiligen Gral. Als er in Hybris versinkt, endet das Goldene Zeitalter. Dieser Stoff ist – in Variationen – vielfach verwendet worden, bildet auch einen Abschnitt des Schahname; (Wikipedia).</hi></p></note> sont devenues (jointes aux vôtres) aussi longues<note type="comment" place="bottom"><p><hi rend="italic"> 	A: longue</hi></p></note> que le texte. A présent je lis <persName>Latifi</persName><note type="comment" place="bottom"><p> 	„<hi rend="italic">Latifi oder biographische Nachrichten von vorzüglichen türkischen Dichtern, nebst einer Blumenlese aus ihren Werken. Aus dem Türkischen des Monla Abdul Latifi und des Aschik Hassan Tschelebi. Übersetzt von Thomas Chabert – Von Johannes von Müller zum Druck befördert und mit Anmerkungen versehen.“, Zürich 1800. 8.“ </hi>(J. G. Müller). – Monla Abdul <persName>Latifi</persName> war ein türkischer Biograph (?–1578), der wie sein Freund <persName>Aschik Hasan</persName> (?–1562) ein dem <persName>Hadschi Chalfa</persName>schen ähnliches Werk über türkische Dichter – Biographien und Anthologie – in Angriff nahm, sich darüber aber mit <persName>Aschik Hasan</persName> (der eine Biographie <persName>Latifi</persName>s verfasste) entzweite. S. dazu den Vorbericht <persName>Chabert</persName>s. </p></note>: j’y fais aussi des notes, et je tâche de donner au style par-ci par-là plus de rapidité et de vie. Puis je travaillerai <persName>Ferdusi</persName><note type="comment" place="bottom"><p> 	<hi rend="italic">Der berühmte persische Dichter und Autor des Schahname.</hi></p></note> pour <persName>Herder</persName><note type="comment" place="bottom"><p> 	Johann Gottfried <persName>Herder</persName> (1744–1803), Kulturphilosoph, Dichter, Übersetzer.</p></note>.</p><p>J’ai achevé l’extrait de <persName>Casiri</persName><note type="comment" place="bottom"><p> 	Miguel <persName>Casiri</persName> (1710–1791) war ein syro-maronitischer Geistlicher und Orientalist. Ab 1750 sammelte <persName>Casiri</persName> Materialien für seine Bibliotheca arabico-hispana und wurde dabei zuerst von Paul <persName>Hodar</persName>, einem maronitischen Mönch und gelehrten Orientalisten, unterstützt. Die beiden entzweiten sich aber bald und <persName>Casiri</persName> arbeitete daraufhin allein an seinem Werk weiter, das er erst 1770 vollenden konnte. Er veröffentlichte es unter dem Titel <hi rend="italic">„Bibliotheca arabico-hispana Escurialensis, sive librorum omnium manuscriptorum, quos arabice ab auctoribus, magnam partem arabico-hispanis compositos bibliotheca coenobii Escurialensis complectitur, recensio et explanatio“</hi> (2 Bde Madrid 1760-70). In dieser nur in einer geringen Anzahl von Exemplaren gedruckten Schrift lieferte <persName>Casiri</persName> ein wissenschaftlich geordnetes Verzeichnis von 1851 arabischen Handschriften der Escorial-Bibliothek. Das Werk enthält auch etliche Zitate von arabischen Geschichtswerken. Die Manuskripte sind nach den in ihnen behandelten Gegenständen kategorisiert. Im zweiten Band erläutert <persName>Casiri</persName> zahlreiche geographische und historische Handschriften, die wertvolle Informationen über die Kämpfe zwischen den Mauren und Christen in Spanien bringen; (<hi rend="italic">Wikipedia</hi>). </p></note>. Il y a des grands trésors dans la littérature orientale : si j’étais vous, je m’y adonnerais<note type="comment" place="bottom"><p> 	A: adonnerai</p></note> avec une application prodigieuse, d’en faire part au public ; non seulement à cause de l’utilité publique et du nom que cela vous fera, mais encore parce que ceci fera réussir vos projets chéris. Adieu, mon cher ami. Je n’ai ni le temps ni l’esprit assez libre pour une jolie et longue lettre; l’état des affaires publiques m’afflige. Voyez bien ce que vous voyez ; jouissez de votre agréable voyage, et revenez plein d’idées et d’un nouveau zèle.<note type="comment" place="bottom"><p> 	Es ist nicht eruierbar, um welche Reise es sich handeln soll.</p></note> –</p><p>Mon cher Ami,<hi rend="underline"> de Vous aitant</hi><note type="comment" place="bottom"><p> 	Es ist unklar, was gemeint ist. </p></note> de faire part de ne pas venir à ma rencontre; Vous savez que je serais au désespoir que Vous fil<note type="comment" place="bottom"><p> 	A: de</p></note>iez che[…] quelques, la moin[…], qui put déplaire à M. le Directeur. […] je Vous conjure de ne plus faire cela; si je viens<note type="comment" place="bottom"><p> 	A: viez</p></note>, M. le Directeur [va] peut-être permettre que Vous m’accompagnez un peu sur le retour. Quant à demain, je ne puis venir; Vous aurez reçu une lettre depuis qui Vous en dit les raisons; et encore j’en ai oublié la spale<note type="comment" place="bottom"><p> 	Es ist unklar, was gemeint ist.</p></note>, qui est, que le temps me mène; il faut préférer le devoir à tout. </p><closer><salute rend="inline">M. de […]mer ne veut ni promette ni refuser; il remercie en attendant. Je n’ai pas le moment pour ajouter une ligne de plus que le renouvellem[ent] de mes sentiments pour Vous.</salute><dateline>Vienne 22 Oct. 96</dateline><signed>J. <persName>Müller</persName></signed></closer><postscript><p>PS. Je viens<note type="comment" place="bottom"><p> 	A: viez</p></note> d’apprendre que l’Académie rentre tard; ainsi je ne verrai plus Weidling cette année, à la bonne heure; j’aurai d’autant plus de commodité pour en revoir les habitants ici.</p></postscript></div></body></text>
+   <text type="letter" subtype="translation" xml:lang="de" xml:space="preserve">
+             <body>
+                <div>
+                    <p> Ich habe mich über Ihre zwei Briefe gefreut und sie mit Begeisterung gelesen, mein lieber Freund. (<persName>Chabert</persName> ist sehr glücklich, Vater einer Tochter geworden zu sein und hat mir seinen übermittelt). Es kann zum Interesse des Inhalts nichts hinzugefügt werden. Die Bilder sind prächtig und gut gemalt, die Überlegungen scharfsinnig. Ich war sehr zufrieden mit Ihrer Beobachtungsgabe; der Stil ist charmant, mit einem Wort, diese Briefe beweisen, dass Sie in der Lage sind, weiter in Länder zu gehen, die in verschiedener Hinsicht interessanter sind. Ich habe nur einen Grund zu bedauern: dass sie nicht gedruckt sind, weil sie es verdienen würden und auch, weil ich sie leichter lesen würde. Seit einiger Zeit haben Sie Ihre Schrift so schrecklich verschlechtert, dass die Arbeit einer Dechiffrierung notwendig ist. Das gilt für die Briefe; dafür wird man aber sehr belohnt; und es gelingt einem mit einiger Geduld; aber im Manuskript von Dshemshid musste man einige Passagen weglassen, weil weder Herr <persName>von Jenisch</persName> noch ich jemals den Sinn davon erraten konnten. Wie wird das sein, wenn Sie uns aus dem Orient schreiben? Und wie wird das mit Ihren Aufzeichnungen sein, wenn Sie dort sterben würden? Und wie wird das jedes Mal sein, wenn Sie irgendetwas drucken lassen werden, wo es sich um für unsere Schriftsetzer unbekannte Dinge handelt. Ich flehe Sie an, mein Freund (nicht für mich, ich werde mich daran gewöhnen), aber aus den erwähnten Gründen, ein bisschen darauf zu achten.</p><p>	Es hat sich hinsichtlich Ihrer Pläne nichts geändert. Wir haben interessante Details über Persien bekommen. Es ist in drei Staaten unterteilt. Das echte Persien untersteht einem ausgezeichneten Prinzen, <persName>Baba Khan</persName> (Neffe von <persName>Mehmed</persName>), tapfer, klug, gut und liebenswert; Chorosan wird von <persName>Sharock</persName>, dem Enkelsohn von <persName>Sha Nadir</persName> und Kandahar, Herat und Kabul von <persName>Sha Zeman</persName>, dem Enkelsohn von <persName>Ahmed</persName>, dem Führer der Afghanen regiert. Man ist sich über die Entwicklung der allgemeinen Krise noch nicht sicher, das heißt, ob es früher oder später einen Krieg geben wird. In der Zwischenzeit ist man in einer Lage, in der die Wirtschaft leidet und das begünstigt nicht Ihre Wünsche. Man muss von der Hand in den Mund leben. Sie haben nichts Besseres zu tun, als sich alle Tage ihrer Lebensweise viel vollkommener und fähig für die schönsten Dinge zu fügen. Was in uns ist, gehört nur uns. Was wir durch uns selbst sind, werden wir in jeder Sachlage sein. Der Rest ist ungewiss, man muss auf eine gute Gelegenheit warten.</p><p>	Meine (an Ihre angefügte) Bemerkungen über Dshemshid sind genauso lang wie der Text geworden. Im Augenblick lese ich <persName>Latifi</persName>; ich habe dazu auch Anmerkungen gemacht und ich versuche, dem Stil da und dort mehr Flüssigkeit und Lebendigkeit zu verleihen. Dann werde ich <persName>Ferdusi</persName> für <persName>Herder</persName> bearbeiten.</p><p>	Ich habe den Auszug von <persName>Casiri</persName> beendet. Es gibt große Schätze in der orientalischen Literatur: an Ihrer Stelle würde ich mich ihr mit ungeheurem Eifer hingegeben und sie dem Publikum bekanntgeben; nicht nur wegen der öffentlichen Nutzung und des Namens, den sie Ihnen machen wird, sondern auch, weil das Ihr Lieblingsprojekt gelingen lassen wird.</p><p>	Adieu, mein lieber Freund. Ich habe weder die Zeit noch ausreichend Einfälle für einen hübschen und langen Brief; die Lage der öffentlichen Angelegenheiten beunruhigt mich. Sehen Sie auf das genau hin, was Sie sehen; genießen Sie Ihre angenehme Reise und kommen Sie voll Ideen und neuem Eifer zurück.</p><p>	Mein lieber Freund, […]<note type="comment" place="bottom"><p> 	Unklar- Transkriptionsfehler.</p></note> mitzuteilen, nicht zu meinem Treffen zu kommen. Sie wissen, dass ich mir Sorgen machen würde, dass Sie [….]<note type="comment" place="bottom"><p> 	Unklar- Transkriptionsfehler.</p></note>, das dem Herrn Direktor missfallen konnte. […] ich beschwöre Sie, das nicht zu machen; wenn ich komme, wird es der Herr Direktor vielleicht erlauben, dass Sie mich ein Stück auf dem Rückweg begleiten. Morgen kann ich nicht kommen. Sie werden einen Brief bekommen haben, der Ihnen die Gründe dafür nennt und ich habe auch […]<note type="comment" place="bottom"><p> 	Unklarer Ausdruck.</p></note> vergessen, das heißt, dass die Zeit mich leitet. Man muss allem die Arbeit vorziehen. Herr von […] will weder versprechen noch ablehnen, er bedankt sich in der Zwischenzeit. Ich habe keinen Augenblick Zeit, noch eine Zeile hinzuzufügen außer die Erneuerung meiner Gefühle für Sie.</p><p>	P.S.: Ich habe soeben erfahren, dass die Akademie spät beginnt; also werde ich heuer Weidling nicht mehr wiedersehen, nun schön; ich werde nun mehr Annehmlichkeiten haben, um deren Bewohner hier wiederzusehen. Ü$</p>
+                </div>
+            </body>
+            </text>
+</TEI>

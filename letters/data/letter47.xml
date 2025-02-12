@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://gams.uni-graz.at/o:hpe.odd/RNG" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://gams.uni-graz.at/o:hpe.odd/RNG" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_47">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="de">Joseph von Hammer-Purgstall an Karl August Böttiger</title>
+            <title type="sub" xml:lang="de">Wien, 06.12.1798</title>
+            <title type="main" xml:lang="en">Joseph von Hammer-Purgstall to Karl August Böttiger</title>
+            <title type="sub" xml:lang="en">Wien, 06.12.1798</title>
+            <author ana="marcrelator:aut">
+               <persName ref="https://gams.uni-graz.at/o:hpe.persons#P.2000">
+                  <forename>Joseph</forename>
+                  <nameLink>von</nameLink>
+                  <surname>Hammer-Purgstall</surname>
+               </persName>
+            </author>
+            <respStmt ana="marcrelator:trc">
+               <resp>Transcription</resp>
+               <persName>
+                  <forename>Rudolf</forename>
+                  <surname>Payer von Thurn</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:edt">
+               <resp>Edition</resp>
+               <persName ref="WH">
+                  <forename>Walter</forename>
+                  <surname>Höflechner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:pfr">
+               <resp>Proofreading</resp>
+               <persName ref="WH">
+                  <forename>Walter</forename>
+                  <surname>Höflechner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mrk">
+               <resp>Textprocessing</resp>
+               <persName ref="AW">
+                  <forename>Alexandra</forename>
+                  <surname>Wagner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mrk">
+               <resp>TEI Encoding</resp>
+               <persName xml:id="SSt">
+                  <forename>Sabrina</forename>
+                  <surname>Strutz</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mrk">
+               <resp>TEI Encoding</resp>
+               <persName>
+                  <forename>Johanna</forename>
+                  <surname>Ofenauer</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mrk">
+               <resp>TEI Encoding</resp>
+               <persName>
+                  <forename>Alexandra</forename>
+                  <surname>Wagner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mdc">
+               <resp>Metadata Management</resp>
+               <persName>
+                  <forename>Elisabeth</forename>
+                  <surname>Steiner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mdc">
+               <resp>Metadata Management</resp>
+               <persName>
+                  <forename>Melanie</forename>
+                  <surname>Frauendorfer</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName ref="https://d-nb.info/gnd/10182836-6"
+                        corresp="https://wissenschaftsgeschichte.uni-graz.at/de/">Zentrum für
+                            Wissenschaftsgeschichte </orgName>
+            </publisher>
+            <authority ana="marcrealator:his">
+               <orgName ref="https://d-nb.info/gnd/1137284463"
+                        corresp="https://digital-humanities.uni-graz.at">Institut für Digitale
+                            Geisteswissenschaften</orgName>
+            </authority>
+            <distributor ana="marcrelator:rps">
+               <orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches
+                            Asset Management System</orgName>
+            </distributor>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc/4.0/">Creative
+                            Commons BY-NC 4.0</licence>
+            </availability>
+            <date when="2025" ana="dcterms:issued">2025</date>
+            <pubPlace ana="marcrelator:pup">Graz</pubPlace>
+            <idno type="PID">o:hpe.letter.47</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://gams.uni-graz.at/context:hpe">Joseph von Hammer-Purgstall.
+                        Korrespondenz</title>
+            <title>Extended and revised version of <ref corresp="#Hoeflechner_2018">Höflechner, Wagner, and Koitz-Arko 2018</ref>
+            </title>
+            <respStmt ana="marcrelator:edt">
+               <resp>Editor</resp>
+               <persName xml:id="MS">
+                  <forename>Martina</forename>
+                  <surname>Scholger</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:edt">
+               <resp>Editor</resp>
+               <persName xml:id="WH">
+                  <forename>Walter</forename>
+                  <surname>Höflechner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:edt">
+               <resp>Editor</resp>
+               <persName xml:id="AW">
+                  <forename>Alexandra</forename>
+                  <surname>Wagner</surname>
+               </persName>
+            </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <bibl xml:id="Hoeflechner_2018">Hammer-Purgstall, Joseph von: Erinnerungen,
+                        Briefe, Materialien. Bd. 2. Hrsg. von Walter Höflechner, Alexandra Wagner
+                        und Gerit Koitz-Arko. Publikationen aus dem Archiv der Universität Graz, Bd.
+                        46, hrsg. von Alois Kernbauer. 2. Version. Graz: Akademische Druck- u.
+                        Verlagsanstalt, 2018. ISBN 978-3-201-02030-5.</bibl>
+            <bibl>SLUB Dresden (Mscr.Dresd.h.37,4°,Bd.68 Nr 13, S. 81‐84) +
+                        PvTh Briefe Bö 26<idno>Payer von Thurn, Rudolf; „Briefwechsel zwischen C. A.
+                        Böttiger und Joseph von Hammer“, in: Chronik des Wiener Goethe-Vereins 36
+                        (1930) 13–40</idno>
+            </bibl>
+            <bibl>
+               <ref target="https://digital.slub-dresden.de/werkansicht?id=5363&amp;tx_dlf[id]=254424&amp;tx_dlf[page]=81"/>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="de">Die Joseph von <title>Hammer-Purgstall Korrespondenz</title>
+                        widmet sich der Umsetzung der Korrespondenz des österreichischen
+                        Orientalisten Joseph von Hammer-Purgstall (1774–1856) als digitale Edition.
+                        Die Korrespondenz ist ein eindrucksvolles Zeugnis seines weitreichenden
+                        wissenschaftlichen Dialogs und seiner zentralen Rolle in der Orientalistik.
+                        Sie erstreckt sich über ganz Europa bis in die USA und nach Indien und
+                        stellt eine unersetzliche Quelle für die Geschichte der Orientalistik dar.
+                        Ausgehend von den im Jahr 2018 in <ref target="https://gams.uni-graz.at/archive/objects/o:hpe.band2/methods/sdef:TEI/get">fünf Bänden</ref> sowohl in gedruckter als auch als <ref target="https://gams.uni-graz.at/archive/objects/o:hpe.band2/methods/sdef:TEI/get">PDF-Version</ref> publizierten Briefen entsteht hier eine auf dem
+                        Standard der Text Encoding Initiative basierende digitale Edition, die
+                        kontinuierlich durch neue Briefe erweitert wird.</p>
+            <p xml:lang="en">The Joseph von <title>Hammer-Purgstall Correspondence</title>
+                        is dedicated to implementing the correspondence of Austrian Orientalist
+                        Joseph von Hammer-Purgstall (1774-1856) as a digital edition. The
+                        correspondence is an impressive testament to his far-reaching scholarly
+                        dialogue and his central role in Oriental studies. It extends across Europe
+                        to the USA and India and represents an irreplaceable source for the history
+                        of Oriental studies. Based on the letters published in 2018 in <ref target="https://gams.uni-graz.at/archive/objects/o:hpe.band2/methods/sdef:TEI/get">five volumes</ref> in both printed and <ref target="https://gams.uni-graz.at/archive/objects/o:hpe.band2/methods/sdef:TEI/get">PDF format</ref>, a digital edition based on the Text Encoding
+                        Initiative standard is being created here, which is continuously expanded
+                        with new letters.</p>
+            <ab>
+               <ref target="context:hpe" type="context">Joseph von Hammer-Purgstall.
+                            Korrespondenz</ref>
+               <ref target="context:hpe.letters" type="context">Korrespondenz</ref>
+               <ref target="context:hpe.letters.91" type="context">Korrespondenz Böttiger, Karl August  - Hammer-Purgstall, Joseph von</ref>
+            </ab>
+         </projectDesc>
+         <listPrefixDef>
+            <prefixDef ident="marcrelator"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="http://id.loc.gov/vocabulary/relators/$1">
+               <p>Taxonomie Rollen MARC</p>
+            </prefixDef>
+            <prefixDef ident="dcterms"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="http://purl.org/dc/terms/$1">
+               <p>DCterms</p>
+            </prefixDef>
+         </listPrefixDef>
+         <tagsDecl>
+            <rendition xml:id="sign">text-align: right</rendition>
+         </tagsDecl>
+         <schemaRef url="https://gams.uni-graz.at/o:hpe.odd"/>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName corresp="https://gams.uni-graz.at/o:hpe.persons#P.2000"
+                         ref="https://d-nb.info/gnd/118545426">
+                  <surname>Hammer-Purgstall</surname>
+                  <forename>Joseph</forename>
+                  <nameLink>von</nameLink>
+               </persName>
+               <placeName ref="https://sws.geonames.org/2761369">Wien</placeName>
+               <date when="1798-12-06"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName corresp="https://gams.uni-graz.at/o:hpe.persons#P.91"
+                         ref="https://d-nb.info/gnd/118824775">
+                  <surname>Böttiger</surname>
+                  <forename>Karl August</forename>
+               </persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2025-02-04+01:00" resp="#SSt">Initial Version</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter" subtype="original" xml:space="preserve" xml:lang="de"><body><div><p>Nein!<note type="comment" place="bottom"><p> 	Dieser Brief ist nur in einer Abschrift bei Payer-Thurn, <hi rend="italic">Briefwechsel zwischen C.A. Böttiger und Joseph von Hammer, in: Chronik des Wiener Goethe-Vereins 36 (1930) 13–40</hi>, bes. 26, überliefert (vermutlich nach einem Konzept). Das Original liegt in der SLUB Dresden (Mscr.Dresd.h.37,4°,Bd.68 Nr 13, S. 81‐84).</p></note> E[uer] Hochwohlgeboren, non ibo Liburnis inter alta navium propugnacula paratus omne Caesaris periculum subire meo<note type="comment" place="bottom"><p> 	Eine Paraphrase nach <persName>Horaz</persName> Epode 1: „Ibis Liburnis inter alta navium, amice, propugnacula, paratus omne Caesaris periculum subire, Maecenas, tuo […]“ – „Fährst auf Liburnern zwischen hohen Schiffen fort, mein Freund, ja, zwischen Festungen, du bist bereit, für Caesar jedes Risiko zu wagen […]?“</p></note>. Auch Herr Hofrat <persName>v[von] Jenisch</persName><note type="comment" place="bottom"><p> 	<persName>Jenisch</persName> war damals Referent für die Orientalische Akademie in der Staatskanzlei in Wien.</p></note> geht nicht nach Dalmatien<note type="comment" place="bottom"><p> 	HP war zum Sekretär für <persName>Jenisch</persName> auf einer Mission in Dalmatien bestimmt gewesen, die dann nicht stattfand.</p></note>. saevis Liburnis scilicet! invidens deduci triumpho<note type="comment" place="bottom"><p> 	Eine Paraphrase einer Stelle aus <persName>Horaz</persName> Carmina I,37: „saevis Liburnis scilicet invidens privata deduci superbo non humilis mulier triumpho“ – „den grimmen Seglern gönnte gewiss sie es / nicht, dass entthront man sie führt zu stolzem Triumphe – sie, keine niedere Frau!“; (www.zdf.de).</p></note>. Diese zwei Stellen wären mir vielleicht nie eingefallen, wenn ich nicht gerade einige Tage vor der Ankunft Ihres erfreulichen Briefes, Ihre vortrefflichen erklärenden Anmerkungen zur Encyklopädie der lateinischen Klassiker durchlesen hätte<note type="comment" place="bottom"><p> 	<persName>Böttiger</persName> verfügte als Absolvent von Schulpforta über eine exquisite Ausbildung in den alten Sprachen – sein Sohn schrieb später in den Erinnerungen an seinen Vater, dass dieser überhaupt erst nach dem Abgang aus Schulpforta auf Deutsch zu schreiben gelernt habe – die Schüler waren auch im Speisesaal zu lateinischer Umgangssprache verpflichtet!</p></note>. Wie freue ich mich auf die Auswahl der Sinngedichte, die ich noch nicht zu Gesichte bekommen habe! und wie würde ich mich freuen, wenn ich mehrere Klassiker mit Kommentaren solches[sic] Geistes studieren könnte! Ich habe das Werk überall empfohlen, und wenigstens in der Akademie<note type="comment" place="bottom"><p> 	Gemeint ist die Orientalische Akademie.</p></note> einige Exemplarien davon in Umlauf gebracht. Ich bin Ihr Schüler, aber warum nur in der Ferne? warum wollte mir das Glück nicht so wohl Sie persönlich zu kennen? Wie oft habe ich mich erst itzt mit Pastor <persName>Däneker</persName><note type="comment" place="bottom"><p> 	Johann (Hans) Kaspar <persName>Däniker</persName> (1770–1836) stammte aus Bischofzell im Thurgau; er war auch politisch tätig und entomologisch interessiert; (<hi rend="italic">KVK, www.bischofszellergeschlechter.ch 20160103</hi>).</p></note> aus Zürich zu Ihnen im Geiste hingedacht; was habe ich ihn nicht haarklein um Alles, was <persName>Wieland</persName>en[,] <persName>Herder</persName>n und Sie betraf, ausgefraget ! Bei jeder Gelegenheit mußte er mir zu Rede stehen. Hören Sie unter anderm den drollichten Zufall: Ich ging mit ihm einigemal zu Doktor <persName>Gall</persName><note type="comment" place="bottom"><p> 	HP war zumindest einige Zeit hindurch ein Anhänger der Phrenologie Franz <persName>Gall</persName>s, dessen Veranstaltungen er besuchte (ehe sie vom Kaiser verboten wurden und <persName>Gall</persName> nach Paris ging).</p></note><persName>,</persName> von dessen anti-<persName>lavater</persName>ischen kefaloskopischen Systeme Sie vermutlich schon Manches werden gehöret haben. Er handelte diesmal eben von den Gedächtnißarten. Wir durchgingen die verschiedenen Büsten und Schädeln seiner Sammlung. „Sehen Sie hier“, sprach <persName>Gall</persName>, diese ungemeine breite weitgewölbte Stirn, das allumspannende Gedächtnis etc.. „Gerade so rief ich <persName>Däneker</persName>'n zu, muß <persName>Böttiger</persName>s Stirne gebaut sein, dies Repertorium aller Arten von Gelehrsamkeit! – Wahrhaftig, sprach <persName>Däneker</persName>, sie ists bei einem Haare. Das freute mich, und freute mich noch mehr, als ich sah, daß der gezeigte Kopf (denn das Gesicht war verhängt) Hofrat <persName>Müller</persName>s<note type="comment" place="bottom"><p> 	Damit ist Johannes <persName>von Müller</persName> gemeint, bei dem HP damals Hilfsarbeiten leistete.</p></note> Kopf war. Auch hat mich <persName>Däneker</persName> auf eine Ungereimtheit aufmerksam gemacht, die ich zwar aus blasser Gewohnheit gerade fürs Gegenteil hielt. Durch unsern gesellschaftlichen Ton verwöhnt würde ich es für sehr unhöflich gehalten haben, wen immer aus meinen Freunden anders als Herr von anzureden, oder anders zu schreiben. <persName>Däneker</persName> sagte mir, daß man auswärts darüber lache. Dies fand ich sehr vernünftig, und bin nun fest entschlosssen künftig meiner bessern Erkenntnis treu zu bleiben, ohne mich durch was immer für ein Vorurteil irre machen zu lassen; wiewohl das letzte hierorts noch so weit geht, daß ich von meiner Familie vor zwei Jahren den Vorwurf bekam, mich meines Namens zu schämen, weil ich bei einem Glückwunsch an Hofrat <persName>Jenisch</persName> nur <persName>von Hammer</persName><note type="comment" place="bottom"><p> 	Und nicht „Edler von Hammer“.</p></note> drucken ließ […] <note type="comment" place="inline">[Der Rest des Briefes fehlt]</note></p></div></body></text>
+</TEI>

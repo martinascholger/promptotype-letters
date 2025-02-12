@@ -1,0 +1,937 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="de">
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Charles Baissac an Hugo Schuchardt (5-B.11.21.1.2.)</title>
+        <author ana="marcrelator:aut">
+          <persName ref="https://gams.uni-graz.at/o:hsa.persons#P.1069">
+            <forename>Charles</forename>
+            <surname>Baissac</surname>
+          </persName>
+        </author>
+        <editor ana="marcrelator:edt">
+          <persName>
+            <forename>Elisabeth</forename>
+            <surname>Steiner</surname>
+          </persName>
+        </editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ana="marcrelator:pbl">
+          <orgName corresp="https://sprachwissenschaft.uni-graz.at" ref="http://d-nb.info/gnd/807328-4">Institut für Sprachwissenschaft,
+                  Karl-Franzens-Universität Graz</orgName>
+        </publisher>
+        <authority ana="marcrelator:his">
+          <orgName corresp="https://informationsmodellierung.uni-graz.at" ref="http://d-nb.info/gnd/1137284463">Zentrum für
+                  Informationsmodellierung - Austrian Centre for Digital Humanities,
+                  Karl-Franzens-Universität Graz</orgName>
+        </authority>
+        <distributor ana="marcrelator:rps">
+          <orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches
+                  Asset Management System</orgName>
+        </distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative Commons
+                  BY-NC 4.0</licence>
+        </availability>
+        <date ana="dcterms:issued" when="2022">2022</date>
+        <pubPlace ana="marcrelator:pup">Graz</pubPlace>
+        <idno corresp="http://schuchardt.uni-graz.at/id/letter/44" type="PID">o:hsa.letter.44</idno>
+        <idno source="http://schuchardt.uni-graz.at" type="altIdentifier">5-B.11.21.1.2.</idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title ref="https://schuchardt.uni-graz.at">Hugo Schuchardt Archiv</title>
+        <respStmt ana="marcrelator:pbl">
+          <resp>Herausgeber</resp>
+          <persName ref="http://d-nb.info/gnd/111679893">
+            <forename>Bernhard</forename>
+            <surname>Hurch</surname>
+            <orgName ref="http://d-nb.info/gnd/36157-4">Karl-Franzens-Universität Graz</orgName>
+          </persName>
+        </respStmt>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>Österreich</country>
+            <region>Steiermark</region>
+            <settlement>Graz</settlement>
+            <institution>Karl-Franzens-Universität Graz</institution>
+            <repository ref="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</repository>
+            <idno type="shelfmark">B.11.21.1.2.</idno>
+          </msIdentifier>
+          <msContents>
+            <textLang mainLang="fr"/>
+            <msItem>
+              <author ref="https://gams.uni-graz.at/o:hsa.persons#P.1069">
+                <forename>Charles</forename>
+                <surname>Baissac</surname>
+              </author>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <material ref="http://vocab.getty.edu/aat/300014109">Papier</material>
+                  <objectType>Anhang</objectType>
+                </support>
+                <extent>
+                  <measure quantity="10" unit="pages">10 Seiten</measure>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace ana="marcrelator:prp" corresp="https://gams.uni-graz.at/o:hsa.places#PL.41" ref="http://sws.geonames.org/934154">Port Louis</origPlace>
+              <origDate ana="dcterms:created" when="1882-10-01">1882-10-01</origDate>
+            </origin>
+            <provenance>
+                     Hugo Schuchardts wissenschaftlicher Nachlass (Bibliothek,
+                     Werkmanuskripte und wissenschaftliche Korrespondenz) kam nach seinem Tod 1927
+                     laut Verfügung in seinem Testament als Geschenk an die UB Graz.
+                  </provenance>
+          </history>
+        </msDesc>
+        <bibl type="print">
+          <author>
+            <persName>
+              <forename>Elisabeth</forename>
+              <surname>Steiner</surname>
+            </persName>
+          </author>
+          <date when="2010">2010</date>
+          <title>'L'approbation d'un juge come vous est de celles dont on a le droit d'être fier':
+               Der Briefwechsel zwischen Schuchardt und Baissac</title>
+          <series>
+            <title>Grazer Linguistische Studien</title>
+          </series>
+          <biblScope unit="volume">74</biblScope>
+          <biblScope from="7" to="62" unit="pages">7-62</biblScope>
+        </bibl>
+        <bibl type="online">
+          <author ana="marcrelator:aut">
+            <persName>
+              <forename>Elisabeth</forename>
+              <surname>Steiner</surname>
+            </persName>
+          </author>
+          <date when="2009">2009</date>
+          <title>Die Korrespondenz zwischen Charles Baissac und Hugo Schuchardt</title>
+          <series>
+            <title>Hugo Schuchardt Archiv</title>
+            <editor>
+              <forename>Bernhard</forename>
+              <surname>Hurch</surname>
+            </editor>
+          </series>
+          <ref target="http://schuchardt.uni-graz.at/id/letters/1069"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Die Datenmodellierung orientiert sich am <ref
+            target="https://www.deutschestextarchiv.de/doku/basisformat/">DTA-Basisformat</ref>,
+               <ref
+            target="https://www.ediarum.org/">ediarum</ref> und der
+               <ref target="https://github.com/TEI-Correspondence-SIG/correspDesc">CorrespDesc-SIG</ref>.</p>
+        <p>Das auf DTABf-Modellierungsschema wurde für die Zwecke des Projektes angepasst und befindet sich unter <ref target="https://gams.uni-graz.at/o:hsa.odd"/>
+        </p>
+      </editorialDecl>
+      <projectDesc>
+        <ab>
+          <ref target="info:fedora/context:hsa" type="context">Hugo Schuchardt Archiv</ref>
+        </ab>
+        <p>Das Hugo Schuchardt Archiv widmet sich der Aufarbeitung des Gesamtwerks und des Nachlasses von Hugo Schuchardt (1842-1927).
+               Die Onlinepräsentation stellt alle Schriften sowie eine umfangreiche Sekundärbibliografie zur Verfügung.
+               Die Bearbeitung des Nachlasses legt besonderes Augenmerk auf die Erschließung der Korrespondenz,
+               die zu großen Teilen bereits ediert vorliegt, und der Werkmanuskripte.</p>
+      </projectDesc>
+      <listPrefixDef>
+        <prefixDef ident="marcrelator" matchPattern="([a-z]+)" replacementPattern="http://id.loc.gov/vocabulary/relators/$1">
+          <p>Rollen-Taxonomie</p>
+        </prefixDef>
+        <prefixDef ident="dcterms" matchPattern="([a-z]+)" replacementPattern="http://purl.org/dc/terms/$1">
+          <p>Datumstaxonomie</p>
+        </prefixDef>
+        <prefixDef ident="skos" matchPattern="([a-z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1">
+          <p>Thesaurustaxonomie</p>
+        </prefixDef>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc ref="https://gams.uni-graz.at/o:hsa.letter.44">
+        <correspAction type="sent">
+          <persName corresp="https://gams.uni-graz.at/o:hsa.persons#P.1069" ref="https://viaf.org/viaf/228232402">
+            <forename>Charles</forename>
+            <surname>Baissac</surname>
+          </persName>
+          <placeName corresp="https://gams.uni-graz.at/o:hsa.places#PL.41" key="#GID.1" ref="http://sws.geonames.org/934154">Port Louis</placeName>
+          <date when="1882-10-01">1882-10-01</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName corresp="https://gams.uni-graz.at/o:hsa.persons#P.109" ref="https://viaf.org/viaf/261931943">
+            <forename>Hugo</forename>
+            <surname>Schuchardt</surname>
+          </persName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords scheme="cirilo:normalizedPlaceNames">
+          <list>
+            <item>
+              <placeName xml:id="GID.1">
+                <country>Mauritius</country>
+                <settlement>Port Louis</settlement>
+                <name ref="http://geonames.org/934154" type="fcode:PPLC">Port Louis</name>
+                <location>
+                  <geo>57.49889,-20.16194</geo>
+                </location>
+              </placeName>
+            </item>
+          </list>
+        </keywords>
+        <keywords ana="correspondence">
+          <list>
+            <item>
+              <ref target="info:fedora/context:hsa.letters.1069" type="context">
+                        Korrespondenz Charles Baissac - Hugo Schuchardt
+                     </ref>
+            </item>
+            <item>
+              <ref target="info:fedora/context:hsa.letters" type="context">Korrespondenz</ref>
+            </item>
+          </list>
+        </keywords>
+        <keywords scheme="https://gams.uni-graz.at/o:hsa.subjects">
+          <term ref="https://gams.uni-graz.at/o:hsa.subjects#S.4107" type="skos:Concept">
+            <term type="skos:prefLabel" xml:lang="de">Katechismus</term>
+          </term>
+        </keywords>
+        <keywords scheme="https://gams.uni-graz.at/o:hsa.languages">
+          <term ref="https://gams.uni-graz.at/o:hsa.languages#L.346" type="skos:Concept">
+            <term type="skos:prefLabel" xml:lang="de">Französischbasierte Kreolsprache (Mauritius)</term>
+          </term>
+          <term ref="https://gams.uni-graz.at/o:hsa.languages#L.891" type="skos:Concept">
+            <term type="skos:prefLabel" xml:lang="de">Englisch</term>
+          </term>
+        </keywords>
+        <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation">Wissenschaft</classCode>
+        <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation">Sprachwissenschaft</classCode>
+        <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation">Brief</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr">Französisch</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface>
+      <graphic mimeType="image/jpeg" url="info:fedora/o:hsa.letter.44" xml:id="IMG.1">
+        <desc>
+          <ref
+            target="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</ref>, <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons CC BY-NC https://creativecommons.org/licenses/by-nc/4.0/</ref>
+        </desc>
+      </graphic>
+    </surface>
+    <surface>
+      <graphic mimeType="image/jpeg" url="info:fedora/o:hsa.letter.44" xml:id="IMG.2">
+        <desc>
+          <ref
+            target="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</ref>, <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons CC BY-NC https://creativecommons.org/licenses/by-nc/4.0/</ref>
+        </desc>
+      </graphic>
+    </surface>
+    <surface>
+      <graphic mimeType="image/jpeg" url="info:fedora/o:hsa.letter.44" xml:id="IMG.3">
+        <desc>
+          <ref
+            target="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</ref>, <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons CC BY-NC https://creativecommons.org/licenses/by-nc/4.0/</ref>
+        </desc>
+      </graphic>
+    </surface>
+    <surface>
+      <graphic mimeType="image/jpeg" url="info:fedora/o:hsa.letter.44" xml:id="IMG.4">
+        <desc>
+          <ref
+            target="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</ref>, <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons CC BY-NC https://creativecommons.org/licenses/by-nc/4.0/</ref>
+        </desc>
+      </graphic>
+    </surface>
+    <surface>
+      <graphic mimeType="image/jpeg" url="info:fedora/o:hsa.letter.44" xml:id="IMG.5">
+        <desc>
+          <ref
+            target="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</ref>, <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons CC BY-NC https://creativecommons.org/licenses/by-nc/4.0/</ref>
+        </desc>
+      </graphic>
+    </surface>
+    <surface>
+      <graphic mimeType="image/jpeg" url="info:fedora/o:hsa.letter.44" xml:id="IMG.6">
+        <desc>
+          <ref
+            target="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</ref>, <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons CC BY-NC https://creativecommons.org/licenses/by-nc/4.0/</ref>
+        </desc>
+      </graphic>
+    </surface>
+    <surface>
+      <graphic mimeType="image/jpeg" url="info:fedora/o:hsa.letter.44" xml:id="IMG.7">
+        <desc>
+          <ref
+            target="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</ref>, <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons CC BY-NC https://creativecommons.org/licenses/by-nc/4.0/</ref>
+        </desc>
+      </graphic>
+    </surface>
+    <surface>
+      <graphic mimeType="image/jpeg" url="info:fedora/o:hsa.letter.44" xml:id="IMG.8">
+        <desc>
+          <ref
+            target="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</ref>, <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons CC BY-NC https://creativecommons.org/licenses/by-nc/4.0/</ref>
+        </desc>
+      </graphic>
+    </surface>
+    <surface>
+      <graphic mimeType="image/jpeg" url="info:fedora/o:hsa.letter.44" xml:id="IMG.9">
+        <desc>
+          <ref
+            target="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</ref>, <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons CC BY-NC https://creativecommons.org/licenses/by-nc/4.0/</ref>
+        </desc>
+      </graphic>
+    </surface>
+    <surface>
+      <graphic mimeType="image/jpeg" url="info:fedora/o:hsa.letter.44" xml:id="IMG.10">
+        <desc>
+          <ref
+            target="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</ref>, <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons CC BY-NC https://creativecommons.org/licenses/by-nc/4.0/</ref>
+        </desc>
+      </graphic>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div corresp="#L.18" subtype="original" type="appendix" xml:id="L.44" xml:lang="fr">
+        <pb facs="#IMG.1" n="1"/>
+        <p>(1)<note n="1" place="foot" type="editorial">Baissacs originale Seitennummerierung. Bei diesem Kommentar handelt es sich um einige Erklärungen zur Broschüre <bibl>
+              <ref target="https://gams.uni-graz.at/o:hsa.bibliography#BIBL.2293">
+                <hi rend="unknown" rendition="#none"> Scènes Populaires de l’époque, en <ref target="https://gams.uni-graz.at/o:hsa.languages#L.346">patois créole</ref>, par François Chrestien. Imprimerie du Cernéen 1839</hi>
+              </ref>
+
+            </bibl>, die sich unter der Nummer B.11.21.1.6. im Nachlass befindet. Die Erfassung unter derselben Nummer wie die Kommentare zum <ref target="https://gams.uni-graz.at/o:hsa.subjects#S.4107">Katechismus</ref> wie auch die Beschaffenheit des Papiers und die Faltung legen nahe, dass beide zum gleichen Brief gehörten, auch wenn sich im Text selbst kein Hinweis auf den Kommentar findet.</note>
+        </p>
+        <table>
+          <row>
+            <cell>Page</cell>
+            <cell>Ligne</cell>
+            <cell>Catéchisme Créole (catécisse criole)</cell>
+          </row>
+          <row>
+            <cell>1.</cell>
+            <cell>1</cell>
+            <cell>
+              <foreign xml:lang="cpf">
+                <hi rend="unknown" rendition="#none">
+Demande</hi>
+              </foreign> est créole, mais se prononce d<hi rend="unknown" rendition="#none">é</hi>mande {ou d<hi
+                rend="unknown" rendition="#none">
+i</hi>mande<note n="2" place="foot"
+                type="editorial"> Die Variante wurde später unter der Zeile eingefügt, die Klammer soll im Original die Zugehörigkeit zur oberen Zeile andeuten. Zur Herkunft dieses Textes finden sich keine weiteren Informationen bis auf Baissacs Kommentar am Ende.</note>. <foreign xml:lang="cpf">
+                <hi rend="unknown" rendition="#none">
+Réponse</hi>
+              </foreign> est créole.</cell>
+          </row>
+          <row>
+            <cell/>
+            <cell>5.</cell>
+            <cell>
+              <hi rend="unknown" rendition="#none">Ciel</hi>, prend toujours l’article <hi rend="unknown"
+                rendition="#none">léciel</hi> ou <hi rend="unknown" rendition="#none">liciel</hi>
+            </cell>
+          </row>
+          <row>
+            <cell/>
+            <cell/>
+            <cell>
+              <foreign xml:lang="cpf">
+                <hi rend="unknown" rendition="#none">
+Seigneur</hi>
+              </foreign> se prononce <hi rend="unknown" rendition="#none">
+seigneir</hi> comme page 6, ligne 20.</cell>
+          </row>
+          <row>
+            <cell>2</cell>
+            <cell>2</cell>
+            <cell>
+              <hi rend="unknown" rendition="#none">chose</hi> non, mais <foreign xml:lang="cpf">
+                <hi rend="unknown" rendition="#none">çose</hi>
+              </foreign>: <hi rend="unknown" rendition="#none">ch</hi> est <hi rend="unknown"
+                rendition="#none">impossible</hi> en créole; donc <hi rend="unknown"
+                rendition="#none">chimin</hi> p. 6 = <hi rend="unknown" rendition="#none">
+cimin</hi>.</cell>
+          </row>
+          <row>
+            <cell/>
+            <cell>7</cell>
+            <cell>
+              <foreign xml:lang="cpf">
+                <hi rend="unknown" rendition="#none">
+dévré</hi>
+              </foreign> véritable forme conditionnelle. Elle existe couramment aujourd’hui (<foreign
+                  xml:lang="cpf">vous <hi rend="unknown"
+                rendition="#none">
+té</hi> dévré</foreign> = vous devriez,) mais prend l’auxiliaire <foreign xml:lang="cpf">
+                <hi rend="unknown" rendition="#none">
+té</hi>
+              </foreign>. Si le texte est de 1828, le fait est particulièrement original. (Dev<hi rend="unknown"
+                rendition="#none">oir</hi> = <hi rend="unknown" rendition="#none">doit</hi> ou <hi rend="unknown"
+                rendition="#none">doitte</hi>. Ex <foreign xml:lang="cpf">
+                <hi rend="unknown" rendition="#none">Li doitte laboutique</hi>
+              </foreign>. Il a des dettes. Il prend les auxiliaires; ainsi, <foreign xml:lang="cpf">
+                <hi rend="unknown" rendition="#none">mo va doit toi</hi>
+              </foreign> = je te devrai; <foreign xml:lang="cpf">
+                <hi rend="unknown" rendition="#none">to té doitte moi</hi>
+              </foreign> = tu me devais, etc.)</cell>
+          </row>
+          <row>
+            <cell/>
+            <cell>18</cell>
+            <cell>
+              <foreign xml:lang="cpf">
+                <hi rend="unknown" rendition="#none">neinque</hi> ou néque</foreign> = ne...que, seulement. <foreign xml:lang="cpf">
+                <hi rend="unknown" rendition="#none">Neinque</hi>
+              </foreign> sonne bien mieux que <foreign xml:lang="cpf">
+                <hi rend="unknown" rendition="#none">
+néque</hi>
+              </foreign> à l’oreille créole.</cell>
+          </row>
+          <row>
+            <cell/>
+            <cell>*4 et 5</cell>
+            <cell>
+              <foreign xml:lang="cpf">
+                <hi rend="unknown" rendition="#none">na pas té va yenna</hi>
+              </foreign>, il n’y aurait rien. Voilà bien le conditionnel constitué comme je l’ai dit p. 30.</cell>
+          </row>
+          <row>
+            <cell/>
+            <cell>19.</cell>
+            <cell>
+              <foreign xml:lang="cpf">
+                <hi rend="unknown" rendition="#none">pour nous capave rende service,</hi>
+              </foreign> pour que nous puissions nous rendre utiles. L’expression a bien la saveur des anciens jours.</cell>
+          </row>
+          <row>
+            <cell>3</cell>
+            <cell>5</cell>
+            <cell>
+              <foreign xml:lang="cpf">
+                <hi rend="unknown" rendition="#none">à cote</hi>
+              </foreign>, c’est le vrai créole, antérieur au moderne ‘où’ p. 63.</cell>
+          </row>
+          <row>
+            <cell/>
+            <cell>9.</cell>
+            <cell>
+              <hi rend="unknown" rendition="#none">zanges</hi>, non, mais <foreign xml:lang="cpf">zanzes</foreign>: <hi
+                rend="unknown" rendition="#none">g</hi> impossible (au son de <hi rend="unknown" rendition="#none">j</hi>.)</cell>
+          </row>
+          <row>
+            <cell/>
+            <cell>11.</cell>
+            <cell>
+              <hi rend="unknown" rendition="#none">condition,</hi> bien créole dans cet emploi de mot.</cell>
+          </row>
+          <row>
+            <cell/>
+            <cell>13</cell>
+            <cell>
+              <hi rend="unknown"
+                rendition="#none">zote tous content camrades.</hi> Ils s’aiment les uns les autres. La périphrase est essentiellement créole pour rendre l’idée de réciprocité. On dirait probablement aujourd’hui: <foreign
+                  xml:lang="cpf">“<hi rend="unknown" rendition="#none">zote tout content eine à laute</hi>.’</foreign>
+            </cell>
+          </row>
+          <row>
+            <cell>4</cell>
+            <cell>1</cell>
+            <cell>
+              <foreign xml:lang="cpf">
+                <hi rend="unknown" rendition="#none">
+diables,</hi>
+              </foreign> se prononce <hi rend="unknown" rendition="#none">
+diabe</hi>: <hi rend="unknown"
+                rendition="#none">ble</hi> final impossible. Ainsi <foreign xml:lang="cpf">‘mo va péye toi dou<hi
+                  rend="unknown" rendition="#none">b</hi>e’</foreign> je te payerai double; mais <foreign
+                  xml:lang="cpf">‘ça latouéle la fai<hi rend="unknown" rendition="#none">
+b</hi>e, li bisoin dou<hi
+                  rend="unknown" rendition="#none">
+blé</hi>’</foreign> cette toile est faible, il faut la doubler.</cell>
+          </row>
+          <pb facs="#IMG.2" n="2"/>
+          <row>
+            <cell>Page</cell>
+            <cell>Ligne</cell>
+            <cell/>
+          </row>
+          <row>
+            <cell>4</cell>
+            <cell>4.</cell>
+            <cell>
+              <foreign xml:lang="cpf">
+                <hi rend="unknown" rendition="#none">
+son</hi>
+              </foreign> emploi emphatique de l’adjectif possessif. Je l’ai signalé p. 14.</cell>
+          </row>
+          <row>
+            <cell/>
+            <cell>13</cell>
+            <cell>
+              <foreign xml:lang="cpf">
+                <hi rend="unknown" rendition="#none">
+conné</hi>
+              </foreign>, de même plus bas; mais à la dernière ligne de la page 6. ‘<foreign xml:lang="cpf">
+                <hi rend="unknown" rendition="#none">conne lire</hi>
+              </foreign>’<lb/> Ici l’accent <hi rend="unknown" rendition="#none">é</hi> conservé pour mieux souligner.</cell>
+          </row>
+          <row>
+            <cell/>
+            <cell>13</cell>
+            <cell>
+              <foreign xml:lang="cpf">
+                <hi rend="unknown" rendition="#none">cé qui,</hi>
+              </foreign> plus souvent <foreign xml:lang="cpf">
+                <hi rend="unknown" rendition="#none">ça qui</hi>
+              </foreign>
+            </cell>
+          </row>
+          <row>
+            <cell/>
+            <cell>15</cell>
+            <cell>
+              <foreign xml:lang="cpf">
+                <hi rend="unknown" rendition="#none">
+zotre,</hi>
+              </foreign> bien plutôt <foreign xml:lang="cpf">
+                <hi rend="unknown" rendition="#none">zote; montre</hi>
+              </foreign> plutôt <foreign xml:lang="cpf">
+                <hi rend="unknown" rendition="#none">
+monte</hi>
+              </foreign>
+            </cell>
+          </row>
+          <row>
+            <cell>5</cell>
+            <cell>2</cell>
+            <cell>
+              <foreign xml:lang="cpf">
+                <hi rend="unknown" rendition="#none">coume ça,</hi>
+              </foreign> sonne créole bien mieux que <hi rend="unknown" rendition="#none">comme ça; <foreign xml:lang="cpf">coument</foreign>
+              </hi> meilleur que <hi rend="unknown" rendition="#none">coment.</hi>
+            </cell>
+          </row>
+          <row>
+            <cell/>
+            <cell>10</cell>
+            <cell>
+              <hi rend="unknown" rendition="#none">péchés</hi>, impossible, mais <foreign xml:lang="cpf">
+                <hi rend="unknown" rendition="#none">
+pécés</hi>
+              </foreign>
+            </cell>
+          </row>
+          <row>
+            <cell/>
+            <cell>16</cell>
+            <cell>
+              <hi rend="unknown" rendition="#none">langage</hi>, impossible, mais <foreign xml:lang="cpf">
+                <hi rend="unknown" rendition="#none">
+langaze</hi>
+              </foreign>
+            </cell>
+          </row>
+          <row>
+            <cell/>
+            <cell>16</cell>
+            <cell>
+              <foreign xml:lang="cpf">
+                <hi rend="unknown" rendition="#none">
+nation</hi>
+              </foreign>, c’est le seul mot créole pour ‘peuple’. <hi rend="unknown"
+                rendition="#none">Nation</hi> a aujourd’hui conquis une acception que le français ignore profondément: “<foreign
+                  xml:lang="cpf">Ça malbar la napas voulé manze lavianne bèf, li peir perdi so <hi rend="unknown"
+                rendition="#none">nation</hi>.</foreign> Ce malabar ne veut pas manger de viande de bœuf, il a peur de perdre sa ‘<hi
+                rend="unknown" rendition="#none">caste’</hi>.”</cell>
+          </row>
+          <row>
+            <cell/>
+            <cell>19</cell>
+            <cell>
+              <foreign xml:lang="cpf">
+                <hi rend="unknown" rendition="#none">
+zotre</hi>
+              </foreign> ‘Ils’ ou bien ‘d’autres’? mais plutôt ‘ils’; au sens de ‘d’autres’ ce serait <foreign xml:lang="cpf">
+                <hi rend="unknown" rendition="#none">lautre</hi>
+              </foreign> ou <foreign xml:lang="cpf">
+                <hi rend="unknown" rendition="#none">laute</hi>
+              </foreign>, en bon créole.</cell>
+          </row>
+          <row>
+            <cell/>
+            <cell>20</cell>
+            <cell>
+              <hi rend="unknown" rendition="#none">Jesus,</hi> impossible, mais <foreign xml:lang="cpf">
+                <hi rend="unknown" rendition="#none">
+Zézé.</hi>
+              </foreign>
+            </cell>
+          </row>
+          <row>
+            <cell>6</cell>
+            <cell>2</cell>
+            <cell>
+              <foreign xml:lang="cpf">
+                <hi rend="unknown" rendition="#none">ide nous</hi>
+              </foreign>, nous aider. <hi rend="unknown"
+                rendition="#none">
+Ide</hi> est de la bonne vieille langue. J’entends encore <foreign xml:lang="cpf">
+                <hi rend="unknown" rendition="#none">aïde-moi</hi>
+              </foreign>, pour aide-moi, tout comme dans les mystères de Raoul Gréban ou de Jehan Michel<note n="3"
+                place="foot" type="editorial">
+                <persName>
+
+Raoul Gréban</persName> und <persName>
+
+Jehan Michel</persName>, Autoren mittelalterlicher französischer Passions- und Mysterienspiele (vgl. <bibl>
+                  <ref target="https://gams.uni-graz.at/o:hsa.bibliography#BIBL.2165">
+Voicu 2002</ref>
+
+                </bibl>).</note>; mais nos vieux noirs ont seuls conservé cette prononciation archaïque, les jeunes disent <hi
+                rend="unknown" rendition="#none">aide-moi</hi>.</cell>
+          </row>
+          <row>
+            <cell>(5</cell>
+            <cell>(13</cell>
+            <cell>
+              <foreign xml:lang="cpf">
+                <hi rend="unknown" rendition="#none">li ti vini la haut;</hi>
+              </foreign> li ti vin<hi rend="unknown" rendition="#none">e</hi> la haut, <hi rend="unknown" rendition="#none">i</hi> souligne.)</cell>
+          </row>
+          <row>
+            <cell>6</cell>
+            <cell>8</cell>
+            <cell>
+              <hi rend="unknown" rendition="#none">Bible, = <foreign xml:lang="cpf">
+Bibe</foreign>
+              </hi> de même <hi rend="unknown" rendition="#none">entre, montre = <foreign xml:lang="cpf">ente, monte</foreign>
+              </hi>, etc</cell>
+          </row>
+          <row>
+            <cell/>
+            <cell>16</cell>
+            <cell>
+              <hi rend="unknown" rendition="#none">Esprit</hi>, n’est pas créole, c’est bien <foreign xml:lang="cpf">Siprit</foreign> comme p. 7. ligne 2.</cell>
+          </row>
+          <row>
+            <cell/>
+            <cell>17</cell>
+            <cell>Consolateur = consolatère dans la prononciation créole s’entend, car le mot n’existe ni ne peut exister dans le créole.</cell>
+          </row>
+          <row>
+            <cell/>
+            <cell>18</cell>
+            <cell>
+              <foreign xml:lang="cpf">
+                <hi rend="unknown" rendition="#none">Quand zote fine conne lire</hi>
+              </foreign> au lieu de <hi rend="unknown" rendition="#none">
+quand zote va fine conne lire</hi>; suppression </cell>
+          </row>
+        </table>
+        <pb facs="#IMG.3" n="3"/>
+        <note n="4" place="foot" type="editorial"> Nach diesem Seitenumbruch gibt Baissac die Schreibung in der Tabelle weitgehend auf und verwendet herkömmlichen Fließtext. Diese sind durch hochgestellte Zahlen und Unterstreichung im Text gekennzeichnet.</note>
+        <p>de l’auxiliaire <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">
+va</hi>
+          </foreign> du futur antérieur, l’idée future étant rendue manifeste par le futur simple qui suit: <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">
+mo va montre zote</hi>
+          </foreign>. De même, page 2. ligne 5, l’auxiliaire <hi rend="unknown"
+            rendition="#none">va</hi> supprimé au conditionnel (<foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">qui ti vivant</hi>
+          </foreign> au lieu de <hi rend="unknown"
+            rendition="#none">qui ti va vivant</hi>) le mode étant suffisamment marqué par le verbe qui précède: <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">napas té va yenna narien</hi>
+          </foreign>, il n’y aurait rien (donc ‘qui <hi rend="unknown"
+            rendition="#none">serait</hi> vivant.) Remarquiez page 6. ligne 11: “<foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">qui a montre nous bon cimin</hi>
+          </foreign>, au lieu de <hi rend="unknown"
+            rendition="#none">qui va montre nous</hi>. J’ai indiqué le fait p. 123 à la note. Remarquez dans tout le morceau l’emploi bien créole du mot <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">meme</hi>
+          </foreign>, comme particule confirmative.</p>
+        <p>En somme la pièce est du meilleur créole que j’aie jamais vu imprimé, et je regrette bien de ne l’avoir pas connue lors de la composition de mon livre dans la seconde édition duquel elle trouvera place, si qua fata sinant!</p>
+        <p>Il semble que l’orthodoxie du bon abbé Déroullède, auteur du catéchisme, n’ait pu se résigner à habiller à la créole nombre de mots dont la physionomie trop française fait disparate dans son texte: Seigneur, ciel, zanges, diables, péchés, Emmanuel, Jesus Christ, La Bible, bon chimin, Saint Esprit, Consolateur, autant de sons impossibles, à nos organes, pour lesquels ces mots là sont taboués.</p>
+        <p>Je vous traduis la pièce, non que le sens puisse vous arrêter; mais si vous aviez besoin de la version française, ce serait une économie de temps pour vous.</p>
+        <p>D. Qui est-ce qui nous a créés, et qui est-ce qui nous fait vivre tous les jours?</p>
+        <p>R. Notre Père qui est au ciel, notre Seigneur qui seul est Dieu, dans le ciel et sur la terre.</p>
+        <p>D. Est-ce Dieu qui crée toutes choses?</p>
+        <p>R. Oui, Dieu crée tout, sans lui il n’y aurait rien de vivant.</p>
+        <p>D. Quels devraient être nos sentiments envers Dieu?</p>
+        <p>R. Nous devrions l’aimer de tout notre cœur, de toute notre âme, de tout notre esprit, de toutes nos forces.</p>
+        <pb facs="#IMG.4" n="4"/>
+        <p>D. Pourquoi Dieu nous a-t-il créés? _ R. Pour que nous devenions ses fils, ses enfants, pour que nous l’aimions, pour que nous aimions à faire le bien comme Il n’aime qu’à faire le bien, et pour que nous puissions devenir utiles et conquérir le bonheur par nos bonnes œuvres.</p>
+        <p>D. Vivrons-nous toujours sur la terre où nous sommes à présent? _ R. Non, nous quitterons un jour cette terre, et si nous sommes bons, nous vivrons comme les anges dans le ciel.</p>
+        <p>D. Qu’est-ce que le ciel? _ R. Le ciel, c’est l’état où vivent les anges; ils s’aiment tous les uns les autres, et sont tous heureux auprès de leur Père qui est dans le Ciel.</p>
+        <p>D. Et si nous ne sommes pas bons, où irons-nous? _ R. Nous irons où sont les diables et les mauvais esprits, dans l’enfer.</p>
+        <p>D. Qu’est-ce que l’enfer? _ R. L’enfer, c’est l’état dans lequel vivent les diables et les mauvais esprits; ils ne peuvent rester avec les bons; ils se sauvent loin de leur Père qui est au ciel.</p>
+        <p>D. Comment pouvons-nous devenir bons? _ R. Nous pouvons devenir bons en sachant ce que Dieu a dit aux hommes pour les éclairer; puis en faisant ce que nous savons que Dieu nous a dit de faire pour notre bonheur.</p>
+        <p>D. Qui nous donnera la force de vivre ainsi? _ R. C’est Notre Père qui est au ciel, qui est venu sur la terre, qui a permis aux hommes de le voir dans un corps semblable au corps de l’homme, et qui ainsi a fait ce qu’il fallait pour effacer nos péchés.</p>
+        <p>D. Comment les hommes ont-ils appelé Dieu quand il est venu sur la terre? _ R. On l’appela Emmanuel, et ce nom dans la langue du peuple qui le vit, veut dire ‘Dieu est toujours avec nous’; puis ils l’appelèrent ‘Notre Seigneur Jésus Christ’.</p>
+        <p>D. Comment peut-il nous aider à effacer nos péchés, maintenant qu’on ne peut plus le voir? _ Par la parole qu’il a dite et que nous pouvons connaître si nous avons appris à lire La Bible, et par son esprit qui pénètre dans notre âme, pour nous faire comprendre sa parole qui nous enseignera le bon chemin.</p>
+        <p>D. Comment appelez-vous cet esprit là? _ R. Nous l’appelons S<hi rendition="#sup">t</hi>. Esprit, ou bien celui qui nous soulage, Consolateur. Fin.*</p>
+        <p>Quand vous aurez appris à lire je vous enseignerai autre chose qui est l’esprit même de Jésus Christ ou ce que le Saint Esprit nous a enseigné.</p>
+        <p>*fin = <hi rend="unknown" rendition="#none">finition</hi>.</p>
+        <pb facs="#IMG.5" n="5"/>
+        <p> - Scènes populaires de l’Epoque, en Patois créole – <note n="5" place="foot" type="editorial">Bei diesem Kommentar handelt es sich um einige Erklärungen zur Broschüre <bibl>
+              <ref target="https://gams.uni-graz.at/o:hsa.bibliography#BIBL.2293">
+Scènes Populaires de l’époque, en patois créole, par François Chrestien. Imprimerie du Cernéen 1839</ref>
+            </bibl>, die sich unter der Nummer B.11.21.1.6. im Nachlass befindet. Die Erfassung unter derselben Nummer wie die Kommentare zum Katechismus wie auch die Beschaffenheit des Papiers und die Faltung legen nahe, dass beide zum gleichen Brief gehörten, auch wenn sich im Text selbst kein Hinweis auf den Kommentar findet.</note>
+        </p>
+        <p>Cela est écrit par un homme qui ne savait pas la langue. Voici néanmoins quelques observations sommaires.</p>
+        <p>Un coin de feu à la Campagne –</p>
+        <p>p. 5. <hi rend="unknown" rendition="#none">moi, toi</hi> employés comme sujets, c’est toujours <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">mo, to</hi>
+          </foreign>
+        </p>
+        <p>
+          <hi rend="unknown" rendition="#none">qui fini cassé son pipe</hi>; non mais <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">qui fine casse son pipe</hi>
+          </foreign>
+        </p>
+        <p>p. 6 <hi rend="unknown" rendition="#none">eine côté moi bien aise</hi>, ce n’est pas créole</p>
+        <p>
+          <hi rend="unknown" rendition="#none">Diable</hi>! cette interjection n’est pas créole.</p>
+        <p>
+          <hi rend="unknown" rendition="#none">çiplique</hi>-moi: pas créole</p>
+        <p>
+          <hi rend="unknown" rendition="#none">tout d’site</hi> non, mais <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">toutsite</hi>
+          </foreign>.</p>
+        <p>
+          <hi rend="unknown" rendition="#none">été</hi> non, mais <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">té</hi>
+          </foreign> ou <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">ti</hi>
+          </foreign>.</p>
+        <p>p. 7. <hi rend="unknown" rendition="#none">dormi</hi>, c’est <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">dourmi</hi>
+          </foreign>
+        </p>
+        <p>
+          <hi rend="unknown" rendition="#none">Faire vous consolé</hi>, ce n’est pas créole.</p>
+        <p>
+          <hi rend="unknown" rendition="#none">allez-vous causé ensemble</hi>, pas créole mais <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">alle cause ensembe</hi>
+          </foreign>
+        </p>
+        <p>
+          <hi rend="unknown" rendition="#none">sivre la zistice</hi>. pas créole</p>
+        <p>
+          <hi rend="unknown"
+            rendition="#none">faire...vous devoirs</hi>, pas créole, le mot n’est possible qu’au sens concret; on dirait à un écolier ‘<foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">alle faire vous dévoirs</hi>
+          </foreign>.’</p>
+        <p> - La Veillée de Village – </p>
+        <p>p 10 <hi rend="unknown" rendition="#none">besoin</hi>, non mais <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">bisoin</hi>
+          </foreign>
+        </p>
+        <p>p 11. <hi rend="unknown" rendition="#none">Dié merci</hi>, n’est pas créole</p>
+        <p>
+          <hi rend="unknown" rendition="#none">ciruziens</hi>, c’est <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">sourzins</hi>
+          </foreign> ou <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">sourziens</hi>
+          </foreign>
+        </p>
+        <p>
+          <hi rend="unknown" rendition="#none">Travaille zautres tous bien</hi>, ce n’est pas une construction créole</p>
+        <p>
+          <hi rend="unknown" rendition="#none">souvini zautres</hi>, pas davantage.</p>
+        <p>p 12 <hi rend="unknown" rendition="#none">camarades</hi> non, mais <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">camrades</hi>
+          </foreign>
+        </p>
+        <p>
+          <hi rend="unknown" rendition="#none">et qui dire li comme ça</hi>, il faut <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">qui dire zaute</hi>
+          </foreign>
+        </p>
+        <pb facs="#IMG.6" n="6"/>
+        <p>p 12. <hi rend="unknown" rendition="#none">qui faire vous allé fatigue vous</hi>, le créole dirait <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">fatigue vous lécorps</hi>
+          </foreign>.</p>
+        <p>
+          <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">quand li voulé gagné son l’arzent</hi>
+          </foreign>. partout ici au lieu de <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">li</hi>
+          </foreign>, toujours singulier, il faudrait le pluriel <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">
+zaute</hi>
+          </foreign>.</p>
+        <p>
+          <hi rend="unknown" rendition="#none">l’arzent di mois</hi> n’est pas créole, mais <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">larzent zot lémois</hi>
+          </foreign>.</p>
+        <p>
+          <hi rend="unknown" rendition="#none">Ma foi</hi>, l’exclamation n’est pas créole, pas plus que <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">
+sacristi</hi>
+          </foreign>.</p>
+        <p>
+          <hi rend="unknown" rendition="#none">c’est qui</hi>, moins créole encore</p>
+        <p>
+          <hi rend="unknown" rendition="#none">ça lé nom-là</hi>. pourquoi pas <hi rend="unknown" rendition="#none">substantif</hi>, ce serait d’aussi bonne langue.</p>
+        <p> - Pierrot dans les embarras de la paternité – </p>
+        <p>p. 14 <hi rend="unknown" rendition="#none">marié-moi</hi> pas créole, mais <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">marié</hi>
+          </foreign> tout court. <hi rend="unknown" rendition="#none">sorti</hi> est <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">sourti</hi>
+          </foreign>
+        </p>
+        <p>
+          <hi rend="unknown" rendition="#none">pourtant</hi> est peu créole nonobstant.</p>
+        <p>
+          <hi rend="unknown" rendition="#none">travaille dans l’habitation</hi>, supprimer <hi rend="unknown" rendition="#none">dans</hi>
+        </p>
+        <p>
+          <hi rend="unknown" rendition="#none">cercé</hi> à la rigueur, mais bien plutôt <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">
+rôdé</hi>
+          </foreign>
+        </p>
+        <p>
+          <hi rend="unknown" rendition="#none">pét-être</hi>, c’est <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">pitéte</hi>
+          </foreign>
+        </p>
+        <p>
+          <hi rend="unknown" rendition="#none">autant lassés</hi>, c’est <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">si tant lassé</hi>
+          </foreign>.</p>
+        <p>p. 15 crivains?</p>
+        <p>C’est franchement mauvais et ne ressemble à rien. La façon dont l’auteur écrit le français donne une idée juste de son savoir faire en créole.</p>
+        <p>Il n’y a qu’un mot à prendre dans toute la brochure: <hi rend="unknown"
+            rendition="#none">Avant to touque to</hi> paquet. <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">Touquer</hi>
+
+          </foreign> = prendre par terre quelque chose de lourd ou de difficile à lever. C’est un bon vieux mot qui dit beaucoup dans sa concision. Je doute que ce soit <ref target="https://gams.uni-graz.at/o:hsa.languages#L.891">l’anglais</ref>
+          <foreign xml:lang="en">
+            <hi rend="unknown" rendition="#none">took</hi>
+          </foreign> de <foreign xml:lang="en">
+            <hi rend="unknown" rendition="#none">to take</hi>
+          </foreign>, car il est certainement antérieur à l’influence anglaise sur notre idiome. </p>
+        <pb facs="#IMG.7" n="7"/>
+
+        <p>Un blanc rencontre un noir qui tout en cheminant, danse et chante en s’accompagnant sur une façon de tambour de basque.<note
+            n="6" place="foot" type="editorial">Zur Herkunft dieses Textes finden sich keine weiteren Informationen bis auf Baissacs Kommentar am Ende.</note>
+        </p>
+        <p>Le blanc. _ Vous bien content donc, papa?<note n="7" place="foot"
+              type="editorial">
+Für den Gebrauch von papa vgl. <ref target="https://gams.uni-graz.at/o:hsa.letter.124#_ftnref8">HSA 00426 Fußnote 8</ref>.</note>
+        </p>
+        <p>Le noir. _ . he! hé! pourquoi moi n’a pas content?</p>
+        <p>B. _ Qui bon nouvelle donc faire vous content comme ça?</p>
+        <p>N. _ Ah bin! moi connais nouvelle moi? moi content comme ça même.</p>
+        <p>B. _ Où vous couri, papa?</p>
+        <p>N. _ Moi couri bitation, donc.</p>
+        <p>B. _ Vous maître li bon, hem papa?</p>
+        <p>N. _ Ah!... oui va, li bon.</p>
+        <p>B. _ Vous n’a pas gagné coups de fouette?</p>
+        <p>N. _ Coups de fouette! di monde faire son l’ouvrage, li gagné coups de fouette! moi n’a pas volor, moi; moi n’a pas marron, pourquoi moi gagné coups de fouette?</p>
+        <p>B. _ Vous gagné bien manzé, papa?</p>
+        <p>N. _ Moi gagné mayoc, moi gagné maye.</p>
+        <p>B. _ Ça même?</p>
+        <p>N. _ Qui encore va gagné?</p>
+        <p>B. _ Vous manzé mayoc sec, donc?</p>
+        <p>N. _ Ah! bien, moi ramass<hi rend="unknown" rendition="#none">e</hi>
+          <hi rendition="#sup">
+1.</hi> bredes. A soir n’a pas couri la pesse? moi gagné posson, gagné sévrettes. N’a pas zardin? gagné zanimaux, gagné bananes.</p>
+        <p>B. _ Mais, papa, vous n’a pas cimise, don? vous n’a pas Kilotte, n’a rien?</p>
+        <p>N. _ Si fait va, la case moi y en a.</p>
+        <p>B. _ Qui donn<hi rend="unknown" rendition="#none">e</hi>
+          <hi rendition="#sup">2</hi> vous ça?</p>
+        <p>N. _ Quéque fois Msié li donné, quéquefois moi assetté.</p>
+        <pb facs="#IMG.8" n="8"/>
+        <p>B. _ Où vous gagné l’arzent pour assetté?</p>
+        <p>N. _ hé hé! vandé cosson, vendé tabac; dimanse travaill<hi rend="unknown" rendition="#none">e</hi>
+          <hi rendition="#sup">3</hi> pour di monde.</p>
+        <p>B. _ Mais, papa, quand vous malade, qui sogn<hi rend="unknown" rendition="#none">
+e</hi>
+          <hi rendition="#sup">4</hi> vous?</p>
+        <p>N. _ Ah! bien, n’a pas l’optal? n’a pas sourzin?</p>
+        <p>B. _ Vous noir bitation, ou bien vous commandor?</p>
+        <p>N. _ Moi noir bitation.</p>
+        <p>B. _ Vous n’a pas envie vini commandor?</p>
+        <p>N. _ Ma foi non, moi n’a pas bisoin ça, moi.</p>
+        <p>B. _ Papa, vous y en a femme, ou bien vous soldar?</p>
+        <p>N. _ Moi y en a femme.</p>
+        <p>B. _ Li zoli vous femme?</p>
+        <p>N. _ hé hé ......blanc là!</p>
+        <p>B. _ Dire don, li zoli hein?</p>
+        <p>N. _ Moi trouv<hi rend="unknown" rendition="#none">e</hi>
+          <hi rendition="#sup">4</hi> li zoli, va.</p>
+        <p>B. _ Vous connais bondié, papa?</p>
+        <p>N. _ hé, hé! moi n’a pas connai bondié pour blanc moi, moi connai bondié qui dans mon peye.</p>
+        <p>B. _ Li bon ça bondié là qui dans vous peye, hein?</p>
+        <p>N. _ Y en a ça qui bon, y en a ça qui mauvais.</p>
+        <p>B. _ Vous pour ça bondié là qui mauvais? (ou plutôt vous <hi rend="unknown" rendition="#none">peir</hi>)</p>
+        <p>N. _ Non va; quand ça qui bon li content moi, ça qui mauvais n’a pas capabe faire moi di mal.</p>
+        <p>B. _ Qui li va donné vous ça bondié là qui bon?</p>
+        <p>N. _ Ah bin! li n’a pas donné moi n’a rien: li empess<hi rend="unknown" rendition="#none">e</hi>
+          <hi rendition="#sup">5</hi> moi gagné grand malhor; quand moi mort, li faire moi arriv<hi rend="unknown" rendition="#none">e</hi>
+          <hi rendition="#sup">6</hi> dans mon peye.</p>
+        <pb facs="#IMG.9" n="9"/>
+        <p>B. _ Vous bien content vous peye don, papa?</p>
+        <p>N. _ ha! sourement moi bien content.</p>
+        <p>B. _ Qui meyor, vous peye ou bien Maurice?</p>
+        <p>N. _ hé! Maurice bon, mon peye li bon aussi.</p>
+        <p>B. _ Mais, papa: quand vous capabe quitté Maurice pour allé dans vous peye, vous va allé?</p>
+        <p>N. _ hé hé! moi n’a pas pens<hi rend="unknown" rendition="#none">e</hi>
+          <hi rendition="#sup">
+7</hi> ça, moi. Qui moi va faire dans mon peye? moi n’a pas saclave? (n’y serais-je pas esclave?)</p>
+        <p>B. _ Ah bin! quand vous arriv<hi rend="unknown" rendition="#none">e</hi>
+          <hi rendition="#sup">8</hi> dans vous peye, vous n’a pas libre, donc?</p>
+        <p>N. _ Non va! moi saclave la guerre; quand moi arriv<hi rend="unknown" rendition="#none">e</hi>
+          <hi rendition="#sup">9</hi> là, zaute prend moi encore pour vendé moi. Quand moi mort, moi allé dans mon peye, à vla tout.</p>
+        <p>B. _ Comment zaute faire la guerre dans vous peye?</p>
+        <p>N. _ hé! Msié, li tard, oui, laiss<hi rend="unknown" rendition="#none">e</hi>
+          <hi rendition="#sup">10</hi> moi allé.</p>
+        <p>B. _ Allons, bon soir, papa.</p>
+        <p>N. _ A ça, bonsoir, Msié.</p>
+        <p>B. _ Bon soir.</p>
+        <p>(Séance du 6 Ventôse, an 14.)</p>
+        <p>Remarques. 1° - Le pronom <hi rend="unknown"
+            rendition="#none">moi</hi> qui devant le verbe, en fonction de sujet, est <hi rend="unknown"
+              rendition="#none">toujours <foreign xml:lang="cpf">mo</foreign>
+          </hi> aujourd’hui, est partout moi dans cette pièce.</p>
+        <p>2° - L’<hi rend="unknown" rendition="#none">é</hi> du verbe que la prononciation change <hi rend="unknown"
+            rendition="#none">toujours</hi> aujourd’hui en <hi rend="unknown"
+            rendition="#none">e</hi> muet quand le verbe n’est pas le dernier mot de la proposition, persiste ici presque partout. Je souligne 10 cas<note
+            n="8" place="foot" type="editorial">Diese sind durch hochgestellte Zahlen und Unterstreichung im Text gekennzeichnet.</note> où le verbe se comporte comme dans l’usage actuel; - c’était sans doute un acheminement vers la loi existante.</p>
+        <p>3° - Pas une forme conditionnelle; le futur ou le présent.</p>
+        <p>4° - Nulle part la forme interrogative esqui (est-ce que); l’inflexion de la voix y supplée.</p>
+        <p>5° - Un mot bien pittoresque: soldar (soldat) pour ‘célibataire’. Cela se passe de commentaire. </p>
+        <pb facs="#IMG.10" n="10"/>
+        <p>Cette pièce aurait une bien autre valeur si elle était de la main même de T. Pitot; mais ce n’est qu’une copie insérée dans les procès-verbaux de la “Société d’émulation de l’isle de France” par un secrétaire dont l’insuffisance et la maladresse se révèlent à chaque page de son registre. Quoi qu’il en soit, ce morceau est probablement le plus ancien texte créole qui existe; il est pour nous d’un haut intérêt.</p>
+        <p>Le Noir de notre dialogue est un <placeName
+            ref="https://gams.uni-graz.at/o:hsa.places#PL.550">Mozambique</placeName>. Il a pour tout costume un langouti<note
+            n="9" place="foot" type="editorial"> „Indian male garment consisting of a piece of cloth worn around the hips“ (<bibl>
+              <ref target="https://gams.uni-graz.at/o:hsa.bibliography#BIBL.2295">Chaudenson 2001</ref>
+            </bibl>: 281), also anscheinend eine Art Lendenschurz.</note>. Il est né sur la Grand Terre et n’est à Maurice que depuis quelques années. Dans la langue qu’il lui fait parler, T. Pitot a-t-il quelque intention d’indiquer cette nuance? Je serais presque tenté de le croire.</p>
+        <p>Il y a deux mots: ‘<foreign xml:lang="cpf">sourement</foreign>’ et ‘<foreign xml:lang="cpf">ma foi</foreign>’ qui sonnent bien peu le créole, le dernier surtout.</p>
+      </div>
+    </body>
+  </text>
+</TEI>
+<?xml-model href="https://gams.uni-graz.at/o:hsa.odd/RNG" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://gams.uni-graz.at/o:hsa.odd/RNG" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>

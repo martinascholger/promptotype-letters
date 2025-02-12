@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://gams.uni-graz.at/o:hpe.odd/RNG" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://gams.uni-graz.at/o:hpe.odd/RNG" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_48">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="de">Karl August Böttiger an Joseph von Hammer-Purgstall</title>
+            <title type="sub" xml:lang="de">Weimar, 07.12.1798</title>
+            <title type="main" xml:lang="en">Karl August Böttiger to Joseph von Hammer-Purgstall</title>
+            <title type="sub" xml:lang="en">Weimar, 07.12.1798</title>
+            <author ana="marcrelator:aut">
+               <persName ref="https://gams.uni-graz.at/o:hpe.persons#P.91">
+                  <forename>Karl August</forename>
+                  <surname>Böttiger</surname>
+               </persName>
+            </author>
+            <respStmt ana="marcrelator:trc">
+               <resp>Transcription</resp>
+               <persName>
+                  <forename>Rudolf</forename>
+                  <surname>Payer von Thurn</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:trc">
+               <resp>Transcription</resp>
+               <persName>
+                  <forename>Gerit</forename>
+                  <surname>Koitz-Arko</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:edt">
+               <resp>Edition</resp>
+               <persName ref="WH">
+                  <forename>Walter</forename>
+                  <surname>Höflechner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:pfr">
+               <resp>Proofreading</resp>
+               <persName ref="WH">
+                  <forename>Walter</forename>
+                  <surname>Höflechner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mrk">
+               <resp>Textprocessing</resp>
+               <persName ref="AW">
+                  <forename>Alexandra</forename>
+                  <surname>Wagner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mrk">
+               <resp>TEI Encoding</resp>
+               <persName xml:id="SSt">
+                  <forename>Sabrina</forename>
+                  <surname>Strutz</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mrk">
+               <resp>TEI Encoding</resp>
+               <persName>
+                  <forename>Johanna</forename>
+                  <surname>Ofenauer</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mrk">
+               <resp>TEI Encoding</resp>
+               <persName>
+                  <forename>Alexandra</forename>
+                  <surname>Wagner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mdc">
+               <resp>Metadata Management</resp>
+               <persName>
+                  <forename>Elisabeth</forename>
+                  <surname>Steiner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mdc">
+               <resp>Metadata Management</resp>
+               <persName>
+                  <forename>Melanie</forename>
+                  <surname>Frauendorfer</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName ref="https://d-nb.info/gnd/10182836-6"
+                        corresp="https://wissenschaftsgeschichte.uni-graz.at/de/">Zentrum für
+                            Wissenschaftsgeschichte </orgName>
+            </publisher>
+            <authority ana="marcrealator:his">
+               <orgName ref="https://d-nb.info/gnd/1137284463"
+                        corresp="https://digital-humanities.uni-graz.at">Institut für Digitale
+                            Geisteswissenschaften</orgName>
+            </authority>
+            <distributor ana="marcrelator:rps">
+               <orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches
+                            Asset Management System</orgName>
+            </distributor>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc/4.0/">Creative
+                            Commons BY-NC 4.0</licence>
+            </availability>
+            <date when="2025" ana="dcterms:issued">2025</date>
+            <pubPlace ana="marcrelator:pup">Graz</pubPlace>
+            <idno type="PID">o:hpe.letter.48</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://gams.uni-graz.at/context:hpe">Joseph von Hammer-Purgstall.
+                        Korrespondenz</title>
+            <title>Extended and revised version of <ref corresp="#Hoeflechner_2018">Höflechner, Wagner, and Koitz-Arko 2018</ref>
+            </title>
+            <respStmt ana="marcrelator:edt">
+               <resp>Editor</resp>
+               <persName xml:id="MS">
+                  <forename>Martina</forename>
+                  <surname>Scholger</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:edt">
+               <resp>Editor</resp>
+               <persName xml:id="WH">
+                  <forename>Walter</forename>
+                  <surname>Höflechner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:edt">
+               <resp>Editor</resp>
+               <persName xml:id="AW">
+                  <forename>Alexandra</forename>
+                  <surname>Wagner</surname>
+               </persName>
+            </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <bibl xml:id="Hoeflechner_2018">Hammer-Purgstall, Joseph von: Erinnerungen,
+                        Briefe, Materialien. Bd. 2. Hrsg. von Walter Höflechner, Alexandra Wagner
+                        und Gerit Koitz-Arko. Publikationen aus dem Archiv der Universität Graz, Bd.
+                        46, hrsg. von Alois Kernbauer. 2. Version. Graz: Akademische Druck- u.
+                        Verlagsanstalt, 2018. ISBN 978-3-201-02030-5.</bibl>
+            <bibl>PvTh Briefe Bö 26f.<idno>Payer von Thurn, Rudolf; „Briefwechsel zwischen C. A.
+                        Böttiger und Joseph von Hammer“, in: Chronik des Wiener Goethe-Vereins 36
+                        (1930) 13–40</idno>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Steiermärkisches Landesarchiv</repository>
+                  <collection>Schlossarchiv Hainfeld (SAH)</collection>
+                  <idno>Karton 5 / Heft 99</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="de">Die Joseph von <title>Hammer-Purgstall Korrespondenz</title>
+                        widmet sich der Umsetzung der Korrespondenz des österreichischen
+                        Orientalisten Joseph von Hammer-Purgstall (1774–1856) als digitale Edition.
+                        Die Korrespondenz ist ein eindrucksvolles Zeugnis seines weitreichenden
+                        wissenschaftlichen Dialogs und seiner zentralen Rolle in der Orientalistik.
+                        Sie erstreckt sich über ganz Europa bis in die USA und nach Indien und
+                        stellt eine unersetzliche Quelle für die Geschichte der Orientalistik dar.
+                        Ausgehend von den im Jahr 2018 in <ref target="https://gams.uni-graz.at/archive/objects/o:hpe.band2/methods/sdef:TEI/get">fünf Bänden</ref> sowohl in gedruckter als auch als <ref target="https://gams.uni-graz.at/archive/objects/o:hpe.band2/methods/sdef:TEI/get">PDF-Version</ref> publizierten Briefen entsteht hier eine auf dem
+                        Standard der Text Encoding Initiative basierende digitale Edition, die
+                        kontinuierlich durch neue Briefe erweitert wird.</p>
+            <p xml:lang="en">The Joseph von <title>Hammer-Purgstall Correspondence</title>
+                        is dedicated to implementing the correspondence of Austrian Orientalist
+                        Joseph von Hammer-Purgstall (1774-1856) as a digital edition. The
+                        correspondence is an impressive testament to his far-reaching scholarly
+                        dialogue and his central role in Oriental studies. It extends across Europe
+                        to the USA and India and represents an irreplaceable source for the history
+                        of Oriental studies. Based on the letters published in 2018 in <ref target="https://gams.uni-graz.at/archive/objects/o:hpe.band2/methods/sdef:TEI/get">five volumes</ref> in both printed and <ref target="https://gams.uni-graz.at/archive/objects/o:hpe.band2/methods/sdef:TEI/get">PDF format</ref>, a digital edition based on the Text Encoding
+                        Initiative standard is being created here, which is continuously expanded
+                        with new letters.</p>
+            <ab>
+               <ref target="context:hpe" type="context">Joseph von Hammer-Purgstall.
+                            Korrespondenz</ref>
+               <ref target="context:hpe.letters" type="context">Korrespondenz</ref>
+               <ref target="context:hpe.letters.91" type="context">Korrespondenz Böttiger, Karl August  - Hammer-Purgstall, Joseph von</ref>
+            </ab>
+         </projectDesc>
+         <listPrefixDef>
+            <prefixDef ident="marcrelator"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="http://id.loc.gov/vocabulary/relators/$1">
+               <p>Taxonomie Rollen MARC</p>
+            </prefixDef>
+            <prefixDef ident="dcterms"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="http://purl.org/dc/terms/$1">
+               <p>DCterms</p>
+            </prefixDef>
+         </listPrefixDef>
+         <tagsDecl>
+            <rendition xml:id="sign">text-align: right</rendition>
+         </tagsDecl>
+         <schemaRef url="https://gams.uni-graz.at/o:hpe.odd"/>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName corresp="https://gams.uni-graz.at/o:hpe.persons#P.91"
+                         ref="https://d-nb.info/gnd/118824775">
+                  <surname>Böttiger</surname>
+                  <forename>Karl August</forename>
+               </persName>
+               <placeName ref="https://sws.geonames.org/2812482">Weimar</placeName>
+               <date when="1798-12-07"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName corresp="https://gams.uni-graz.at/o:hpe.persons#P.2000"
+                         ref="https://d-nb.info/gnd/118545426">
+                  <surname>Hammer-Purgstall</surname>
+                  <forename>Joseph</forename>
+                  <nameLink>von</nameLink>
+               </persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2025-02-04+01:00" resp="#SSt">Initial Version</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter" subtype="original" xml:space="preserve" xml:lang="de"><body><div><opener><dateline>Weimar d[en] 7. December [17]98</dateline></opener><p>Seit<note type="comment" place="bottom"><p> 	Dieser Brief führt keine Anrede. Auch bei <hi rend="italic">PvTh Böttigerbriefe 26f</hi>.</p></note> 4 Wochen ist der neapolitanische, oder wie wir ihn hier lieber nennen, der europäische Legationsrat <persName>Gerning</persName> mit vielen Kisten voll Münzen, Anticaglien, Gemmen und Zeichnungen, die er in Neapel und Rom aus dem Raub gekauft hat, bei uns. Der muß mir dann oft von Ihnen und Ihren gemeinschaftlichen Exkursionen in Wiens herrlichen Umgebungen erzählen. Vor 3 Wochen schickte mir Herr <persName>von</persName><persName> </persName><persName>Retzer</persName> ein ganzes Musenkörbchen voll Vindobonensia. Aber der Sanspareille davon war Ihre Ode auf Scävola-Nelson<note type="comment" place="bottom"><p> 	HP, Auf den Sieg der Britten vor Alexandria; in: Neuer Teutscher Merkur 3 (1798), 335–337.</p></note>. Sie ist schon im Dezemberstück des Merkurs abgedruckt. <persName>Wieland</persName> und <persName>Herder</persName> haben beide Freude daran gehabt und grüßen Sie freundlich. Nun erhalte ich mit letzter Post auch Ihren Brief vom 24. Nov[ember] und ich darf heute unserem verehrten <persName>Müller</persName> nicht schreiben, ohne auch Ihnen, mein geliebter, mit jeder Zeile, die ich von Ihnen lese, mir mehr ans Herz anwachsender Freund, wenigstens die Hand gedrückt zu haben.</p><p>Glauben Sie wohl, daß unser edler <persName>Herder</persName> bis jetzt einen Verleger zu Ihren persischen Blumen haben bekommen können? Ich habe selbst redlich mit eingegriffen. Die <persName>Voss</persName>ische Buchhandlung in Berlin hatte zuletzt Hoffnung gemacht. Aber da geht unglücklicherweise der Mann, der ihr bis jetzt vorstand, von ihr ab. Dieser war mein Freund. Aber er vermag nun nichts weiter<note type="comment" place="bottom"><p> 	Nach dem Tod von Christian Friedrich <persName>Voss</persName> im Jahre 1795 kam es zu Erbstreitigkeiten, die bis 1802 anhielten; von wem <persName>Böttiger</persName> hier spricht, konnte nicht ermittelt werden.</p></note>. Indes schafft <persName>Herder</persName> gewiß Rat. Er hat sein Wort gegeben. Dies genüge Ihnen! Politik und <persName>Kant</persName>ische Hypermetaphysik – dies sind die beiden Erymanthischen Eber<note type="comment" place="bottom"><p> 	Als der erymanthische Eber die Gegend um den Berg in Arkadien, nach dem er benannt wurde, verwüstete, wurde Herakles beauftragt, ihn zu fangen.</p></note>, die unsere Musensaaten umwühlen. Meine Vasenerklärungen werden höchstwahrscheinlich auch aufhören<note type="comment" place="bottom"><p> 	Karl August Böttiger; Griechische Vasengemälde. Mit archäologischen und artistischen Erläuterungen der Originalkupfer, Hg von C.A. Böttiger, 1. Band 1. Heft, Weimar 1796, 1.Bd 2. Heft Weimar 1798, 1. Bd 3. Heft Magdeburg 1800.</p></note>. Der Verleger hat sie mir aufgekündigt, weil sie niemand kaufen will.</p><p>Mit des braven J[<persName>Joris</persName>] Brief haben Sie mir große Freude gemacht. Alle seine Einschränkungen und Cancellierungen sollen bestens befolgt werden<note type="comment" place="bottom"><p> 	Durch seine Anstellung als Hofkanzlist musste <persName>Joris</persName> sich jedweder politischer Nachrichten enthalten und sich auf Neuigkeiten die Kunst betreffend beschränken.</p></note>. Übrigens erscheint der ohnfehlbar im Januar 1799<note type="comment" place="bottom"><p> 	Über Musik, Botanik und Gartenanlagen in Wien, Auszug aus einem Brief von Juli 1798; in: Neuer Teutscher Merkur 1 (1799) 48–60.</p></note>. Wenn er nur Kunstnachrichten monatlich einschicken wollte, woran Ihre Kaiserstadt so reich ist, so wie diese schon ein schönes Band, was uns doch immer aneinander knüpft. Wer etwas dazu beiträgt, Ihr schönes Süddeutschland mit uns Polardeutschen besser zusammenzukitten, tut ein gutes Werk, dessen Teut<note type="comment" place="bottom"><p> 	Teut, Tuisto ist der nach bei <persName>Tacitus</persName> überlieferten westgermanischen Vorstellungen als Zwitter aus der Erde geborene erste Mensch. Hier als Symbol für die Deutschen schlechthin.</p></note> und sein Enkel sich freuen. Das ist ja eben unser Elend, da wir arena sine calce<note type="comment" place="bottom"><p> 	Sueton, Calig. LIII 2 – in etwa: wertloser Mörtel, nur mit Sand und ohne Kalk.</p></note>, scopae dissolutae<note type="comment" place="bottom"><p> 	In Unordnung.</p></note> sind. Dann kommt die soi-disant große Nation, und zerknickt uns einzeln! J[<persName>Joris</persName>] erhält ohnfehlbar vom Januar an auf dem wie angezeigten Weg ein Freiexemplar des Merkur.</p><p>Diese Woche hatten unsere Ohren einen großen Schmaus, der eigentlich für Euch Herren in Wien aufgeschlüsselt ist, von welchem wir aber als wohlberufene praegustatores<note type="comment" place="bottom"><p> 	Vorkoster.</p></note> im Voraus naschten. Es ist die Sängerin Luigia <persName>Calderini</persName>, die für Eure große Oper engagiert ist. Es ist ein schönes schlankes Mädchen von 19 Jahren und sie hat eine unerhörte Tiefe und ist in Venedigs Singschule gebildet. Sie ist hier auf den Händen getragen worden, und zu gleicher Zeit mit dem Grafen <persName>Fries</persName>, der mit Kunstschätzen beladen nach Wien zurückkehrt – versteht sich in allen Ehren und in ganz verschiedenen Wagen – nach Wien abgereist.</p><p>Man hat hier wunderliche Legenden über den ehrlichen <persName>Kotzebue</persName> ausgebreitet. Warum schreiben Sie mir gar nichts davon. Doch da besinne ich mich, daß mir noch ein großer Genuß, ein Brief des edlen <persName>Retzer</persName> mit Ihren Beilagen, bevorsteht. Denn noch ist nichts angekommen.</p><p>Allerdings lebt auch der werte Jean Paul <persName>Richter</persName> jetzt bei uns. Er arbeitet ununterbrochen an seinem Titan<note type="comment" place="bottom"><p> 	Jean Paul Richter, Titan, 4 Bde Berlin 1800–1803.</p></note>, der in 8 Bänden erscheinen und den Hauptgötzen unseres Zeitalters, den feinmarkierten Egoismus, züchtigen wird. Aber auch zur Ostermesse erscheint ein Bändchen Satiren von ihm. Er ist ganz Herz und Gemüt, ohne all schöngeisterische Prätension und der Liebling aller Weiber, deren Heiland er auch in all seinen Schriften ist. Jedes seiner Billette ist mit seinem originellen Geist gestempelt. Da liegt eben eines, wo er Bücher von mir verlangt. Ich lege es Ihnen als ein Blatt für Ihr Herbarium vivum bei. Wenn Sie mir hübsche Sachen aus Wien schicken, teile ich Ihnen wohl auch ein ganzes M[anu]sc[rip]t von ihm mit. </p><closer><salute rend="inline">Gruß und Freundschaft! Ihr</salute><signed>Böttiger</signed></closer></div></body></text>
+</TEI>

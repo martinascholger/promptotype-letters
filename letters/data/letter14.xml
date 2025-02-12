@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://gams.uni-graz.at/o:hpe.odd/RNG" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://gams.uni-graz.at/o:hpe.odd/RNG" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_14">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="de">Karl August Böttiger an Joseph von Hammer-Purgstall</title>
+            <title type="sub" xml:lang="de">Weimar, 18.11.1796</title>
+            <title type="main" xml:lang="en">Karl August Böttiger to Joseph von Hammer-Purgstall</title>
+            <title type="sub" xml:lang="en">Weimar, 18.11.1796</title>
+            <author ana="marcrelator:aut">
+               <persName ref="https://gams.uni-graz.at/o:hpe.persons#P.91">
+                  <forename>Karl August</forename>
+                  <surname>Böttiger</surname>
+               </persName>
+            </author>
+            <respStmt ana="marcrelator:trc">
+               <resp>Transcription</resp>
+               <persName>
+                  <forename>Rudolf</forename>
+                  <surname>Payer von Thurn</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:trc">
+               <resp>Transcription</resp>
+               <persName>
+                  <forename>Gerit</forename>
+                  <surname>Koitz-Arko</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:edt">
+               <resp>Edition</resp>
+               <persName ref="WH">
+                  <forename>Walter</forename>
+                  <surname>Höflechner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:pfr">
+               <resp>Proofreading</resp>
+               <persName ref="WH">
+                  <forename>Walter</forename>
+                  <surname>Höflechner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mrk">
+               <resp>Textprocessing</resp>
+               <persName ref="AW">
+                  <forename>Alexandra</forename>
+                  <surname>Wagner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mrk">
+               <resp>TEI Encoding</resp>
+               <persName xml:id="SSt">
+                  <forename>Sabrina</forename>
+                  <surname>Strutz</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mrk">
+               <resp>TEI Encoding</resp>
+               <persName>
+                  <forename>Johanna</forename>
+                  <surname>Ofenauer</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mrk">
+               <resp>TEI Encoding</resp>
+               <persName>
+                  <forename>Alexandra</forename>
+                  <surname>Wagner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mdc">
+               <resp>Metadata Management</resp>
+               <persName>
+                  <forename>Elisabeth</forename>
+                  <surname>Steiner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mdc">
+               <resp>Metadata Management</resp>
+               <persName>
+                  <forename>Melanie</forename>
+                  <surname>Frauendorfer</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName ref="https://d-nb.info/gnd/10182836-6"
+                        corresp="https://wissenschaftsgeschichte.uni-graz.at/de/">Zentrum für
+                            Wissenschaftsgeschichte </orgName>
+            </publisher>
+            <authority ana="marcrealator:his">
+               <orgName ref="https://d-nb.info/gnd/1137284463"
+                        corresp="https://digital-humanities.uni-graz.at">Institut für Digitale
+                            Geisteswissenschaften</orgName>
+            </authority>
+            <distributor ana="marcrelator:rps">
+               <orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches
+                            Asset Management System</orgName>
+            </distributor>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc/4.0/">Creative
+                            Commons BY-NC 4.0</licence>
+            </availability>
+            <date when="2025" ana="dcterms:issued">2025</date>
+            <pubPlace ana="marcrelator:pup">Graz</pubPlace>
+            <idno type="PID">o:hpe.letter.14</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://gams.uni-graz.at/context:hpe">Joseph von Hammer-Purgstall.
+                        Korrespondenz</title>
+            <title>Extended and revised version of <ref corresp="#Hoeflechner_2018">Höflechner, Wagner, and Koitz-Arko 2018</ref>
+            </title>
+            <respStmt ana="marcrelator:edt">
+               <resp>Editor</resp>
+               <persName xml:id="MS">
+                  <forename>Martina</forename>
+                  <surname>Scholger</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:edt">
+               <resp>Editor</resp>
+               <persName xml:id="WH">
+                  <forename>Walter</forename>
+                  <surname>Höflechner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:edt">
+               <resp>Editor</resp>
+               <persName xml:id="AW">
+                  <forename>Alexandra</forename>
+                  <surname>Wagner</surname>
+               </persName>
+            </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <bibl xml:id="Hoeflechner_2018">Hammer-Purgstall, Joseph von: Erinnerungen,
+                        Briefe, Materialien. Bd. 2. Hrsg. von Walter Höflechner, Alexandra Wagner
+                        und Gerit Koitz-Arko. Publikationen aus dem Archiv der Universität Graz, Bd.
+                        46, hrsg. von Alois Kernbauer. 2. Version. Graz: Akademische Druck- u.
+                        Verlagsanstalt, 2018. ISBN 978-3-201-02030-5.</bibl>
+            <bibl>PvTh Briefe Bö 15f.<idno>Payer von Thurn, Rudolf; „Briefwechsel zwischen C. A.
+                        Böttiger und Joseph von Hammer“, in: Chronik des Wiener Goethe-Vereins 36
+                        (1930) 13–40</idno>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Steiermärkisches Landesarchiv</repository>
+                  <collection>Schlossarchiv Hainfeld (SAH)</collection>
+                  <idno>Karton 5 / Heft 99</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="de">Die Joseph von <title>Hammer-Purgstall Korrespondenz</title>
+                        widmet sich der Umsetzung der Korrespondenz des österreichischen
+                        Orientalisten Joseph von Hammer-Purgstall (1774–1856) als digitale Edition.
+                        Die Korrespondenz ist ein eindrucksvolles Zeugnis seines weitreichenden
+                        wissenschaftlichen Dialogs und seiner zentralen Rolle in der Orientalistik.
+                        Sie erstreckt sich über ganz Europa bis in die USA und nach Indien und
+                        stellt eine unersetzliche Quelle für die Geschichte der Orientalistik dar.
+                        Ausgehend von den im Jahr 2018 in <ref target="https://gams.uni-graz.at/archive/objects/o:hpe.band2/methods/sdef:TEI/get">fünf Bänden</ref> sowohl in gedruckter als auch als <ref target="https://gams.uni-graz.at/archive/objects/o:hpe.band2/methods/sdef:TEI/get">PDF-Version</ref> publizierten Briefen entsteht hier eine auf dem
+                        Standard der Text Encoding Initiative basierende digitale Edition, die
+                        kontinuierlich durch neue Briefe erweitert wird.</p>
+            <p xml:lang="en">The Joseph von <title>Hammer-Purgstall Correspondence</title>
+                        is dedicated to implementing the correspondence of Austrian Orientalist
+                        Joseph von Hammer-Purgstall (1774-1856) as a digital edition. The
+                        correspondence is an impressive testament to his far-reaching scholarly
+                        dialogue and his central role in Oriental studies. It extends across Europe
+                        to the USA and India and represents an irreplaceable source for the history
+                        of Oriental studies. Based on the letters published in 2018 in <ref target="https://gams.uni-graz.at/archive/objects/o:hpe.band2/methods/sdef:TEI/get">five volumes</ref> in both printed and <ref target="https://gams.uni-graz.at/archive/objects/o:hpe.band2/methods/sdef:TEI/get">PDF format</ref>, a digital edition based on the Text Encoding
+                        Initiative standard is being created here, which is continuously expanded
+                        with new letters.</p>
+            <ab>
+               <ref target="context:hpe" type="context">Joseph von Hammer-Purgstall.
+                            Korrespondenz</ref>
+               <ref target="context:hpe.letters" type="context">Korrespondenz</ref>
+               <ref target="context:hpe.letters.91" type="context">Korrespondenz Böttiger, Karl August  - Hammer-Purgstall, Joseph von</ref>
+            </ab>
+         </projectDesc>
+         <listPrefixDef>
+            <prefixDef ident="marcrelator"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="http://id.loc.gov/vocabulary/relators/$1">
+               <p>Taxonomie Rollen MARC</p>
+            </prefixDef>
+            <prefixDef ident="dcterms"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="http://purl.org/dc/terms/$1">
+               <p>DCterms</p>
+            </prefixDef>
+         </listPrefixDef>
+         <tagsDecl>
+            <rendition xml:id="sign">text-align: right</rendition>
+         </tagsDecl>
+         <schemaRef url="https://gams.uni-graz.at/o:hpe.odd"/>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+            <language ident="el">Griechisch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName corresp="https://gams.uni-graz.at/o:hpe.persons#P.91"
+                         ref="https://d-nb.info/gnd/118824775">
+                  <surname>Böttiger</surname>
+                  <forename>Karl August</forename>
+               </persName>
+               <placeName ref="https://sws.geonames.org/2812482">Weimar</placeName>
+               <date when="1796-11-18"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName corresp="https://gams.uni-graz.at/o:hpe.persons#P.2000"
+                         ref="https://d-nb.info/gnd/118545426">
+                  <surname>Hammer-Purgstall</surname>
+                  <forename>Joseph</forename>
+                  <nameLink>von</nameLink>
+               </persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2025-02-04+01:00" resp="#SSt">Initial Version</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter" subtype="original" xml:space="preserve" xml:lang="de"><body><div><opener><salute>Dem Herrn <persName>von Hammer</persName> Hochwohlgeboren</salute></opener><p>Ihr<note type="comment" place="bottom"><p> 	Auch dieser Brief findet sich, wenn auch nicht vollständig, bei <hi rend="italic">PvTh Böttigerbriefe 15f</hi>.</p></note> treffliches, mit <persName>Sarbievsky</persName>s<note type="comment" place="bottom"><p> 	Maciej <persName>Sarbiewski</persName> SJ (1595–1640) war ein zu seiner Zeit berühmter neulateinischer Poet, der auch als „Horaz des Christentums“ bezeichnet und vom Papst mit einem Lorbeerkranz ausgezeichnet worden ist; (<hi rend="italic">Wikipedia 20150913</hi>).</p></note> und <persName>Balde</persName>-<persName>Herder</persName>ischem Geist sich emporschwin[gen]des Gedicht<note type="comment" place="bottom"><p> 	HP, An die Freunde der Literatur. Dem Hrn. Bernard v. Jenisch im Namen der Kaiserlichen Akademie der morgenländischen Sprachen gewidmet; in: Neuer Teutscher Merkur 3 (1796) 309–313. Das Gedicht feiert <persName>Jenisch</persName> als einen geistigen Erben des Ostens und beklagt das Vordingen der Truppen des russischen Generals Valerian <persName>Subow</persName> in Persien im Jahre 1796; (Nach PvTh, Böttigerbriefe 16).</p></note> habe ich aus guten Gründen ins Novemberstück des Merkur sogleich eingerückt, und ich hoffe wegen einigen kleinen Veränderungen Verzeihung von Ihnen zu erhalten.</p><p>Ihre gleichfalls äußerst willkommenen Nachträge zum <persName>Messihi</persName><note type="comment" place="bottom"><p> 	HP hatte ein Gedicht des türkischen Dichters <persName>Messihi</persName> übersetzt und unter dem Titel „<hi rend="italic">Feyergesang des Frühlings. Aus dem Türkischen des Messihi“</hi> im <hi rend="italic">Neuen Teutschen Merkur 3 (1796) 15–28</hi> veröffentlicht.</p></note> sollen das Januarstück zieren und hoffentlich den Lesern ein besseres Xenium<note type="comment" place="bottom"><p> 	(Gast-)Geschenk.</p></note> sein, als so manche unter diesem Namen jetzt sich herumtreibenden Ungeheuer.</p><p>Geben Sie mir nur Gelegenheit, mein verehrungswürdiger Freund, meine herzliche Dienstbereitwilligkeit tätiger zu beweisen, als ich es bis jetzt zu tun vermochte.</p><p>Wie gern schöpfte ich nicht aus dem <persName>Salomon</persName>ische Brunnen Ihrer orientalischen Polyhistorie, wenn wir einander nur näher wären. Indes erbitte ich mir auch so die Erlaubnis, mich wegen zweier archäologischer Punkte bei Ihnen beraten [zu] dürfen. Finden sich nicht bei den Persern, Arabern usw. Spuren von einem besonders verschlungenen Zauberknoten, durch welches[sic] man Dinge unauflöslich fesseln, von Liebesknoten, wodurch man Seelen zusammenbinden konnte? Und zweitens: kommen bei den Persern die Greife als fabelhafte Göttertiere häufig vor, und wird dadurch die Mutmaßung <persName>Heeren</persName>s neuerlich in seinen trefflichen Ideen zur Kenntnis des inneren Indiens und Persiens<note type="comment" place="bottom"><p> 	Arnold Hermann Ludwig Heeren, Handbuch der Geschichte der Staaten des Altertums, Göttingen 1797.</p></note> bei der Erklärung der Figuren in Persepolis vorgebracht hat, wirklich bestätigt? Ist es wahr, daß das Wort <graphic url="media/image2.jpeg"/><note type="comment" place="bottom"><p> 	Greif.</p></note> selbst persischen Ursprungs ist, wie uns neuerlich Prof. <persName>Tychsen</persName><note type="comment" place="bottom"><p> 	Hier ist wohl der in Rostock wirkende Orientalist Olaf Gerhard <persName>Tychsen</persName> (1734–1815) gemeint und nicht der ebenfalls als Orientalist, insbesondere Arabist, hervorgetretene Thomas Christian <persName>Tychsen</persName> (1758–1834).</p></note> in Göttingen versichert hat?</p><p>Sie sehen, daß Sie es mit einem sehr fragelustigen Menschen zu tun haben, und schonte ich nicht Ihre Geduld, Sie dürften leicht mehrere Fragen zu lesen bekommen!</p><p>Aber ich will Sie nicht schüchtern machen, und für jetzt nur Empfehle[sic] von <persName>Herder</persName> und <persName>Wieland</persName>, und die herzliche Bitte hinzufügen, daß Sie uns alle noch ferner in gutem Andenken behalten, und mich unter Ihre wahren Verehrer zählen mögen! </p><closer><salute rend="inline">Ganz der Ihrige</salute><signed>Böttiger</signed><dateline>Weimar d[en] 18ten November 1796</dateline></closer></div></body></text>
+</TEI>

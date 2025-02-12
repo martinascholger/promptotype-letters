@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block title %}Timeline of Letter Exchanges{% endblock %}
+{% block content %}
+<div class="container my-4">
+    <h4>Timeline of Correspondence</h4>
+    <p>This visualization shows the number of letters exchanged over time.</p>
+
+    <!-- Display error message if no data is found -->
+    <div id="error-message" style="color: red; display: none;">No data available for the timeline.</div>
+
+    <!-- Plotly Graph -->
+    <div id="timeline-plot"></div>
+
+    <!-- Updated Plotly Script URL -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script>
+        fetch('/timeline_data')
+            .then(response => response.json())
+            .then(data => {
+                if (data.dates.length === 0) {
+                    document.getElementById("error-message").style.display = "block";
+                    return;
+                }
+
+                let trace = {
+                    x: data.dates,
+                    y: data.letters,
+                    mode: 'lines+markers',
+                    name: 'Letters',
+                    line: {shape: 'spline'}
+                };
+
+                let layout = {
+                    title: "Temporal Trends in Correspondence",
+                    xaxis: {title: "Year-Month"},
+                    yaxis: {title: "Number of Letters"},
+                    margin: {t: 50, l: 50, r: 50, b: 50}
+                };
+
+                Plotly.newPlot("timeline-plot", [trace], layout);
+            })
+            .catch(error => {
+                console.error('Error loading data:', error);
+                document.getElementById("error-message").style.display = "block";
+            });
+    </script>
+</div>
+{% endblock %}

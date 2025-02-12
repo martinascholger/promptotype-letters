@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://gams.uni-graz.at/o:hpe.odd/RNG" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://gams.uni-graz.at/o:hpe.odd/RNG" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_41">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="de">Karl August Böttiger an Joseph von Hammer-Purgstall</title>
+            <title type="sub" xml:lang="de">Weimar, 27.09.1798</title>
+            <title type="main" xml:lang="en">Karl August Böttiger to Joseph von Hammer-Purgstall</title>
+            <title type="sub" xml:lang="en">Weimar, 27.09.1798</title>
+            <author ana="marcrelator:aut">
+               <persName ref="https://gams.uni-graz.at/o:hpe.persons#P.91">
+                  <forename>Karl August</forename>
+                  <surname>Böttiger</surname>
+               </persName>
+            </author>
+            <respStmt ana="marcrelator:trc">
+               <resp>Transcription</resp>
+               <persName>
+                  <forename>Rudolf</forename>
+                  <surname>Payer von Thurn</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:trc">
+               <resp>Transcription</resp>
+               <persName>
+                  <forename>Gerit</forename>
+                  <surname>Koitz-Arko</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:edt">
+               <resp>Edition</resp>
+               <persName ref="WH">
+                  <forename>Walter</forename>
+                  <surname>Höflechner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:pfr">
+               <resp>Proofreading</resp>
+               <persName ref="WH">
+                  <forename>Walter</forename>
+                  <surname>Höflechner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mrk">
+               <resp>Textprocessing</resp>
+               <persName ref="AW">
+                  <forename>Alexandra</forename>
+                  <surname>Wagner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mrk">
+               <resp>TEI Encoding</resp>
+               <persName xml:id="SSt">
+                  <forename>Sabrina</forename>
+                  <surname>Strutz</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mrk">
+               <resp>TEI Encoding</resp>
+               <persName>
+                  <forename>Johanna</forename>
+                  <surname>Ofenauer</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mrk">
+               <resp>TEI Encoding</resp>
+               <persName>
+                  <forename>Alexandra</forename>
+                  <surname>Wagner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mdc">
+               <resp>Metadata Management</resp>
+               <persName>
+                  <forename>Elisabeth</forename>
+                  <surname>Steiner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mdc">
+               <resp>Metadata Management</resp>
+               <persName>
+                  <forename>Melanie</forename>
+                  <surname>Frauendorfer</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName ref="https://d-nb.info/gnd/10182836-6"
+                        corresp="https://wissenschaftsgeschichte.uni-graz.at/de/">Zentrum für
+                            Wissenschaftsgeschichte </orgName>
+            </publisher>
+            <authority ana="marcrealator:his">
+               <orgName ref="https://d-nb.info/gnd/1137284463"
+                        corresp="https://digital-humanities.uni-graz.at">Institut für Digitale
+                            Geisteswissenschaften</orgName>
+            </authority>
+            <distributor ana="marcrelator:rps">
+               <orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches
+                            Asset Management System</orgName>
+            </distributor>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc/4.0/">Creative
+                            Commons BY-NC 4.0</licence>
+            </availability>
+            <date when="2025" ana="dcterms:issued">2025</date>
+            <pubPlace ana="marcrelator:pup">Graz</pubPlace>
+            <idno type="PID">o:hpe.letter.41</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://gams.uni-graz.at/context:hpe">Joseph von Hammer-Purgstall.
+                        Korrespondenz</title>
+            <title>Extended and revised version of <ref corresp="#Hoeflechner_2018">Höflechner, Wagner, and Koitz-Arko 2018</ref>
+            </title>
+            <respStmt ana="marcrelator:edt">
+               <resp>Editor</resp>
+               <persName xml:id="MS">
+                  <forename>Martina</forename>
+                  <surname>Scholger</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:edt">
+               <resp>Editor</resp>
+               <persName xml:id="WH">
+                  <forename>Walter</forename>
+                  <surname>Höflechner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:edt">
+               <resp>Editor</resp>
+               <persName xml:id="AW">
+                  <forename>Alexandra</forename>
+                  <surname>Wagner</surname>
+               </persName>
+            </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <bibl xml:id="Hoeflechner_2018">Hammer-Purgstall, Joseph von: Erinnerungen,
+                        Briefe, Materialien. Bd. 2. Hrsg. von Walter Höflechner, Alexandra Wagner
+                        und Gerit Koitz-Arko. Publikationen aus dem Archiv der Universität Graz, Bd.
+                        46, hrsg. von Alois Kernbauer. 2. Version. Graz: Akademische Druck- u.
+                        Verlagsanstalt, 2018. ISBN 978-3-201-02030-5.</bibl>
+            <bibl>PvTh Briefe Bö 24ff.<idno>Payer von Thurn, Rudolf; „Briefwechsel zwischen C. A.
+                        Böttiger und Joseph von Hammer“, in: Chronik des Wiener Goethe-Vereins 36
+                        (1930) 13–40</idno>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Steiermärkisches Landesarchiv</repository>
+                  <collection>Schlossarchiv Hainfeld (SAH)</collection>
+                  <idno>Karton 5 / Heft 99</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="de">Die Joseph von <title>Hammer-Purgstall Korrespondenz</title>
+                        widmet sich der Umsetzung der Korrespondenz des österreichischen
+                        Orientalisten Joseph von Hammer-Purgstall (1774–1856) als digitale Edition.
+                        Die Korrespondenz ist ein eindrucksvolles Zeugnis seines weitreichenden
+                        wissenschaftlichen Dialogs und seiner zentralen Rolle in der Orientalistik.
+                        Sie erstreckt sich über ganz Europa bis in die USA und nach Indien und
+                        stellt eine unersetzliche Quelle für die Geschichte der Orientalistik dar.
+                        Ausgehend von den im Jahr 2018 in <ref target="https://gams.uni-graz.at/archive/objects/o:hpe.band2/methods/sdef:TEI/get">fünf Bänden</ref> sowohl in gedruckter als auch als <ref target="https://gams.uni-graz.at/archive/objects/o:hpe.band2/methods/sdef:TEI/get">PDF-Version</ref> publizierten Briefen entsteht hier eine auf dem
+                        Standard der Text Encoding Initiative basierende digitale Edition, die
+                        kontinuierlich durch neue Briefe erweitert wird.</p>
+            <p xml:lang="en">The Joseph von <title>Hammer-Purgstall Correspondence</title>
+                        is dedicated to implementing the correspondence of Austrian Orientalist
+                        Joseph von Hammer-Purgstall (1774-1856) as a digital edition. The
+                        correspondence is an impressive testament to his far-reaching scholarly
+                        dialogue and his central role in Oriental studies. It extends across Europe
+                        to the USA and India and represents an irreplaceable source for the history
+                        of Oriental studies. Based on the letters published in 2018 in <ref target="https://gams.uni-graz.at/archive/objects/o:hpe.band2/methods/sdef:TEI/get">five volumes</ref> in both printed and <ref target="https://gams.uni-graz.at/archive/objects/o:hpe.band2/methods/sdef:TEI/get">PDF format</ref>, a digital edition based on the Text Encoding
+                        Initiative standard is being created here, which is continuously expanded
+                        with new letters.</p>
+            <ab>
+               <ref target="context:hpe" type="context">Joseph von Hammer-Purgstall.
+                            Korrespondenz</ref>
+               <ref target="context:hpe.letters" type="context">Korrespondenz</ref>
+               <ref target="context:hpe.letters.91" type="context">Korrespondenz Böttiger, Karl August  - Hammer-Purgstall, Joseph von</ref>
+            </ab>
+         </projectDesc>
+         <listPrefixDef>
+            <prefixDef ident="marcrelator"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="http://id.loc.gov/vocabulary/relators/$1">
+               <p>Taxonomie Rollen MARC</p>
+            </prefixDef>
+            <prefixDef ident="dcterms"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="http://purl.org/dc/terms/$1">
+               <p>DCterms</p>
+            </prefixDef>
+         </listPrefixDef>
+         <tagsDecl>
+            <rendition xml:id="sign">text-align: right</rendition>
+         </tagsDecl>
+         <schemaRef url="https://gams.uni-graz.at/o:hpe.odd"/>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName corresp="https://gams.uni-graz.at/o:hpe.persons#P.91"
+                         ref="https://d-nb.info/gnd/118824775">
+                  <surname>Böttiger</surname>
+                  <forename>Karl August</forename>
+               </persName>
+               <placeName ref="https://sws.geonames.org/2812482">Weimar</placeName>
+               <date when="1798-09-27"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName corresp="https://gams.uni-graz.at/o:hpe.persons#P.2000"
+                         ref="https://d-nb.info/gnd/118545426">
+                  <surname>Hammer-Purgstall</surname>
+                  <forename>Joseph</forename>
+                  <nameLink>von</nameLink>
+               </persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2025-02-04+01:00" resp="#SSt">Initial Version</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter" subtype="original" xml:space="preserve" xml:lang="de"><body><div><opener><dateline>Weimar d[en] 27. Septemb[er] [17]98</dateline></opener><p>Auch<note type="comment" place="bottom"><p> 	Auch bei PvTh Böttigerbriefe 24f.</p></note> Ihrem letzten Briefe, mein geliebter Freund, verdanke ich wieder eine sehr genußreiche Stunde. Ich drücke Ihnen dafür dankbar die Hand. Also darf der wackre <persName>Joris</persName> mir nicht mehr schreiben? Bin ich so übel anrüchig, daß jemandem der Briefwechsel mit mir gefährlich werden kann? Darüber bleiben Sie mir den Aufschluß ja nicht schuldig. Ich trage mich mit der Idee, vielleicht künftiges Jahr auf 3 Wochen nach Wien zu fliegen. Dann aber wäre ich ja wohl selbst dort contreband. Auf jeden Fall muß ich Ihnen umso herzlicher für Ihre Briefe danken. Es soll gewiß nichts im Publikum verlauten, dem Sie nicht die Imprimaturparenthese gegeben haben. Umso sicherer können Sie mir dann auch die Kopien Ihrer aus Italien geschriebenen Briefe mitteilen, die ich wohl alle gar gern lesen und sie auch unserem <persName>Wieland</persName> und <persName>Herder</persName> mitteilen möchte<note type="comment" place="bottom"><p> 	Diese Briefe erscheinen als „Zeichnungen auf einer Reise von Wien über Triest und Venedig und von da zurück nach Tyrol und Salzburg im Jahr 1798, Berlin 1800 und 1822“; die erste Auflage erschien anonym, erst bei der zweiten wurde der Verfasser genannt.</p></note>. Ihren Brief erhielt <persName>Herder</persName> während meiner Reise nach Dresden. Er hat ihn verlegt, und ich habe ihn nicht zu lesen bekommen. Aber mit <persName>Bondi</persName>s Gedicht, einer wahren pontischen Graziengeburt, habe ich <persName>Wieland</persName> selbst eine große Freude gemacht. Vielleicht kann ich <persName>Gries</persName>en, den trefflichen jungen Dichter, der schon einige schöne Proben im Merkur gegeben und jetzt eine sehr brave Übersetzung des <persName>Tasso</persName><note type="comment" place="bottom"><p> 	Es handelte sich um eine Übersetzungsprobe, die im Neuen Teutschen Merkur 3 (1798) 117–153 erschien; die Arbeit wurde erst viel später abgeschlossen: „Torquato Tasso, Befreites Jerusalem, aus dem Italienischen übersetzt von Johann Diederich Gries“, 2 Bde Jena 1810.</p></note> in Ottava Rima<note type="comment" place="bottom"><p> 	Dies ist die Bezeichnung für eine achtzeilige Stanze, deren erste sechs Zeilen zwei miteinander alternierende Reime enthalten, während die beiden letzten Zeilen sich wieder in sich reimen; (<hi rend="italic">Ersch-Gruber</hi>).</p></note> im Oktoberstück des Merkur angekündigt hat – er ist ein Hamburger, privatisiert in Jena, und genießt <persName>Schiller</persName>s Freundschaft – also vielleicht kann ich <persName>Gries</persName> bewegen, daß er eine Übersetzung versucht. Dann könnte beides zusammen im Merkur erscheinen. Erzählen Sie mir nur in Ihrem nächsten Brief noch etwas mehr von <persName>Bondi</persName>. Denn, zu meiner Schande, kenne ich ihn nicht genug. So gern ich <persName>Batthyany</persName>s klassisches der Gesinnung und dem Ausdruck nach wahrhaft elegantes Gedicht in dem Merkur abdrucken ließe: so wenig verträgt sich dies doch mit dem Plan des Journals, besonders da das Gedicht doch nur ein einzelnes Individuum betrifft. Wäre die elogia noch Mode, die sonst vor dem Werke großer Männer besonders apud Batavos vorgedruckt wurde, da wäre es wert, vor <persName>Woltmann</persName>s Weltgeschichte<note type="comment" place="bottom"><p> 	Karl Ludwig Woltmann, Grundriß der älteren Menschengeschichte, Leipzig 1797, und: Grundriß der neueren Menschengeschichte, Leipzig 1796–1800.</p></note> zu stehn – Hr. <persName>Leon</persName> wird seine Gedichte nach den Minnesingern<note type="comment" place="bottom"><p> 	Gottlieb Leon, <hi rend="italic">Gedichte nach den Minnesingern</hi>; in: <hi rend="italic">Neuer Teutscher Merkur 2 (1798) 330ff</hi>.; (<hi rend="italic">www.ub.uni-bielefeld.de 20110202</hi>). – <persName>Leon</persName> (1757–1830) war 1782–1827 an der Hofbibliothek in Wien tätig und war u.a. frühzeitig mit Volksliedforschung befasst sowie mit der Herausgabe bzw. Neufassung von Dichtungen verschiedener Literaturen; (<hi rend="italic">ÖBL</hi>).</p></note> im Auguststück des Merkurs gefunden haben. Auch habe ich sein Unternehmen, was alle Aufmunterung verdient, besonders noch im Modejournal gepriesen. Die übrigen Gedichte hat mir <persName>Wieland</persName> noch nicht zurückgeschickt. Bei <persName>Leon</persName>s Minnesängern fällt mir bei, daß ich bei <persName>Adelung</persName> in Dresden die Vorarbeiten zu seiner Geschichte der deutschen Sprache<note type="comment" place="bottom"><p> 	Vermutlich handelte es sich wohl um Vorarbeiten zu: Johann Christian Adelung, Aelteste Geschichte der Deutschen, ihrer Sprache und Litteratur bis zur Völkerwanderung, Leipzig 1806, und zum „Mithridates“.</p></note> gesehen habe. Er besitzt an die 100 Foliobände bloße M[anu]sc[rip]te<note type="comment" place="bottom"><p> 	Hier wohl: Kollektaneen, d.h. Notizen, Abschriften u.ä.</p></note>, alte Minnesänger, auch <persName>Denis</persName> wird auf <persName>van Swieten</persName>s Anregung alles, was da ist, von der Kaiserl[ichen] Bibliothek einschicken. Es werden 4 Quartbände im Druck werden. Überall mitläufige Proben mit Kommentar. Als Vorbereitung dazu arbeitet er jetzt die heidnischen deutschen Altertümer aus. Er unterscheidet mit kluger Kritik die wendischen und christlichen, was noch nirgends geschehen ist. Was nur aufzutreiben war, hat er durch gute Künstler aufs Neue zeichnen lassen. Ich sah an 200 Zeichnungen dazu bei ihm. Und dies wird nur der Prodromus. Da[s] ist doch mehr, als der gepriesene <persName>Johnson</persName> für seine englischen Dichter<note type="comment" place="bottom"><p> 	Samuel Johnson, Dictionary of the English Language, 2 Bde London 1755–1756.</p></note> tat. – Nicht bloß die Franzosen, auch die stolzen Briten fangen jetzt an, allgemein unserer Literatur Gerechtigkeit widerfahren zu lassen. Vorige Woche bekam <persName>Wieland</persName> ein prächtiges Exemplar von seinen durch <persName>Sotheby</persName><note type="comment" place="bottom"><p> 	A: Sothby.</p></note> wieder in Stanzen übersetzten Oberon<note type="comment" place="bottom"><p> 	Christoph Martin Wieland, Oberon. Ein Gedicht in vierzehn Gesängen, Weimar 1780.</p></note> vom Verf[asser] selbst zugeschickt. Die Übersetzung ist schön geraten. <persName>Wieland</persName> schreibt mir heute darüber: [„]sie hat mir ein überraschendes und noch in keinem ähnlichen Falle gefühltes Vergnügen gemacht[“]. Vor einigen Tagen ging ein Mr. <persName>Butler</persName>, fellow of Sidney College, Cambridge, hier durch, der bloß nach Jena reiste, um <persName>Schiller</persName> von Angesicht zu sehn. Er sagte mir, daß jetzt überall in England Mangel an deutschen Sprachmeistern wäre. In England gibt es doch noch literarische Teilnahme. Aber in Frankreich bricht die Barbarei fürchterlich ein. Meine Privatkorrespondenz dahin liefert traurige Beweise dazu, die ich nur nicht bekannt machen darf. Der redliche <persName>Millin</persName> wird allgemein für einen Pedanten gehalten, weil er noch so stark auf die Alten dringt. Lesen Sie nur, wo<note type="comment" place="bottom"><p> 	Lesung unsicher.</p></note> dies offizielle Journal in Wien ist, die decade philosophique n. 34.p. 408<note type="comment" place="bottom"><p> 	Es handelt sich um die Zeitschrift „Decade philosophique, litteraire et politique. Par une societé des gens de lettres“, 42 Hefte Paris 29.04.1794–16.09.1804; die Zeitschrift wurde dann fortgesetzt als „La Revue ou decade philosophique“, als „La Revue philosophique“ und ab 1807 als „La Mercure galant“.</p></note>. Als er zu dem aus Rom zurückkehrenden <persName>Daunou</persName> kam und wegen des edlen <persName>Borgia</persName> Trost haben wollte, fuhr dieser ihn an, und wunderte sich, wie er so für diesen Pfaffen qui n´avait qu’une renommée usurpée bitten könnte.</p><p>Unser lieber <persName>Falk</persName> war in Gefahr, sich große Unannehmlichkeiten durch eine, für<note type="comment" place="bottom"><p> 	<persName>Böttiger</persName> schreibt so wie hier immer wieder „vor“ anstelle des heute verständlicheren „für“.</p></note> sein Taschenbuch bestimmte politische Karikatur zu zuziehen. Zum Glück habe ich ihn von diesem halsbrecherischen Schritt noch zurückgebracht. In <persName>Schiller</persName>s und <persName>Goethe</persName>s Musenalmanach<note type="comment" place="bottom"><p> 	Friedrich Schiller, <hi rend="italic">Musenalmanach</hi>, der in den Jahren 1798–1800 in Tübingen erschien.</p></note> werden Sie schöne Sachen finden. <persName>Goethe</persName> eröffnet gleich mit einem Gedicht an Euphrosyne<note type="comment" place="bottom"><p> 	Dieses Gedicht schrieb <persName>Goethe</persName> in der Schweiz, als er die Nachricht vom Tod der Schauspielerin <persName>Becker</persName> erhielt, deren letzte Rolle die Euphrosyne gewesen war. <persName>Goethe</persName>s <hi rend="italic">„Elegie“</hi> wurde 1799 in <persName>Schiller</persName>s <hi rend="italic">„Musenalmanach“</hi> abgedruckt. </p></note>. So nennt er unsere allgemein bedauerte Schauspielerin <persName>Becker</persName>. Sie starb, als er vorigen Herbst in der Schweiz war. Nun erscheint ihm ihr Schatten in einer Grotte eines Gletschers. Sie war eine Schülerin in der Schauspielkunst. Dies erzählte er höchst mir selbst. Von der Frau <persName>von</persName> <persName>Wolzogen</persName> steht der Anfang eines neuen Romans, der zu Ostern erscheinen wird<note type="comment" place="bottom"><p> 	Abdallah und Balsora. Ein Gedicht in sechs Gesängen, Horen (1797) (8. Stück, S. 65–108).</p></note>, in dem letzten Stück der Horen 97. Amalie <persName>von</persName><persName> </persName><persName>Imhoff</persName> hat wieder einige schöne Beiträge zum <persName>Schiller</persName>ischen Musenalmanach geliefert. Zu Ostern erscheint der Pendant ihres Abdallah, die zwei Schwestern von Lesbos<note type="comment" place="bottom"><p> 	Amalie von Imhoff, <hi rend="italic">Die Schwestern von Lesbos. Eine Idylle in 6 Gesängen</hi>, wurde im März 1799 fertiggestellt und erschien 1800 im <hi rend="italic">„Musenalmanach“</hi> und 1801 in Frankfurt. Das Werk regte <persName>Goethe</persName> zu Überlegungen bezüglich des Dilettantismus an und schließlich redigierte er das Werk selbst, ohne aber zufriedengestellt zu werden; (<hi rend="italic">Wikipedia 20100301</hi>).</p></note>, ein romantisches Heldengedicht in 6 Gesängen, das auf der Insel Lesbos in griechischen Kostümen spielt. Sie ist das schönste Mädchen in Weimar und zeichnet und malt auch wie eine wahre Künstlerin.</p><p>Der Rezensent <persName>Eckhel</persName>s ist der Hofrat <persName>Lerse</persName><note type="comment" place="bottom"><p> 	Franz Christian <persName>Lerse</persName> (1749<persName>–</persName>1800) war ein Jugendfreund <persName>Goethe</persName>s aus der Straßburger Zeit, dem dieser im <hi rend="italic">„Götz von Berlichingen“</hi> ein Denkmal setzte. <persName>Lerse</persName> betrieb historische, theologische und geisteswissenschaftliche Studien in Leipzig, Gießen und Straßburg, war dann als Erzieher und Lehrer tätig. Zeitweise befasste er sich mit der Numismatik; das von <persName>Böttiger </persName>1801 im <hi rend="italic">„Merkur“</hi> angekündigte Werk <hi rend="italic">„Hadrians Zeitalter aus Münzen“</hi> ist allerdings nie erschienen; (<hi rend="italic">ADB</hi>). </p></note> beim Grafen <persName>Fries</persName>, der größte Numismatiker nach <persName>Neumann</persName>, der jetzt lebt.</p><p>Nun mehrere Fragen: was halten Sie von den Amazonen? Was halten Ihre Orientalen von diesen Heldenweibern? Ich komme in meinem nächsten Heft der Vasenerklärungen auf sie. Setzen Sie mir darüber recht ausführlich Ihr Andenken auf. </p><closer><salute rend="inline">Gruß und Freundschaft! Unwandelbar Ihr</salute><signed>Böttiger</signed></closer><postscript><p><persName>Schiller</persName>s Wallenstein ist bis auf eine Szene fertig, wird diesen Winter gewiß hier aufgeführt, und 2 Nächte hintereinander spielen. Denn er hat 8 Aufzüge.</p></postscript></div></body></text>
+</TEI>

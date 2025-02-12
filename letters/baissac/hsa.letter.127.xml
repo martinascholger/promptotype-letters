@@ -1,0 +1,334 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="de">
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Charles Baissac an Hugo Schuchardt (12-00429)</title>
+        <author ana="marcrelator:aut">
+          <persName ref="https://gams.uni-graz.at/o:hsa.persons#P.1069">
+            <forename>Charles</forename>
+            <surname>Baissac</surname>
+          </persName>
+        </author>
+        <editor ana="marcrelator:edt">
+          <persName>
+            <forename>Elisabeth</forename>
+            <surname>Steiner</surname>
+          </persName>
+        </editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ana="marcrelator:pbl">
+          <orgName corresp="https://sprachwissenschaft.uni-graz.at" ref="http://d-nb.info/gnd/807328-4">Institut für Sprachwissenschaft,
+                  Karl-Franzens-Universität Graz</orgName>
+        </publisher>
+        <authority ana="marcrelator:his">
+          <orgName corresp="https://informationsmodellierung.uni-graz.at" ref="http://d-nb.info/gnd/1137284463">Zentrum für
+                  Informationsmodellierung - Austrian Centre for Digital Humanities,
+                  Karl-Franzens-Universität Graz</orgName>
+        </authority>
+        <distributor ana="marcrelator:rps">
+          <orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches
+                  Asset Management System</orgName>
+        </distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative Commons
+                  BY-NC 4.0</licence>
+        </availability>
+        <date ana="dcterms:issued" when="2022">2022</date>
+        <pubPlace ana="marcrelator:pup">Graz</pubPlace>
+        <idno corresp="http://schuchardt.uni-graz.at/id/letter/127" type="PID">o:hsa.letter.127</idno>
+        <idno source="http://schuchardt.uni-graz.at" type="altIdentifier">12-00429</idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title ref="https://schuchardt.uni-graz.at">Hugo Schuchardt Archiv</title>
+        <respStmt ana="marcrelator:pbl">
+          <resp>Herausgeber</resp>
+          <persName ref="http://d-nb.info/gnd/111679893">
+            <forename>Bernhard</forename>
+            <surname>Hurch</surname>
+            <orgName ref="http://d-nb.info/gnd/36157-4">Karl-Franzens-Universität Graz</orgName>
+          </persName>
+        </respStmt>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>Österreich</country>
+            <region>Steiermark</region>
+            <settlement>Graz</settlement>
+            <institution>Karl-Franzens-Universität Graz</institution>
+            <repository ref="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</repository>
+            <idno type="shelfmark">00429</idno>
+          </msIdentifier>
+          <msContents>
+            <textLang mainLang="fr"/>
+            <msItem>
+              <author ref="https://gams.uni-graz.at/o:hsa.persons#P.1069">
+                <forename>Charles</forename>
+                <surname>Baissac</surname>
+              </author>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <material ref="http://vocab.getty.edu/aat/300014109">Papier</material>
+                  <objectType>Brief</objectType>
+                </support>
+                <extent>
+                  <measure quantity="2" unit="pages">2 Seiten</measure>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace ana="marcrelator:prp" corresp="https://gams.uni-graz.at/o:hsa.places#PL.41" ref="http://sws.geonames.org/934154">Port Louis</origPlace>
+              <origDate ana="dcterms:created">Unbekannt</origDate>
+            </origin>
+            <provenance>
+                     Hugo Schuchardts wissenschaftlicher Nachlass (Bibliothek,
+                     Werkmanuskripte und wissenschaftliche Korrespondenz) kam nach seinem Tod 1927
+                     laut Verfügung in seinem Testament als Geschenk an die UB Graz.
+                  </provenance>
+          </history>
+        </msDesc>
+        <bibl type="print">
+          <author>
+            <persName>
+              <forename>Elisabeth</forename>
+              <surname>Steiner</surname>
+            </persName>
+          </author>
+          <date when="2010">2010</date>
+          <title>'L'approbation d'un juge come vous est de celles dont on a le droit d'être fier':
+               Der Briefwechsel zwischen Schuchardt und Baissac</title>
+          <series>
+            <title>Grazer Linguistische Studien</title>
+          </series>
+          <biblScope unit="volume">74</biblScope>
+          <biblScope from="7" to="62" unit="pages">7-62</biblScope>
+        </bibl>
+        <bibl type="online">
+          <author ana="marcrelator:aut">
+            <persName>
+              <forename>Elisabeth</forename>
+              <surname>Steiner</surname>
+            </persName>
+          </author>
+          <date when="2009">2009</date>
+          <title>Die Korrespondenz zwischen Charles Baissac und Hugo Schuchardt</title>
+          <series>
+            <title>Hugo Schuchardt Archiv</title>
+            <editor>
+              <forename>Bernhard</forename>
+              <surname>Hurch</surname>
+            </editor>
+          </series>
+          <ref target="http://schuchardt.uni-graz.at/id/letters/1069"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Die Datenmodellierung orientiert sich am <ref
+            target="https://www.deutschestextarchiv.de/doku/basisformat/">DTA-Basisformat</ref>,
+               <ref
+            target="https://www.ediarum.org/">ediarum</ref> und der
+               <ref target="https://github.com/TEI-Correspondence-SIG/correspDesc">CorrespDesc-SIG</ref>.</p>
+        <p>Das auf DTABf-Modellierungsschema wurde für die Zwecke des Projektes angepasst und befindet sich unter <ref target="https://gams.uni-graz.at/o:hsa.odd"/>
+        </p>
+      </editorialDecl>
+      <projectDesc>
+        <ab>
+          <ref target="info:fedora/context:hsa" type="context">Hugo Schuchardt Archiv</ref>
+        </ab>
+        <p>Das Hugo Schuchardt Archiv widmet sich der Aufarbeitung des Gesamtwerks und des Nachlasses von Hugo Schuchardt (1842-1927).
+               Die Onlinepräsentation stellt alle Schriften sowie eine umfangreiche Sekundärbibliografie zur Verfügung.
+               Die Bearbeitung des Nachlasses legt besonderes Augenmerk auf die Erschließung der Korrespondenz,
+               die zu großen Teilen bereits ediert vorliegt, und der Werkmanuskripte.</p>
+      </projectDesc>
+      <listPrefixDef>
+        <prefixDef ident="marcrelator" matchPattern="([a-z]+)" replacementPattern="http://id.loc.gov/vocabulary/relators/$1">
+          <p>Rollen-Taxonomie</p>
+        </prefixDef>
+        <prefixDef ident="dcterms" matchPattern="([a-z]+)" replacementPattern="http://purl.org/dc/terms/$1">
+          <p>Datumstaxonomie</p>
+        </prefixDef>
+        <prefixDef ident="skos" matchPattern="([a-z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1">
+          <p>Thesaurustaxonomie</p>
+        </prefixDef>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc ref="https://gams.uni-graz.at/o:hsa.letter.127">
+        <correspAction type="sent">
+          <persName corresp="https://gams.uni-graz.at/o:hsa.persons#P.1069" ref="https://viaf.org/viaf/228232402">
+            <forename>Charles</forename>
+            <surname>Baissac</surname>
+          </persName>
+          <placeName corresp="https://gams.uni-graz.at/o:hsa.places#PL.41" key="#GID.1" ref="http://sws.geonames.org/934154">Port Louis</placeName>
+          <date>Unbekannt</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName corresp="https://gams.uni-graz.at/o:hsa.persons#P.109" ref="https://viaf.org/viaf/261931943">
+            <forename>Hugo</forename>
+            <surname>Schuchardt</surname>
+          </persName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords scheme="cirilo:normalizedPlaceNames">
+          <list>
+            <item>
+              <placeName xml:id="GID.1">
+                <country>Mauritius</country>
+                <settlement>Port Louis</settlement>
+                <name ref="http://geonames.org/934154" type="fcode:PPLC">Port Louis</name>
+                <location>
+                  <geo>57.49889,-20.16194</geo>
+                </location>
+              </placeName>
+            </item>
+          </list>
+        </keywords>
+        <keywords ana="correspondence">
+          <list>
+            <item>
+              <ref target="info:fedora/context:hsa.letters.1069" type="context">
+                        Korrespondenz Charles Baissac - Hugo Schuchardt
+                     </ref>
+            </item>
+            <item>
+              <ref target="info:fedora/context:hsa.letters" type="context">Korrespondenz</ref>
+            </item>
+          </list>
+        </keywords>
+        <keywords scheme="https://gams.uni-graz.at/o:hsa.subjects">
+          <term ref="https://gams.uni-graz.at/o:hsa.subjects#S.839" type="skos:Concept">
+            <term type="skos:prefLabel" xml:lang="de">Kreolsprachen</term>
+          </term>
+        </keywords>
+        <keywords scheme="https://gams.uni-graz.at/o:hsa.languages">
+          <term ref="https://gams.uni-graz.at/o:hsa.languages#L.891" type="skos:Concept">
+            <term type="skos:prefLabel" xml:lang="de">Englisch</term>
+          </term>
+          <term ref="https://gams.uni-graz.at/o:hsa.languages#L.226" type="skos:Concept">
+            <term type="skos:prefLabel" xml:lang="de">Französisch</term>
+          </term>
+          <term ref="https://gams.uni-graz.at/o:hsa.languages#L.667" type="skos:Concept">
+            <term type="skos:prefLabel" xml:lang="de">Deutsch</term>
+          </term>
+        </keywords>
+        <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation">Wissenschaft</classCode>
+        <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation">Sprachwissenschaft</classCode>
+        <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation">Brief</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr">Französisch</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface>
+      <graphic mimeType="image/jpeg" url="info:fedora/o:hsa.letter.127" xml:id="IMG.1">
+        <desc>
+          <ref
+            target="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</ref>, <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons CC BY-NC https://creativecommons.org/licenses/by-nc/4.0/</ref>
+        </desc>
+      </graphic>
+    </surface>
+    <surface>
+      <graphic mimeType="image/jpeg" url="info:fedora/o:hsa.letter.127" xml:id="IMG.2">
+        <desc>
+          <ref
+            target="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</ref>, <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons CC BY-NC https://creativecommons.org/licenses/by-nc/4.0/</ref>
+        </desc>
+      </graphic>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div subtype="original" type="letter" xml:id="L.127" xml:lang="fr">
+        <pb facs="#IMG.1" n="1"/>
+        <dateline>Port-Louis 25 Janvier 1884.</dateline>
+        <opener>Mon cher Monsieur Schuchardt,</opener>
+
+        <p>Votre bonne lettre du 9 Décembre m’a enfin porté votre photographie. Je vous en remercie, et je n’avais pas attendu l’arrivée de votre carte pour recommander au cousin <persName
+            ref="https://gams.uni-graz.at/o:hsa.persons#P.1070">Eugène</persName> de vous faire parvenir la mienne. Il me semble que nous causerons maintenant avec plus d’abandon; je vous croyais pour ma part beaucoup plus vieux que vous n’êtes, et le jeune homme que j’ai là me met singulièrement à l’aise. Je sais gré à votre brave Haïtien de vous avoir imposé par réciprocité le costume de gala: la brochette vous sied, et c’est l’avis de Mademoiselle Doudou<note
+            n="1" place="foot" type="editorial">
+ Spitzname von Baissacs Tochter <persName ref="https://gams.uni-graz.at/o:hsa.persons#P.1071">Jenny Baissac</persName>.</note>. </p>
+        <p>Mais où prenez-vous, mon cher Monsieur, que le cant <ref
+            target="https://gams.uni-graz.at/o:hsa.languages#L.891">anglais</ref> se soit acclimaté chez nous. <ref target="https://gams.uni-graz.at/o:hsa.languages#L.226">
+Français</ref> nous avons été, Français nous sommes et Français nous serons jusqu’à la consommation des siècles; ‘improper’ et ‘shocking’ ne sont pas de notre vocabulaire. </p>
+
+        <p>Si donc le cœur vous en dit, faites la cour à Doudou par dessus les trois mille lieues d’eau qui vous séparent; je lui remettrai vos poulets, dont je veux être pendu si j’arrache jamais une seule plume. Et la demoiselle en vaut la peine, ce dont vous vous convaincrez de visée si <pb
+            facs="#IMG.2"
+            n="2"/> vous en venez à échanger vos images. Elle vous envoie, en attendant, sa dernière ou ses dernières petites nouvelles<note
+            n="2" place="foot"
+              type="editorial"> In Schuchardts Nachlass finden sich unter der Nr. B.11.21.1.4. einige Kurzgeschichten von <persName ref="https://gams.uni-graz.at/o:hsa.persons#P.1071">Jenny Baissac</persName>.</note>. </p>
+
+        <p>Je vous renvoie vos textes seychellois où je ne relève absolument que deux mots qui n’aient pas cours ici: <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">
+mazinga</hi>
+          </foreign>, nous dirions <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">yangue</hi>
+          </foreign>
+          <note n="3" place="foot" type="editorial"> „C’est le sortilége au sens général“ (<bibl>
+              <ref target="https://gams.uni-graz.at/o:hsa.bibliography#BIBL.2306">Baissac 1880</ref>
+            </bibl>: XXXIV)</note>; et <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">reinque</hi>
+          </foreign>, nous dirions <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">néque</hi>
+          </foreign>. Les 3 proverbes, les 5 énigmes sont nôtres. </p>
+        <p>Vous seriez curieux de renseignements de toute nature sur les <placeName ref="https://gams.uni-graz.at/o:hsa.places#PL.5923">Seychelles</placeName>? Ce que j’en ai lu de plus complet est une notice dans l’Univers pittoresque, volume des îles de l’Afrique; vous pourriez sans doute vous procurer facilement l’ouvrage. </p>
+        <p>J’ai de plus à <placeName
+            ref="https://gams.uni-graz.at/o:hsa.places#PL.666">
+Paris</placeName> un correspondant, Théodore Lauzier, 152 Boulevard Haussmann, avec lequel vous pourriez avoir intérêt à entrer en relations. C’est un bibliophile; et, des <ref
+            target="https://gams.uni-graz.at/o:hsa.subjects#S.839">créoles</ref> établis en <placeName ref="https://gams.uni-graz.at/o:hsa.places#PL.5905">
+France</placeName>, c’est probablement celui qui possède le plus de documents sur nos îles. Si le cœur vous en dit, recommandez-vous de moi auprès de lui; il vous ferait accueil, j’en suis sûr. </p>
+
+        <p>Vous avez enfin reçu les Récits Mauriciens. Mon ami Larchey m’affirme qu’il en pense encore plus de bien qu’il n’en dit dans son avant-propos. A ce point qu’il veut que je mette, ou fasse mettre, en anglais ‘Montagnette<note
+            n="4" place="foot" type="editorial">
+            <bibl>
+              <ref target="https://gams.uni-graz.at/o:hsa.bibliography#BIBL.2303">
+                <hi rend="unknown" rendition="#none">Voyage de Montagnette au pays des Coqs</hi> (Baissac 1884b: 31-98)</ref>
+            </bibl>.</note>, la Poupée de Marie<note n="5" place="foot" type="editorial">
+            <hi rend="unknown" rendition="#none">La poupée de Marie</hi>
+            <bibl>
+              <ref target="https://gams.uni-graz.at/o:hsa.bibliography#BIBL.2303">(Baissac 1884b: 313-323)</ref>
+            </bibl>.</note> et Minet rouge<note n="6" place="foot" type="editorial">
+            <hi rend="unknown" rendition="#none">Minet rouge</hi>
+            <bibl>
+              <ref target="https://gams.uni-graz.at/o:hsa.bibliography#BIBL.2303">(Baissac 1884b: 149-157)</ref>
+
+            </bibl>. </note>’ pour en faire un volume illustré par Kate Greenaway et Giacomelli. Pourquoi une version <ref
+            target="https://gams.uni-graz.at/o:hsa.languages#L.891">anglaise</ref> plutôt qu’une <ref target="https://gams.uni-graz.at/o:hsa.languages#L.667">allemande</ref> par exemple? Estimez-vous qu’on aurait des lecteurs outre-Manche ou bien outre-Rhin? </p>
+
+        <p>Quant aux origines du conte créole que je vous ai envoyé, je les crois, comme vous, Européennes. J’ai même souvenance d’un conte russe qui aurait avec celui-ci de frappantes analogies. Le balai, la sagaye et l’œuf<note
+            n="7" place="foot" type="editorial"> Die <hi rend="unknown"
+              rendition="#none">Histoire de l’œuf, du balai et de la sagaïe</hi> (<hi rend="unknown" rendition="#none">Zistoire dizeif, balié av sagaïe</hi>) findet sich in <bibl>
+              <ref target="https://gams.uni-graz.at/o:hsa.bibliography#BIBL.2285">Baissac 1888: 162-179</ref>
+
+            </bibl>.</note>, la sagaye surtout, viennent à changer, mais le fond est le même en Russie comme en Bretagne où le conte se <pb
+            facs="#IMG.2" n="3"/> retrouve. Mon recueil ne grossit guère; on ne me procure rien et je n’ai pas les matériaux d’une publication qui valût la peine d’être faite. J’attends; la patience du moins ne me fait pas défaut.</p>
+        <p>Avez-vous reçu dans le temps les ségas et leur musique?</p>
+        <closer>
+          <salute>A bientôt, mon cher Monsieur; n’oubliez pas que vous avez à Paris dans mon cousin un homme qui sera heureux de vous obliger, et à Maurice un homme qui en sera plus heureux encore</salute>
+          <lb/>
+          <salute>Votre cordialement dévoué</salute>
+          <lb/>
+          <signed>
+            <persName ref="https://gams.uni-graz.at/o:hsa.persons#P.1069">C Baissac</persName>
+          </signed>
+        </closer>
+        <postscript>
+          <p>Dites-moi, s’il vous plait, si de tous les patois à base française qui se parlent aux Antilles, le patois de Haïti n’est pas celui qui ressemble le plus au Mauricien?</p>
+        </postscript>
+      </div>
+    </body>
+  </text>
+</TEI>
+<?xml-model href="https://gams.uni-graz.at/o:hsa.odd/RNG" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://gams.uni-graz.at/o:hsa.odd/RNG" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>

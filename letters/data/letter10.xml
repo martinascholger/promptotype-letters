@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://gams.uni-graz.at/o:hpe.odd/RNG" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://gams.uni-graz.at/o:hpe.odd/RNG" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_10">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="de">Johannes von Müller an Joseph von Hammer-Purgstall</title>
+            <title type="sub" xml:lang="de">Wien, 15.10.1796</title>
+            <title type="main" xml:lang="en">Johannes von Müller to Joseph von Hammer-Purgstall</title>
+            <title type="sub" xml:lang="en">Wien, 15.10.1796</title>
+            <author ana="marcrelator:aut">
+               <persName ref="https://gams.uni-graz.at/o:hpe.persons#P.543">
+                  <forename>Johannes</forename>
+                  <nameLink>von</nameLink>
+                  <surname>Müller</surname>
+               </persName>
+            </author>
+            <respStmt ana="marcrelator:trc">
+               <resp>Transcription</resp>
+               <persName>
+                  <forename>Johann Georg</forename>
+                  <surname>Müller</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:edt">
+               <resp>Edition</resp>
+               <persName ref="WH">
+                  <forename>Walter</forename>
+                  <surname>Höflechner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:edt">
+               <resp>Edition</resp>
+               <persName>
+                  <forename>Sylvia</forename>
+                  <surname>Kowatsch</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:pfr">
+               <resp>Proofreading</resp>
+               <persName>
+                  <forename>Sylvia</forename>
+                  <surname>Kowatsch</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:trl">
+               <resp>Translation</resp>
+               <persName>
+                  <forename>Sylvia</forename>
+                  <surname>Kowatsch</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mrk">
+               <resp>Textprocessing</resp>
+               <persName ref="AW">
+                  <forename>Alexandra</forename>
+                  <surname>Wagner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mrk">
+               <resp>TEI Encoding</resp>
+               <persName xml:id="SSt">
+                  <forename>Sabrina</forename>
+                  <surname>Strutz</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mrk">
+               <resp>TEI Encoding</resp>
+               <persName>
+                  <forename>Johanna</forename>
+                  <surname>Ofenauer</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mrk">
+               <resp>TEI Encoding</resp>
+               <persName>
+                  <forename>Alexandra</forename>
+                  <surname>Wagner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mdc">
+               <resp>Metadata Management</resp>
+               <persName>
+                  <forename>Elisabeth</forename>
+                  <surname>Steiner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mdc">
+               <resp>Metadata Management</resp>
+               <persName>
+                  <forename>Melanie</forename>
+                  <surname>Frauendorfer</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName ref="https://d-nb.info/gnd/10182836-6"
+                        corresp="https://wissenschaftsgeschichte.uni-graz.at/de/">Zentrum für
+                            Wissenschaftsgeschichte </orgName>
+            </publisher>
+            <authority ana="marcrealator:his">
+               <orgName ref="https://d-nb.info/gnd/1137284463"
+                        corresp="https://digital-humanities.uni-graz.at">Institut für Digitale
+                            Geisteswissenschaften</orgName>
+            </authority>
+            <distributor ana="marcrelator:rps">
+               <orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches
+                            Asset Management System</orgName>
+            </distributor>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc/4.0/">Creative
+                            Commons BY-NC 4.0</licence>
+            </availability>
+            <date when="2025" ana="dcterms:issued">2025</date>
+            <pubPlace ana="marcrelator:pup">Graz</pubPlace>
+            <idno type="PID">o:hpe.letter.10</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://gams.uni-graz.at/context:hpe">Joseph von Hammer-Purgstall.
+                        Korrespondenz</title>
+            <title>Extended and revised version of <ref corresp="#Hoeflechner_2018">Höflechner, Wagner, and Koitz-Arko 2018</ref>
+            </title>
+            <respStmt ana="marcrelator:edt">
+               <resp>Editor</resp>
+               <persName xml:id="MS">
+                  <forename>Martina</forename>
+                  <surname>Scholger</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:edt">
+               <resp>Editor</resp>
+               <persName xml:id="WH">
+                  <forename>Walter</forename>
+                  <surname>Höflechner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:edt">
+               <resp>Editor</resp>
+               <persName xml:id="AW">
+                  <forename>Alexandra</forename>
+                  <surname>Wagner</surname>
+               </persName>
+            </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <bibl xml:id="Hoeflechner_2018">Hammer-Purgstall, Joseph von: Erinnerungen,
+                        Briefe, Materialien. Bd. 2. Hrsg. von Walter Höflechner, Alexandra Wagner
+                        und Gerit Koitz-Arko. Publikationen aus dem Archiv der Universität Graz, Bd.
+                        46, hrsg. von Alois Kernbauer. 2. Version. Graz: Akademische Druck- u.
+                        Verlagsanstalt, 2018. ISBN 978-3-201-02030-5.</bibl>
+            <bibl>JvM SW<idno>Johannes von Müllers sämmtliche Werke, hg von Johann
+                        Georg Müller, 38. Teil; Johannes von Müllers Briefe an Herrn Charles Bonnet
+                        und Studien. Briefe an Freunde 2, Stuttgart–Tübingen 1835</idno>
+            </bibl>
+            <bibl>
+               <ref target="https://books.google.at/books?id=JVNlAAAAcAAJ&amp;printsec=frontcover&amp;hl=de&amp;source=gbs_ge_summary_r&amp;cad=0#v=onepage&amp;q&amp;f=false"/>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Steiermärkisches Landesarchiv</repository>
+                  <collection>Schlossarchiv Hainfeld (SAH)</collection>
+                  <idno>Karton 29 / Heft 584</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="de">Die Joseph von <title>Hammer-Purgstall Korrespondenz</title>
+                        widmet sich der Umsetzung der Korrespondenz des österreichischen
+                        Orientalisten Joseph von Hammer-Purgstall (1774–1856) als digitale Edition.
+                        Die Korrespondenz ist ein eindrucksvolles Zeugnis seines weitreichenden
+                        wissenschaftlichen Dialogs und seiner zentralen Rolle in der Orientalistik.
+                        Sie erstreckt sich über ganz Europa bis in die USA und nach Indien und
+                        stellt eine unersetzliche Quelle für die Geschichte der Orientalistik dar.
+                        Ausgehend von den im Jahr 2018 in <ref target="https://gams.uni-graz.at/archive/objects/o:hpe.band2/methods/sdef:TEI/get">fünf Bänden</ref> sowohl in gedruckter als auch als <ref target="https://gams.uni-graz.at/archive/objects/o:hpe.band2/methods/sdef:TEI/get">PDF-Version</ref> publizierten Briefen entsteht hier eine auf dem
+                        Standard der Text Encoding Initiative basierende digitale Edition, die
+                        kontinuierlich durch neue Briefe erweitert wird.</p>
+            <p xml:lang="en">The Joseph von <title>Hammer-Purgstall Correspondence</title>
+                        is dedicated to implementing the correspondence of Austrian Orientalist
+                        Joseph von Hammer-Purgstall (1774-1856) as a digital edition. The
+                        correspondence is an impressive testament to his far-reaching scholarly
+                        dialogue and his central role in Oriental studies. It extends across Europe
+                        to the USA and India and represents an irreplaceable source for the history
+                        of Oriental studies. Based on the letters published in 2018 in <ref target="https://gams.uni-graz.at/archive/objects/o:hpe.band2/methods/sdef:TEI/get">five volumes</ref> in both printed and <ref target="https://gams.uni-graz.at/archive/objects/o:hpe.band2/methods/sdef:TEI/get">PDF format</ref>, a digital edition based on the Text Encoding
+                        Initiative standard is being created here, which is continuously expanded
+                        with new letters.</p>
+            <ab>
+               <ref target="context:hpe" type="context">Joseph von Hammer-Purgstall.
+                            Korrespondenz</ref>
+               <ref target="context:hpe.letters" type="context">Korrespondenz</ref>
+               <ref target="context:hpe.letters.543" type="context">Korrespondenz Müller, Johannes von - Hammer-Purgstall, Joseph von</ref>
+            </ab>
+         </projectDesc>
+         <listPrefixDef>
+            <prefixDef ident="marcrelator"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="http://id.loc.gov/vocabulary/relators/$1">
+               <p>Taxonomie Rollen MARC</p>
+            </prefixDef>
+            <prefixDef ident="dcterms"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="http://purl.org/dc/terms/$1">
+               <p>DCterms</p>
+            </prefixDef>
+         </listPrefixDef>
+         <tagsDecl>
+            <rendition xml:id="sign">text-align: right</rendition>
+         </tagsDecl>
+         <schemaRef url="https://gams.uni-graz.at/o:hpe.odd"/>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName corresp="https://gams.uni-graz.at/o:hpe.persons#P.543">
+                  <surname>Müller</surname>
+                  <forename>Johannes</forename>
+                  <nameLink>von</nameLink>
+               </persName>
+               <placeName ref="https://sws.geonames.org/2761369">Wien</placeName>
+               <date when="1796-10-15"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName corresp="https://gams.uni-graz.at/o:hpe.persons#P.2000"
+                         ref="https://d-nb.info/gnd/118545426">
+                  <surname>Hammer-Purgstall</surname>
+                  <forename>Joseph</forename>
+                  <nameLink>von</nameLink>
+               </persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2025-02-04+01:00" resp="#SSt">Initial Version</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter" subtype="original" xml:space="preserve" xml:lang="fr"><body><div><opener><dateline>Vienne, 15 Oct. 96</dateline></opener><p>Je<note type="comment" place="bottom"><p> 	Dieser Brief ist übernommen aus Johannes von Müller sämtliche Werke, hg von Johann Georg Müller, 38. Teil; Johannes von Müllers Briefe an Herrn Charles Bonnet und Studien. Briefe an Freunde 2, Stuttgart–Tübingen 1835, dort Nr. 146 – https://opacplus.bsb-muenchen.de/metaopac/search?View=default&amp;db=100&amp;id=BV003927782.</p></note> compare actuellement <persName>l’Abulpharage</persName><note type="comment" place="bottom"><p> 	<persName>Gregorios Bar-Hebraeus</persName>, auch <persName>Abu-l-Faradsch, Abulfaragius</persName> (1226–1286) war ein bedeutender Universalgelehrter jüdischer Abstammung, dessen Vater zur Syrisch-Orthodoxen Kirche übergetreten war. Seine Muttersprache war Syrisch/Aramäisch, daneben lernte er früh schon Arabisch, dann auch Griechisch, Türkisch und konnte Persisch zumindest lesen. 1246 wurde er zum Bischof von Guba geweiht. Nach verschiedenen kirchlichen Aktivitäten und Reisen wurde er nach der Eroberung Bagdad 1258 wurde er, zumal er gute Beziehungen zu <persName>Hülegu</persName> unterhielt, Patriarch („Großerzbischof“) von Antiochien. Wie sein Vater war auch er als Arzt berühmt. Gregorius verfasste zahlreiche Werke in den verschiedensten Wissensgebieten, er gilt als <hi rend="italic">„letzter Höhepunkt der syrischen Schulgelehrsamkeit“</hi>; (<hi rend="italic">Wikipedia</hi>). <persName>Müller</persName> bezieht sich hier wohl auf eine der Übersetzungen der auf Arabisch verfassten Weltgeschichte, der Louis <persName>Moréri</persName> (1643–1680) eine Fortsetzung hinzu fügte; Edouard <persName>Pococke</persName>, Professor für Hebräisch in Oxford und Lektor für arabische Sprachen, hatte dieses Werk 1663 in einer lateinischen Übersetzung samt einer Ergänzung mit einer Liste orientalischer Fürsten veröffentlicht, nachdem er 1650 schon einen kleinen Auszug mit dem Titel <hi rend="italic">„Specimen Historiae Arabum; sive Gregorii Abul Faraggii, Malatiensis, de origine et moribus Arabum succincta narratio“</hi> publiziert hatte; (s. <hi rend="italic">frz.wikisource s.v. Bayle_Dictionnaire_historique_et_critique(1820)_Tome_1.djvu/146</hi>).</p></note> Syriaque avec le même auteur arabe; l’un et l’autre malheureusement dans les traductions. Je vois que ce sont deux ouvrages tout à fait différents; celui qu’il a fait pour les Syriens, contient plus de détails des relations avec l’Asie mineure et l’empire grec; l’autre est plus solide par rapport à l’histoire des califes et de la littérature arabe.</p><p>Ce soir je compte d’achever l’extrait de la bibliothèque de <persName>Photius</persName><note type="comment" place="bottom"><p> 	<persName>Photios</persName> I. „der Große“, (ca. 820–891), wurde 858 als Laie zum Patriarchen von Konstantinopel gewählt und schließlich einer der bedeutendsten byzantinischen Theologen und humanistischen Gelehrten; er geriet mit dem Papsttum in Konflikt, wobei u.a. die von ihm betriebene Slawenmission mit <persName>Kyrillos</persName> und <persName>Methodios</persName>, aber auch Differenzen mit Rom bezüglich der kirchlichen Lehre bis hin zur Frage des „filioque“ eine wesentliche Rolle spielten, die zu seiner zeitweiligen Exkommunikation führten. Sein aus historischer Sicht wichtigstes Werk war das „Myriobiblon“, auch „Bibliotheke“ genannt, eine Sammlung von Notizen über die Lektüre von antiken Klassikern. Die von <persName>Photios</persName> eingesehenen Werke wurden von ihm teils zitiert und teils zusammengefasst. Die „Bibliotheke“ ist das einzige überhaupt erhaltene byzantinische Werk über Literaturgeschichte und ein wesentliches Zeugnis für den im 9. Jh. beginnenden „byzantinischen Humanismus“; (<hi rend="italic">Wikipedia</hi>).</p></note>, qui m’a extrêmement intéressé par le nombre de notices qu’elle renferme, qu’on ne trouve aucune autre part. C’est un bois qui a des sites uniques, comme il y en a à Weidling. – Je lis, en me faisant coiffer, un ouvrage nommé Elpizon<note type="comment" place="bottom"><p> 	Christian Friedrich <persName>Sintenis</persName> (1750–1820) war ein evangelischer Theologe und Erbauungsschriftsteller, sein <hi rend="italic">„Elpizon oder über meine Fortdauer im Tode“</hi> erschien: Teil 1: Danzig 1795, Teil 2: Zerbst 1804, Teil 3: Leipzig 1806.</p></note>, qui vient de paraître sur l’immortalité de l’âme, où toutes les objections et les raisons sont pesées avec un esprit infini et une impartialité singulière. La décision est pour; et elle s’appuie d’une quantité de motifs que je n’ai jamais vu présentés sous un meilleur jour. Ce livre me fait un vrai plaisir : on ne peut jamais, dans ce monde, savoir, être et faire tout ce qu’on devrait et que l’on voudrait; mais quand on a l’éternité de siècles en perspective, l’on trouve qu’il y a du temps pour tout (même pour les jolis vers, et pour les promenades dans le bois). Adieu, mon cher et bon ami <signed>etc.</signed></p></div></body></text>
+   <text type="letter" subtype="translation" xml:lang="de" xml:space="preserve">
+             <body>
+                <div>
+                    <p> Ich vergleiche derzeit das syrische Werk von <persName>Abulpharage</persName> mit dem arabischen; das eine wie das andere leider in Übersetzungen. Ich sehe, dass es zwei ganz unterschiedliche Werke sind: Das eine, das er für die Syrer machte, enthält mehr Details über die Beziehungen mit Kleinasien und Griechenland, das andere ist viel tiefgründiger hinsichtlich der Geschichte der Kalifen und der arabischen Literatur.</p><p>	Heute Abend rechne ich damit, den Auszug der Bibliothek des <persName>Photius</persName> zu beenden, die mich durch die Anzahl der beigefügten Notizen, die sonst nirgendwo zu finden sind, außerordentlich interessiert. Das ist ein Wald, der einzigartige Plätze hat, wie es sie zum Beispiel in Weidling gibt. – Ich lese mit Begeisterung ein soeben erschienenes Werk mit dem Namen „Elpizon“ über die Unsterblichkeit der Seele, wo alle Gegenargumente und Argumente mit einem unendlichen Esprit und einer einzigartigen Unparteilichkeit abgewogen werden. Die Entscheidung fällt dafür aus und sie stützt sich auf eine Menge von Gründen, die ich noch nie besser dargestellt gesehen habe. Dieses Buch bereitet mir eine wahre Freude: man kann in dieser Welt nie alles wissen, sein oder machen, was man sollte oder wollte, aber wenn man die Ewigkeit von Jahrhunderten in Aussicht hat, findet man, dass es Zeit für alles gibt (sogar für die hübschen Verse und für Spaziergänge im Wald).</p><p>	Adieu, mon cher et bon ami Ü$</p>
+                </div>
+            </body>
+            </text>
+</TEI>

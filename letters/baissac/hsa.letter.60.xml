@@ -1,0 +1,571 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="de">
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Charles Baissac an Hugo Schuchardt (4-00421)</title>
+        <author ana="marcrelator:aut">
+          <persName ref="https://gams.uni-graz.at/o:hsa.persons#P.1069">
+            <forename>Charles</forename>
+            <surname>Baissac</surname>
+          </persName>
+        </author>
+        <editor ana="marcrelator:edt">
+          <persName>
+            <forename>Elisabeth</forename>
+            <surname>Steiner</surname>
+          </persName>
+        </editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ana="marcrelator:pbl">
+          <orgName corresp="https://sprachwissenschaft.uni-graz.at" ref="http://d-nb.info/gnd/807328-4">Institut für Sprachwissenschaft,
+                  Karl-Franzens-Universität Graz</orgName>
+        </publisher>
+        <authority ana="marcrelator:his">
+          <orgName corresp="https://informationsmodellierung.uni-graz.at" ref="http://d-nb.info/gnd/1137284463">Zentrum für
+                  Informationsmodellierung - Austrian Centre for Digital Humanities,
+                  Karl-Franzens-Universität Graz</orgName>
+        </authority>
+        <distributor ana="marcrelator:rps">
+          <orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches
+                  Asset Management System</orgName>
+        </distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative Commons
+                  BY-NC 4.0</licence>
+        </availability>
+        <date ana="dcterms:issued" when="2022">2022</date>
+        <pubPlace ana="marcrelator:pup">Graz</pubPlace>
+        <idno corresp="http://schuchardt.uni-graz.at/id/letter/60" type="PID">o:hsa.letter.60</idno>
+        <idno source="http://schuchardt.uni-graz.at" type="altIdentifier">4-00421</idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title ref="https://schuchardt.uni-graz.at">Hugo Schuchardt Archiv</title>
+        <respStmt ana="marcrelator:pbl">
+          <resp>Herausgeber</resp>
+          <persName ref="http://d-nb.info/gnd/111679893">
+            <forename>Bernhard</forename>
+            <surname>Hurch</surname>
+            <orgName ref="http://d-nb.info/gnd/36157-4">Karl-Franzens-Universität Graz</orgName>
+          </persName>
+        </respStmt>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>Österreich</country>
+            <region>Steiermark</region>
+            <settlement>Graz</settlement>
+            <institution>Karl-Franzens-Universität Graz</institution>
+            <repository ref="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</repository>
+            <idno type="shelfmark">00421</idno>
+          </msIdentifier>
+          <msContents>
+            <textLang mainLang="fr"/>
+            <msItem>
+              <author ref="https://gams.uni-graz.at/o:hsa.persons#P.1069">
+                <forename>Charles</forename>
+                <surname>Baissac</surname>
+              </author>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <material ref="http://vocab.getty.edu/aat/300014109">Papier</material>
+                  <objectType>Brief</objectType>
+                </support>
+                <extent>
+                  <measure quantity="5" unit="pages">5 Seiten</measure>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace ana="marcrelator:prp" corresp="https://gams.uni-graz.at/o:hsa.places#PL.41" ref="http://sws.geonames.org/934154">Port Louis</origPlace>
+              <origDate ana="dcterms:created" when="1882-09">1882-09</origDate>
+            </origin>
+            <provenance>
+                     Hugo Schuchardts wissenschaftlicher Nachlass (Bibliothek,
+                     Werkmanuskripte und wissenschaftliche Korrespondenz) kam nach seinem Tod 1927
+                     laut Verfügung in seinem Testament als Geschenk an die UB Graz.
+                  </provenance>
+          </history>
+        </msDesc>
+        <bibl type="print">
+          <author>
+            <persName>
+              <forename>Elisabeth</forename>
+              <surname>Steiner</surname>
+            </persName>
+          </author>
+          <date when="2010">2010</date>
+          <title>'L'approbation d'un juge come vous est de celles dont on a le droit d'être fier':
+               Der Briefwechsel zwischen Schuchardt und Baissac</title>
+          <series>
+            <title>Grazer Linguistische Studien</title>
+          </series>
+          <biblScope unit="volume">74</biblScope>
+          <biblScope from="7" to="62" unit="pages">7-62</biblScope>
+        </bibl>
+        <bibl type="online">
+          <author ana="marcrelator:aut">
+            <persName>
+              <forename>Elisabeth</forename>
+              <surname>Steiner</surname>
+            </persName>
+          </author>
+          <date when="2009">2009</date>
+          <title>Die Korrespondenz zwischen Charles Baissac und Hugo Schuchardt</title>
+          <series>
+            <title>Hugo Schuchardt Archiv</title>
+            <editor>
+              <forename>Bernhard</forename>
+              <surname>Hurch</surname>
+            </editor>
+          </series>
+          <ref target="http://schuchardt.uni-graz.at/id/letters/1069"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Die Datenmodellierung orientiert sich am <ref
+            target="https://www.deutschestextarchiv.de/doku/basisformat/">DTA-Basisformat</ref>,
+               <ref
+            target="https://www.ediarum.org/">ediarum</ref> und der
+               <ref target="https://github.com/TEI-Correspondence-SIG/correspDesc">CorrespDesc-SIG</ref>.</p>
+        <p>Das auf DTABf-Modellierungsschema wurde für die Zwecke des Projektes angepasst und befindet sich unter <ref target="https://gams.uni-graz.at/o:hsa.odd"/>
+        </p>
+      </editorialDecl>
+      <projectDesc>
+        <ab>
+          <ref target="info:fedora/context:hsa" type="context">Hugo Schuchardt Archiv</ref>
+        </ab>
+        <p>Das Hugo Schuchardt Archiv widmet sich der Aufarbeitung des Gesamtwerks und des Nachlasses von Hugo Schuchardt (1842-1927).
+               Die Onlinepräsentation stellt alle Schriften sowie eine umfangreiche Sekundärbibliografie zur Verfügung.
+               Die Bearbeitung des Nachlasses legt besonderes Augenmerk auf die Erschließung der Korrespondenz,
+               die zu großen Teilen bereits ediert vorliegt, und der Werkmanuskripte.</p>
+      </projectDesc>
+      <listPrefixDef>
+        <prefixDef ident="marcrelator" matchPattern="([a-z]+)" replacementPattern="http://id.loc.gov/vocabulary/relators/$1">
+          <p>Rollen-Taxonomie</p>
+        </prefixDef>
+        <prefixDef ident="dcterms" matchPattern="([a-z]+)" replacementPattern="http://purl.org/dc/terms/$1">
+          <p>Datumstaxonomie</p>
+        </prefixDef>
+        <prefixDef ident="skos" matchPattern="([a-z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1">
+          <p>Thesaurustaxonomie</p>
+        </prefixDef>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc ref="https://gams.uni-graz.at/o:hsa.letter.60">
+        <correspAction type="sent">
+          <persName corresp="https://gams.uni-graz.at/o:hsa.persons#P.1069" ref="https://viaf.org/viaf/228232402">
+            <forename>Charles</forename>
+            <surname>Baissac</surname>
+          </persName>
+          <placeName corresp="https://gams.uni-graz.at/o:hsa.places#PL.41" key="#GID.1" ref="http://sws.geonames.org/934154">Port Louis</placeName>
+          <date when="1882-09">1882-09</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName corresp="https://gams.uni-graz.at/o:hsa.persons#P.109" ref="https://viaf.org/viaf/261931943">
+            <forename>Hugo</forename>
+            <surname>Schuchardt</surname>
+          </persName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords scheme="cirilo:normalizedPlaceNames">
+          <list>
+            <item>
+              <placeName xml:id="GID.1">
+                <country>Mauritius</country>
+                <settlement>Port Louis</settlement>
+                <name ref="http://geonames.org/934154" type="fcode:PPLC">Port Louis</name>
+                <location>
+                  <geo>57.49889,-20.16194</geo>
+                </location>
+              </placeName>
+            </item>
+          </list>
+        </keywords>
+        <keywords ana="correspondence">
+          <list>
+            <item>
+              <ref target="info:fedora/context:hsa.letters.1069" type="context">
+                        Korrespondenz Charles Baissac - Hugo Schuchardt
+                     </ref>
+            </item>
+            <item>
+              <ref target="info:fedora/context:hsa.letters" type="context">Korrespondenz</ref>
+            </item>
+          </list>
+        </keywords>
+        <keywords scheme="https://gams.uni-graz.at/o:hsa.subjects">
+          <term ref="https://gams.uni-graz.at/o:hsa.subjects#S.5511" type="skos:Concept">
+            <term type="skos:prefLabel" xml:lang="de">Académie des inscriptions et belles-lettres</term>
+          </term>
+          <term ref="https://gams.uni-graz.at/o:hsa.subjects#S.5022" type="skos:Concept">
+            <term type="skos:prefLabel" xml:lang="de">Académie française</term>
+          </term>
+        </keywords>
+        <keywords scheme="https://gams.uni-graz.at/o:hsa.languages">
+          <term ref="https://gams.uni-graz.at/o:hsa.languages#L.576" type="skos:Concept">
+            <term type="skos:prefLabel" xml:lang="de">Bantu-Sprachen</term>
+          </term>
+          <term ref="https://gams.uni-graz.at/o:hsa.languages#L.781" type="skos:Concept">
+            <term type="skos:prefLabel" xml:lang="de">Spanischbasierte Kreolsprachen</term>
+          </term>
+          <term ref="https://gams.uni-graz.at/o:hsa.languages#L.172" type="skos:Concept">
+            <term type="skos:prefLabel" xml:lang="de">Portugiesischbasierte Kreolsprachen</term>
+          </term>
+          <term ref="https://gams.uni-graz.at/o:hsa.languages#L.346" type="skos:Concept">
+            <term type="skos:prefLabel" xml:lang="de">Französischbasierte Kreolsprache (Mauritius)</term>
+          </term>
+          <term ref="https://gams.uni-graz.at/o:hsa.languages#L.348" type="skos:Concept">
+            <term type="skos:prefLabel" xml:lang="de">Französischbasierte Kreolsprache (Réunion)</term>
+          </term>
+          <term ref="https://gams.uni-graz.at/o:hsa.languages#L.844" type="skos:Concept">
+            <term type="skos:prefLabel" xml:lang="de">Portugiesisch</term>
+          </term>
+        </keywords>
+        <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation">Wissenschaft</classCode>
+        <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation">Sprachwissenschaft</classCode>
+        <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation">Brief</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr">Französisch</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface>
+      <graphic mimeType="image/jpeg" url="info:fedora/o:hsa.letter.60" xml:id="IMG.1">
+        <desc>
+          <ref
+            target="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</ref>, <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons CC BY-NC https://creativecommons.org/licenses/by-nc/4.0/</ref>
+        </desc>
+      </graphic>
+    </surface>
+    <surface>
+      <graphic mimeType="image/jpeg" url="info:fedora/o:hsa.letter.60" xml:id="IMG.2">
+        <desc>
+          <ref
+            target="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</ref>, <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons CC BY-NC https://creativecommons.org/licenses/by-nc/4.0/</ref>
+        </desc>
+      </graphic>
+    </surface>
+    <surface>
+      <graphic mimeType="image/jpeg" url="info:fedora/o:hsa.letter.60" xml:id="IMG.3">
+        <desc>
+          <ref
+            target="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</ref>, <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons CC BY-NC https://creativecommons.org/licenses/by-nc/4.0/</ref>
+        </desc>
+      </graphic>
+    </surface>
+    <surface>
+      <graphic mimeType="image/jpeg" url="info:fedora/o:hsa.letter.60" xml:id="IMG.4">
+        <desc>
+          <ref
+            target="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</ref>, <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons CC BY-NC https://creativecommons.org/licenses/by-nc/4.0/</ref>
+        </desc>
+      </graphic>
+    </surface>
+    <surface>
+      <graphic mimeType="image/jpeg" url="info:fedora/o:hsa.letter.60" xml:id="IMG.5">
+        <desc>
+          <ref
+            target="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</ref>, <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons CC BY-NC https://creativecommons.org/licenses/by-nc/4.0/</ref>
+        </desc>
+      </graphic>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div subtype="original" type="letter" xml:id="L.60" xml:lang="fr">
+        <pb facs="#IMG.1" n="1"/>
+        <dateline>Port-Louis Septembre 1882</dateline>
+        <opener>Mon cher Monsieur,</opener>
+
+        <p>La dernière malle m’a porté deux lettres de vous; l’une à mon adresse, datée du 7 Juillet; l’autre à mon ami <persName ref="https://gams.uni-graz.at/o:hsa.persons#P.2113">
+Mallac</persName> qui m’a fait le plaisir de me l’envoyer pour me procurer un prétexte de causer plus longuement avec vous. Je le remercie de sa bonne attention, il sait que je serai toujours heureux de vous être agréable en quoi que ce soit. Puisque Mallac me passe la plume pour répondre à vos questions, je vais le faire avec tout le soin possible. </p>
+
+        <p>I° La réponse de T. Pitot au pamphlet de Bernardin n’a jamais été imprimée (je vous aurais envoyé un exemplaire de l’ouvrage.) Il y a quelques mois j’ai découvert dans un vieux registre cette réponse que l’on croyait avoir été détruite par un incendie; l’original a péri, mais cette copie a échappé. Le copiste malheureusement n’était rien moins qu’un habile homme; il a souvent défiguré son texte au point qu’il m’a fallu interpréter sa version pour en tirer dans maint passage un sens acceptable. Mais la page créole que je vous ai envoyée n’a été l’objet d’aucune correction de ma part; je le transcrite à votre intention avec la plus scrupuleuse fidélité; tenez donc pour absolument authentique la copie que vous avez sous les yeux. Peut-être publierai-je un jour et le voyage de Bernardin et la réponse de Th. Pitot; dans ce cas, mon cher Monsieur, l’ouvrage arriverait à <placeName ref="https://gams.uni-graz.at/o:hsa.places#PL.6">Graz</placeName>, soyez-en sûr.</p>
+        <p>2° Des verbes qui changent <hi rend="unknown" rendition="#none">é</hi> en <hi rend="unknown" rendition="#none">e</hi> devant un complément.</p>
+        <p>La loi est bien telle que je l’ai formulée. Mais voici, à votre intention quelques remarques que je n’ai pas cru opportun de faire dans mon livre destiné, comme je le disais, non à des érudits mais à des curieux moins difficiles. </p>
+        <p>1° Charrié ne perd jamais <hi rend="unknown" rendition="#none">é</hi>. Exemple <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">Çarié tout ça canes là dans moulin</hi>
+          </foreign>; charroyez toutes ces cannes au moulin. Mais <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">noye li, ploye li, nettoye</hi> li.</foreign>
+        </p>
+        <p>2° Cri<hi rend="unknown" rendition="#none">é</hi> semble préférer <hi rend="unknown"
+            rendition="#none">é</hi>. Ex. <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">Crié li</hi>
+          </foreign>; appelez-le en criant; on entend rarement <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">
+crie-li</hi>
+          </foreign>.</p>
+        <p>3° Mari<hi rend="unknown" rendition="#none">é</hi> garde toujours <hi rend="unknown"
+            rendition="#none">é</hi>. Ex. <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">Zamais to va marié li</hi>
+          </foreign>; jamais tu ne l’épouseras.</p>
+        <p>4° Pari<hi rend="unknown" rendition="#none">é</hi> garde toujours <hi rend="unknown"
+            rendition="#none">é</hi>. Ex. <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">Anons parié lacourse</hi>
+          </foreign>; Parions à qui courra le mieux.</p>
+        <p>Mais <hi rend="unknown" rendition="#none">plïe li</hi>, plie-le; <hi rend="unknown" rendition="#none">prïe-li</hi>; prie-le, etc. *</p>
+        <p>5° Le français galoper nous a donné <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">galpé</hi>
+          </foreign> et <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">galoupé</hi>
+          </foreign>. Le premier <hi rend="unknown" rendition="#none">galpé</hi> ne <pb facs="#IMG.2"
+            n="2"/> perd jamais <hi rend="unknown" rendition="#none">é</hi>. Ex <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">Galpé lacase</hi>
+          </foreign>; Cours à la maison. Mais <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">galoupe lacase</hi>
+          </foreign>.</p>
+        <p>6° <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">Voulé</hi>, <hi rend="unknown" rendition="#none">sivré</hi>
+          </foreign>, vouloir, suivre gardent toujours <hi rend="unknown" rendition="#none">é</hi>. Ex. <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">Mo voulé (ou) mo vlé le</hi>
+          </foreign>; je le veux. <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">Li sivré moi</hi>
+          </foreign>; Il me suit. 7° Cacher donne <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">cacié</hi>
+          </foreign> qui garde toujours <hi rend="unknown" rendition="#none">é</hi> ou <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">caciette</hi>
+          </foreign>. Ex <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">Cacié ou caciette li</hi>.</foreign>
+        </p>
+
+        <p>Maintenant, mon cher Monsieur, il faut bien se pénétrer de cette vérité: Notre patois est matière éminemment plastique; chacun presque y met son empreinte personnelle; tous les caprices y sont de mise. Il plait aujourd’hui à ma servante de dire à son enfant “<foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">Alle lacase</hi>
+          </foreign>” en se conformant à l’usage général; demain de dire à son chien “<foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">allé coucé</hi>
+
+          </foreign>”; et voilà ma grammaire au diable. Or, ma servante est créole malgache, c’est à dire une véritable autorité en matière de langage; mais vienne une femme malabare<note
+            n="1" place="foot" type="editorial"> Nicht muslimische Einwanderer aus Indien bezeichnet man als <hi
+              rend="unknown" rendition="#none">
+Malabars</hi> (vgl. <bibl>
+              <ref target="https://gams.uni-graz.at/o:hsa.bibliography#BIBL.2295">Chaudenson 2001</ref>
+            </bibl>: 30).</note> et nous en entendrons bien d’autres: “<foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">Ça canal la touzours dans canal</hi>
+          </foreign>” “Ce canard est toujours dans le ruisseau!” Qu’y faire? L’y laisser.</p>
+
+        <p>Voici cependant ce qu’une attention très soutenue (je ne passe jamais à portée d’une conversation tenue en créole sans faire mine d’allumer une cigarette, et je frotte au besoin l’allumette par le mauvais bout) voici, dis-je, ce qu’une enquête minutieuse me semble établir: Dans nombre de verbes qui changent <hi
+            rend="unknown" rendition="#none">é</hi> ou <hi rend="unknown" rendition="#none">i</hi> en <hi rend="unknown"
+            rendition="#none">e</hi> muet, l’emphase conserve <hi rend="unknown" rendition="#none">é</hi> ou <hi
+            rend="unknown" rendition="#none">
+i</hi>. Ex <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">Mo conne to magnère</hi>
+          </foreign>; Je sais ta façon de faire. <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">Mo côné to magniére</hi>
+          </foreign>; Je la connais, ta façon de faire. (Il faudrait sans doute ponctuer “<hi rend="unknown"
+            rendition="#none">mo côné, to magniére!</hi>”) * <hi rend="unknown"
+            rendition="#none">
+Lhére vou a fine causé</hi>; quand vous aurez parlé. <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">Lhére vou va fini causé</hi>
+
+          </foreign>; quand vous aurez fini de parler. Puis, la politesse a fait découvrir la seconde personne plurielle donn<hi
+            rend="unknown" rendition="#none">ez</hi>, prêt<hi rend="unknown"
+            rendition="#none">ez</hi>, qu’elle reproduit: “<foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">Done to lamain, mo pitit; doné vou lamain, Mamzelle;</hi>
+          </foreign> Donne ton main, mon enfant; donnez votre main, Mademoiselle.” Mais plus souvent ici, ‘<foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">donne vou lamain</hi>
+          </foreign>’; les gens très bien élevés étant toujours une minorité infime. </p>
+        <p>Vous le voyez, cher Monsieur, tout cela est bien difficile à saisir, bien fugitif, ‘<hi rend="unknown" rendition="#none">lalo méme</hi>’* dirait le créole, c’est-à-dire parfaitement glissant. </p>
+        <p>Encore une remarque que j’estime importante: “Le dissyllabe semble le type du mot” p. 118. Donc: <hi
+            rend="unknown" rendition="#none">ga-loupe</hi> lacase ou <hi rend="unknown"
+            rendition="#none">gal-pé</hi> lacase; <hi rend="unknown" rendition="#none">ca-cié li</hi> ou <hi
+            rend="unknown" rendition="#none">
+ca-ciette</hi> li; <hi rend="unknown"
+            rendition="#none">ba-lié</hi> li ou <hi rend="unknown"
+            rendition="#none">ba-laye li</hi> (ce dernier est nouveau venu) Mais <hi rend="unknown"
+            rendition="#none">galpe</hi> monosyllabe, <hi rend="unknown" rendition="#none">cacietté, balayé</hi> trisillabes sont impossibles; au moins aujourd’hui; je n’aurais garde d’engager l’avenir.</p>
+        <p>Je regrette bien fort de ne pouvoir pas étudier pour vous ce dimorphisme du verbe dans le patois bourbonnais; si j’en ai jamais l’occasion, croyez bien que je n’y manquerai pas</p>
+        <pb facs="#IMG.3" n="3"/>
+        <p>3° Cirandane-Çanpéc<note n="2" place="foot" type="editorial"> Unter <hi rend="unknown" rendition="#none">Sirandane</hi> versteht man manchmal fälschlicherweise ein kreolisches Rätsel bzw. hat sich diese Bezeichnung für das Rätsel im Laufe der Zeit eingebürgert. Dabei handelt es sich jedoch vielmehr um die Eröffnungsfrage zu einer Rätselserie: Auf die Frage „Sirandane?“ wird von den Mitspielern „Sanpek!“ geantwortet und das Spiel kann beginnen (vgl. <bibl>
+              <ref target="https://gams.uni-graz.at/o:hsa.bibliography#BIBL.2295">Chaudenson 2001</ref>
+            </bibl>: 283). Beide Wörter werden von Baker etymologisch dem <ref
+              target="https://gams.uni-graz.at/o:hsa.languages#L.576">Bantu</ref> zugeordnet: <foreign
+              xml:lang="bnt">sirãdan</foreign> - „invitation to play riddles“; <foreign xml:lang="bnt">sãpek</foreign> - „favorable response to an invitation to play riddles“ (<bibl>
+              <ref target="https://gams.uni-graz.at/o:hsa.bibliography#BIBL.2298">Baker 1993</ref>
+            </bibl>: 145). Das Spiel wie auch die Frage ist weit verbreitet, für eine genaue Darstellung vgl. <bibl>
+              <ref target="https://gams.uni-graz.at/o:hsa.bibliography#BIBL.2295">Chaudenson 2001</ref>
+            </bibl>: 277-286. Für eine Auflistung von Rätseln aus <placeName ref="https://gams.uni-graz.at/o:hsa.places#PL.5933">
+Mauritius</placeName> siehe <bibl>
+              <ref target="https://gams.uni-graz.at/o:hsa.bibliography#BIBL.2306">Baissac 1880</ref>
+            </bibl>: 204-231. </note>. Il faut ponctuer: <foreign xml:lang="cpf">
+“Sirandane?” - “Sampéc”</foreign> Sirandane a le point d’interrogation; c’est une question; sampéc est une réponse. Il y faut deux interlocuteurs (Introduction p. XXIV.) Voici comme étymologie ce que j’ai de plus vraisemblable à vous offrir:</p>
+        <p>
+          <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">
+Tapa-sire</hi>
+          </foreign>, en malgache, veut dire ‘histoire de veillée’; <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">andang</hi>
+          </foreign> veut dire ‘d’une part’.</p>
+        <p>
+          <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">Shamb-ek</hi>
+          </foreign> existe par lui-même et signifie ‘réciproquement’; il est formé de <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">shamb</hi>
+          </foreign> =, ‘l’un et l’autre’ et de <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">
+ek</hi>
+          </foreign> = ‘oui’.</p>
+        <p>D’où la traduction: “Je te propose une histoire?” - “J’accepte, à charge de revanche.”</p>
+        <p>Je crois que mon ami Th. Maigrot, qui m’a envoyé de Tamatave<note n="3" place="foot"
+              type="editorial"> Tamatave (heute <placeName
+              ref="https://gams.uni-graz.at/o:hsa.places#PL.6085">Toamasina</placeName>) ist eine Stadt an der Ostküste von <placeName ref="https://gams.uni-graz.at/o:hsa.places#PL.6087">Madagaskar</placeName>.</note> cette étymologie; nous dispense de chercher autre chose. Un autre osait proposer “Six rangs d’ânes sans bec”! C’est du Ménage.</p>
+
+        <p>4° Vous êtes, mon cher Monsieur, de l’avis de mon bon ami le docteur Bos sur la provenance de nos particules ‘<foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">napas’, ‘narien’, ‘naplis’</hi>
+
+          </foreign> pour ‘ne...pas’, ‘ne...rien’, ‘ne...plus’; et vous proposez ‘n’est que’ comme origine de la composition bien plus originale ‘<foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">néque</hi>
+
+          </foreign>’ au sens de ‘seulement’. Si j’ai jamais une seconde édition, elle proposera votre hypothèse à côté de la mienne, soyez en sûr. Mais ce changement de <hi
+            rend="unknown" rendition="#none">e</hi> en <hi rend="unknown"
+            rendition="#none">a</hi> qui est une des objections de Bos est plus fréquent que je n’ai trouvé le temps de le lui dire, Ex. <hi
+            rend="unknown" rendition="#none">é</hi>cume = <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">laquime</hi>
+          </foreign>; <hi rend="unknown" rendition="#none">
+é</hi>caille = <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">
+lacaye</hi>
+          </foreign>; <hi rend="unknown" rendition="#none">é</hi>couter = <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">
+acouté</hi>
+          </foreign>
+          <note n="4" place="foot"
+            type="editorial"> Am Seitenrand befindet sich eine unleserliche Notiz von Hugo Schuchardt.</note> plutôt que <hi
+            rend="unknown" rendition="#none">écouté</hi> (les vieux prononcent invariablement <hi rend="unknown"
+            rendition="#none">a</hi>); <hi rend="unknown" rendition="#none">
+e</hi>spérer = <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">
+aspéré</hi>
+          </foreign>; r<hi rend="unknown" rendition="#none">e</hi>culer = <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">
+arquilé</hi>
+          </foreign>; s<hi rend="unknown" rendition="#none">e</hi>couer = <hi rend="unknown"
+            rendition="#none">sacouyé</hi>* et bien d’autres. <hi rend="unknown" rendition="#none">Ça</hi>, demandez-vous, vient-il de ‘ce’ ou de ‘ça, cela’? Je ne décide rien.</p>
+        <p>5° Votre objection sur l’origine du thème verbal est bien grave. Dans les <ref
+            target="https://gams.uni-graz.at/o:hsa.languages#L.781">patois espagnols</ref> et <ref
+            target="https://gams.uni-graz.at/o:hsa.languages#L.172">portugais</ref> c’est invariablement l’infinitif qui a donné naissance à l’unique forme verbale; et c’est, suivant moi, le participe passé du verbe français que le <ref target="https://gams.uni-graz.at/o:hsa.languages#L.346">créole mauricien</ref> a retenu.</p>
+        <p>En premier lieu, je crois qu’une loi invariable est chez nous impossible à établir. “Dans le plus grand nombre des cas, c’est du participe passé français que le créole a fait son verbe,” aurais-je dû dire. </p>
+        <p>1<hi rendition="#sup">e</hi> Conjugaison. Aimer, aimé; donner, donné; identité absolue de prononciation, donc absence d’arguments ni pour ni contre.</p>
+        <p>2<hi rendition="#sup">e</hi> Conjugaison. Finir, tenir; en créole <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">fini</hi>, <hi rend="unknown" rendition="#none">tini</hi>
+          </foreign>. Il pourrait, dites-vous, en être à Maurice comme à la <placeName
+            ref="https://gams.uni-graz.at/o:hsa.places#PL.5877">
+Trinidad</placeName>, par exemple, où ‘remplir’ donne <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">rempli</hi>
+          </foreign>, l’r final ne se prononçant jamais. A Maurice et à Bourbon (M. Vinson<note n="5" place="foot" type="editorial">
+            <persName
+              ref="https://gams.uni-graz.at/o:hsa.persons#P.2938">
+Auguste Vinson</persName> lebte auf <placeName
+              ref="https://gams.uni-graz.at/o:hsa.places#PL.5988">Réunion</placeName> und war Schuchardts Korrespondenzpartner mit Hinblick auf die <ref target="https://gams.uni-graz.at/o:hsa.languages#L.348">dortige Kreolsprache</ref>. Vgl. dazu seinen Artikel <bibl>
+              <ref target="https://gams.uni-graz.at/o:hsa.bibliography#BIBL.1002">„Les origines du patois de l’Ile Bourbon“ 1882</ref>
+
+            </bibl>, in dem er unter anderem einige von Schuchardts Briefen veröffentlicht.</note> dans le Sport Colonial du 15 Août 1882<note
+            n="6" place="foot" type="editorial"> Schuchardt bezieht sich ebenfalls auf diese Veröffentlichung (vgl. <bibl>
+              <ref target="https://gams.uni-graz.at/o:hsa.bibliography#BIBL.454">Schuchardt 1882: 592</ref>
+            </bibl>) (Brevier/Archiv Nr. 134).</note>) l’<hi rend="unknown"
+            rendition="#none">r</hi> final peut fort bien garder toute sa sonorité Ex <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">dire-moi; pôsson frire; quifére</hi>
+          </foreign>; = dis-moi; poisson frit; pourquoi. Compé<hi rend="unknown" rendition="#none">r</hi>e, commé<hi
+            rend="unknown" rendition="#none">r</hi>e, me<hi rend="unknown" rendition="#none">r</hi>, tiroi<hi
+            rend="unknown" rendition="#none">r</hi>, etc etc, font sonner l’<hi rend="unknown"
+            rendition="#none">r </hi>en créole (l’<hi rend="unknown"
+            rendition="#none">r</hi> ne vibre pas, il est vrai; mais en dépit du grasseye-<pb facs="#IMG.4"
+            n="4"/>ment on le perçoit parfaitement.) En accordant même que ‘finir’ ait donné <hi rend="unknown"
+            rendition="#none">fini</hi>, comment tirer des infinitifs français ‘couvrir’, ‘offrir’, ‘mourir’, ‘souffrir’, nos verbes créoles <hi
+            rend="unknown" rendition="#none">couvert</hi>, <hi rend="unknown" rendition="#none">offert</hi>, <hi
+            rend="unknown" rendition="#none">mort</hi>, <hi rend="unknown" rendition="#none">souffert</hi>? Pour ceux-là, du moins, il est bien difficile d’infirmer l’origine que je leur donne.</p>
+        <p>3<hi rendition="#sup">e</hi> et 4<hi rendition="#sup">e</hi> Conjugaison. <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">Pendi</hi>
+          </foreign> de prendre, <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">rendi</hi>
+          </foreign> de rendre, <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">
+perdi</hi>
+          </foreign> de perdre, <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">couit</hi>
+          </foreign> de cuire, <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">confit</hi>
+
+          </foreign> de confire sont visiblement les participes français. Pour les autres verbes de la quatrième conjugaison française que j’ai fait ramener par le créole à la première conjugaison en <hi
+            rend="unknown" rendition="#none">é</hi> (<foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">tendé</hi>, <hi rend="unknown" rendition="#none">mordé</hi>, <hi
+              rend="unknown" rendition="#none">
+rendé</hi>
+          </foreign> (vous venez de le voir sous la forme <foreign xml:lang="cpf">
+rend<hi rend="unknown" rendition="#none">i</hi>
+          </foreign> qu’il prend aussi bien) <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">rié</hi>, <hi rend="unknown" rendition="#none">batté</hi>, teigné</foreign>, etc, etc, de entendre, mordre, rendre, rire, battre, éteindre, etc, etc) vous proposez, mais sans trop de conviction, il me semble, de les tirer d’une forme impérative entendez, mordez, riez, rendez (mais rendi?) Mais, vous objectez-vous à vous-même, est-ce qu’on ne tutoyait pas les esclaves? On les tutoyait, soyez-en sûr, et il nous faut chercher ailleurs.</p>
+        <p>Vous déciderez en dernier ressort, mon cher Monsieur. <hi rend="unknown" rendition="#none">Pleigné</hi>, <hi
+            rend="unknown" rendition="#none">teigné</hi>, vous rapprochent de l’Impératif; mais alors pourquoi <foreign xml:lang="cpf">
+            <hi rend="unknown" rendition="#none">zouinde</hi>
+          </foreign> de joindre? Quelle qu’elle soit, la loi de formation de notre verbe créole comportera bon nombre d’exceptions. Croyez que je vous serai vraiment reconnaissant de m’éclairer sur ce point; “le temps, disiez-vous à Mallac, me manque aussi que l’espace pour exposer comme il faut une théorie.”</p>
+
+        <p>Je crois, mon cher Monsieur, n’avoir rien négligé dans vos lettres de ce qui appelait une réponse. Je suis heureux de voir l’accueil que vous a fait M. Vinson<note
+            n="7" place="foot" type="editorial"> Schuchardt begann seine (kurze) Korrespondenz mit <persName ref="https://gams.uni-graz.at/o:hsa.persons#P.2938">Vinson</persName> 1882.</note>; il pourra, j’en suis sûr, vous fournir sur la ‘langue’ bourbonnaise (il s’insurge contre le mot patois) des renseignements que j’étais impuissant à me procurer d’ici.</p>
+        <p>J’ai fait, mais sans succès, un voyage pour chercher le ‘Catéchisme’ qu’on m’avait dit exister dans une bibliothèque à la campagne; je n’ai rien trouvé. Le petit-fils de M. Chrestien continue à me promettre la première édition du Bobre qu’il me prêterait pour quelques heures; j’évite de lui laisser voir que je ne crois plus guère à la sincérité de sa promesse: il y a trois mois qu’il oublie de me porter le volume quand il vient en ville. Trouverai-je encore autre chose pour vous? Je ne me lasserai pas de chercher, du moins, et j’ai renouvelé mes avis de journaux à cet effet.</p>
+        <p>“Je ne crois pas, dites-vous à Mallac, que M. Baissac se soit offensé des remarques de <persName
+            ref="https://gams.uni-graz.at/o:hsa.persons#P.1181">M. Bos</persName> et des miennes.” Je suis si loin de m’en offenser, mon cher Monsieur, que je vous en suis on ne peut plus reconnaissant: c’est comme vous le dites excellemment, par les observations critiques qu’un jugement littéraire est marqué au bon coin. Comme vous, j’estime l’éloge quand même un médiocre régal. Les circonstances m’ont permis de nouer avec le docteur Bos des relations de cor-<pb
+            facs="#IMG.5" n="5"/>diale amitié; pourquoi <placeName ref="https://gams.uni-graz.at/o:hsa.places#PL.6">Graz</placeName> est-il si loin qu’on ne puisse aller faire avec vous une connaissance plus intime?</p>
+
+        <p>Vous me demandez avec tant d’insistance en quoi vous pouvez me servir, que j’ai bien envie de vous le dire. Mes amis prétendent que mon livre pourrait être l’objet d’une distinction de <ref
+            target="https://gams.uni-graz.at/o:hsa.subjects#S.5511">l’Académie des Inscriptions et Belles-Lettres</ref>. Ils veulent de plus les palmes d’officier d’académie pour moi. Je sais par le docteur Bos et par mon ami Albert Mallac que M. Gaston Pâris<note
+            n="8" place="foot" type="editorial">
+            <persName
+              ref="https://gams.uni-graz.at/o:hsa.persons#P.2350"> Gaston Paris (1839-1903)</persName>, Romanist. Schuchardt sollte bei Paris mit Hinblick auf die Auszeichnung der <ref target="https://gams.uni-graz.at/o:hsa.subjects#S.5022">Académie française</ref> ein gutes Wort für Baissac einlegen.</note> est très bien disposé en ma faveur. Mais Paris est bien loin du Port-Louis, et si je trouvais, à Graz par exemple, quelqu’un qui prît ma cause à cœur, il me semble qui j’aurais bien plus de chance de la gagner. N’est-ce pas votre avis? En fait de références qu’il fallait, m’écrivait-on, au ministère de l’Instruction publique, j’ai envoyé à Mallac par la dernière malle de quoi satisfaire, je crois, les plus difficiles.</p>
+        <p>Si au départ du prochain courrier j’ai quelque chose pour vous, soyez bien sûr, mon cher Monsieur, que j’accompagnerai mon envoi d’un commentaire. Dans le cas contraire Mallac vous fera du moins parvenir les compliments de </p>
+        <closer>
+          <salute>Votre tout dévoué et respectueux </salute>
+          <lb/>
+          <signed>
+            <persName ref="https://gams.uni-graz.at/o:hsa.persons#P.1069">C Baissac</persName>
+          </signed>
+        </closer>
+        <postscript>
+
+          <p>J’ai eu, par chance, l’occasion de causer avec un Bourbonnais intelligent venu chez nous pour assister à nos courses. Je lui ai, comme de juste, soumis notre problème linguistique sur le dimorphisme du verbe. Là-bas, comme ici, l’<hi
+              rend="unknown" rendition="#none">é</hi> fermé se change en <hi rend="unknown" rendition="#none">e</hi> muet (ou disparaît, ce qui revient au même) quand le verbe est suivi d’un complément enclitique. Des exceptions, là-bas comme ici; mais l’essentiel est que la loi existe.</p>
+          <p>
+            <foreign xml:lang="cpf">
+              <hi rend="unknown" rendition="#none">
+Cacable</hi>
+
+            </foreign> pour “capable” n’est malheureusement pas un lapsus calami; c’est bien la forme voulue par la langue bourbonnaise. De “chauve-souris” nous avons fait “<hi
+              rend="unknown" rendition="#none">soursouris</hi>” de “bévilaqua” <hi rend="unknown" rendition="#none">bébi bacoi</hi>, le procédé me semble le même.</p>
+          <p>Je viens aussi de causer une Seychelloise arrivée à Maurice il y a deux mois à peine. Elle m’affirme qu’on parle chez elle comme on parle chez nous, et je n’ai dans notre conversation rien trouvé à enregistrer comme différence. J’ai, du reste, pour nous éclairer définitivement là-dessus, envoyé mon livre à M. Desmarais, magistrat des Seychelles, mon ancien élève, en le priant de noter tous les accidents de langage, toutes les différences de prononciation qu’il pourrait relever. Je vous communiquerai sa réponse, si réponse il y a. </p>
+          <p>* [FN S. 1] les créoles prononcent pli-y<hi rend="unknown" rendition="#none">
+e</hi>, pri-y<hi
+              rend="unknown" rendition="#none">e</hi>
+          </p>
+          <p>* [FN S. 2] p. 132. <hi rend="unknown" rendition="#none">Vous coné ça qui touzours envoye vous</hi>...* L’intention emphatique est manifeste: Vous le connaissez bien, vous savez bien, c’est celui qui toujours vous envoie ce lièvre et cette perdrix. Le toujours’ ne laisse aucun doute sur l’intention du chat de souligner la chose, </p>
+          <p>* [FN S. 2] le <hi rend="unknown" rendition="#none">lalo, gombo</hi>
+            <note n="9" place="foot" type="editorial"> Das Wort <hi rend="unknown" rendition="#none">lalo</hi> kommt aus dem 
+
+Kwa und wird im indischen Ozean verwendet (vgl. <bibl>
+                <ref
+                target="https://gams.uni-graz.at/o:hsa.bibliography#BIBL.2298">Baker 1993</ref>: 148</bibl>), während das Wort <foreign xml:lang="bnt">
+                <hi rend="unknown" rendition="#none">gõ(m)bo</hi>
+              </foreign> aus dem <ref target="https://gams.uni-graz.at/o:hsa.languages#L.576">Bantu</ref> stammt und auf den Antillen vorkommt (vgl. <bibl>
+                <ref target="https://gams.uni-graz.at/o:hsa.bibliography#BIBL.2298">Baker 1993</ref>: 143</bibl>); beide bezeichnen das Gemüse „okra“.</note> aux Antilles, cet un légume mucilagineux.</p>
+          <p>* [FN S. 2] les créoles prononcent en<hi rend="unknown" rendition="#none">
+vôille</hi>
+          </p>
+          <p>* [FN S. 3] vous le faites venir du <ref target="https://gams.uni-graz.at/o:hsa.languages#L.844">portugais</ref>; en ce cas, écartons-le.</p>
+        </postscript>
+      </div>
+    </body>
+  </text>
+</TEI>
+<?xml-model href="https://gams.uni-graz.at/o:hsa.odd/RNG" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://gams.uni-graz.at/o:hsa.odd/RNG" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>

@@ -1,0 +1,483 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="de">
+    <fileDesc>
+      <titleStmt>
+        <title type="main">Charles Baissac an Hugo Schuchardt (9-00426)</title>
+        <author ana="marcrelator:aut">
+          <persName ref="https://gams.uni-graz.at/o:hsa.persons#P.1069">
+            <forename>Charles</forename>
+            <surname>Baissac</surname>
+          </persName>
+        </author>
+        <editor ana="marcrelator:edt">
+          <persName>
+            <forename>Elisabeth</forename>
+            <surname>Steiner</surname>
+          </persName>
+        </editor>
+      </titleStmt>
+      <publicationStmt>
+        <publisher ana="marcrelator:pbl">
+          <orgName corresp="https://sprachwissenschaft.uni-graz.at" ref="http://d-nb.info/gnd/807328-4">Institut für Sprachwissenschaft,
+                  Karl-Franzens-Universität Graz</orgName>
+        </publisher>
+        <authority ana="marcrelator:his">
+          <orgName corresp="https://informationsmodellierung.uni-graz.at" ref="http://d-nb.info/gnd/1137284463">Zentrum für
+                  Informationsmodellierung - Austrian Centre for Digital Humanities,
+                  Karl-Franzens-Universität Graz</orgName>
+        </authority>
+        <distributor ana="marcrelator:rps">
+          <orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches
+                  Asset Management System</orgName>
+        </distributor>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by-nc/4.0">Creative Commons
+                  BY-NC 4.0</licence>
+        </availability>
+        <date ana="dcterms:issued" when="2022">2022</date>
+        <pubPlace ana="marcrelator:pup">Graz</pubPlace>
+        <idno corresp="http://schuchardt.uni-graz.at/id/letter/124" type="PID">o:hsa.letter.124</idno>
+        <idno source="http://schuchardt.uni-graz.at" type="altIdentifier">9-00426</idno>
+      </publicationStmt>
+      <seriesStmt>
+        <title ref="https://schuchardt.uni-graz.at">Hugo Schuchardt Archiv</title>
+        <respStmt ana="marcrelator:pbl">
+          <resp>Herausgeber</resp>
+          <persName ref="http://d-nb.info/gnd/111679893">
+            <forename>Bernhard</forename>
+            <surname>Hurch</surname>
+            <orgName ref="http://d-nb.info/gnd/36157-4">Karl-Franzens-Universität Graz</orgName>
+          </persName>
+        </respStmt>
+      </seriesStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier>
+            <country>Österreich</country>
+            <region>Steiermark</region>
+            <settlement>Graz</settlement>
+            <institution>Karl-Franzens-Universität Graz</institution>
+            <repository ref="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</repository>
+            <idno type="shelfmark">00426</idno>
+          </msIdentifier>
+          <msContents>
+            <textLang mainLang="fr"/>
+            <msItem>
+              <author ref="https://gams.uni-graz.at/o:hsa.persons#P.1069">
+                <forename>Charles</forename>
+                <surname>Baissac</surname>
+              </author>
+            </msItem>
+          </msContents>
+          <physDesc>
+            <objectDesc>
+              <supportDesc>
+                <support>
+                  <material ref="http://vocab.getty.edu/aat/300014109">Papier</material>
+                  <objectType>Brief</objectType>
+                </support>
+                <extent>
+                  <measure quantity="4" unit="pages">4 Seiten</measure>
+                </extent>
+              </supportDesc>
+            </objectDesc>
+          </physDesc>
+          <history>
+            <origin>
+              <origPlace ana="marcrelator:prp" corresp="https://gams.uni-graz.at/o:hsa.places#PL.41" ref="http://sws.geonames.org/934154">Port Louis</origPlace>
+              <origDate ana="dcterms:created" when="1883-02-24">1883-02-24</origDate>
+            </origin>
+            <provenance>
+                     Hugo Schuchardts wissenschaftlicher Nachlass (Bibliothek,
+                     Werkmanuskripte und wissenschaftliche Korrespondenz) kam nach seinem Tod 1927
+                     laut Verfügung in seinem Testament als Geschenk an die UB Graz.
+                  </provenance>
+          </history>
+        </msDesc>
+        <bibl type="print">
+          <author>
+            <persName>
+              <forename>Elisabeth</forename>
+              <surname>Steiner</surname>
+            </persName>
+          </author>
+          <date when="2010">2010</date>
+          <title>'L'approbation d'un juge come vous est de celles dont on a le droit d'être fier':
+               Der Briefwechsel zwischen Schuchardt und Baissac</title>
+          <series>
+            <title>Grazer Linguistische Studien</title>
+          </series>
+          <biblScope unit="volume">74</biblScope>
+          <biblScope from="7" to="62" unit="pages">7-62</biblScope>
+        </bibl>
+        <bibl type="online">
+          <author ana="marcrelator:aut">
+            <persName>
+              <forename>Elisabeth</forename>
+              <surname>Steiner</surname>
+            </persName>
+          </author>
+          <date when="2009">2009</date>
+          <title>Die Korrespondenz zwischen Charles Baissac und Hugo Schuchardt</title>
+          <series>
+            <title>Hugo Schuchardt Archiv</title>
+            <editor>
+              <forename>Bernhard</forename>
+              <surname>Hurch</surname>
+            </editor>
+          </series>
+          <ref target="http://schuchardt.uni-graz.at/id/letters/1069"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <editorialDecl>
+        <p>Die Datenmodellierung orientiert sich am <ref
+            target="https://www.deutschestextarchiv.de/doku/basisformat/">DTA-Basisformat</ref>,
+               <ref
+            target="https://www.ediarum.org/">ediarum</ref> und der
+               <ref target="https://github.com/TEI-Correspondence-SIG/correspDesc">CorrespDesc-SIG</ref>.</p>
+        <p>Das auf DTABf-Modellierungsschema wurde für die Zwecke des Projektes angepasst und befindet sich unter <ref target="https://gams.uni-graz.at/o:hsa.odd"/>
+        </p>
+      </editorialDecl>
+      <projectDesc>
+        <ab>
+          <ref target="info:fedora/context:hsa" type="context">Hugo Schuchardt Archiv</ref>
+        </ab>
+        <p>Das Hugo Schuchardt Archiv widmet sich der Aufarbeitung des Gesamtwerks und des Nachlasses von Hugo Schuchardt (1842-1927).
+               Die Onlinepräsentation stellt alle Schriften sowie eine umfangreiche Sekundärbibliografie zur Verfügung.
+               Die Bearbeitung des Nachlasses legt besonderes Augenmerk auf die Erschließung der Korrespondenz,
+               die zu großen Teilen bereits ediert vorliegt, und der Werkmanuskripte.</p>
+      </projectDesc>
+      <listPrefixDef>
+        <prefixDef ident="marcrelator" matchPattern="([a-z]+)" replacementPattern="http://id.loc.gov/vocabulary/relators/$1">
+          <p>Rollen-Taxonomie</p>
+        </prefixDef>
+        <prefixDef ident="dcterms" matchPattern="([a-z]+)" replacementPattern="http://purl.org/dc/terms/$1">
+          <p>Datumstaxonomie</p>
+        </prefixDef>
+        <prefixDef ident="skos" matchPattern="([a-z]+)" replacementPattern="http://www.w3.org/2004/02/skos/core#$1">
+          <p>Thesaurustaxonomie</p>
+        </prefixDef>
+      </listPrefixDef>
+    </encodingDesc>
+    <profileDesc>
+      <correspDesc ref="https://gams.uni-graz.at/o:hsa.letter.124">
+        <correspAction type="sent">
+          <persName corresp="https://gams.uni-graz.at/o:hsa.persons#P.1069" ref="https://viaf.org/viaf/228232402">
+            <forename>Charles</forename>
+            <surname>Baissac</surname>
+          </persName>
+          <placeName corresp="https://gams.uni-graz.at/o:hsa.places#PL.41" key="#GID.1" ref="http://sws.geonames.org/934154">Port Louis</placeName>
+          <date when="1883-02-24">1883-02-24</date>
+        </correspAction>
+        <correspAction type="received">
+          <persName corresp="https://gams.uni-graz.at/o:hsa.persons#P.109" ref="https://viaf.org/viaf/261931943">
+            <forename>Hugo</forename>
+            <surname>Schuchardt</surname>
+          </persName>
+        </correspAction>
+      </correspDesc>
+      <textClass>
+        <keywords scheme="cirilo:normalizedPlaceNames">
+          <list>
+            <item>
+              <placeName xml:id="GID.1">
+                <country>Mauritius</country>
+                <settlement>Port Louis</settlement>
+                <name ref="http://geonames.org/934154" type="fcode:PPLC">Port Louis</name>
+                <location>
+                  <geo>57.49889,-20.16194</geo>
+                </location>
+              </placeName>
+            </item>
+          </list>
+        </keywords>
+        <keywords ana="correspondence">
+          <list>
+            <item>
+              <ref target="info:fedora/context:hsa.letters.1069" type="context">
+                        Korrespondenz Charles Baissac - Hugo Schuchardt
+                     </ref>
+            </item>
+            <item>
+              <ref target="info:fedora/context:hsa.letters" type="context">Korrespondenz</ref>
+            </item>
+          </list>
+        </keywords>
+        <keywords scheme="https://gams.uni-graz.at/o:hsa.subjects">
+          <term ref="https://gams.uni-graz.at/o:hsa.subjects#S.5022" type="skos:Concept">
+            <term type="skos:prefLabel" xml:lang="de">Académie française</term>
+          </term>
+        </keywords>
+        <keywords scheme="https://gams.uni-graz.at/o:hsa.languages">
+          <term ref="https://gams.uni-graz.at/o:hsa.languages#L.346" type="skos:Concept">
+            <term type="skos:prefLabel" xml:lang="de">Französischbasierte Kreolsprache (Mauritius)</term>
+          </term>
+          <term ref="https://gams.uni-graz.at/o:hsa.languages#L.576" type="skos:Concept">
+            <term type="skos:prefLabel" xml:lang="de">Bantu-Sprachen</term>
+          </term>
+        </keywords>
+        <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation">Wissenschaft</classCode>
+        <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation">Sprachwissenschaft</classCode>
+        <classCode scheme="https://www.deutschestextarchiv.de/doku/klassifikation">Brief</classCode>
+      </textClass>
+      <langUsage>
+        <language ident="fr">Französisch</language>
+      </langUsage>
+    </profileDesc>
+  </teiHeader>
+  <facsimile>
+    <surface>
+      <graphic mimeType="image/jpeg" url="info:fedora/o:hsa.letter.124" xml:id="IMG.1">
+        <desc>
+          <ref
+            target="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</ref>, <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons CC BY-NC https://creativecommons.org/licenses/by-nc/4.0/</ref>
+        </desc>
+      </graphic>
+    </surface>
+    <surface>
+      <graphic mimeType="image/jpeg" url="info:fedora/o:hsa.letter.124" xml:id="IMG.2">
+        <desc>
+          <ref
+            target="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</ref>, <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons CC BY-NC https://creativecommons.org/licenses/by-nc/4.0/</ref>
+        </desc>
+      </graphic>
+    </surface>
+    <surface>
+      <graphic mimeType="image/jpeg" url="info:fedora/o:hsa.letter.124" xml:id="IMG.3">
+        <desc>
+          <ref
+            target="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</ref>, <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons CC BY-NC https://creativecommons.org/licenses/by-nc/4.0/</ref>
+        </desc>
+      </graphic>
+    </surface>
+    <surface>
+      <graphic mimeType="image/jpeg" url="info:fedora/o:hsa.letter.124" xml:id="IMG.4">
+        <desc>
+          <ref
+            target="https://ub.uni-graz.at/de/bibliotheken/sondersammlungen">Universitätsbibliothek Graz Abteilung für Sondersammlungen</ref>, <ref target="https://creativecommons.org/licenses/by-nc/4.0/">Creative commons CC BY-NC https://creativecommons.org/licenses/by-nc/4.0/</ref>
+        </desc>
+      </graphic>
+    </surface>
+  </facsimile>
+  <text>
+    <body>
+      <div subtype="original" type="letter" xml:id="L.124" xml:lang="fr">
+        <pb facs="#IMG.1" n="1"/>
+        <dateline>Port-Louis, 24 Février 1883.</dateline>
+        <opener>Mon cher Monsieur Schuchardt,</opener>
+
+        <p>Votre aimable petit billet en créole à l’occasion de la naissance de mon fils a obtenu ici un très vif succès. Il m’a fallu céder aux sollicitations de mes amis et en autoriser la publication dans un de nos journaux; je me suis rendu d’assez bonne grâce, avec le secret espoir que mes démarches pour vous procurer les textes <ref target="https://gams.uni-graz.at/o:hsa.languages#L.346">créoles</ref> qui vous manquent encore en auraient plus de succès dans l’avenir. Nous verrons bien.</p>
+        <p>Je vous envoyais il y a trois mois un large extrait du catéchisme des frères Mallac. Désirez-vous la copie de ce qui vous manque? j’attends vos instructions à cet égard, mais la chose est bien mauvaise.</p>
+        <p>Je viens enfin de recevoir des <placeName
+            ref="https://gams.uni-graz.at/o:hsa.places#PL.5923">Seychelles</placeName> un mot du magistrat Desmarais que j’avais à maintes reprises sollicité de s’occuper de nous. Mais ce qu’il m’envoie est plus que maigre: il est bien difficile, vous devez le savoir mieux que moi, de trouver des correspondants qui mettent à votre service un peu d’intelligence <pb
+            facs="#IMG.2" n="2"/> et beaucoup de bonne volonté. Je vous envoie telle qu’elle est la note décharnée de mon Minos Seychellois. </p>
+
+        <p>Vous ne connaissez pas, m’écrivez-vous, l’histoire du Lièvre et de la Tortue. C’est la fable même de Chrétien que transcrit M. Freycinet. Vous avez le volume de Chrétien, je passe au séga<note
+            n="1" place="foot" type="editorial"> Beim <hi rend="unknown"
+              rendition="#none">Séga</hi> handelt es sich um einen kreolischen Tanz bzw. die dazugehörige Musik, der sowohl für die <placeName
+              ref="https://gams.uni-graz.at/o:hsa.places#PL.5887">Maskarenen</placeName> wie auch für die <placeName ref="https://gams.uni-graz.at/o:hsa.places#PL.5923">
+Seychellen</placeName> charakteristisch ist (vgl. <bibl>
+              <ref target="https://gams.uni-graz.at/o:hsa.bibliography#BIBL.2295">Chaudenson 2001</ref>
+            </bibl>: 206-208). Auch dieses Wort kommt aus dem <ref target="https://gams.uni-graz.at/o:hsa.languages#L.576">Bantu</ref>: sega – „popular local dance rhythm“ (<bibl>
+              <ref target="https://gams.uni-graz.at/o:hsa.bibliography#BIBL.2298">Baker 1993</ref>
+
+            </bibl>: 145).</note>. J’emprunte la description que vous m’en demandez à la relation du même M. de Freycinet “Voyage autour du monde, fait par ordre du roi – de l’Imprimerie Royale – Paris. La préface signée Louis de Freycinet est datée du 1. Décembre 1825. Le séjour de la corvette l’Uranie à l’île Maurice est de 1818.<note
+            n="2" place="foot" type="editorial">
+            <persName>
+
+Louis de Freycinet</persName> beschrieb als einer der ersten den <hi rend="unknown"
+              rendition="#none">Séga</hi> und veröffentlichte in der genannten Publikation auch die Fabel <hi
+              rend="unknown" rendition="#none">
+Le Lièvre et la Tortue</hi> (vgl. <bibl>
+              <ref target="https://gams.uni-graz.at/o:hsa.bibliography#BIBL.2295">Chaudenson 2001</ref>
+            </bibl>: 207-208).</note> Et il se trouve que c’est à mon grand oncle, Thomy Pitot, que M. Freycinet demande les quelques lignes que je vous ai fait transcrire.</p>
+        <p>Jacques Arago<note n="3" place="foot" type="editorial"> Eines von Louis de Freycinets Schiffen hieß l’Uranie; <persName>
+Jacques Arago</persName> begleitete die Expedition als Zeichner.</note>, attaché à l’expédition de l’Uranie en qualité de dessinateur, a donné lui aussi sa relation de voyage. Mais je n’ai pas le livre que j’ai lu il y a quelque trente-cinq ans, et où vous trouveriez, si j’ai bonne mémoire, une autre page sur le séga. </p>
+        <p>Un mot sur <hi rend="unknown" rendition="#none">les paroles cadencées, où l’on entrevoit une intention suivie, et souvent même des idées spirituelles</hi>. Cet excellent M. de Freycinet se contentait de peu. </p>
+        <p>Voici “Maman Jeanne”</p>
+        <table>
+          <row>
+            <cell>1<hi rendition="#sup">er</hi> Couplet</cell>
+            <cell>Condir’ maman Zeanne,</cell>
+          </row>
+          <row>
+            <cell/>
+            <cell>Philozène, <pb facs="#IMG.2" n="3"/>
+            </cell>
+          </row>
+          <row>
+            <cell/>
+            <cell>Condiré maman Zeanne,</cell>
+          </row>
+          <row>
+            <cell/>
+            <cell>Zousqu’à dans cantine,</cell>
+          </row>
+          <row>
+            <cell/>
+            <cell>Philozène,</cell>
+          </row>
+          <row>
+            <cell/>
+            <cell>Zousqu’à dans cantine,</cell>
+          </row>
+          <row>
+            <cell/>
+            <cell>*Madigué! madigué ça!</cell>
+          </row>
+          <row>
+            <cell/>
+            <cell>C’est ça! c’est ça!</cell>
+          </row>
+          <row>
+            <cell>2<hi rendition="#sup">nd</hi> Couplet</cell>
+            <cell>To rent’ dans cantine,</cell>
+          </row>
+          <row>
+            <cell/>
+            <cell>Philozène,</cell>
+          </row>
+          <row>
+            <cell/>
+            <cell>To tir’ to çapeau,</cell>
+          </row>
+          <row>
+            <cell/>
+            <cell>To tir’ to capeau,</cell>
+          </row>
+          <row>
+            <cell/>
+            <cell>Philozène,</cell>
+          </row>
+          <row>
+            <cell/>
+            <cell>To fér ‘to salit.</cell>
+          </row>
+          <row>
+            <cell/>
+            <cell>madigué! etc.<note n="4" place="foot" type="editorial"> In leicht abgewandelter Orthographie findet sich das Lied auch in <bibl>
+                  <ref target="https://gams.uni-graz.at/o:hsa.bibliography#BIBL.2285">Baissac 1888: 455</ref>
+                </bibl>.</note>
+            </cell>
+          </row>
+        </table>
+        <p>et c’est tout. L’intention spirituelle est d’enseigner au jeune Philogène comment il convient de se présenter dans la bonne compagnie: on tire son chapeau et l’on salue.</p>
+        <p>Voici le chéga du Magasin Bon goût. (confiserie jadis célèbre au Port-Louis.)</p>
+        <p>Quand mo passé magasin Bongout</p>
+        <p>Mo léquer sauté,</p>
+        <p>Mo lipieds cogné...<note n="5" place="foot" type="editorial"> Vgl. ebenfalls <bibl>
+              <ref target="https://gams.uni-graz.at/o:hsa.bibliography#BIBL.2285">Baissac 1888</ref>
+            </bibl>: 455.</note>
+        </p>
+        <p>et c’est tout. Ici l’intention spirituelle est plus voilée encore; prendre la rue d’à côté, ne point passer devant le magasin tentateur.</p>
+        <p>Maintenant Cari Lalo: c’est la pièce satirique du <pb facs="#IMG.3" n="4"/> recueil:</p>
+        <table>
+          <row>
+            <cell>1<hi rendition="#sup">er</hi> Couplet</cell>
+            <cell>Cari lalo, milatresse,</cell>
+          </row>
+          <row>
+            <cell/>
+            <cell>To pique sousouna,</cell>
+          </row>
+          <row>
+            <cell/>
+            <cell>To pique sousouna,</cell>
+          </row>
+          <row>
+            <cell/>
+            <cell>Milatresse.</cell>
+          </row>
+          <row>
+            <cell/>
+            <cell>To dir’ laliquér,</cell>
+          </row>
+          <row>
+            <cell/>
+            <cell>To pique sousouna,</cell>
+          </row>
+          <row>
+            <cell/>
+            <cell>Milatresse.</cell>
+          </row>
+          <row>
+            <cell/>
+            <cell>To dir’ laliquér!!</cell>
+          </row>
+          <row>
+            <cell>2<hi rendition="#sup">nd</hi> Couplet</cell>
+            <cell>Cari lalo, milatresse,</cell>
+          </row>
+          <row>
+            <cell/>
+            <cell>To mont’ dans carriole,</cell>
+          </row>
+          <row>
+            <cell/>
+            <cell>To mont’ dans carriole,</cell>
+          </row>
+          <row>
+            <cell/>
+            <cell>Milatresse,</cell>
+          </row>
+          <row>
+            <cell/>
+            <cell>To dir’ dans caléce;</cell>
+          </row>
+          <row>
+            <cell/>
+            <cell>To mont’ dans carriole,</cell>
+          </row>
+          <row>
+            <cell/>
+            <cell>Milatresse,</cell>
+          </row>
+          <row>
+            <cell/>
+            <cell>To dir’ dans caléce!!<note n="6" place="foot" type="editorial"> In leicht abgewandelter Form in <bibl>
+                  <ref target="https://gams.uni-graz.at/o:hsa.bibliography#BIBL.2285">Baissac 1888</ref>
+                </bibl>: 445.</note>
+            </cell>
+          </row>
+        </table>
+
+        <p>Et ce n’est pas tout, cette fois: la mulatresse portera du chrysocale, et dira que c’est de l’or pur; elle mangera des couroupas<note
+            n="7" place="foot" type="editorial"> Von franz. <hi rend="unknown" rendition="#none">colimaçon</hi> – Schnecke (vgl. <bibl>
+              <ref target="https://gams.uni-graz.at/o:hsa.bibliography#BIBL.2285">Baissac 1888</ref>
+            </bibl>: XIV).</note> et dira que c’est de ‘laviande béf’; elle se parfumera d’huile de coco, et dira que c’est ‘dilouile macassar’, etc, etc.</p>
+
+        <p>Ce qui me semble le plus curieux à constater, c’est le contraste de l’absolue chasteté des paroles avec l’érotisme de la danse. Sans aucun doute les paroles ont été faites après coup et se sont plaquées sur l’air tant bien que mal. C’est sur ces mélodies là que mon petit Maurice commence à gigoter dans <pb
+            facs="#IMG.4"
+            n="5"/> les bras de sa nénène, sa mère et ses trois sœurs frappant les temps forts dans la paume de leurs mains; la ravane et le tamtam manquent depuis longtemps à nos concerts. Le séga n’existe plus que sous cette forme édulcorée. Depuis mon retour à Maurice il y a vingt-sept ans, je ne l’ai vu danser qu’une fois, et sans chaleur, sans conviction de la part des acteurs. Les zéne zens et les zéne filles dansent aujourd’hui nos quadrilles, nos lanciers, nos danses tournantes, voire l’écossaise avec un fort parfum de fauve, c’est vrai, mais tout pour l’odorat; quant à ppâ Lindor et à mmâ Télésille<note
+            n="8" place="foot" type="editorial"> Vgl. <bibl>
+              <ref target="https://gams.uni-graz.at/o:hsa.bibliography#BIBL.2285">Baissac 1888</ref>
+            </bibl>: VIII und <bibl>
+              <ref target="https://gams.uni-graz.at/o:hsa.bibliography#BIBL.2306">Baissac 1880</ref>
+
+            </bibl>: XXII; zwei alte Sklaven, die Baissac als Erzähler seiner Geschichten vorstellt; es handelt sich dabei wohl eher um prototypische Gestalten und nicht um reale Personen. Die Ansprache <hi
+              rend="unknown" rendition="#none">
+papa</hi> und <hi rend="unknown"
+              rendition="#none">mama</hi> wird im 19. Jahrhundert auf <placeName
+              ref="https://gams.uni-graz.at/o:hsa.places#PL.5933">
+Mauritius</placeName> als höfliche Ansprache für Sklaven verwendet. In französischen Dialekten liegt eine ähnliche Verwendungsweise vor, doch handelt es sich dort bei den Angesprochenen um ältere Personen. Auf <placeName ref="https://gams.uni-graz.at/o:hsa.places#PL.5933">Mauritius</placeName> hingegen erfolgt diese höfliche Ansprache auch bei jüngeren Menschen, eine ähnliche Strategie findet man auch in afrikanischen Sprachen (vgl. Baker 1993: 132-133).</note> depuis longtemps ‘leurs lauriers sont coupés’ et leurs jarrets aussi.</p>
+        <p>Ma fille cadette, Nelly, vous envoie la musique de quelques ségas. Vous voilà, j’espère, mon cher Monsieur Schuchardt, à peu près renseigné. </p>
+        <p>La dernière malle m’a porté le brevet et les palmes d’officier d’Académie<note n="9" place="foot"
+              type="editorial"> Auszeichnung der <ref target="https://gams.uni-graz.at/o:hsa.subjects#S.5022">Académie française</ref>.</note>: mon enseignement y gagnera en crédit, du moins, auprès de bien des gens. </p>
+        <closer>
+          <salute>Au revoir, mon cher Monsieur Schuchardt, fournissez-moi une occasion prochaine de m’employer pour vous. Votre bien cordialement dévoué</salute>
+          <lb/>
+          <signed>
+            <persName ref="https://gams.uni-graz.at/o:hsa.persons#P.1069">C Baissac</persName>
+          </signed>
+        </closer>
+        <postscript>
+          <p>* [FN S. 3, rechter Seitenrand] J’ignore profondément le sens de “matigué”, du reste comme celui de “la faridondaine”, et de tant d’autres refrains.</p>
+        </postscript>
+      </div>
+    </body>
+  </text>
+</TEI>
+<?xml-model href="https://gams.uni-graz.at/o:hsa.odd/RNG" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://gams.uni-graz.at/o:hsa.odd/RNG" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>

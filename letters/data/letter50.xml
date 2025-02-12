@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://gams.uni-graz.at/o:hpe.odd/RNG" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://gams.uni-graz.at/o:hpe.odd/RNG" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_50">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="de">Karl August Böttiger an Joseph von Hammer-Purgstall</title>
+            <title type="sub" xml:lang="de">Weimar, 16.01.1799</title>
+            <title type="main" xml:lang="en">Karl August Böttiger to Joseph von Hammer-Purgstall</title>
+            <title type="sub" xml:lang="en">Weimar, 16.01.1799</title>
+            <author ana="marcrelator:aut">
+               <persName ref="https://gams.uni-graz.at/o:hpe.persons#P.91">
+                  <forename>Karl August</forename>
+                  <surname>Böttiger</surname>
+               </persName>
+            </author>
+            <respStmt ana="marcrelator:trc">
+               <resp>Transcription</resp>
+               <persName>
+                  <forename>Rudolf</forename>
+                  <surname>Payer von Thurn</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:trc">
+               <resp>Transcription</resp>
+               <persName>
+                  <forename>Gerit</forename>
+                  <surname>Koitz-Arko</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:edt">
+               <resp>Edition</resp>
+               <persName ref="WH">
+                  <forename>Walter</forename>
+                  <surname>Höflechner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:pfr">
+               <resp>Proofreading</resp>
+               <persName ref="WH">
+                  <forename>Walter</forename>
+                  <surname>Höflechner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mrk">
+               <resp>Textprocessing</resp>
+               <persName ref="AW">
+                  <forename>Alexandra</forename>
+                  <surname>Wagner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mrk">
+               <resp>TEI Encoding</resp>
+               <persName xml:id="SSt">
+                  <forename>Sabrina</forename>
+                  <surname>Strutz</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mrk">
+               <resp>TEI Encoding</resp>
+               <persName>
+                  <forename>Johanna</forename>
+                  <surname>Ofenauer</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mrk">
+               <resp>TEI Encoding</resp>
+               <persName>
+                  <forename>Alexandra</forename>
+                  <surname>Wagner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mdc">
+               <resp>Metadata Management</resp>
+               <persName>
+                  <forename>Elisabeth</forename>
+                  <surname>Steiner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mdc">
+               <resp>Metadata Management</resp>
+               <persName>
+                  <forename>Melanie</forename>
+                  <surname>Frauendorfer</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName ref="https://d-nb.info/gnd/10182836-6"
+                        corresp="https://wissenschaftsgeschichte.uni-graz.at/de/">Zentrum für
+                            Wissenschaftsgeschichte </orgName>
+            </publisher>
+            <authority ana="marcrealator:his">
+               <orgName ref="https://d-nb.info/gnd/1137284463"
+                        corresp="https://digital-humanities.uni-graz.at">Institut für Digitale
+                            Geisteswissenschaften</orgName>
+            </authority>
+            <distributor ana="marcrelator:rps">
+               <orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches
+                            Asset Management System</orgName>
+            </distributor>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc/4.0/">Creative
+                            Commons BY-NC 4.0</licence>
+            </availability>
+            <date when="2025" ana="dcterms:issued">2025</date>
+            <pubPlace ana="marcrelator:pup">Graz</pubPlace>
+            <idno type="PID">o:hpe.letter.50</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://gams.uni-graz.at/context:hpe">Joseph von Hammer-Purgstall.
+                        Korrespondenz</title>
+            <title>Extended and revised version of <ref corresp="#Hoeflechner_2018">Höflechner, Wagner, and Koitz-Arko 2018</ref>
+            </title>
+            <respStmt ana="marcrelator:edt">
+               <resp>Editor</resp>
+               <persName xml:id="MS">
+                  <forename>Martina</forename>
+                  <surname>Scholger</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:edt">
+               <resp>Editor</resp>
+               <persName xml:id="WH">
+                  <forename>Walter</forename>
+                  <surname>Höflechner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:edt">
+               <resp>Editor</resp>
+               <persName xml:id="AW">
+                  <forename>Alexandra</forename>
+                  <surname>Wagner</surname>
+               </persName>
+            </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <bibl xml:id="Hoeflechner_2018">Hammer-Purgstall, Joseph von: Erinnerungen,
+                        Briefe, Materialien. Bd. 2. Hrsg. von Walter Höflechner, Alexandra Wagner
+                        und Gerit Koitz-Arko. Publikationen aus dem Archiv der Universität Graz, Bd.
+                        46, hrsg. von Alois Kernbauer. 2. Version. Graz: Akademische Druck- u.
+                        Verlagsanstalt, 2018. ISBN 978-3-201-02030-5.</bibl>
+            <bibl>PvTh Briefe Bö 18<idno>Payer von Thurn, Rudolf; „Briefwechsel zwischen C. A.
+                        Böttiger und Joseph von Hammer“, in: Chronik des Wiener Goethe-Vereins 36
+                        (1930) 13–40</idno>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Steiermärkisches Landesarchiv</repository>
+                  <collection>Schlossarchiv Hainfeld (SAH)</collection>
+                  <idno>Karton 5 / Heft 99</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="de">Die Joseph von <title>Hammer-Purgstall Korrespondenz</title>
+                        widmet sich der Umsetzung der Korrespondenz des österreichischen
+                        Orientalisten Joseph von Hammer-Purgstall (1774–1856) als digitale Edition.
+                        Die Korrespondenz ist ein eindrucksvolles Zeugnis seines weitreichenden
+                        wissenschaftlichen Dialogs und seiner zentralen Rolle in der Orientalistik.
+                        Sie erstreckt sich über ganz Europa bis in die USA und nach Indien und
+                        stellt eine unersetzliche Quelle für die Geschichte der Orientalistik dar.
+                        Ausgehend von den im Jahr 2018 in <ref target="https://gams.uni-graz.at/archive/objects/o:hpe.band2/methods/sdef:TEI/get">fünf Bänden</ref> sowohl in gedruckter als auch als <ref target="https://gams.uni-graz.at/archive/objects/o:hpe.band2/methods/sdef:TEI/get">PDF-Version</ref> publizierten Briefen entsteht hier eine auf dem
+                        Standard der Text Encoding Initiative basierende digitale Edition, die
+                        kontinuierlich durch neue Briefe erweitert wird.</p>
+            <p xml:lang="en">The Joseph von <title>Hammer-Purgstall Correspondence</title>
+                        is dedicated to implementing the correspondence of Austrian Orientalist
+                        Joseph von Hammer-Purgstall (1774-1856) as a digital edition. The
+                        correspondence is an impressive testament to his far-reaching scholarly
+                        dialogue and his central role in Oriental studies. It extends across Europe
+                        to the USA and India and represents an irreplaceable source for the history
+                        of Oriental studies. Based on the letters published in 2018 in <ref target="https://gams.uni-graz.at/archive/objects/o:hpe.band2/methods/sdef:TEI/get">five volumes</ref> in both printed and <ref target="https://gams.uni-graz.at/archive/objects/o:hpe.band2/methods/sdef:TEI/get">PDF format</ref>, a digital edition based on the Text Encoding
+                        Initiative standard is being created here, which is continuously expanded
+                        with new letters.</p>
+            <ab>
+               <ref target="context:hpe" type="context">Joseph von Hammer-Purgstall.
+                            Korrespondenz</ref>
+               <ref target="context:hpe.letters" type="context">Korrespondenz</ref>
+               <ref target="context:hpe.letters.91" type="context">Korrespondenz Böttiger, Karl August  - Hammer-Purgstall, Joseph von</ref>
+            </ab>
+         </projectDesc>
+         <listPrefixDef>
+            <prefixDef ident="marcrelator"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="http://id.loc.gov/vocabulary/relators/$1">
+               <p>Taxonomie Rollen MARC</p>
+            </prefixDef>
+            <prefixDef ident="dcterms"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="http://purl.org/dc/terms/$1">
+               <p>DCterms</p>
+            </prefixDef>
+         </listPrefixDef>
+         <tagsDecl>
+            <rendition xml:id="sign">text-align: right</rendition>
+         </tagsDecl>
+         <schemaRef url="https://gams.uni-graz.at/o:hpe.odd"/>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="de">Deutsch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName corresp="https://gams.uni-graz.at/o:hpe.persons#P.91"
+                         ref="https://d-nb.info/gnd/118824775">
+                  <surname>Böttiger</surname>
+                  <forename>Karl August</forename>
+               </persName>
+               <placeName ref="https://sws.geonames.org/2812482">Weimar</placeName>
+               <date when="1799-01-16"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName corresp="https://gams.uni-graz.at/o:hpe.persons#P.2000"
+                         ref="https://d-nb.info/gnd/118545426">
+                  <surname>Hammer-Purgstall</surname>
+                  <forename>Joseph</forename>
+                  <nameLink>von</nameLink>
+               </persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2025-02-04+01:00" resp="#SSt">Initial Version</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter" subtype="original" xml:space="preserve" xml:lang="de"><body><div><opener><dateline>Weimar d[en] 16. Januar [17]98[sic]</dateline></opener><p>Also<note type="comment" place="bottom"><p> 	Auszugsweise, aber doch zu großen Teilen bei PvTh Böttigerbriefe 18f.</p></note> ohne Schnürbrust der Etiquette, frei und ohne Titelfanz mein teurer Freund! Das gefällt mir und das bleibe unter uns fortan Sitte.</p><p>Heute erhalte ich Ihren Brief und beantworte ihn auf der Stelle, so sehr mich auch meine Vasenerklärungen<note type="comment" place="bottom"><p> 	Karl August Böttiger<hi rend="italic">, Griechische Vasengemälde. Mit archäologischen und artistischen Erläuterungen der Originalkupfer, Hg von C.A. Böttiger, </hi><hi rend="italic">1. Band 1. Heft, Weimar 1796, 1.Bd 2. Heft Weimar 1798, 1. Bd 3. Heft Magdeburg 1800.</hi> [Bereits 1796 erschienen die Tafeln] <hi rend="italic">Umrisse griechischer Gemälde auf Antiken in den Jahren 1889 und 1790 in Campanien und Sicilien ausgegrabenen Vasen jetzt im Besitz des Ritters William Hamilton I. Band Hg. von Wilhelm Tischbein Director der Königl. Maler Akademie, Weimar, Industrie Comptoir, 1796.</hi></p></note>, an welchen ich eben arbeite, auf den Fingern brennen. Denn Sie verlangen die Zurücksendung des <persName>Farnari</persName><note type="comment" place="bottom"><p> 	<persName>Mulla Shams ad-Din Muhammad ibn Hamzah al-Fanari</persName> (1350–1431), war ein osmanischer Logiker, islamischer Theologe, islamischer Rechtsgelehrter und mystischer Philosoph in der Schule von <persName>Ibn Arabi</persName>. Er studierte bei <persName>Mevlânâ Alâuddîn Esved, Cemâleddîn Aksarâyî, Hamîduddîn-i Kayserî</persName>. Er reiste nach Ägypten, das damals unter der Herrschaft des Mamluk-Sultanats stand, um bei <persName>Ekmeleddîn el-Bâberti Hanafi</persName> Rechtswissenschaft zu studieren. Der osmanische Sultan <persName>Bayezid I</persName>. ernannte daraufhin 1390 <persName>Fanari</persName> zum Richter ( Qadi ) von Bursa. Der Tod von <persName>Bayezid I.</persName> löste einen Bürgerkrieg aus, der dazu führte, dass <persName>Fanari</persName> das Land verließ, woraufhin er Vorträge in Ägypten und in Hejaz (Teil des heutigen Saudi-Arabien) hielt. Danach suchte er eine Anstellung am Hof des Herrschers der Karamanoğlu Beylik, wo er seinen rechtstheoretischen Text verfasste. 1421 bestieg <persName>Murad II</persName>. als sechster osmanischer Sultan den Thron und berief <persName>Fanari</persName> an den Hof in Bursa. 1424 ernannte ihn <persName>Murad</persName> zum Qādī des Militärs, eine Position, die sich im Laufe des nächsten Jahrhunderts zum Sheikh ul-Islam entwickeln sollte. <persName>Fanari</persName> hatte diese Position zusätzlich zu seinen anderen Positionen als Professor und Richter inne. Alle drei Ämter behielt er bis zu seinem Lebensende in Bursa 1431. Während seiner Karriere spezialisierte er sich auf Logik und Jurisprudenz. Seine Arbeiten zur Logik waren in der gesamten islamischen Welt bekannt; (<hi rend="italic">Wikipedia</hi>).</p></note>, und da ich weiß, daß <persName>Herder</persName> auch noch die übrigen Jahreszeiten und, was sie sonst noch aus diesem Dichter geben möchten, sehr willkommen sein wird, so eile ich, dies gute Werk, so viel an mir ist, zu fördern. Werden Sie nicht ungeduldig, wenn der edle <persName>Herder</persName> noch nicht ernstlicher Hand ans Werk legte. Sie wissen schon die traurige Geschichte seines Buchhändlers <persName>Hartknoch</persName> in Riga. Er ist indes frei von Petersburg zurückgekehrt, und so wird alles wieder in Gang kommen. Außerdem ist <persName>Herder</persName> bisher ganz mit theologischen Arbeiten beschäftigt gewesen. Hat er nur diese erst beseitigt, dann wandelt er wieder in Orientalischen Rosenhainen und den Blumengefilden aller Nationen. – Die des Originals würdige schöne Ode an die franz[ösischen] Orientalisten<note type="comment" place="bottom"><p> 	HP,<hi rend="italic"> Les Orientalistes francais. Ode imitée d’Horace. Ode 12. L.I.;</hi> in:<hi rend="italic"> Neuer Teutscher Merkur 1 (1798) 317–322.</hi></p></note> soll das nächste Stück des Merkurs schmücken, wie auch Ihre zwei kleinen noch rückständigen Gedichte ihren Platz finden werden. Über das Januarstück konnte ich selbst nicht, wie ich wollte, disponieren. Es ist recht schön, daß Sie auch dem Apollo etwas aus Ihren Schätzen mitteilten<note type="comment" place="bottom"><p> 	HP, [Baki und Misri]  <hi rend="italic">Ueber die Würdigung des schönen Geschlechtes (von orientalischen Schriftstellern);</hi> in:<hi rend="italic"> Meißners Apollo für das Jahr 1797.</hi></p></note>. Ich freue mich dessen auch um des wackeren <persName>Meissner</persName>s willen.</p><p>Dabei aber gleich ein Anliegen wegen unseres etwas betagten und aus dem Hirne des Vaters, von welchem er ausgeht, nur selten mit etwas Minervalischen begabten Götterboten. Man schreibt uns aus Wien, daß durch einige neuere Inserate in demselben die Menschen, die dort den Löse- und Bindeschlüssel in ihrer Gewalt haben, unwillig auf ihn geworden wären. Nun ist sich zwar der Merkur nicht der geringsten Missetat bewußt, die dort mit Grund Mißfallen erregt haben könnte. Allein wer rechtet mit den Launen der Gewaltigen. Ich habe mir recht viel Mühe gegeben, einen Korrespondenten in Wien für den Merkur zu erhalten, der nur die rechte Seite der Medaille beschriebe. Und wie viel merkwürdiges, lobenswürdiges muß nicht in der Kaiserstadt einem Beobachter aufstoßen, der sehen kann und will. Gerade jetzt wäre ein solcher Korrespondent doppelt wünschenswert. Der Merkur ist das einzige deutsche Journal, was auch in Paris und London gelesen und exzerpiert wird. Auch darum kann es einem Wiener nicht gleichgültig sein, daß darin zuweilen ein gutes Wort über Wien stehe. Da schreiben Sie mir z.B. vom anti<persName>Lavater</persName>ischen System<note type="comment" place="bottom"><p> 	Johann Caspar <persName>Lavater</persName> (1741–1801) war ein reformierter Pfarrer, Philosoph und Schriftsteller aus der Schweiz in der Zeit der Aufklärung sowie ein Hauptvertreter der Physiognomik, die er in seinen <hi rend="italic">„Physiognomische Fragmente, zur Beförderung der Menschenkenntniß und Menschenliebe“, 4 Bde 1775–78,</hi> formulierte, mit deren Hilfe der Charakter eines Menschen anhand der Gesichtszüge und Körperformen zu erkennen, welche Theorie sehr rasch lebhaft diskutiert wurde, unter anderem von <persName>Lichtenberg</persName>, <persName>Goethe</persName> und Wilhelm <persName>von Humboldt</persName>. Mit dieser Theorie der Physiognomik trug er wesentlich zur Popularität des Schattenrisses in der zweiten Hälfte des 18. Jahrhunderts in Deutschland bei; (<hi rend="italic">Wikipedia</hi>).</p></note> eines D. <persName>Gall</persName><note type="comment" place="bottom"><p> 	HP war ein erklärter Anhänger des Anatomen und Mediziners Franz Joseph <persName>Gall</persName> (1758–1828), der 1781 aus Deutschland nach Wien kam und dort seine Phrenologie entwickelte, mit der er von der äußeren Gestalt des Schädels auf Eigenschaften des Gehirns und dessen Leistungsfähigkeit zu schließen bzw. Leistungsbereiche des Gehirns zu lokalisieren suchte, was er in öffentlichen in seiner Wohnung abgehaltenen Vorlesungen vertrat, die bedeutenden Zulauf erhielten, sodass sie 1801 verboten wurden. 1805 übersiedelte <persName>Gall</persName> nach Paris, wo er allerdings ebenfalls auf behördlichen Widerstand stieß. Seine bedeutende Schädelsammlung und andere Materialien vermachte er dem ihm befreundeten Arzt Anton <persName>Rollett</persName> in Baden bei Wien, wo sie sich heute im dortigen Rollett- bzw. Stadtmuseum befindet; (<hi rend="italic">Wikipedia</hi>).</p></note>, der lectures on heads, wie es die Engländer nennen, in Wien hält. Davon weiß niemand hier eine Silbe, und doch würde so etwas jedermann interessieren. Wissen Sie, mein teurer Freund, niemand, der so einzelne Szenen des großen tableau mouvant in Ihrem Augenkreise nach und nach für den Merkur niederschreibe? Sie, mein Teuerster, wären freilich selbst der wünschenswerteste <graphic url="media/image8.jpeg"/><note type="comment" place="bottom"><p> 	Ratgeber.</p></note>. Allein, es wäre unverschämt, Ihren wichtigen Geschäften so etwas als Zulage geben zu wollen. Aber denken Sie doch darüber nach, reden Sie darüber mit dem verehrungswürdigen Hr. Hofrat <persName>Müller</persName>, dessen Zurückkunft mich umso mehr freut, da es hier allgemein hieß, er werde nicht wieder nach Wien zurückkehren. Ich möchte schon wissen, wie ihm <persName>Gentz</persName>ens Brief<note type="comment" place="bottom"><p> 	Friedrich Gentz<hi rend="italic">, Schreiben an Friedrich Wilhelm III., bei seiner Thronbesteigung überreicht, Braunschweig 1798</hi>. – Friedrich <persName>von Gentz</persName> (1764–1832) entstammte einer preußischen Beamtenfamilie, wuchs in Breslau auf, zählte dann zum engeren Schülerkreis <persName>Kant</persName>s in Königsberg, brach das Jusstudium ab und trat in den preußischen Verwaltungsdienst. Seine antifranzösische Haltung zwang ihn Preußen zu verlassen, er ging nach England, dann nach Österreich, das er unter französischem Druck ebenfalls bald verlassen musste und wohin er erst 1809 zurückkehren konnte, wo er sehr bald einer der maßgeblichen Berater <persName>Metternich</persName>s wurde, der er bis zu seinem Tod blieb. Zu HP bestand ein kritisches, fachlich respektables, in Hinblick auf <persName>Gentz</persName>‘ finanzielles Gebaren aber sehr kritisches Verhältnis.</p></note> an den neuen König gefallen hat. Sehr leid tut es mir, daß, wie Sie mir melden, das Leben der Maria Stuart<note type="comment" place="bottom"><p> 	Friedrich Gentz<hi rend="italic">, Geschichte der Maria, Königin von Schottland, Braunschweig 1799.</hi></p></note> von eben diesem <persName>Gentz</persName>, das ich ihm in meinem letzten Brief zur Zensur beischloß, nicht in seine Hände gekommen ist<note type="comment" place="bottom"><p> 	Unklar ist, ob <persName>Böttiger </persName>von <persName>Schiller</persName>s Plänen zu Maria Stuart wusste; <persName>Schiller</persName>s Drama ist am 14.06.1800 in Weimar erstaufgeführt worden.</p></note>. <persName>Meyer</persName> und <persName>Goethe</persName>, die ihn in Stäffe<note type="comment" place="bottom"><p> 	Stäfa ist eine Gemeinde am oberen rechten (d.i.östlichen) Zürichseeufer.</p></note> sprachen, haben mir viel von ihm erzählen müssen. Erhalten Sie mein Andenken bei ihm!</p><p>Hr. <persName>Falk</persName>, den ich eben bei mir sah, dankt recht herzlich für Ihr freundliches Andenken. Was soll aber mit dem Schein werden, den Sie beigelegt haben? Ist er für Hr. <persName>Falk</persName>? Soll dieser ein Exemplar dafür erheben? Oder muß ich ihn wieder an Sie zurückschicken? Darf ich mir darüber eine Erklärung erbitten? Hr. <persName>Falk</persName> hat jetzt die Geschichte der bekannten Wilden, die <persName>LeBlanc</persName><note type="comment" place="bottom"><p> 	Es handelt sich wohl um Antoine Guillet <persName>LeBlanc</persName> (1730–1799).</p></note>, zu einem Lustspiel bearbeitet, was Sie wohl auch einmal noch in Wien aufführen sehn. <persName>Wieland</persName> ist in seinem ihn wieder verjüngenden Oßmanstädt, nachdem er die Übersetzung der „Wolken“ des <persName>Aristophanes</persName><note type="comment" place="bottom"><p> 	Wieland<hi rend="italic">, Die Wolken des Aristophanes</hi><hi rend="italic">; in: Attisches Museum 2,2 (1798) Vorbericht 47–66, Übersetzung mit Anmerkungen 67–174, Heft 3 Beschluss Die Wolken 2–35, Erläuterungen 36–124.</hi></p></note> vollendet hat, mit dem „Frieden“<note type="comment" place="bottom"><p> 	<hi rend="italic">„Eirene“</hi> (Der Frieden), ein 421 preisgekröntes Stück von <persName>Aristophanes</persName>.</p></note> beschäftigt. <persName>Goethe</persName> erarbeitet mit <persName>Meyer</persName> die Früchte der italienischen Reise<note type="comment" place="bottom"><p> 	<hi rend="italic">„Die italienische Reise“</hi>, die <persName>Goethe</persName> in den Jahren 1786–1788 seine Hinwendung zur Klassik brachte, ist tatsächlich erst 1816/17 als Buch zusammengestellt und 1829 noch ergänzt worden.</p></note>. <persName>Schiller</persName>s „Wallenstein“ kommt noch vor Ostern aufs Theater<note type="comment" place="bottom"><p> 	Die Uraufführung von <hi rend="italic">„Wallensteins Lager“</hi> fand am 12.10.1798 statt; <hi rend="italic">„Piccolomini“</hi> und <hi rend="italic">„Wallensteins Tod“</hi> folgten im April 1799 in Weimar. Die Erstausgabe erfolgte 1800 in Tübingen. </p></note>, für die Aufführung prosaisch, dann metrisch. Die allgemeinen geographischen Ephemeriden, die der große Astronom in Gotha, Herr <persName>von</persName> <persName>Zach</persName><note type="comment" place="bottom"><p> 	Franz Xaver Freiherr <persName>von Zach</persName> (1754–1832) stammte aus Preßburg/Bratislava, hatte unter Liesganig an den Gradmessungsarbeiten in Galizien teilgenommen und war Lehrer im Hause des sächsischen Gesandten Brühl in London gewesen, ehe er, anfangs als Militär, in die Dienste des <persName>Herzog</persName>s <persName>Ernst von Sachsen-Gotha</persName> trat, für den er auf dem Seeberg bei Gotha eine Sternwarte errichtete, die er bis 1806 leitete und an der er junge Wissenschafter in Theorie und Praxis der damaligen Astronomie ausbildete, die dann in verschiedenen Ländern Europas bedeutende Forschungsleistungen erbrachten. Auch Forschungsreisende wurden von <persName>Zach</persName> angeleitet, unter anderem Ulrich Jasper <persName>Seetzen</persName> und Alexander <persName>von Humboldt</persName>, die er brieflich in aktuelle Methoden der Naturwissenschaften und den präzisen Umgang mit Messinstrumenten und deren Datenverarbeitung einführte. <persName>Zach</persName> gründete die ersten astronomischen Fachzeitschriften, veranstaltete 1798 aus Anlass eines Besuches Lalandes in Gotha den ersten international besuchten Astronomenkongress. Später wirkte er an der Errichtung der Sternwarten in Neapel und in Lucca mit; (<hi rend="italic">Wikipedia</hi>). </p></note>, herausgibt, und wovon schon das zweite Heft erschienen ist, halte ich für eine der wichtigsten Erscheinungen in der Literatur, die mit diesem Jahr der großen politischen Wiedergeburt sehr passend anfängt. Hätten Sie nicht Lust, an der Allg[emeinen] Lit[eratur-] Z[eitung] teils als Rezensent orientalischer Werke, teils für Literaturübersichten und den Nekrolog in dem Intelligenzblatte, das ich leider bis jetzt allein besorgte, teilzunehmen? Alle Liebe und Freundschaft im neuen, begebenheitsschwangeren Jahr<note type="comment" place="bottom"><p> 	Es tagte damals der Rastätter Kongress, von dem man sich eine Neuordnung Deutschlands und eine Stabilisierung in Frieden erwartete.</p></note>. </p><closer><salute rend="inline">Mit wahrer Ergebenheit Ihr treuverpflichteter</salute><signed>Böttiger</signed></closer><postscript><p>Ist der wackre Hr. Pastor <persName>Däniker</persName><note type="comment" place="bottom"><p> 	Vermutlich jener ansonsten nicht näher fassbare Pastor <persName>Däniker</persName> in Oberried, dem <persName>Lavater</persName> 1781 eine Ode gewidmet hatte. </p></note> noch bei Ihnen, so sagen Sie ihm tausend Grüße von mir.</p></postscript></div></body></text>
+</TEI>

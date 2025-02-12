@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://gams.uni-graz.at/o:hpe.odd/RNG" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://gams.uni-graz.at/o:hpe.odd/RNG" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="L_7">
+   <teiHeader xml:lang="de">
+      <fileDesc>
+         <titleStmt>
+            <title type="main" xml:lang="de">Johannes von Müller an Joseph von Hammer-Purgstall</title>
+            <title type="sub" xml:lang="de">Wien, 04.10.1796</title>
+            <title type="main" xml:lang="en">Johannes von Müller to Joseph von Hammer-Purgstall</title>
+            <title type="sub" xml:lang="en">Wien, 04.10.1796</title>
+            <author ana="marcrelator:aut">
+               <persName ref="https://gams.uni-graz.at/o:hpe.persons#P.543">
+                  <forename>Johannes</forename>
+                  <nameLink>von</nameLink>
+                  <surname>Müller</surname>
+               </persName>
+            </author>
+            <respStmt ana="marcrelator:trc">
+               <resp>Transcription</resp>
+               <persName>
+                  <forename>Johann Georg</forename>
+                  <surname>Müller</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:edt">
+               <resp>Edition</resp>
+               <persName ref="WH">
+                  <forename>Walter</forename>
+                  <surname>Höflechner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:edt">
+               <resp>Edition</resp>
+               <persName>
+                  <forename>Sylvia</forename>
+                  <surname>Kowatsch</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:pfr">
+               <resp>Proofreading</resp>
+               <persName>
+                  <forename>Sylvia</forename>
+                  <surname>Kowatsch</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:trl">
+               <resp>Translation</resp>
+               <persName>
+                  <forename>Sylvia</forename>
+                  <surname>Kowatsch</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mrk">
+               <resp>Textprocessing</resp>
+               <persName ref="AW">
+                  <forename>Alexandra</forename>
+                  <surname>Wagner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mrk">
+               <resp>TEI Encoding</resp>
+               <persName xml:id="SSt">
+                  <forename>Sabrina</forename>
+                  <surname>Strutz</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mrk">
+               <resp>TEI Encoding</resp>
+               <persName>
+                  <forename>Johanna</forename>
+                  <surname>Ofenauer</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mrk">
+               <resp>TEI Encoding</resp>
+               <persName>
+                  <forename>Alexandra</forename>
+                  <surname>Wagner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mdc">
+               <resp>Metadata Management</resp>
+               <persName>
+                  <forename>Elisabeth</forename>
+                  <surname>Steiner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:mdc">
+               <resp>Metadata Management</resp>
+               <persName>
+                  <forename>Melanie</forename>
+                  <surname>Frauendorfer</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>
+               <orgName ref="https://d-nb.info/gnd/10182836-6"
+                        corresp="https://wissenschaftsgeschichte.uni-graz.at/de/">Zentrum für
+                            Wissenschaftsgeschichte </orgName>
+            </publisher>
+            <authority ana="marcrealator:his">
+               <orgName ref="https://d-nb.info/gnd/1137284463"
+                        corresp="https://digital-humanities.uni-graz.at">Institut für Digitale
+                            Geisteswissenschaften</orgName>
+            </authority>
+            <distributor ana="marcrelator:rps">
+               <orgName ref="https://gams.uni-graz.at">GAMS - Geisteswissenschaftliches
+                            Asset Management System</orgName>
+            </distributor>
+            <availability>
+               <licence target="http://creativecommons.org/licenses/by-nc/4.0/">Creative
+                            Commons BY-NC 4.0</licence>
+            </availability>
+            <date when="2025" ana="dcterms:issued">2025</date>
+            <pubPlace ana="marcrelator:pup">Graz</pubPlace>
+            <idno type="PID">o:hpe.letter.7</idno>
+         </publicationStmt>
+         <seriesStmt>
+            <title ref="https://gams.uni-graz.at/context:hpe">Joseph von Hammer-Purgstall.
+                        Korrespondenz</title>
+            <title>Extended and revised version of <ref corresp="#Hoeflechner_2018">Höflechner, Wagner, and Koitz-Arko 2018</ref>
+            </title>
+            <respStmt ana="marcrelator:edt">
+               <resp>Editor</resp>
+               <persName xml:id="MS">
+                  <forename>Martina</forename>
+                  <surname>Scholger</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:edt">
+               <resp>Editor</resp>
+               <persName xml:id="WH">
+                  <forename>Walter</forename>
+                  <surname>Höflechner</surname>
+               </persName>
+            </respStmt>
+            <respStmt ana="marcrelator:edt">
+               <resp>Editor</resp>
+               <persName xml:id="AW">
+                  <forename>Alexandra</forename>
+                  <surname>Wagner</surname>
+               </persName>
+            </respStmt>
+         </seriesStmt>
+         <sourceDesc>
+            <bibl xml:id="Hoeflechner_2018">Hammer-Purgstall, Joseph von: Erinnerungen,
+                        Briefe, Materialien. Bd. 2. Hrsg. von Walter Höflechner, Alexandra Wagner
+                        und Gerit Koitz-Arko. Publikationen aus dem Archiv der Universität Graz, Bd.
+                        46, hrsg. von Alois Kernbauer. 2. Version. Graz: Akademische Druck- u.
+                        Verlagsanstalt, 2018. ISBN 978-3-201-02030-5.</bibl>
+            <bibl>JvM SW<idno>Johannes von Müllers sämmtliche Werke, hg von Johann
+                        Georg Müller, 38. Teil; Johannes von Müllers Briefe an Herrn Charles Bonnet
+                        und Studien. Briefe an Freunde 2, Stuttgart–Tübingen 1835</idno>
+            </bibl>
+            <bibl>
+               <ref target="https://books.google.at/books?id=JVNlAAAAcAAJ&amp;printsec=frontcover&amp;hl=de&amp;source=gbs_ge_summary_r&amp;cad=0#v=onepage&amp;q&amp;f=false"/>
+            </bibl>
+            <msDesc>
+               <msIdentifier>
+                  <repository>Steiermärkisches Landesarchiv</repository>
+                  <collection>Schlossarchiv Hainfeld (SAH)</collection>
+                  <idno>Karton 29 / Heft 584</idno>
+               </msIdentifier>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p xml:lang="de">Die Joseph von <title>Hammer-Purgstall Korrespondenz</title>
+                        widmet sich der Umsetzung der Korrespondenz des österreichischen
+                        Orientalisten Joseph von Hammer-Purgstall (1774–1856) als digitale Edition.
+                        Die Korrespondenz ist ein eindrucksvolles Zeugnis seines weitreichenden
+                        wissenschaftlichen Dialogs und seiner zentralen Rolle in der Orientalistik.
+                        Sie erstreckt sich über ganz Europa bis in die USA und nach Indien und
+                        stellt eine unersetzliche Quelle für die Geschichte der Orientalistik dar.
+                        Ausgehend von den im Jahr 2018 in <ref target="https://gams.uni-graz.at/archive/objects/o:hpe.band2/methods/sdef:TEI/get">fünf Bänden</ref> sowohl in gedruckter als auch als <ref target="https://gams.uni-graz.at/archive/objects/o:hpe.band2/methods/sdef:TEI/get">PDF-Version</ref> publizierten Briefen entsteht hier eine auf dem
+                        Standard der Text Encoding Initiative basierende digitale Edition, die
+                        kontinuierlich durch neue Briefe erweitert wird.</p>
+            <p xml:lang="en">The Joseph von <title>Hammer-Purgstall Correspondence</title>
+                        is dedicated to implementing the correspondence of Austrian Orientalist
+                        Joseph von Hammer-Purgstall (1774-1856) as a digital edition. The
+                        correspondence is an impressive testament to his far-reaching scholarly
+                        dialogue and his central role in Oriental studies. It extends across Europe
+                        to the USA and India and represents an irreplaceable source for the history
+                        of Oriental studies. Based on the letters published in 2018 in <ref target="https://gams.uni-graz.at/archive/objects/o:hpe.band2/methods/sdef:TEI/get">five volumes</ref> in both printed and <ref target="https://gams.uni-graz.at/archive/objects/o:hpe.band2/methods/sdef:TEI/get">PDF format</ref>, a digital edition based on the Text Encoding
+                        Initiative standard is being created here, which is continuously expanded
+                        with new letters.</p>
+            <ab>
+               <ref target="context:hpe" type="context">Joseph von Hammer-Purgstall.
+                            Korrespondenz</ref>
+               <ref target="context:hpe.letters" type="context">Korrespondenz</ref>
+               <ref target="context:hpe.letters.543" type="context">Korrespondenz Müller, Johannes von - Hammer-Purgstall, Joseph von</ref>
+            </ab>
+         </projectDesc>
+         <listPrefixDef>
+            <prefixDef ident="marcrelator"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="http://id.loc.gov/vocabulary/relators/$1">
+               <p>Taxonomie Rollen MARC</p>
+            </prefixDef>
+            <prefixDef ident="dcterms"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="http://purl.org/dc/terms/$1">
+               <p>DCterms</p>
+            </prefixDef>
+         </listPrefixDef>
+         <tagsDecl>
+            <rendition xml:id="sign">text-align: right</rendition>
+         </tagsDecl>
+         <schemaRef url="https://gams.uni-graz.at/o:hpe.odd"/>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="fr">Französisch</language>
+         </langUsage>
+         <correspDesc>
+            <correspAction type="sent">
+               <persName corresp="https://gams.uni-graz.at/o:hpe.persons#P.543">
+                  <surname>Müller</surname>
+                  <forename>Johannes</forename>
+                  <nameLink>von</nameLink>
+               </persName>
+               <placeName ref="https://sws.geonames.org/2761369">Wien</placeName>
+               <date when="1796-10-04"/>
+            </correspAction>
+            <correspAction type="received">
+               <persName corresp="https://gams.uni-graz.at/o:hpe.persons#P.2000"
+                         ref="https://d-nb.info/gnd/118545426">
+                  <surname>Hammer-Purgstall</surname>
+                  <forename>Joseph</forename>
+                  <nameLink>von</nameLink>
+               </persName>
+            </correspAction>
+         </correspDesc>
+      </profileDesc>
+      <revisionDesc>
+         <listChange>
+            <change when="2025-02-04+01:00" resp="#SSt">Initial Version</change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text type="letter" subtype="original" xml:space="preserve" xml:lang="fr"><body><div><opener><dateline><salute>à Vienne, ce 4 Oct. 1796</salute></dateline></opener><p> la lettre que vous m’avez écrite, m’a fait grand plaisir par sa franchise et sa sincérité : son contenu m’a convaincu de nouveau, combien il est heureux, que vous ayez à passer ce mois hors de Vienne: j’espère que cet intervalle vous fera oublier toutes ces fadaises de jeunes filles, qui avaient commencées à tourner votre bonne tête, qui est faite pour des choses solides. Je vous conjure de n’y plus penser; c’est le seul moyen de vous rendre tranquille et appliqué: il ne faut pas même combattre votre inclination : vous seriez perdu en engageant le combat; il faut, je le répète, n’y plus songer absolument; les femmes ne valent rien pour vous, à votre âge, avec votre feu, avec vos plans d’étude et de vie: elles ne feraient que ralentir votre zèle pour ces derniers, vous faire faire des étourderies, et vous précipiter dans un abîme de chagrins. Je connais plusieurs hommes du monde et de lettres, dont la vie entière a été gâtée par quelqu’amour inconsidéré. Ainsi, mon ami, ne renoncez pas à la poésie ; la poésie est un talent, et l’on n’en saurait jamais avoir trop; elle est un organe, qui comme les autres n’est pas lui-même ni bon ni mauvais, mais propre à devenir ceci ou cela suivant l’usage qu’on en fait. C’est à toute autre chose que je désire que vous renonciez à une chose qui ne saurait vous faire aucun bien à présent : à ce tripotage de jeunes filles. Jetez-vous à corps perdu dans l’étude; pensez à <persName>Jones</persName>; remplissez-vous de l’idée de ce qui vous reste à faire, et d’un plan suffisant pour l’emploi de votre vie. Pensez à tout ce qu’il faut pour un homme à la fois employable dans les affaires et propre à briller dans les lettres. Mandez-moi ce que vous lisez à Weidling, et les observations que vous faites sur vos lectures. Quant à moi je vais finir <persName>Abulfeda</persName><note type="comment" place="bottom"><p> 	<persName>Abu‘l-Fida</persName> Imad ad-Din Ismail ibn Ali al-Ayubi, latinisiert <persName>Abulfeda</persName> (1273–1331), geboren in Damaskus, war ein kurdischer Chronist, als welcher er Feldzüge gegen die Kreuzfahrer (an denen er bereits als 12-Jähriger teilnahm) und insbesondere als Augenzeuge die Eroberung Akkons (1291) dokumentierte, und Geograph. 1322 wurde er erblicher Herrscher von Hama, einer der ältesten Städte Syriens (zwischen Aleppo und Damaskus gelegen, berühmt für ihre riesigen Wasserschöpfräder; in den Kriegshandlungen seit 1976 wurde die Stadt weitgehend zerstört; (<hi rend="italic">Wikipedia</hi>).</p></note> aujourd’hui ou demain; à la maison je continue la bibliothèque de <persName>Photius</persName><note type="comment" place="bottom"><p> 	Das Myriobiblon des<persName> Photios</persName>; vgl. den Kommentar zu <persName>Müller</persName>s Brief an HP ddo 1796 X 15.</p></note>. Vous devriez aussi lire <persName>Abulfeda</persName>, pour vous imprimer l’histoire générale et le synchronisme des grandes affaires de l’empire des Musulmans jusqu’au 14<hi rend="superscript">e</hi> siècle. C’est vraiment un ouvrage précieux. Quand je pense qu’à l’âge de 12 ans <persName>Abulfeda</persName> a fait sa première campagne et qu’il en a fait une quantité; combien de voyages il a fallu qu’il fit à la cour; que trois fois il fit le pèlerinage de la Mecque; que le gouvernement du pays dont il était Malek, ne lassait pas lui prendre du temps, et qu’il a écrit non seulement ce vaste et savant ouvrage, mais la géographie encore bien plus difficile, et d’autres livres; qu’avec cela il n’a manqué à aucun de ses devoirs, et qu’il était un homme aimable et de la meilleure société, en même temps qu’il faisait du commerce, qu’il bâtissait, qu’il faisait des aqueducs, et qu’il s’amusait à la chasse; tout ceci dans une vie de 59 ans au plus; je vois la confirmation de l’excellente observation de Lord <persName>Bolingbroke</persName><note type="comment" place="bottom"><p> 	<persName>Bolingbroke</persName> Henry St. John, 1. Viscount (1678–1751), britischer Politiker und Philosoph der Aufklärung; (<hi rend="italic">Wikipedia</hi>).</p></note>, que ce n’est pas le temps qui manque à l’homme, mais que la plupart des hommes ne savent pas tirer parti du temps. Il ne faut pas oublier, que le temps consiste en des moments, et que c’est ceux-ci qu’il s’agit de ne pas perdre.</p><p>Je vous le dis, parce que vous êtes si jeune, et qu’il vous en reste tant, pour en disposer, tandis qu’en même temps il ne vous en reste pas assez pour en avoir beaucoup de superflus. Ainsi, j’espère que vous me rendrez bon compte de ceux que vous passez actuellement. Vous savez que je vous aime, et que je n’en ai aucune raison autre que vos qualités, dont le développement m’intéresse plus que je ne puis dire; parce que si vous voulez (et vous voudrez) il sera très beau, et très-utile pour le public. </p><closer><salute rend="inline">Adieu; mes amitiés à vos amis!</salute></closer></div></body></text>
+   <text type="letter" subtype="translation" xml:lang="de" xml:space="preserve">
+             <body>
+                <div>
+                    <p> Mon cher ami!</p><p>Der Brief, den Sie mir geschrieben haben, hat mir durch seine Offenheit und Ehrlichkeit große Freude bereitet: sein Inhalt hat mich wiederum überzeugt, wie gut es ist, dass Sie diese Monate außerhalb von Wien verbracht haben: ich hoffe, dass dieser Abstand Sie alle Albernheiten mit Mädchen, die in Ihrem Kopf, der für dauerhafte Dinge geschaffen ist, herumzuschwirren begonnen haben, vergessen lassen wird. Ich beschwöre Sie, nicht mehr daran zu denken; das ist die einzige Möglichkeit, damit Sie ruhig und fleißig werden: Sie dürfen sogar Ihre Neigung nicht bekämpfen: Sie wären verloren, wenn Sie den Kampf beginnen. Ich wiederhole es noch einmal, Sie dürfen überhaupt nicht mehr daran denken; die Frauen haben für Sie in Ihrem Alter, mit Ihrem Feuer, mit Ihren Studien- und Lebensplänen keinen Wert: Sie würden nur Ihren Eifer für Letzteres beeinträchtigen, Sie Dummheiten machen lassen, und Sie in unermesslichen Kummer stürzen. Ich kenne mehrere Männer von Welt und Schriftsteller, deren ganzes Leben durch irgendeine leichtsinnige Liebe verdorben worden ist. Verzichten Sie also nicht auf die Poesie; die Poesie ist ein Talent, und man könnte niemals genug davon haben; sie ist ein Instrument, das wie die anderen selbst weder gut noch schlecht ist, aber geeignet, dieses oder jenes zu werden, je nach Gebrauch, den man davon macht. Ich wünschte, dass Sie auf etwas ganz anderes verzichten, auf etwas, das Ihnen im Augenblick nicht guttun kann: auf Machenschaften (Techtelmechtel) mit Mädchen. Werfen Sie sich blindlings ins Studium, denken Sie an <persName>Jones</persName>, nehmen Sie die Ideen von dem, was Ihnen zu tun bleibt und dem Plan auf, der für die Beschäftigung in Ihrem Leben ausreichend ist. Denken Sie an alles, was für einen Mann notwendig ist, der in Geschäften zu verwenden ist und gleichzeitig geeignet ist, in der Literatur zu glänzen. Teilen Sie mir mit, was Sie in Weidling lesen und Ihre Beobachtungen bei Ihren Lektüren. Was mich betrifft, so werde ich <persName>Abulfeda</persName> heute oder morgen beenden; zu Hause mache ich mit der Bibliothek des <persName>Photius</persName> weiter. Sie sollten auch <persName>Abulfeda</persName> lesen, um sich die allgemeine Geschichte und den Synchronismus der großen Angelegenheiten des Reiches der Muslime bis ins 14. Jh. einzuprägen. Das ist wirklich ein wertvolles Werk. Wenn ich denke, dass <persName>Abulfeda</persName> im Alter von 12 Jahren seinen ersten Feldzug mitmachte und dass er eine Menge davon mitmachte; wie viele Reisen musste er an den Hof machen; wenn ich denke, dass er dreimal die Pilgerreise nach Mekka machte, dass die Regierung des Landes dessen Sultan (Malek) er war, ihm keine Zeit ließ, und dass er nicht nur dieses umfangreiche und gelehrte Werk schrieb, sondern die noch viel schwierigerer Geographie und andere Bücher; dass er damit keine seiner Aufgaben vernachlässigt hat und dass er ein liebenswerter Mensch aus bester Gesellschaft war; dass er gleichzeitig Handel betrieben, Aquädukte gebaut und sich auf der Jagd amüsiert hat; das alles in einem Leben von höchsten 59 Jahren; ich sehe die  Bestätigung der ausgezeichneten Beobachtung von Lord <persName>Bolingbroke</persName>, dass es nicht die Zeit ist, die dem Menschen fehlt, sondern dass die meisten Menschen die Zeit nicht nutzen können. Man darf nicht vergessen, dass die Zeit aus Augenblicken besteht und dass es darum geht, diese nicht zu verlieren.</p><p>	Ich sage es ihnen, weil Sie so jung sind und Ihnen davon so viel bleibt, um darüber zu verfügen, während Ihnen gleichzeitig nicht genug bleibt, um sie im Überfluss zu haben. So hoffe ich, dass Sie mir über alles, was Sie gerade machen, berichten werden. Sie wissen, dass ich Sie liebe und dass ich keinen anderen Grund dazu habe als Ihre Qualitäten, deren Entwicklung mich mehr interessiert als ich sagen kann, denn wenn Sie wollen (oder wollen werden), wäre es (sie = Entwicklung?) sehr schön und sehr nützlich für das Publikum.</p><p>Liebe Grüße an Ihre Freunde! Ü$</p>
+                </div>
+            </body>
+            </text>
+</TEI>
