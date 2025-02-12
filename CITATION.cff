@@ -1,0 +1,32 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Letters Promptotype
+message: 'If you use this app, please cite it as given below.'
+type: software
+authors:
+  - given-names: Martina
+    family-names: Scholger
+    email: martina.scholger@uni-graz.at
+    affiliation: University of Graz
+    orcid: 'https://orcid.org/0000-0003-1438-3236'
+  - given-names: Elisabeth
+    family-names: Steiner
+    email: elisabeth.steiner@uni-graz.at
+    affiliation: University of Graz
+    orcid: 'https://orcid.org/0000-0001-9116-0402'
+repository-code: 'https://github.com/martinascholger/promptotype-letters'
+abstract: >-
+  Promptotype of TEI encoded letters - a preview prototype
+  developed using AI-assisted prompt engineering,
+  facilitating the exploration and visualization of letter
+  corpora. Based on DH Craft’s Promptotyping methodology:
+  https://github.com/DigitalHumanitiesCraft/excellence/tree/v1.0.0/promptotyping.
+keywords:
+  - promptotyping
+  - TEI
+  - letter edition
+  - digital humanities
+license: CC-BY-NC-4.0
+version: 1.0.0
