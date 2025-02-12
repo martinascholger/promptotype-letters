@@ -5,12 +5,7 @@ import pandas as pd
 
 app = Flask(__name__)
 
-@app.route('/letters/')
-def home():
-    return "Welcome to Letters!"
 
-if __name__ == "__main__":
-    app.run()
 
 # Load letters metadata from letters.json dynamically
 def load_letters():
